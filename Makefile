@@ -24,28 +24,25 @@ RSYNC_PATH                    = /usr/bin/rsync
 # amazon s3 bucket
 S3_BUCKET                     = s3://gustybear-websites
 
-# Rule to import publications {{{2
-# .PHONY : import_publication
-# import_publication:
-#   academic import --overwrite --bibtex ./content/publication/yao-zheng.bib
+# Rule to build webpages {{{2
+.PHONY : build_webpages
+build_webpages:
+	@./update_academic.sh
+	@academic import --overwrite --bibtex ./content/publication/yao-zheng.bib
+	@rm -rf $(WEBSITE_SRC)
+	@hugo
 
 # Rule to publish webpages {{{2
 .PHONY : publish_webpages
-publish_webpages:
-	@rm -rf $(WEBSITE_SRC)
-	@hugo
+publish_webpages: build_webpages
 	@rsync -urzP --delete --rsync-path=$(RSYNC_PATH) $(WEBSITE_SRC)/ $(SSH_USER)@$(SSH_HOST):$(WEBSITE_DES)
-
-# Rule to publish documents {{{2
-.PHONY : publish_documents
-publish_documents:
-	@for dir in $(PROJECT_DIRS) $(COURSE_DIRS); do \
-		(echo "Entering $$dir."; $(MAKE) -C $$dir publish); \
-	done
 
 # Rule to publish all {{{2
 .PHONY : publish
-publish: publish_webpages publish_documents
+publish: publish_webpages
+	@for dir in $(PROJECT_DIRS) $(COURSE_DIRS); do \
+		(echo "Entering $$dir."; $(MAKE) -C $$dir publish); \
+	done
 
 # Misc Rules {{{1
 # Rule to link zsh {{{2
