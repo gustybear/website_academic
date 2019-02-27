@@ -14,6 +14,9 @@ name = "Yao Zheng, Ph.D."
 # Is this the primary user of the site?
 superuser = true
 
+# User group
+user_groups = ["Faculty"]
+
 # Role/position
 role = "Assistant Professor"
 
@@ -24,6 +27,7 @@ organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://man
 # List your academic interests.
 interests = [
     "Wireless Security",
+    "Wireless Sensing",
     "Internet Privacy"
   ]
 

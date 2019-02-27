@@ -55,7 +55,7 @@ phone = "(808) 956-6494"
 address = "2540 Dole Street, Holmes Hall 437, Honolulu, HI 96822, USA"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
+office_hours = "Mondays and Wednesdays 14:00pm-16:00pm or email for appointment"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""

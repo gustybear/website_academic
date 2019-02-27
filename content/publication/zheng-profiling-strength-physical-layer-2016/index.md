@@ -4,7 +4,7 @@ date = 2016-07-01
 authors = ["Yao Zheng", "Matthias Schulz", "Wenjing Lou", "Y. Thomas Hou", "Matthias Hollick"]
 publication_types = ["1"]
 abstract = ""
-featured = false
+featured = true
 publication = "*WiSec 2016*"
 tags = ["conference"]
 +++

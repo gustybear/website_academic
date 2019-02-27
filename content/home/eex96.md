@@ -18,7 +18,7 @@ folder = "eex96"
 #   1 = List
 #   3 = Card
 #   5 = Showcase
-view = 5
+view = 3
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
@@ -38,7 +38,7 @@ filter_default = 0
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
   name = "All"
-  tag = "*"
+  tag = "featured"
 
 # [[filter]]
 #   name = "Deep Learning"
@@ -49,5 +49,4 @@ filter_default = 0
 #   tag = "Demo"
 
 +++
-
-<iframe src="https://calendar.google.com/calendar/embed?src=hawaii.edu_6omtrod7vi0l5okfrjiciht6ac%40group.calendar.google.com&ctz=Pacific%2FHonolulu" style="border: 0" width="600" height="300" frameborder="0" scrolling="yes"></iframe>
+## *Featured Projects*
