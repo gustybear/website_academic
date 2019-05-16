@@ -55,10 +55,10 @@ phone = "(808) 956-6494"
 address = "2540 Dole Street, Holmes Hall 437, Honolulu, HI 96822, USA"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = "Mondays and Wednesdays 14:00pm-16:00pm or email for appointment"
+office_hours = "Mondays and Wednesdays 14:00PM - 16:00PM"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = ""
+appointment_url = "https://calendly.com/yaozheng/15min"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -98,7 +98,7 @@ zoom = 15
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
+plugins_css = ["custom"]
 plugins_js  = []
 
 ############################

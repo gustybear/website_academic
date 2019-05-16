@@ -1,7 +1,7 @@
----
-date: 2017-12-31T00:00:00-10:00
-title: "EE260: Introduction to Digital Design (Spring, 2018)"
----
++++
+title = "EE260: Introduction to Digital Design (Spring, 2018)"
+date =  2017-12-31T00:00:00-10:00
++++
 
 ***
 Digital circuits are the foundations to build calculators, computers and cell phones, etc. This course explores these foundations by using modern digital design techniques to design, implement and test digital circuits ranging from basic logic gates to state machines that perform useful functions like calculations, counting, timing, and a host of other applications. Students will learn modern design techniques, using a hardware description language (HDL) such as Verilog to design, simulate and implement logic systems consisting of basic gates, adders, multiplexers, latches, counters, and basic processors.

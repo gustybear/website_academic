@@ -2,6 +2,7 @@
 draft = true
 # Project title.
 title = "Wireless Physical Layer Security with Rotating Antenna"
+authors = ["Yvon Edades", "Priscilla Pun", "Yao Zheng"]
 
 # Date this page was created.
 date = 2019-02-26T00:00:00
@@ -11,7 +12,7 @@ summary = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["wireless", "security", "featured"]
+tags = ["wireless", "security", "current"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

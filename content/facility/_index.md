@@ -2,6 +2,8 @@
 # Project title.
 title = "Cybersecurity Laboratory"
 
+tags = ["laboratory"]
+
 # Date this page was created.
 date = 2018-05-03T18:13:12-10:00
 

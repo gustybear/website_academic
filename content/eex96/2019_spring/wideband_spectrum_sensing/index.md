@@ -1,7 +1,7 @@
 +++
-draft=true
 # Project title.
 title = "Wideband Spectrum Sensing using Sparse FFT"
+authors = ["Dylan Anthony", "Alvin Yang", "Thomas Yang", "Yao Zheng"]
 
 # Date this page was created.
 date = 2019-02-11T00:00:00

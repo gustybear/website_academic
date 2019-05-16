@@ -1,0 +1,10 @@
+
+/*************************************************
+ *  Override page content style
+ **************************************************/
+
+.article-container {
+  max-width: 1060px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}

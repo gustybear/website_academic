@@ -1,7 +1,12 @@
----
-title: "EE660: Computer Architecture (with labs, Fall, 2018)"
-date: 2018-08-19T00:00:00-10:00
----
++++
+title = "EE660: Computer Architecture"
+subtitle = "Fall, 2018, with labs"
+date = 2018-08-19T00:00:00-10:00
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["digital design", "fpga", "featured"]
++++
+
 ***
 Fundamental understanding of computer architecture is key to hardware and processor design, compilers, operating systems, and high performance programming. This course explores computer architectures and design techniques of modern microprocessors at various scales. The focus will be given to architectures that can exploit different forms of parallelism, whether they be implicit or explicit, to improve performance. A selection of topics covered by the course include multi-issue superscalar processors, out-of-order processors, Very Long Instruction Word (VLIW) processors, advanced caching, multiprocessor systems, and parallel programming.
 

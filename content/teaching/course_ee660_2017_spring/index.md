@@ -1,9 +1,9 @@
----
-title: "EE660: Computer Architecture (Spring, 2017)"
-date: 2017-06-01T00:00:00-10:00
----
++++
+title = "EE660: Computer Architecture (Spring, 2017)"
+date = 2017-06-01T00:00:00-10:00
++++
 ***
-Fundamental understanding of computer architecture is key to hardware and processor design, compilers, operating systems, and high performance programming. This course explores computer architectures and design techniques of modern microprocessors at various scales. Focus will be given to architectures that can exploit different forms of parallelism, whether they be implicit or explicit, to improve performance. A selection of topics covered by the course include multi-issue superscalar processors, out-of-order processors, Very Long Instruction Word (VLIW) processors, advanced caching, multiprocessor systems, and parallel programming.
+Fundamental understanding of computer architecture is key to hardware and processor design, compilers, operating systems,index and high performance programming. This course explores computer architectures and design techniques of modern microprocessors at various scales. Focus will be given to architectures that can exploit different forms of parallelism, whether they be implicit or explicit, to improve performance. A selection of topics covered by the course include multi-issue superscalar processors, out-of-order processors, Very Long Instruction Word (VLIW) processors, advanced caching, multiprocessor systems, and parallel programming.
 
 The function and operation of programmable logic devices, such as field programmable gate arrays (FPGAs), will be described and discussed in terms of how an HDL logic design is mapped and implemented. Experiments involving the design of various processors will provide students a hand-on introduction to computer engineering concepts and the skills needed to gain more advanced skills. In the laboratory, students will construct, troubleshoot, and test the computer processors that they have developed using a hardware description language. These custom designs will be implemented using FPGAs and validated using test equipment.
 ***
