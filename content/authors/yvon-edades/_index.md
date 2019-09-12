@@ -15,7 +15,7 @@ name = "Yvon Edades"
 superuser = false
 
 # User group
-user_groups = ["eex96"]
+# user_groups = ["eex96"]
 
 # Role/position
 role = "Undergraduate Student"

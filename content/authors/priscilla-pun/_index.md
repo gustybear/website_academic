@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 widget = "about"
-active = true
+active = false
 date = "2016-04-20T00:00:00"
 author = "Priscilla Pun"
 
@@ -14,7 +14,7 @@ name = "Priscilla Pun"
 # Is this the primary user of the site?
 superuser = false
 
-user_groups = ["eex96"]
+# user_groups = ["eex96"]
 
 # Role/position
 

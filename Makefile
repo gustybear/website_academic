@@ -28,8 +28,9 @@ S3_BUCKET                     = s3://gustybear-websites
 .PHONY : build_webpages
 build_webpages:
 	@./update_academic.sh
+	# @academic import --overwrite --bibtex ./content/publication/yao-zheng.bib
 	@academic import --bibtex ./content/publication/yao-zheng.bib
-	@rm -rf $(WEBSITE_SRC)
+	@rm -rf $(WEBSITE_SRC); find ./content -name "Icon?" -exec rm {} \;
 	@hugo
 
 # Rule to publish webpages {{{2

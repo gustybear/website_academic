@@ -2,7 +2,7 @@
 # Projects widget.
 widget = "portfolio"  # Do not modify this line!
 headless = true
-active = true
+active = false
 
 # title = "[EEx96](project/eex96/)"
 title = "EEx96"

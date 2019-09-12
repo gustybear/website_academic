@@ -3,12 +3,13 @@
 # This section displays publications from `content/publication/` which have
 # `featured = true` in their front matter.
 
-widget = "featured"  # Do not modify this line!
+widget = "pages"  # Do not modify this line!
 headless = true
 active = true
 weight = 3  # Order that this section will appear.
 
-title = "[Research](publication/)"
+#title = "[Research](publication/)"
+title = "Research"
 subtitle = ""
 
 [content]
@@ -66,5 +67,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-## *Featured Publications*
+
+## [*Wireless and Cybersecurity Laboratory*](facility/)
+
+## *Recent Publications*
 

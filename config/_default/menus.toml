@@ -8,10 +8,10 @@
   url = "#about"
   weight = 1
 
-[[main]]
-  name = "Facility"
-  url = "#facility"
-  weight = 2
+# [[main]]
+#   name = "Facility"
+#   url = "#facility"
+#   weight = 2
 
 [[main]]
   name = "Research"
@@ -23,10 +23,10 @@
   url = "#teaching"
   weight = 4
 
-[[main]]
-  name = "EEx96"
-  url = "#eex96"
-  weight = 5
+# [[main]]
+#   name = "EEx96"
+#   url = "#eex96"
+#   weight = 5
 
 [[main]]
   name = "Students"

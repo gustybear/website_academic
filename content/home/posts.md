@@ -1,11 +1,10 @@
 +++
-draft = true
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
 
 widget = "pages"  # Do not modify this line!
 headless = true
-active = true
+active = false
 weight = 7  # Order that this section will appear.
 
 title = "[Blog](post/)"
