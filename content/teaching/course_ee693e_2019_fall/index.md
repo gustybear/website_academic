@@ -37,7 +37,7 @@ This course focuses on selected research topics of current interest in wireless 
   Holmes Hall 488.
 - *Office hours*: schedule it [here](../../#contact).
 - *Laboratory hours*: schedule it [here](../../facility/#schedule).
-- *[Discord Group](https://discord.gg/Xtqb4R)*
+- *[Discord Group](https://discord.gg/6aTBhMW)*
 
 ***
 
@@ -47,26 +47,26 @@ This course focuses on selected research topics of current interest in wireless 
 ***
 
 ## Schedule
-| TIME                    | LECTURE/LABORATORY                                                       | Presenter                                      | READING                                                                          |
-| ---                     | ---                                                                      | ---                                            | ---                                                                              |
-| Week 01 (Aug 26, 28)    | Course logistic and lab setup                                            | Yao Zheng                                      |                                                                                  |
-| Week 02 (Sep 04)        | Properties of the physical layer                                         | Yao Zheng                                      | Proakis chp 03, chp 13. [slides][material week 02 url]                          |
-| Week 03 (Sep 09, 11)    | Fundamentals of information theoretic security                           | Yao Zheng                                      | Proakis chp 14 [slides][material week 03 url]                                   |
-| Week 04 (Sep 09, 11)    | Physical layer security techniques: cooperative jamming                  | [Makiko Kuwahara](mailto:makikoku@hawaii.edu)  | [Gollakota 2011][gollakota 2011 url], [Tippenhauer 2013][tippenhauer 2013 url]   |
-| Week 05 (Sep 16, 18)    | Physical layer security techniques: zero forcing and orthogonal blinding | [Jie Zhou](mailto:zhoujie@hawaii.edu)          | [Yoo 2006][yoo 2006 url], [Anand 2012][anand 2012 url]                           |
-| Week 06 (Sep 23, 25)    | Physical layer security techniques: interference alignment               | [Matt Troglia](mailto:mtroglia@hawaii.edu)     | [Yener 2015][yener 2015 url], [Fan 2018][fan 2018 url]                           |
-| Week 07 (Sep 30, Oct 2) | Physical layer security techniques: key extraction                       | [Khaldoon Ishmael](mailto:khaldoon@hawaii.edu) | [Gollakota 2011a][gollakota 2011a url], [Steinmetzer 2015][steinmetzer 2015 url] |
-| Week 08 (Oct 07, 09)    | Physical layer security techniques: channel randomization                | [Jordan Melcher](mailto:melcherj@hawaii.edu)   | [Schulz 2014][schulz 2014 url], [Pan 2019][pan 2019 url]                         |
-| Week 09 (Oct 14, 16)    |                                                                          |                                                |                                                                                  |
-| Week 10 (Oct 21, 23)    |                                                                          |                                                |                                                                                  |
-| Week 11 (Oct 28, 30)    |                                                                          |                                                |                                                                                  |
-| Week 12 (Nov 04, 06)    |                                                                          |                                                |                                                                                  |
-| Week 13 (Nov 13)        |                                                                          |                                                |                                                                                  |
-| Week 14 (Nov 18, 20)    |                                                                          |                                                |                                                                                  |
-| Week 15 (Nov 25, 27)    |                                                                          |                                                |                                                                                  |
-| Week 16 (Dec 02, 04)    |                                                                          |                                                |                                                                                  |
-| Week 17 (Dec 09, 11)    |                                                                          |                                                |                                                                                  |
-| Week 18 (Dec 16, 19)    |                                                                          |                                                |                                                                                  |
+| TIME                        | LECTURE/LABORATORY                                                       | Presenter                                      | READING                                                                             |
+| ---                         | ---                                                                      | ---                                            | ---                                                                                 |
+| Week 01 (Aug 26, 28)        | Course logistic and lab setup                                            | Yao Zheng                                      |                                                                                     |
+| Week 02 (Sep 04)            | Properties of the physical layer                                         | Yao Zheng                                      | Proakis chp 03, chp 13. [slides][material week 02 url]                              |
+| Week 03 (Sep 09, 11)        | Fundamentals of information theoretic security                           | Yao Zheng                                      | Proakis chp 14 [slides][material week 03 url]                                       |
+| Week 04 (Sep 16, 18)        | Physical layer security techniques: cooperative jamming                  | [Makiko Kuwahara](mailto:makikoku@hawaii.edu)  | [Gollakota 2011][gollakota 2011 url], [Tippenhauer 2013][tippenhauer 2013 url]      |
+| Week 05 (Sep 23, 25)        | Physical layer security techniques: zero forcing and orthogonal blinding | [Jie Zhou](mailto:zhoujie@hawaii.edu)          | [Yoo 2006][yoo 2006 url], [Anand 2012][anand 2012 url]                              |
+| Week 06 (Sep 30, Oct 2)     | Physical layer security techniques: interference alignment               | [Matt Troglia](mailto:mtroglia@hawaii.edu)     | [Yener 2015][yener 2015 url], [Fan 2018][fan 2018 url]                              |
+| Week 07 (Oct 07, 09)        | Physical layer security techniques: key extraction                       | [Khaldoon Ishmael](mailto:khaldoon@hawaii.edu) | [Gollakota 2011a][gollakota 2011a url], [Steinmetzer 2015][steinmetzer 2015 url]    |
+| Week 08 (Oct 14, 16)        | Physical layer security techniques: channel randomization                | [Jordan Melcher](mailto:melcherj@hawaii.edu)   | [Schulz 2014][schulz 2014 url], [Pan 2019][pan 2019 url]                            |
+| Week 09 (Oct 21, 23)        | Cognitive radio and secur spectrum sensing                               | Yao Zheng                                      | [slides a][material week 09 a url] [slides b][material week 09 b url]               |
+| Week 10 (Oct 28, 30)        | No Class                                                                 |                                                |                                                                                     |
+| Week 11 (Nov 04, 06)        | Secure spectrum access: wide band spectrum sensing                       | [Makiko Kuwahara](mailto:makikoku@hawaii.edu)  | [Hassanieh 2013][hassanieh 2013 url] [Shi 2014][shi 2014 url]                       |
+| Week 12-13 (Nov 13, 18)    | Secure spectrum access: secondary user detection                         | [Jordan Melcher](mailto:melcherj@hawaii.edu)   | [Rahul 2012][rahul 2012 url] [Rahul 2012a][Rahul 2012a url] |
+| Week 13-14 (Nov 20, 27)     | Secure spectrum access: primary user detection                           | [Matt Troglia](mailto:mtroglia@hawaii.edu)     | [Caromi 2019][caromi 2019 url] [Dou 2017][dou 2017 url]                             |
+| Week 14-15 (Nov 27, Dec 02) | Secure spectrum access: spectrum enforcment                              | [Jie Zhou](mailto:zhoujie@hawaii.edu)          | [Kumar 2014][kumar 2014 url] [Jin 2015][jin 2015 url]                               |
+| Week 15-16 (Dec 04, Dec 09) | Secure spectrum access: spectrum sharing and misbehavior detection        |[Khaldoon Ishmael](mailto:khaldoon@hawaii.edu) | [Abinader 2014][abinader 2014 url] [Samy 2018][samy 2018 url]                       |
+| Week 16 (Dec 11)            |                                                                          |                                                |                                                                                     |
+| Week 17 (Dec 16, 19)        |                                                                          |                                                |                                                                                     |
+| Week 18 (Dec 16, 19)        |                                                                          |                                                |                                                                                     |
 
 ***
 
@@ -84,6 +84,8 @@ This course focuses on selected research topics of current interest in wireless 
 [material urls]: # (material urls)
 [material week 02 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee693e_2019_fall/materials_week_02/docs/slides/course_ee693e_2019_fall_materials_week_02_slides.pdf
 [material week 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee693e_2019_fall/materials_week_03/docs/slides/course_ee693e_2019_fall_materials_week_03_slides.pdf
+[material week 09 a url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee693e_2019_fall/materials_week_09/docs/slides/course_ee693e_2019_fall_materials_week_09_slides_a.pdf
+[material week 09 b url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee693e_2019_fall/materials_week_09/docs/slides/course_ee693e_2019_fall_materials_week_09_slides_b.pdf
 
 [paper urls]: # (paper urls)
 
@@ -97,6 +99,17 @@ This course focuses on selected research topics of current interest in wireless 
 [steinmetzer 2015 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/V6GDXXAJ/itemKey/DWKU388W
 [schulz 2014 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/V6GDXXAJ/itemKey/SUZ47EBM
 [pan 2019 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/V6GDXXAJ/itemKey/FATU743Q
+
+[hassanieh 2013 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/YDGCVH42
+[caromi 2019 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/89IEU8LF
+[rahul 2012 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/LLM2EGYT
+[kumar 2014 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/SDAA8D9B
+[abinader 2014 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/Y2XX35GG
+[shi 2014 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/7ZPB7NA5
+[dou 2017 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/6TGKRLM9
+[rahul 2012a url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/itemKey/P8QS36XI/q/learning%20to%20share
+[jin 2015 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/4NC8XJ9P
+[samy 2018 url]: https://www.zotero.org/groups/2190037/uhm_wireless_and_cybersecurity_group/items/collectionKey/39I9YSVB/itemKey/6UWMS4QX
 
 [resource urls]: # (resource urls)
 [presentation template url]: https://gustybear-facility.s3-us-west-2.amazonaws.com/templates/manoa/uhm_ppt_template_4_3.pptx

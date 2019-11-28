@@ -47,7 +47,7 @@ description = ""
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = ""
+logo = "logo.png"
 
 ############################
 ## Site Features
@@ -71,7 +71,6 @@ diagram = false
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false
-
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
@@ -96,7 +95,7 @@ address = {street = "2540 Dole Street, Holmes Hall 437", city = "Honolulu", regi
 coordinates = {latitude = "21.297072", longitude = "-157.816415"}
 
 # Directions for visitors to locate you.
-directions = ""
+directions = "Take the elevator at the Leahi (Diamond Head) side of Holmes Hall. Exit on the Fourth floor. Room 437 is in the left hallway facing Waikiki."
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = "Mondays and Wednesdays 14:00PM - 16:00PM"
@@ -134,6 +133,9 @@ date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "en-us"
+
 # List delimiter (separates parts of an address)
 # Popular separators are ", " (comma), "<br>" (new line), " " (space)
 list_delimiter = ", "
@@ -158,11 +160,18 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 
-# Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+# Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
 plugins_js  = []
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
+
+# Load CSS
+#   E.g. custom css at `/assets/scss/custom.css` is automatic loadded
 
 # Configuration of publication pages.
 [publications]
