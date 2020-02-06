@@ -27,8 +27,7 @@ organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://man
 # List your academic interests.
 interests = [
     "Wireless Communication",
-    "Cybersecurity",
-    "Internet Privacy"
+    "Cybersecurity"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -55,12 +54,12 @@ interests = [
 [[social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "https://s3-us-west-2.amazonaws.com/gustybear-websites/about_0000_00_00_zheng_y/docs/cv/zheng_y_cv.pdf"
+  link = "https://s3-us-west-2.amazonaws.com/gustybear-websites/about_0000_00_00_zheng_y/docs/regular_cv/zheng_y_regular_cv.pdf"
 
-#[[social]]
-#  icon = "zotero"
-#  icon_pack = "ai"
-#  link = "https://www.zotero.org/gustybear/"
+[[social]]
+  icon = "zotero"
+  icon_pack = "ai"
+  link = "https://www.zotero.org/gustybear/"
 
 [[social]]
   icon = "google-scholar"
@@ -79,4 +78,4 @@ interests = [
 
 +++
 
-I am an Assistant Professor at Department of Electrical Engineering, University of Hawaiʻi at Mānoa. My research interests mainly focus on wireless communication, cybersecurity, and Internet privacy.
+I am an Assistant Professor at Department of Electrical Engineering, University of Hawaiʻi at Mānoa. My research interests mainly focus on wireless communication and cybersecurity.

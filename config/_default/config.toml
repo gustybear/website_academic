@@ -50,13 +50,16 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   mediaType = "application/manifest+json"
   rel = "manifest"
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
+[markup]
+  defaultmarkdownhandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # enable user to embed html snippets in markdown content.
+  [markup.highlight]
+    codefences = false  # disable hugo's code highlighter as it conflicts with academic's highligher.
+  [markup.tableofcontents]
+    startlevel = 2
+    endlevel = 3
 
 [imaging]
   resampleFilter = "lanczos"

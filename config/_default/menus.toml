@@ -23,10 +23,10 @@
   url = "#teaching"
   weight = 4
 
-# [[main]]
-#   name = "EEx96"
-#   url = "#eex96"
-#   weight = 5
+[[main]]
+  name = "EEx96"
+  url = "#eex96"
+  weight = 5
 
 [[main]]
   name = "Students"

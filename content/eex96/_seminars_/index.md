@@ -10,7 +10,7 @@ summary = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["seminars"]
+tags = ["eex96", "seminars", "current", "featured"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -47,4 +47,4 @@ url_code = ""
 - *Location*: Cybersecurity Laboratory (Holmes Hall 488).
 
 ## Schedule
-<iframe src="https://calendar.google.com/calendar/embed?src=hawaii.edu_6omtrod7vi0l5okfrjiciht6ac%40group.calendar.google.com&ctz=Pacific%2FHonolulu" style="border: 0" width="700" height="400" frameborder="0" scrolling="yes"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Pacific%2FHonolulu&amp;src=aGF3YWlpLmVkdV83cXM5NGRuM25maGE1czM1bTI0YXFzajFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AA5A00&amp;mode=WEEK&amp;title=EEx96%20Seminars%20and%20Group%20Meetings&amp;showDate=1&amp;showPrint=1&amp;showCalendars=1" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>

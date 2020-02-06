@@ -35,8 +35,7 @@ The laboratory provides project participants with private server clusters and la
   - account username: public
 - <a name="schedule">*Public Laboratory Session*: schedule it [here](https://calendly.com/yaozheng/pub_lab_sessions)</a>
 - Full schedule:  
-<iframe src="https://calendar.google.com/calendar/embed?src=hawaii.edu_m57766jj3cja1m54er7bae05e8%40group.calendar.google.com&ctz=Pacific%2FHonolulu" style="border: 0" width="700" height="400" frameborder="0" scrolling="no"></iframe>
-
+<iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Pacific%2FHonolulu&amp;src=aGF3YWlpLmVkdV82b210cm9kN3ZpMGw1b2tmcmppY2lodDZhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23515151&amp;title=Public%20Laboratory%20Hours&amp;mode=WEEK" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
 ***
 
 ## Resource
@@ -49,6 +48,7 @@ The laboratory provides project participants with private server clusters and la
   - OctoClock-G (Ettus CDA-2990): 10.10.3.30
 - Rotating Antennas: 
   - calypso (Raspberry Pi 2 Model B): 10.10.3.133
+  - daedalus (Raspberry Pi 2 Model B): 10.10.3.146
 - Spectrum Analyzers: 
   - icarus (Keysight N9010B): 10.10.3.103
 - Signal Generators:
@@ -64,7 +64,7 @@ The laboratory provides project participants with private server clusters and la
   - ranger (LENOVO ThinkStation E30): 10.10.3.111
   - endurance (LENOVO ThinkStation E30): 10.10.3.108
 - Servers:
-  - amaterasu (LENOVO ThinkServer RD230, 64GB MEM): 10.10.4.137, 10.10.4.139
+  - amaterasu (LENOVO ThinkServer RD230, 64GB MEM): 10.10.3.137, 10.10.4.139
   - messiah (LENOVO ThinkServer RD230, 32GB MEM): 10.10.4.140
   - odyssey (LENOVO ThinkServer RD230, 32GB MEM): 10.10.4.122
 - Fabrications:

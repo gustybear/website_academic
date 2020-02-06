@@ -11,7 +11,7 @@
 #   Browse user installed themes in `data/themes/`
 theme = "uhm"
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -44,10 +44,6 @@ org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
-
-# Display a logo in navigation bar rather than title (optional).
-#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = "logo.png"
 
 ############################
 ## Site Features

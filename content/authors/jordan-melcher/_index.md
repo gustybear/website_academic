@@ -10,7 +10,7 @@ author = "Jordan Melcher"
 weight = 5
 
 # Display name
-name = "Jordan Melcher, M.S"
+name = "Jordan Melcher"
 
 # Is this the primary user of the site?
 superuser = false

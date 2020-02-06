@@ -21,6 +21,6 @@ weight = 6
 
   # Show user's interests? (true/false)
   show_interests = false
-+++
 
-[//]: # (Ph.D Dissertation Committee (Todd Baumeister: 2017 - 2019, Wenxin Chen, Jiapeng Zhang)
+# (Ph.D Dissertation Committee (Todd Baumeister: 2017 - 2019, Wenxin Chen, Jiapeng Zhang)
++++
