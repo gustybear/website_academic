@@ -1,6 +1,7 @@
 +++
 # About/Biography widget.
 
+draft = true
 widget = "about"
 active = true 
 date = "2020-01-27T00:00:00" 
