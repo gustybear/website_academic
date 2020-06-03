@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Classic"
+
+# Optional Google font URL
+google_fonts = "Frutiger+57:400,700|Merriweather|Roboto+Mono"
+
+# Font families
+heading_font = "Frutiger 57"
+body_font = "Frutiger 57"
+nav_font = "Frutiger 57"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

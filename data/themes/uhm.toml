@@ -1,0 +1,20 @@
+# Theme metadata
+name = "Uhm"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#217eab"
+primary_light = "#8dc8e8"
+primary_dark = "#036445"
+
+# Menu
+menu_primary = "#014631"
+menu_text = "#d9d9d6"
+menu_text_active = "#fff"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(246, 246, 246)"
