@@ -1,5 +1,5 @@
 ---
-title: "Wireless Physical Layer Security via Channel Randomization"
+title: "Implementation of Channel Randomizing Orthogonal Blinding"
 subtitle: "Spring, 2020"
 date: 2020-01-10T00:00:00-10:00
 # Tags: can be used for filtering projects.
@@ -11,13 +11,8 @@ resources:
   name: scenario_01
 - src: 'images/scenario_02.png'
   name: scenario_02
+abstract: 'This project implements ROBin: Channel Randomizing Orthogonal Blinding, an enhanced wireless physical layer security scheme robust to known-plaintext attack.'
 ---
-***
-## Summary
-Orthogonal blinding based schemes for wireless physical layer security aim to achieve secure communication by injecting noise into channels orthogonal to the main channel and corrupting the eavesdropper's signal reception. These methods, albeit practical, have been proven vulnerable against multi-antenna eavesdroppers who can filter the message from the noise. The venerability is rooted in the fact that the main channel state remains stasis in spite of the noise injection, which allows an eavesdropper to estimate it promptly via known symbols and filter out the noise. Our proposed scheme leverages a reconfigurable antenna for Alice to rapidly change the channel state during transmission and a compressive sensing based algorithm for her to predict and cancel the changing effects for Bob. As a result, the communication between Alice and Bob remains clear, whereas randomized channel state prevents Eve from launching the known-plaintext attack. We formally analyze the security of the scheme against both single and multi-antenna eavesdroppers and identify its unique anti-eavesdropping properties due to the artificially created fast changing channel. We conduct extensive simulations and real-world experiments to evaluate its performance. Empirical results show that our scheme can suppress Eve's attack success rate to the level of random guessing, even if she knows all the symbols transmitted through other antenna modes.
-
-***
-
 ## Experiments
 ### Equipment
 - Alice

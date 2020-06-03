@@ -6,14 +6,9 @@ date = 2020-01-10T00:00:00-10:00
 # Example: `tags = ["machine-learning", "deep-learning"]`
 authors= ["Marionne Casipit", "Anthony Gasbarro", "Yao Zheng"]
 tags = ["digital design", "fpga", "current", "featured"]
+abstract = " Digital circuits are the foundations to build calculators, computers and cell phones, etc. This course explores these foundations by using modern digital design techniques to design, implement and test digital circuits ranging from basic logic gates to state machines that perform useful functions like calculations, counting, timing, and a host of other applications. Students will learn modern design techniques, using a hardware description language (HDL) such as Verilog to design, simulate and implement logic systems consisting of basic gates, adders, multiplexers, latches, counters, and basic processors. The function and operation of programmable logic devices, such as field programmable gate arrays (FPGAs), will be described and discussed in terms of how an HDL logic design is mapped and implemented. Experiments involving the design of combinational and sequential circuits will provide students a hand-on introduction to basic digital electrical engineering concepts and the skills needed to gain more advanced skills. In the laboratory, students will construct, troubleshoot, and test the digital circuits that they have developed using a hardware description language. These custom logic designs will be implemented using FPGAs and validated using test equipment."
 +++
 
-***
-Digital circuits are the foundations to build calculators, computers and cell phones, etc. This course explores these foundations by using modern digital design techniques to design, implement and test digital circuits ranging from basic logic gates to state machines that perform useful functions like calculations, counting, timing, and a host of other applications. Students will learn modern design techniques, using a hardware description language (HDL) such as Verilog to design, simulate and implement logic systems consisting of basic gates, adders, multiplexers, latches, counters, and basic processors.
-
-The function and operation of programmable logic devices, such as field programmable gate arrays (FPGAs), will be described and discussed in terms of how an HDL logic design is mapped and implemented. Experiments involving the design of combinational and sequential circuits will provide students a hand-on introduction to basic digital electrical engineering concepts and the skills needed to gain more advanced skills. In the laboratory, students will construct, troubleshoot, and test the digital circuits that they have developed using a hardware description language. These custom logic designs will be implemented using FPGAs and validated using test equipment.
-
-***
 ## Logistics
 - *Lecturer*: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
 - *Teaching Assistant(s)*: [Anthony Gasbarro](mailto:agasbarr@hawaii.edu)
@@ -117,11 +112,11 @@ The function and operation of programmable logic devices, such as field programm
 | [Week 11 (Mar 30, Apr 01, Apr 03)][week 11 url] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11][read 11 url] | Register-Transfer Level Process               | Week 9                     |
 | [Week 12 (Apr 06, 08)][week 12 url]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12][read 12 url] | Register Files, Cache, and Memory Components  | --                         |
 | [Week 13 (Apr 13, 15, 17)][week 13 url]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13][read 13 url] | Optimizations and Tradeoffs                   | Week 11                    |
-| Week 14 (Apr 20, 22, 24)                        | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | zyBooks Week 14                | Physical Implementation on ICs                | Week 12                    |
-| Week 15 (Apr 27, 29, May 01)                    | Programmable Processors                                             | Catch-up Lab                               | zyBooks Week 15                | Programmable Processors                       | Week 13                    |
-| Week 16 (May 04, 06)                            | Class Review                                                        |                                            |                                |                                               | Week 14                    |
+| [Week 14 (Apr 20, 22, 24)][week 14 url]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14][read 14 url] | Physical Implementation on ICs                | Week 12                    |
+| [Week 15 (Apr 27, 29, May 01)][week 15 url]     | Programmable Processors                                             | Catch-up Lab                               | [zyBooks Week 15][read 15 url] | Programmable Processors                       | Week 13                    |
+| [Week 16 (May 04, 06)][week 16 url]             | Class Review                                                        |                                            |                                |                                               | Week 14                    |
 | Study Days (May 08, 09)                         |                                                                     |                                            |                                |                                               |
-| Week 17 (May 11)                                | Final:       Computer allowed                                       | Kuykendall Hall 305                        | 9:45AM - 11:45AM               |                                               | Week 15                    |
+| [Week 17 (May 11)][week 17 url]                 | Final:       Computer allowed                                       | Kuykendall Hall 305                        | 9:45AM - 11:45AM               |                                               | Week 15                    |
 
 ***
 ## Resources
@@ -166,10 +161,10 @@ The function and operation of programmable logic devices, such as field programm
 [week 11 url]: https://classroom.github.com/a/5TDnj9SM
 [week 12 url]: https://classroom.github.com/a/WyB0SkZD
 [week 13 url]: https://classroom.github.com/a/76NMroe-
-[week 14 url]: https://classroom.github.com/a/9qD4uyKa
-[week 15 url]: https://classroom.github.com/a/xSlmQGOK
-[week 16 url]: https://classroom.github.com/a/zMuen4fM
-[week 17 url]: https://classroom.github.com/a/gEE1VsFm
+[week 14 url]: https://classroom.github.com/a/7tRD76MI
+[week 15 url]: https://classroom.github.com/a/ym8TefFX
+[week 16 url]: https://classroom.github.com/a/eqfZxWdk
+[week 17 url]: https://classroom.github.com/a/ahPU1u-k
 
 [read urls]: # (reading urls)
 [read 01 url]: # (reading urls)

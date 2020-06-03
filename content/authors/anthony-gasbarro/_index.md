@@ -1,5 +1,5 @@
 +++
-
+draft = true
 # About/Biography widget.
 widget = "about"
 active = true
@@ -16,10 +16,10 @@ name = "Anthony Gasbarro"
 superuser = false
 
 # User group
-user_groups = ["M.S."]
+user_groups = ["Staff"]
 
 # Role/position
-role = "M.S. Student"
+role = "EE260 TA"
 
 # Organizations/Affiliations.
 # Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].

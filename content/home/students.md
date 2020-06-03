@@ -13,7 +13,7 @@ weight = 6
 [content]
 # List user groups to display.
 #   Edit each user's `user_groups` to add them to one or more of these groups.
-  user_groups = ["Ph.D.", "eex96"]
+  user_groups = ["Graduate", "Undergraduate"]
 
 [design]
   # Show user's social networking links? (true/false)

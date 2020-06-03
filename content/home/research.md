@@ -68,7 +68,5 @@ subtitle = ""
  css_class = ""
 +++
 
-## [*Wireless and Cybersecurity Laboratory*](facility/)
-
 ## *Recent Publications*
 

@@ -16,10 +16,10 @@ name = "Jordan Melcher"
 superuser = false
 
 # User group
-user_groups = ["Ph.D."]
+user_groups = ["Graduate"]
 
 # Role/position
-role = "Ph.D. Student"
+role = "Ph.D. Advisee"
 
 # Organizations/Affiliations.
 # Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].

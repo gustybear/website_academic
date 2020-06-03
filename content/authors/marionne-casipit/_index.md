@@ -20,11 +20,11 @@ superuser = false
 
 # User group
 
-user_groups = ["eex96"]
+user_groups = ["Graduate"]
 
 # Role/position
 
-role = "Undergraduate Student"
+role = "M.S. Advisee"
 
 # Organizations/Affiliations.
 

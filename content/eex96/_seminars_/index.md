@@ -1,4 +1,5 @@
 +++
+draft = true
 # Project title.
 title = "Seminars and Group Meetings"
 

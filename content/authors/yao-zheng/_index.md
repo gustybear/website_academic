@@ -22,7 +22,7 @@ role = "Assistant Professor"
 
 # Organizations/Affiliations.
 # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"} ]
+organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"}, { name = "Wireless and Cybersecurity Laboratory", url = "facility"} ]
 
 # List your academic interests.
 interests = [
