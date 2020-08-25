@@ -15,7 +15,7 @@ name = "Matthew Troglia"
 superuser = false
 
 # User group
-user_groups = ["Graduate"]
+user_groups = ["Alumnus"]
 
 # Role/position
 role = "Ph.D. Advisee"

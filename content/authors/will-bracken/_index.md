@@ -20,7 +20,7 @@ superuser = false
 
 # User group
 
-user_groups = ["Undergraduate"]
+user_groups = ["Alumnus"]
 
 # Role/position
 

@@ -1,18 +1,44 @@
 ---
-title: "Implementation of Channel Randomizing Orthogonal Blinding"
+title: "Enhancing Orthogonal Blinding with Channel Randomization"
 subtitle: "Spring, 2020"
 date: 2020-01-10T00:00:00-10:00
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
 authors: ["Will Bracken", "Marionne Casipit", "Mark Kwon", "Yao Zheng"]
 tags: ["eex96", "wireless", "SDR", "current", "featured"]
-resources:
-- src: 'images/scenario_01.png'
-  name: scenario_01
-- src: 'images/scenario_02.png'
-  name: scenario_02
+
 abstract: 'This project implements ROBin: Channel Randomizing Orthogonal Blinding, an enhanced wireless physical layer security scheme robust to known-plaintext attack.'
+
+# Featured image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 3
+  caption: " "
+  focal_point: "Center"
+  preview_only: true
+  alt_text: " "
+
+gallery_item:
+  - album: images
+    image: 'scenario_01.png'
+    caption: 'Scenario 01'
+
+gallery_item:
+  - album: images
+    image: 'scenario_02.png'
+    caption: 'Scenario 02'
 ---
+***
+## Abstract
+Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
+***
+
+## Gallary
+
+{{< gallery album="images" >}}
+Left to right: Scenario 01, Scenario 02.
+
 ## Experiments
 ### Equipment
 - Alice
@@ -21,19 +47,12 @@ abstract: 'This project implements ROBin: Channel Randomizing Orthogonal Blindin
   - Antenna(s): WAT5VJB log-periodic (850-6500 MHz)
 - Bob
   - USRP node: Ettus N210 @ 10.10.3.25
-  - Rotator: Daedalus @ 10.10.3.146
   - Antenna(s): WAT5VJB log-periodic (850-6500 MHz)
 - Eve
   - USRP node: Ettus N210 @ 10.10.3.20;10.10.3.15
   - Antenna(s): WAT5VJB log-periodic (850-6500 MHz)
-- Spectrum analyzer
-  - icarus (Keysight N9010B): 10.10.3.103
-- Camera
-  - primary: Nikon D3300
 
-### Scene 01
-
-{{< imgproc scenario_01 Resize "600x" >}}Scenario 01{{< /imgproc >}}
+### Scenario 01
 
 | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Rotator | Rotation Speed (rpm)[^1] | Time (s) | Data                             |
 | ---        | ---      | ---      | ---                    | ---      | ---     | ---                      | ---      | ---                              |
@@ -41,9 +60,7 @@ abstract: 'This project implements ROBin: Channel Randomizing Orthogonal Blindin
 | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Calypso | 3                        | 100      | [Scenario 01b][scenario 01b url] |
 | 30dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Calypso | 3                        | 100      | [Scenario 01c][scenario 01c url] |
 
-### Scene 02
-
-{{< imgproc scenario_02 Resize "600x" >}}Scenario 02{{< /imgproc >}}
+### Scenario 02
 
 | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Rotator | Rotation Speed (rpm)[^1] | Time (s) | Data                             |
 | ---        | ---      | ---      | ---                    | ---      | ---     | ---                      | ---      | ---                              |
