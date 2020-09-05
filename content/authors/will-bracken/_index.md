@@ -1,18 +1,9 @@
 +++
-# About/Biography widget.
-
-widget = "about"
-active = true 
-date = "2019-11-19T00:00:00" 
-author = "Will Bracken"
-
-# Order that this section will appear in.
-
-weight = 5
+title = "Will Bracken"
 
 # Display name
 
-name = "Will Bracken"
+authors = "Will Bracken"
 
 # Is this the primary user of the site?
 
@@ -24,7 +15,7 @@ user_groups = ["Alumnus"]
 
 # Role/position
 
-role = "EEx96"
+role = "Junior, B.S."
 
 # Organizations/Affiliations.
 

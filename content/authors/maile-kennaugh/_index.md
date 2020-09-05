@@ -1,18 +1,9 @@
 +++
-# About/Biography widget.
-
-widget = "about"
-active = true 
-date = "2020-06-15T00:00:00" 
-author = "Maile Kennaugh"
-
-# Order that this section will appear in.
-
-weight = 5
+title = "Maile Kennaugh"
 
 # Display name
 
-name = "Maile Kennaugh"
+authors = "Maile Kennaugh"
 
 # Is this the primary user of the site?
 
@@ -24,7 +15,7 @@ user_groups = ["Undergraduate"]
 
 # Role/position
 
-role = "EEx96"
+role = "Senior, B.S."
 
 # Organizations/Affiliations.
 

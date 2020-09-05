@@ -1,19 +1,9 @@
 +++
-# About/Biography widget.
-
-draft = true
-widget = "about"
-active = true 
-date = "2020-01-27T00:00:00" 
-author = "Mark Kwon"
-
-# Order that this section will appear in.
-
-weight = 5
+title = "Mark Kwon"
 
 # Display name
 
-name = "Mark Kwon"
+authors = "Mark Kwon"
 
 # Is this the primary user of the site?
 
@@ -25,7 +15,7 @@ user_groups = ["Alumnus"]
 
 # Role/position
 
-role = "EEx96"
+role = "Alumni, B.S."
 
 # Organizations/Affiliations.
 

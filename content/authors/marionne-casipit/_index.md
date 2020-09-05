@@ -1,18 +1,9 @@
 +++
-# About/Biography widget.
-
-widget = "about"
-active = true 
-date = "2020-01-27T00:00:00" 
-author = "Marionne Casipit"
-
-# Order that this section will appear in.
-
-weight = 5
+title = "Marionne Casipit"
 
 # Display name
 
-name = "Marionne Casipit"
+authors = "Marionne Casipit"
 
 # Is this the primary user of the site?
 
@@ -24,7 +15,7 @@ user_groups = ["Graduate"]
 
 # Role/position
 
-role = "M.S. Advisee"
+role = "M.S."
 
 # Organizations/Affiliations.
 

@@ -1,15 +1,8 @@
 +++
-# About/Biography widget.
-widget = "about"
-active = true
-date = "2016-04-20T00:00:00"
-author = "Matthew Troglia"
-
-# Order that this section will appear in.
-weight = 5
+title = "Matthew Troglia"
 
 # Display name
-name = "Matthew Troglia"
+authors = "Matthew Troglia"
 
 # Is this the primary user of the site?
 superuser = false
@@ -18,7 +11,7 @@ superuser = false
 user_groups = ["Alumnus"]
 
 # Role/position
-role = "Ph.D. Advisee"
+role = "Alumni, M.S."
 
 # Organizations/Affiliations.
 # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

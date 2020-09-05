@@ -1,18 +1,9 @@
 +++
-# About/Biography widget.
-
-widget = "about"
-active = true 
-date = "2019-03-11T00:00:00" 
-author = "Dylan Anthony"
-
-# Order that this section will appear in.
-
-weight = 5
+title = "Dylan Anthony"
 
 # Display name
 
-name = "Dylan Anthony"
+authors = "Dylan Anthony"
 
 # Is this the primary user of the site?
 
@@ -24,7 +15,7 @@ user_groups = ["Undergraduate"]
 
 # Role/position
 
-role = "EEx96"
+role = "Senior, B.S."
 
 # Organizations/Affiliations.
 

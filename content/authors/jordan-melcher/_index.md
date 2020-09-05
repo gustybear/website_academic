@@ -1,25 +1,17 @@
 +++
-
-# About/Biography widget.
-widget = "about"
-active = true
-date = "2016-04-20T00:00:00"
-author = "Jordan Melcher"
-
-# Order that this section will appear in.
-weight = 5
+title = "Jordan Melcher"
 
 # Display name
-name = "Jordan Melcher"
+authors = "Jordan Melcher"
 
 # Is this the primary user of the site?
 superuser = false
 
 # User group
-user_groups = ["Graduate"]
+user_groups = ["Alumnus"]
 
 # Role/position
-role = "Ph.D. Advisee"
+role = "M.S. Alumnus"
 
 # Organizations/Affiliations.
 # Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
