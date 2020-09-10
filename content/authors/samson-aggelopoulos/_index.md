@@ -49,4 +49,4 @@ interests = [ "Wireless/Spectrum Security", "MMwave/5g Network" ]
   link = "mailto:saggelop@hawaii.edu"
 +++
 
-I am currently an undergraduate student studying Electrical Engineering here at the University of Hawaiʻi at Mānoa. Much of my interest revolves around Antenna and Microwave theory in Wireless Networks and Security. My work also includes Image Processing for Unmanned Aerial Systems. 
+I am currently an undergraduate student studying Electrical Engineering here at the University of Hawaiʻi at Mānoa. Much of my interest revolves around Antenna and Microwave theory for Wireless Networks and Security. My work also includes Image Processing for Unmanned Aerial Systems. 
