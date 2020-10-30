@@ -94,7 +94,8 @@ coordinates = {latitude = "21.297072", longitude = "-157.816415"}
 directions = "Take the elevator at the Leahi (Diamond Head) side of Holmes Hall. Exit on the Fourth floor. Room 437 is in the left hallway facing Waikiki."
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = "Mondays and Wednesdays 14:00PM - 16:00PM"
+# office_hours = "Mondays and Wednesdays 14:00PM - 16:00PM"
+office_hours = "Mondays 14:30PM - 16:00PM"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com/yaozheng/office_hours"

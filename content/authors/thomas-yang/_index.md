@@ -25,7 +25,7 @@ organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://man
 
 # List your academic interests.
 
-interests = [ "Machine Learning", "Big Data", "Algorithms", "Artificial Intelligence" ]
+interests = [ "Physical Layer Security", "Mobile Payment & Fraud", "Algorithms", "Artificial Intelligence", "Computer Architecture", "Circuit Design", "FPGA Development"]
 
 # List your qualifications (such as academic degrees).
 
@@ -51,9 +51,12 @@ interests = [ "Machine Learning", "Big Data", "Algorithms", "Artificial Intellig
   icon = "envelope"
   icon_pack = "fa" 
   link = "mailto:thomasy4@hawaii.edu"
+  
+[[social]] 
+  icon = "github"
+  icon_pack = "fab" 
+  link = "https://toomasyang.github.io"
 +++
 
-I am currently an undergraduate student going into my fourth semester of Computer Engineering. I am interested in dealing with big data and AI, with a particular interest in self-learning AI. I am expected to graduate in Fall 2020, and am planning to pursue a Masters Degree in Computer Engineering, with a focus on machine learning.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2Nzg4MzBdfQ==
--->
+I am currently a Senior undergraduate student in Computer Engineering at the University of Hawaiʻi at Mānoa, and expect to graduate in Fall 2020. I am interested in physical layer security and its developments in mmWave communications and 5G.  
+

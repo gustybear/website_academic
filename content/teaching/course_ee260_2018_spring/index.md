@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "EE260: Introduction to Digital Design (Spring, 2018)"
 date =  2017-12-31T00:00:00-10:00
 +++

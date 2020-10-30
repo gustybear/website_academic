@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "EE660: Computer Architecture (Spring, 2017)"
 date = 2017-06-01T00:00:00-10:00
 +++

@@ -1,29 +1,27 @@
 ---
 draft: true
-title: "Harmonic Radar for Coconut Rhinoceros Beetle"
+title: "Harmonic Radar for Monitoring of Coconut Rhinoceros Beetle"
 
 subtitle: "Fall, 2020"
 
-summary: "This project implements ROBin: Channel Randomizing Orthogonal Blinding, an enhanced wireless physical layer security scheme robust to known-plaintext attack."
+summary: "This project focuses on the design and implementation of a harmonic radar system to track the invasive Coconut Rhinoceros Beetle (CRB)."
 
 tags:
 - eex96
-- physical layer security
-- orthogonal blinding
-- channel randomization
-- reconfigurable antenna
-- labview
+- harmonic radar
 - sdr
-- current
-- featured
+- gnu radio
+- cw radar
+- passive transponder
+- insect tracking
 
 date: 2020-08-29T00:00:00-10:00
 
 authors:
-- Brian Lu
-- Matthew Sahara
 - Samson Aggelopoulos
 - Willy Chang
+- Brian Lu
+- Matthew Sahara
 - Yao Zheng
 
 # Optional external URL for project (replaces project detail page).
@@ -58,7 +56,7 @@ url_code: ""
 #   Otherwise, set `slides = ""`.
 # slides: example
 
-# Gallary
+# Gallery
 gallery_item:
   - album: images
     image: '05_IMG_3700.JPG'
@@ -96,10 +94,22 @@ gallery_item:
     caption: 'Experiment setup for 2020/03/05.'
 
 ---
-Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
+
+## Problem Statement
+The Coconut Rhinoceros Beetle (CRB) is an invasive insect originating from Southeast Asia. The appearance of these beetles in tropical locations present a grave threat to local ecosystems. According to the [USDA](https://www.aphis.usda.gov/aphis/resources/pests-diseases/hungry-pests/the-threat/coconut-rhinoceros-beetle/hp-crp), the CRB raises concerns specifically in Hawaii, Guam, and American Samoa. CRBs are known to harm a variety of fibrous plants, such as coconut trees, pineapple and sugarcane. The State of Hawaii has taken measures to capture and control the invasion of the CRB using panel traps suspended from trees throughout the islands. Our project focuses on tracking the behavior of these beetles in controlled areas in Guam.
+
+Tracking the CRB is essential to unveil key behavioral information, such as foraging and breeding habits in adult beetles.
+
+## Proposed Solution
+We are designing a radar system to track individual CRBs. Harmonic radar is commonly used to track insects to better understand behavioral characteristics.
+
+There are two parts to harmonic radar: 1) Base station handling the transmit (Tx) and receive (Rx) aspects of our radar system and 2) Transponders mounted on individual CRBs.
+
+
+
 ***
 
-## Gallary
+## Gallery
 
 {{< gallery album="images" >}}
 
@@ -107,41 +117,15 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
 
 ***
 
-## Experiments (2020/03/05)
-### Equipment
-- Alice
+## Project Specifications
+### SDR
+- GNU Radio
   - USRP node: Ettus N210 @ 10.10.3.10
   - Rotator: Calypso @ 10.10.3.133
   - Antenna(s): WAT5VJB log-periodic (850-6500 MHz)
-- Bob
-  - USRP node: Ettus N210 @ 10.10.3.25
-  - Antenna(s): PE51082 omnidirectional
-- Eve
-  - USRP node: Ettus N210 @ 10.10.3.20;10.10.3.15
-  - Antenna(s): PE51082 omnidirectional
-
-### Data (2020/03/05)
-
-| Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm)[^2] | Time (s) | Data                             |
-| ---        | ---      | ---      | ---                    | ---      | ---     | ---                      | ---      | ---                              |
-| 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | small | 3                        | 100      | [Download][20200305tx1] |
-| 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | large | 3                        | 100      | [Download][20200305tx2] |
-| 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | small | 3                        | 100      | [Download][20200305tx3] |
-| 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | large | 3                        | 100      | [Download][20200305tx4] |
-| 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | small | 3                        | 100      | [Download][20200305tx5] |
-| 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | large | 3                        | 100      | [Download][20200305tx6] |
-
-
-[data url]: # (week urls)
-[20200305tx1]: https://drive.google.com/drive/folders/18HvVHh6jX6pAW3hYXT5nDg1-sqBfGj48?usp=sharing
-[20200305tx2]: https://drive.google.com/drive/folders/1nhf3eIN3QANTaydRQtuBElWAtWEqaz6r?usp=sharing
-[20200305tx3]: https://drive.google.com/drive/folders/1616RRzrZKQKsaccJE-9oIBQ6WA4RHc9a?usp=sharing
-[20200305tx4]: https://drive.google.com/drive/folders/1OzVybveZ_WCEPkBpp4MXDyA8_7H0hzEo?usp=sharing
-[20200305tx5]: https://drive.google.com/drive/folders/1wOFwO2q2H1nj1vKa5nug3C6dhkmeh9zv?usp=sharing
-[20200305tx6]: https://drive.google.com/drive/folders/15UYoHH5UFcwrdzKSBMtddNZqKAAjIEMy?usp=sharing
-
-[^2]: The rotating speed is based on actual measurment instead of the input
-  value to the rotator interface. For instance, the actual rotating speed is 3rpm when  the input value is 10rpm.
-
-[^1]: The gain range of the SBX daughter board used by the experiment is 0.0
-  to 31.5 dB step 0.5dB. Therefore, to set the gain to 9dB in Labview, the gain step should be 18. The WAT5VJB LPA gives approxmiately 10 dBi gain in its boom direction.
+RF Transponder
+- Testing antenna designs:
+  - Bowtie (printed dipole)
+  - J-Pole
+  - Wire (with printed line)
+-
