@@ -1,9 +1,10 @@
 ---
-title: "Enhancing Orthogonal Blinding with Channel Randomization"
+draft: true
+title: "Enhancing Wireless Physcial-Layer Security with Channel Randomization"
 
 subtitle: "Spring, 2020"
 
-summary: "This project implements ROBin: Channel Randomizing Orthogonal Blinding, an enhanced wireless physical layer security scheme robust to known-plaintext attack."
+summary: "This project implements Channel Randomizing Orthogonal Blinding, an enhanced wireless physical-layer security scheme robust to eavesdropper with multiple antennas."
 
 tags:
 - eex96
@@ -121,18 +122,38 @@ url_code: ""
 #{{< gallery album="images" >}}
 
 ---
+## Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
 ***
 
 ## Gallery
+### Project Activities
+
+### Methodology
+
+### System Design
+
+### Implemetations
+
+### Experiments
 
 
 Up to down, left to right: semideterministic wiretap channel model, rotating antenna to achieve channel randomization. experiment setups. On-site experiments.
 
 ***
 
-## Experiments (2020/03/05)
-### Equipment
+## Project Description
+
+### Background
+
+### Methodology
+
+### System Design
+
+### Implementations
+
+### Experiments
+#### Equipment
 - Alice
   - USRP node: Ettus N210 @ 10.10.3.10
   - Rotator: Calypso @ 10.10.3.133
@@ -144,7 +165,7 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
   - USRP node: Ettus N210 @ 10.10.3.20;10.10.3.15
   - Antenna(s): PE51082 omnidirectional
 
-### Data (2020/03/05)
+#### Data (2020/03/05)
 
 | Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm)[^2] | Time (s) | Data                    |
 | ---            | ---      | ---      | ---                    | ---      | ---       | ---                  | ---      | ---                     |
@@ -155,7 +176,7 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
 | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | small     | 3                    | 100      | [Download][20200305tx5] |
 | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | large     | 3                    | 100      | [Download][20200305tx6] |
 
-### Data (2020/09/10)
+#### Data (2020/09/10)
 
 | Alice (High Gain) Gain | Bob (Rotator) Gain | Central Frequency (Hz) | I/Q Rate | Configuration  | Rot. Speed (rpm) | Time (s) | Data                    |
 | ---                    | ---                | ---                    | ---      | ---            | ---              | ---      | ---                     |
