@@ -59,4 +59,4 @@ user_groups:
 - Undergraduate
 ---
 
-I am pursuing a B.S. in Electrical Engineering in the Electro-Physics track, and I expect to graduate in Fall 2020. I have project experience related to RF hardware circuits/systems and IP-based wireless networks. I seek to provide high-quality solutions that connect and empower others—anything from powering communities to wireless communications.
+I am pursuing a B.S. in Electrical Engineering in the Electro-Physics track, and I expect to graduate in Fall 2020. I have project experience related to RF hardware circuits/systems and wireless networks. I seek to provide high-quality solutions that connect and empower others—anything from powering communities to developing wireless communication systems.
