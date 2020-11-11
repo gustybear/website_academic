@@ -9,9 +9,9 @@ summary: "This project implements Channel Randomizing Orthogonal Blinding, an en
 tags:
 - eex96
 - physical layer security
-- orthogonal blinding
 - channel randomization
 - reconfigurable antenna
+- iJam
 - labview
 - sdr
 - current
@@ -155,19 +155,45 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
 ### Experiments
 #### Equipment
 - Alice
-  - USRP node: Ettus N210 @ 10.10.3.10
-  - Rotator: Calypso @ 10.10.3.133
-  - Antenna(s): WAT5VJB log-periodic (850-6500 MHz)
+  - USRP node: Ettus N210
+  - Antenna(s)[decimeter ban]: WAT5VJB log-periodic (850-6500 MHz)
+  - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
 - Bob
-  - USRP node: Ettus N210 @ 10.10.3.25
-  - Antenna(s): PE51082 omnidirectional
+  - USRP node: Ettus N210
+  - Antenna(s)[decimeter band): WAT5VJB or PE51082 (2400 MHz only)
+  - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
 - Eve
-  - USRP node: Ettus N210 @ 10.10.3.20;10.10.3.15
-  - Antenna(s): PE51082 omnidirectional
+  - USRP node: Ettus N210
+  - Antenna(s)[decimeter band): WAT5VJB or PE51082 (2400 MHz only)
+  - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
+
+#### Data (2020/01/23)
+| Scenario | Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Rotation Speed (rpm)[^2] | Time (s) | Data                   |
+| ---      | ---            | ---      | ---      | ---                    | ---      | ---                      | ---      | ---                    |
+| 01       | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | 3                        | 100      | [Download][s01_1_6G_a] |
+| 01       | 45dB           | 0dB      | 0dB      | 1.6G                   | 500k     | 3                        | 100      | [Download][s01_1_6G_b] |
+| 01       | 60dB           | 0dB      | 0dB      | 1.6G                   | 500k     | 3                        | 100      | [Download][s01_1_6G_c] |
+| 01       | 30dB           | 0dB      | 0dB      | 2.6G                   | 500k     | 3                        | 100      | [Download][s01_2_6G_a] |
+| 01       | 45dB           | 0dB      | 0dB      | 2.6G                   | 500k     | 3                        | 100      | [Download][s01_2_6G_b] |
+| 01       | 60dB           | 0dB      | 0dB      | 2.6G                   | 500k     | 3                        | 100      | [Download][s01_2_6G_c] |
+| 01       | 45dB           | 0dB      | 0dB      | 3.6G                   | 500k     | 3                        | 100      | [Download][s01_3_6G_a] |
+| 01       | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | 3                        | 100      | [Download][s01_3_6G_b] |
+
+#### Data (2020/01/23)
+| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Rotation Speed (rpm) | Time (s) | Data                   |
+| ---      | ---        | ---      | ---      | ---                    | ---      | ---                  | ---      | ---                    |
+| 02       | 30dB       | 0dB      | 0dB      | 0.9G                   | 500k     | 3                    | 100      | [Download][s02_0_9G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 0.9G                   | 500k     | 3                    | 100      | [Download][s02_0_9G_b] |
+| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | 3                    | 100      | [Download][s02_1_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 1.6G                   | 500k     | 3                    | 100      | [Download][s02_1_6G_b] |
+| 02       | 30dB       | 0dB      | 0dB      | 2.6G                   | 500k     | 3                    | 100      | [Download][s02_2_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | 3                    | 100      | [Download][s02_2_6G_b] |
+| 02       | 30dB       | 0dB      | 0dB      | 3.6G                   | 500k     | 3                    | 100      | [Download][s01_3_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 3.6G                   | 500k     | 3                    | 100      | [Download][s01_3_6G_b] |
 
 #### Data (2020/03/05)
 
-| Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm)[^2] | Time (s) | Data                    |
+| Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                    |
 | ---            | ---      | ---      | ---                    | ---      | ---       | ---                  | ---      | ---                     |
 | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | small     | 3                    | 100      | [Download][20200305tx1] |
 | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | large     | 3                    | 100      | [Download][20200305tx2] |
@@ -209,8 +235,8 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
 [20200910tx8]: https://drive.google.com/drive/folders/1SGVuYgjHHKMY_dYCCFcbdg-cWKMYdgCa?usp=sharing
 [20200910tx9]: https://drive.google.com/drive/folders/1s_A9GRoWq0ZNEKlnmPxttWlso84oX0Ls?usp=sharing
 
-[^2]: The rotating speed is based on actual measurment instead of the input
+[^1]: The rotating speed is based on actual measurment instead of the input
   value to the rotator interface. For instance, the actual rotating speed is 3rpm when  the input value is 10rpm.
 
-[^1]: The gain range of the SBX daughter board used by the experiment is 0.0
+[^2]: The gain range of the SBX daughter board used by the experiment is 0.0
   to 31.5 dB step 0.5dB. Therefore, to set the gain to 9dB in Labview, the gain step should be 18. The WAT5VJB LPA gives approxmiately 10 dBi gain in its boom direction.
