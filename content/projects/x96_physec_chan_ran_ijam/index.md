@@ -192,15 +192,14 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
 | 02       | 45dB       | 0dB      | 0dB      | 3.6G                   | 500k     | 3                    | 100      | [Download][s01_3_6G_b] |
 
 #### Data (2020/03/05)
-
-| Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                    |
-| ---            | ---      | ---      | ---                    | ---      | ---       | ---                  | ---      | ---                     |
-| 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | small     | 3                    | 100      | [Download][20200305tx1] |
-| 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | large     | 3                    | 100      | [Download][20200305tx2] |
-| 45dB           | 0dB      | 0dB      | 2.6G                   | 500k     | small     | 3                    | 100      | [Download][20200305tx3] |
-| 45dB           | 0dB      | 0dB      | 2.6G                   | 500k     | large     | 3                    | 100      | [Download][20200305tx4] |
-| 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | small     | 3                    | 100      | [Download][20200305tx5] |
-| 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | large     | 3                    | 100      | [Download][20200305tx6] |
+| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                    |
+| ---      | ---        | ---      | ---      | ---                    | ---      | ---       | ---              | ---      | ---                     |
+| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | small     | 3                | 100      | [Download][s02_1_6G_a] |
+| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | large     | 3                | 100      | [Download][s02_1_6G_b] |
+| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | small     | 3                | 100      | [Download][s02_2_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | large     | 3                | 100      | [Download][s02_2_6G_b] |
+| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | small     | 3                | 100      | [Download][s02_3_6G_a] |
+| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | large     | 3                | 100      | [Download][s02_3_6G_b] |
 
 #### Data (2020/09/10)
 
