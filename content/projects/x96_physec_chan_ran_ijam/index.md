@@ -124,35 +124,26 @@ url_code: ""
 ---
 ## Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
-***
-
-## Gallery
-### Project Activities
-
-### Methodology
-
-### System Design
-
-### Implemetations
-
-### Experiments
-
-
-Up to down, left to right: semideterministic wiretap channel model, rotating antenna to achieve channel randomization. experiment setups. On-site experiments.
 
 ***
 
-## Project Description
+## Highlights
+Select up to five figures to display in project highlights
+
+## Acknowledgement
+
+***
+
+## Description
+
+### Introduction
 
 ### Background
 
 ### Methodology
 
-### System Design
+### Implementation and Experimentation
 
-### Implementations
-
-### Experiments
 #### Equipment
 - Alice
   - USRP node: Ettus N210
@@ -166,73 +157,66 @@ Up to down, left to right: semideterministic wiretap channel model, rotating ant
   - USRP node: Ettus N210
   - Antenna(s)[decimeter band): WAT5VJB or PE51082 (2400 MHz only)
   - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
+- RF reflector
+  - Large corner, small corner, plane reflector.
 
-#### Data (2020/01/23)
-| Scenario | Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Rotation Speed (rpm)[^2] | Time (s) | Data                   |
-| ---      | ---            | ---      | ---      | ---                    | ---      | ---                      | ---      | ---                    |
-| 01       | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | 3                        | 100      | [Download][s01_1_6G_a] |
-| 01       | 45dB           | 0dB      | 0dB      | 1.6G                   | 500k     | 3                        | 100      | [Download][s01_1_6G_b] |
-| 01       | 60dB           | 0dB      | 0dB      | 1.6G                   | 500k     | 3                        | 100      | [Download][s01_1_6G_c] |
-| 01       | 30dB           | 0dB      | 0dB      | 2.6G                   | 500k     | 3                        | 100      | [Download][s01_2_6G_a] |
-| 01       | 45dB           | 0dB      | 0dB      | 2.6G                   | 500k     | 3                        | 100      | [Download][s01_2_6G_b] |
-| 01       | 60dB           | 0dB      | 0dB      | 2.6G                   | 500k     | 3                        | 100      | [Download][s01_2_6G_c] |
-| 01       | 45dB           | 0dB      | 0dB      | 3.6G                   | 500k     | 3                        | 100      | [Download][s01_3_6G_a] |
-| 01       | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | 3                        | 100      | [Download][s01_3_6G_b] |
+#### Procedure
+***
 
-#### Data (2020/01/23)
-| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Rotation Speed (rpm) | Time (s) | Data                   |
-| ---      | ---        | ---      | ---      | ---                    | ---      | ---                  | ---      | ---                    |
-| 02       | 30dB       | 0dB      | 0dB      | 0.9G                   | 500k     | 3                    | 100      | [Download][s02_0_9G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 0.9G                   | 500k     | 3                    | 100      | [Download][s02_0_9G_b] |
-| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | 3                    | 100      | [Download][s02_1_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 1.6G                   | 500k     | 3                    | 100      | [Download][s02_1_6G_b] |
-| 02       | 30dB       | 0dB      | 0dB      | 2.6G                   | 500k     | 3                    | 100      | [Download][s02_2_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | 3                    | 100      | [Download][s02_2_6G_b] |
-| 02       | 30dB       | 0dB      | 0dB      | 3.6G                   | 500k     | 3                    | 100      | [Download][s01_3_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 3.6G                   | 500k     | 3                    | 100      | [Download][s01_3_6G_b] |
+## Figures
 
-#### Data (2020/03/05)
-| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                    |
-| ---      | ---        | ---      | ---      | ---                    | ---      | ---       | ---              | ---      | ---                     |
-| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | small     | 3                | 100      | [Download][s02_1_6G_a] |
-| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | large     | 3                | 100      | [Download][s02_1_6G_b] |
-| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | small     | 3                | 100      | [Download][s02_2_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | large     | 3                | 100      | [Download][s02_2_6G_b] |
-| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | small     | 3                | 100      | [Download][s02_3_6G_a] |
-| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | large     | 3                | 100      | [Download][s02_3_6G_b] |
+***
 
-#### Data (2020/09/10)
+## Data Archive
+#### Exp 2020/01/23
+| Scenario | Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector    | Rot. Speed (rpm)[^2] | Time (s) | Data                   |
+| ---      | ---            | ---      | ---      | ---                    | ---      | ---          | ---                  | ---      | ---                    |
+| 01       | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_1_6G_a] |
+| 01       | 45dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_1_6G_b] |
+| 01       | 60dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_1_6G_c] |
+| 01       | 30dB           | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_2_6G_a] |
+| 01       | 45dB           | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_2_6G_b] |
+| 01       | 60dB           | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_2_6G_c] |
+| 01       | 45dB           | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_3_6G_a] |
+| 01       | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_3_6G_b] |
 
-| Alice (High Gain) Gain | Bob (Rotator) Gain | Central Frequency (Hz) | I/Q Rate | Configuration  | Rot. Speed (rpm) | Time (s) | Data                    |
-| ---                    | ---                | ---                    | ---      | ---            | ---              | ---      | ---                     |
-| 30dB                   | 10dB                | 2.4G                   | 500k     | 1 LOS          | 3                | 100      | [Download][20200910tx1] |
-| 15dB                   | 10dB                | 2.4G                   | 500k     | 1 LOS          | 3                | 100      | [Download][20200910tx2] |
-| 30dB                   | 10dB                | 2.4G                   | 500k     | 1 LOS          | 1                | 100      | [Download][20200910tx3] |
-| 30dB                   | 10dB                | 2.4G                   | 500k     | 2 LOS          | 3                | 100      | [Download][20200910tx4] |
-| 15dB                   | 10dB                | 2.4G                   | 500k     | 2 LOS          | 3                | 100      | [Download][20200910tx5] |
-| 30dB                   | 10dB                | 2.4G                   | 500k     | 2 LOS          | 1                | 100      | [Download][20200910tx6] |
-| 30dB                   | 10dB                | 2.4G                   | 500k     | 1 LOS + 1 NLOS | 3                | 100      | [Download][20200910tx7] |
-| 15dB                   | 10dB                | 2.4G                   | 500k     | 1 LOS + 1 NLOS | 3                | 100      | [Download][20200910tx8] |
-| 30dB                   | 10dB                | 2.4G                   | 500k     | 1 LOS + 1 NLOS | 1                | 100      | [Download][20200910tx9] |
+#### Exp 2020/01/30
+| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector   | Rot. Speed (rpm) | Time (s) | Data                   |
+| ---      | ---        | ---      | ---      | ---                    | ---      | ---         | ---              | ---      | ---                    |
+| 02       | 30dB       | 0dB      | 0dB      | 0.9G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_0_9G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 0.9G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_0_9G_b] |
+| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_1_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_1_6G_b] |
+| 02       | 30dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_2_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_2_6G_b] |
+| 02       | 30dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s01_3_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s01_3_6G_b] |
+
+#### Exp 2020/03/05
+| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector   | Rot. Speed (rpm) | Time (s) | Data                   |
+| ---      | ---        | ---      | ---      | ---                    | ---      | ---         | ---              | ---      | ---                    |
+| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][s02_1_6G_a] |
+| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_1_6G_b] |
+| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][s02_2_6G_a] |
+| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_2_6G_b] |
+| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][s02_3_6G_a] |
+| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_3_6G_b] |
+
+#### Exp 2020/09/10
+
+| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                   |
+| ---      | ---        | ---      | ---      | ---                    | ---      | ---       | ---              | ---      | ---                    |
+| 03       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][s03_2_4G_a] |
+| 03       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][s03_2_4G_b] |
+| 03       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 1                | 100      | [Download][s03_2_4G_c] |
+| 04       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][s04_2_4G_a] |
+| 04       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][s04_2_4G_b] |
+| 04       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 1                | 100      | [Download][s04_2_4G_c] |
+| 05       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 3                | 100      | [Download][s05_2_4G_a] |
+| 05       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 3                | 100      | [Download][s05_2_4G_b] |
+| 05       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 1                | 100      | [Download][s05_2_4G_c] |
 
 [data url]: # (week urls)
-[20200305tx1]: https://drive.google.com/drive/folders/18HvVHh6jX6pAW3hYXT5nDg1-sqBfGj48?usp=sharing
-[20200305tx2]: https://drive.google.com/drive/folders/1nhf3eIN3QANTaydRQtuBElWAtWEqaz6r?usp=sharing
-[20200305tx3]: https://drive.google.com/drive/folders/1616RRzrZKQKsaccJE-9oIBQ6WA4RHc9a?usp=sharing
-[20200305tx4]: https://drive.google.com/drive/folders/1OzVybveZ_WCEPkBpp4MXDyA8_7H0hzEo?usp=sharing
-[20200305tx5]: https://drive.google.com/drive/folders/1wOFwO2q2H1nj1vKa5nug3C6dhkmeh9zv?usp=sharing
-[20200305tx6]: https://drive.google.com/drive/folders/15UYoHH5UFcwrdzKSBMtddNZqKAAjIEMy?usp=sharing
-
-[data url]: # (week urls)
-[20200910tx1]: https://drive.google.com/drive/folders/1DukCFhMV0JIaa_o-JSbRuNfPKtjXCBM8?usp=sharing
-[20200910tx2]: https://drive.google.com/drive/folders/1YeljUP8lWL5bPzJAiDs2IrC9TP0GaMv2?usp=sharing
-[20200910tx3]: https://drive.google.com/drive/folders/1k82Tl91oFaoKzvHKht5OIsUcp4kVORGS?usp=sharing
-[20200910tx4]: https://drive.google.com/drive/folders/1UuMLyeA7oqbhLyYeNpjKn-BvdtyjOk2x?usp=sharing
-[20200910tx5]: https://drive.google.com/drive/folders/1X2TXBeKLtwyGM8LlsTcVOHueIBHSvu13?usp=sharing
-[20200910tx6]: https://drive.google.com/drive/folders/1CqN_vBd9r29aui4zJ1CLoC7hs2zXr68s?usp=sharing
-[20200910tx7]: https://drive.google.com/drive/folders/1rXJyat7lq60lceV6__Mzy7dLEkZx9AQU?usp=sharing
-[20200910tx8]: https://drive.google.com/drive/folders/1SGVuYgjHHKMY_dYCCFcbdg-cWKMYdgCa?usp=sharing
-[20200910tx9]: https://drive.google.com/drive/folders/1s_A9GRoWq0ZNEKlnmPxttWlso84oX0Ls?usp=sharing
 
 [^1]: The rotating speed is based on actual measurment instead of the input
   value to the rotator interface. For instance, the actual rotating speed is 3rpm when  the input value is 10rpm.
