@@ -29,10 +29,10 @@ this course focuses on selected research topics of current interest in wireless 
 
 ***
 ## Acknowledgement
-This course is developed with the supports of University of Hawaii at Manoa
+This course is developed with the materials provided by ACM WiSec
+2020, and the supports of University of Hawaii at Manoa
 Coronavirus Aid, Relief and Economic Security (CARES) grant, 
-NSF grants CNS-1948568, DGE-1662487, and the materials provided by ACM WiSec
-2020.
+NSF grants DGE-1662487, CNS-1948568.
 
 ***
 ## Textbook

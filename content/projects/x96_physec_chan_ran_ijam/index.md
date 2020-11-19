@@ -130,8 +130,9 @@ Wireless physical layer security scheme, such as orthogonal blinding, is able to
 Select up to five figures to display in project highlights
 
 ***
-
 ## Acknowledgement
+This project is partially supported NSF grants CNS-1948568, CNS-1948568, and
+TMYTEK mmWave research initiative.
 
 ***
 
