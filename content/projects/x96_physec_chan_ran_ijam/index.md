@@ -20,11 +20,9 @@ tags:
 date: 2020-01-10T00:00:00-10:00
 
 authors:
-- Marionne Casipit
-- Mark Kwon 
-- Will Bracken
 - Samson Aggelopoulos
 - Willy Chang
+- Maile Kennaugh
 - Brian Lu
 - Matthew Sahara
 - Alvin Yang
@@ -122,6 +120,7 @@ url_code: ""
 #{{< gallery album="images" >}}
 
 ---
+***
 ## Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
 
@@ -129,6 +128,8 @@ Wireless physical layer security scheme, such as orthogonal blinding, is able to
 
 ## Highlights
 Select up to five figures to display in project highlights
+
+***
 
 ## Acknowledgement
 
@@ -168,7 +169,7 @@ Select up to five figures to display in project highlights
 ***
 
 ## Data Archive
-#### Exp 2020/01/23
+#### Exp. 2020/01/23
 | Scenario | Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector    | Rot. Speed (rpm)[^2] | Time (s) | Data                   |
 | ---      | ---            | ---      | ---      | ---                    | ---      | ---          | ---                  | ---      | ---                    |
 | 01       | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_1_6G_a] |
@@ -180,7 +181,7 @@ Select up to five figures to display in project highlights
 | 01       | 45dB           | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_3_6G_a] |
 | 01       | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][s01_3_6G_b] |
 
-#### Exp 2020/01/30
+#### Exp. 2020/01/30
 | Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector   | Rot. Speed (rpm) | Time (s) | Data                   |
 | ---      | ---        | ---      | ---      | ---                    | ---      | ---         | ---              | ---      | ---                    |
 | 02       | 30dB       | 0dB      | 0dB      | 0.9G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_0_9G_a] |
@@ -192,7 +193,7 @@ Select up to five figures to display in project highlights
 | 02       | 30dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s01_3_6G_a] |
 | 02       | 45dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s01_3_6G_b] |
 
-#### Exp 2020/03/05
+#### Exp. 2020/03/05
 | Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector   | Rot. Speed (rpm) | Time (s) | Data                   |
 | ---      | ---        | ---      | ---      | ---                    | ---      | ---         | ---              | ---      | ---                    |
 | 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][s02_1_6G_a] |
@@ -202,7 +203,7 @@ Select up to five figures to display in project highlights
 | 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][s02_3_6G_a] |
 | 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][s02_3_6G_b] |
 
-#### Exp 2020/09/10
+#### Exp. 2020/09/10
 
 | Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                   |
 | ---      | ---        | ---      | ---      | ---                    | ---      | ---       | ---              | ---      | ---                    |

@@ -13,7 +13,7 @@ tags:
 - current
 - featured
 
-summary: "CNS-1948568, $174,911.00"
+summary: "CNS-1948568, $174,911.00, PI"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.

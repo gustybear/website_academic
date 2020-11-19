@@ -1,5 +1,5 @@
 +++
-title = "EE693e: selected topics in wireless security"
+title = "EE693e: Selected Topics in Wireless Security"
 subtitle = "Fall, 2020"
 date = 2020-08-23T20:07:39-10:00
 lastmod = 2020-08-23T20:07:39-10:00
@@ -22,17 +22,19 @@ categories = []
   focal_point = ""
   preview_only = true
 +++
-
+***
 ## Abstract
 
 this course focuses on selected research topics of current interest in wireless security and is intended for undergraduate, master, or doctoral students who are interested in wireless security. at the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems in wireless security, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. main topics of interests include: pairing, authentication, access control, wireless sensing and localization, jamming and anti-jamming, security analysis of wireless applications, hardware/firmware, side-channel analysis, iot privacy, wireless fingerprinting, location privacy, and security in (future) cellular networks.
 
 ***
 ## Acknowledgement
-This course is developed with the supports of University of Hawaii at Manoa,
+This course is developed with the supports of University of Hawaii at Manoa
+Coronavirus Aid, Relief and Economic Security (CARES) grant, 
 NSF grants CNS-1948568, DGE-1662487, and the materials provided by ACM WiSec
 2020.
 
+***
 ## Textbook
 - required: [wisec '20: proceedings of the 13th acm conference on security and
   privacy in wireless and mobile
