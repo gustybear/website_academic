@@ -23,17 +23,24 @@ categories = []
   preview_only = true
 +++
 
+## Abstract
+
 this course focuses on selected research topics of current interest in wireless security and is intended for undergraduate, master, or doctoral students who are interested in wireless security. at the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems in wireless security, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. main topics of interests include: pairing, authentication, access control, wireless sensing and localization, jamming and anti-jamming, security analysis of wireless applications, hardware/firmware, side-channel analysis, iot privacy, wireless fingerprinting, location privacy, and security in (future) cellular networks.
 
 ***
-## textbook
+## Acknowledgement
+This course is developed with the supports of University of Hawaii at Manoa,
+NSF grants CNS-1948568, DGE-1662487, and the materials provided by ACM WiSec
+2020.
+
+## Textbook
 - required: [wisec '20: proceedings of the 13th acm conference on security and
   privacy in wireless and mobile
   networks](https://dl.acm.org/doi/proceedings/10.1145/3395351), by acm. [online access](https://wisec2020.ins.jku.at/program/)
 
 
 ***
-## logistics
+## Logistics
 - *lecturer*: [yao zheng](mailto:yao.zheng@hawaii.edu) et al.
 - *lecture*: mondays wednesday 9:00am-10:15am,
   virtual via [zoom](https://hawaii.zoom.us/j/5764842348).
@@ -44,12 +51,12 @@ this course focuses on selected research topics of current interest in wireless 
 
 ***
 
-## policies
+## Policies
 - *presenter*: you may work in teams of two or three. each team will be assigned with two topics (four papers). each team needs to complete two tasks on each paper: (1) give a in-depth presentation (60 min) and answer all the questions during the q&a (15 min); (2) write a one-page (excluding citations) summary of the paper (in ieee conference format).
 - *audience*: you must work alone and complete the following tasks for each presentation: (1) watch the conference presentation that accompanies the paper; (2) prepare at least one relevent question for the presenter; (3) grade the presenter's presentation and report. 
 ***
 
-## schedule
+## Schedule
 | time                     | lecture/presentations                | presenter                             | papers                                                                       | video/slides                                                                                 | report                    |
 | ---                      | ---                                  | ---                                   | ---                                                                          | ---                                                                                          | ---                       |
 | Week 01 (Aug 24, 26)     | Course logistic                      | Yao Zheng                             | ---                                                                          | ---                                                                                          | ---                       |
