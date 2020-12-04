@@ -66,53 +66,53 @@ url_code: ""
 #   - album: images
 #     image: '05_IMG_3700.JPG'
 #     caption: 'Group performing on-site experiment (01).'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '06_IMG_3708.JPG'
 #     caption: 'Group performing on-site experiment (02).'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '07_IMG_3705.JPG'
 #     caption: 'Group performing on-site experiment (03).'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '08_IMG_3702.JPG'
 #     caption: 'Group performing on-site experiment (04).'
-# 
-# 
+#
+#
 # gallery_item:
 #   - album: images
 #     image: '02_rotating_antenna.JPG'
 #     caption: 'Rotating Antenna to achieve channel randomization.'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '04_setup_2020_03_05.png'
 #     caption: 'Experiment setup for 2020/03/05.'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '13_DSC_0247.JPG'
 #     caption: 'Experiment setup for 2020/09/10.'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '10_DSC_0238.JPG'
 #     caption: 'Experiment setup for 2020/09/10.'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '11_DSC_0243.JPG'
 #     caption: 'Experiment setup for 2020/09/10.'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '12_DSC_0245.JPG'
 #     caption: 'Experiment setup for 2020/09/10.'
-# 
+#
 # gallery_item:
 #   - album: images
 #     image: '14_DSC_0244.JPG'
@@ -121,6 +121,7 @@ url_code: ""
 
 ---
 ***
+{{< gallery album="images" >}}
 ## Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
 
