@@ -117,11 +117,35 @@ url_code: ""
 #   - album: images
 #     image: '14_DSC_0244.JPG'
 #     caption: 'Experiment setup for 2020/09/10.'
-#{{< gallery album="images" >}}
+gallery_item:
+ - album: gallery
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0239.jpg
+   caption: Experimental setup with two high gain antennas and a rotating antenna.
+ - album: gallery
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0243.jpg
+   caption: Experimental setup with two high gain antennas and a rotating antenna.
+ - album: gallery
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/DSC_0246.jpg
+   caption: Closeup of the high gain antenna.
+ - album: gallery
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/DSC_0248.jpg
+   caption: Closeup of the rotating antenna.
+ - album: gallery
+   image:  https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/DSC_0249.jpg
+   caption: Matthew holding a planarly reflector.
+ - album: gallery
+   image:  https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/IMG_3668.jpg
+   caption: Experiment with corner reflectors.
+ - album: gallery
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/IMG_3706.jpg
+   caption: Interfacing with the software used in the experiment.
+ - album: gallery
+   image:  https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/IMG_3702.jpg
+   caption: Team picture!
 
 ---
 ***
-{{< gallery album="images" >}}
+{{< gallery >}}
 ## Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
 
