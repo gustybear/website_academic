@@ -125,22 +125,22 @@ gallery_item:
    image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0243.jpg
    caption: Experimental setup with two high gain antennas and a rotating antenna.
  - album: gallery
-   image: https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/DSC_0246.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0246.jpg
    caption: Closeup of the high gain antenna.
  - album: gallery
-   image: https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/DSC_0248.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0248.jpg
    caption: Closeup of the rotating antenna.
  - album: gallery
-   image:  https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/DSC_0249.jpg
+   image:  https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0249.jpg
    caption: Matthew holding a planarly reflector.
  - album: gallery
-   image:  https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/IMG_3668.jpg
+   image:  https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3668.jpg
    caption: Experiment with corner reflectors.
  - album: gallery
-   image: https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/IMG_3706.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3706.jpg
    caption: Interfacing with the software used in the experiment.
  - album: gallery
-   image:  https://media.githubusercontent.com/media/gustybear-research/websites/master/content/projects/x96_physec_chan_ran_ijam/images/IMG_3702.jpg
+   image:  https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3702.jpg
    caption: Team picture!
 
 ---
@@ -164,7 +164,7 @@ TMYTEK mmWave research initiative.
 ## Description
 
 ### Introduction
-iJam with channel randomization 
+iJam with channel randomization
 
 ### Background
 
