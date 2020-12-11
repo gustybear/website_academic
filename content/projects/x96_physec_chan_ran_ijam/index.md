@@ -164,7 +164,6 @@ TMYTEK mmWave research initiative.
 ## Description
 
 ### Introduction
-iJam with channel randomization
 
 ### Background
 
