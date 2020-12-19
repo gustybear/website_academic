@@ -164,7 +164,9 @@ TMYTEK mmWave research initiative.
 ## Description
 
 ### Introduction
-Willy?
+Thomas
+
+
 ### Background
 Brian?
 ### Methodology
