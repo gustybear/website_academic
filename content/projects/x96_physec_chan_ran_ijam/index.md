@@ -164,9 +164,9 @@ TMYTEK mmWave research initiative.
 ## Description
 
 ### Introduction
-
+Willy?
 ### Background
-
+Brian?
 ### Methodology
 
 ### Implementation and Experimentation
