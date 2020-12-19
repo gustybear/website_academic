@@ -168,13 +168,13 @@ Thomas
 
 
 ### Background
-Brian?
+Brian
 ### Methodology
 
 ### Implementation and Experimentation
 
 ### Conclusion
-Sampson?
+Sampson
 #### Equipment
 - Alice
   - USRP node: Ettus N210
