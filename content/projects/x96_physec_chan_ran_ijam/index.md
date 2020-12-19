@@ -174,7 +174,8 @@ Brian
 ### Implementation and Experimentation
 
 ### Conclusion
-Sampson
+Samson
+
 #### Equipment
 - Alice
   - USRP node: Ettus N210
