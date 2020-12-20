@@ -172,7 +172,7 @@ Brian
 ### Methodology
 Willy
 ### Implementation and Experimentation
-Maile
+Maile / Alvin
 
 ### Conclusion
 Samson
