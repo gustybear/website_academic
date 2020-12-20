@@ -165,7 +165,11 @@ TMYTEK mmWave research initiative.
 
 ### Introduction
 Thomas
+When performing RF communication between a transmitter and receiver, the signal observes a channel effect, which is dependent on many factors, such as scattering, fading, and power decay as the distance increases. This means the signal sent by the transmitter will not be the signal received by the receiver. However, it is possible to undo this channel effect on the signal with the use of pilot symbols. By utilizing a universal truth where everyone knows what value the pilot symbols are and their position in the message, we can calculate the channel effect by dividing the received pilot symbols by the original pilot symbols, and using this value to remove the channel effect on our received signal.
 
+RF communication is unsecure however, as the tranmission is unencrypted and can easily be seen by an eavesdropper. To establish an encrypted communications channel, iJam, a key exchange protocol, was introduced such that a key can be exchanged over the RF channel. The iJam protocol requires the transmitter, Alice, to send each key symbol twice. The receiver, Bob, equipped with a second transmitting antenna, will randomly choose which key symbol to jam with his second antenna. Since Bob knows which of the two key symbols is being jammed, he can pick out the unjammed symbol, then reconstruct the key by accumulating the unjammed symbols. From an Eavesdropper, Eve's point of view, she is unsure which of the pair of key symbols is the jammed symbol and which is not, leading to a 50% chance of guessing which symbol is correct, effectively obscuring the key from others.
+
+The downfall to iJam is that it only works against single-antenna eavesdropper. With a multi-antenna setup 
 
 ### Background
 Brian
