@@ -213,7 +213,9 @@ In the 09/10 experimentation, we ran with three scenarios. These scenarios are m
 
 The various scenarios were picked in order to determine whether we can view the reflected signal path when running the experiment, to verify that we are processing/receiving the data correctly. Along with this, the scenario allows us to determine what Eve, the eavesdropper sees when receiving the signal from Alice. We ran the experiment outdoors in as an open space as possible, to try and minimize signal reflection. It can be seen however, that in the experiment pictures there are buildings in the vicinity when running the experiment.
 
-The results of the experimentation
+The results of the experimentation can be seen in the following image gallery.
+
+The important points to look at in these results is the measured vs predicted channel state information magnitude (CSI). It can be seen that the measured CSI magnitudes correlates loosely with the predicted CSI magnitudes. This may be due to errors in the prediction method used or an unstable phase of the data. Then another point of interest is that of the ground truth vs estimated AoD vectors. In the circular plots it can be seen that for the scenarios with a higher RPM, that the estimated AoD vectors correlate less closely to the ground truth as compared to scenarios with a lower RPM. Then again with the difference that RPM makes, is that in sub scenarios with the same RPM (a & b), the measured CSI magnitude are similar to each other, whereas the one sub scenario (c) with a different, faster RPM, is visually different from the two other sub scenarios. This furthers our analysis in the difference of faster RPMs in the implementation of our algorithm, where faster RPMs, where they may provide a faster key transmission speed may have a lower stability.
 
 ### Conclusion
 (Samson)
