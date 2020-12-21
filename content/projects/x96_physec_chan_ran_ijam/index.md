@@ -250,25 +250,34 @@ This is where we propose a defense mechanism against multi-antenna eavesdropper,
 You're writing about iJam and how it works, channel state information, and how iJam is vulnerable to multi-antenna setups
 
 ### Methodology
-(Willy) To predict the CSI for different antenna modes without sending the pilots symbols, Alice computes the angle of departure vector (AoD) using a subset of antenna modes dedicated for training. This can be modeled as follows:
+(Willy)
+To predict the CSI for different antenna modes without sending the pilot symbols, Alice (TX) computes the angle of departure vector (AoD) using a subset of antenna modes dedicated for training. This can be modeled as follows:
 
 $$\mathbf Y = \mathbf H\mathbf X + \mathbf N$$
 
-where $\mathbf Y$ is the signals received by Bob, $\mathbf H$ is the channel state information (CSI), $\mathbf X$ is the transmitted signal Alice trasmits, and $\mathbf N$ is the channel noise.
+where $\mathbf Y$ is the signals received by Bob, $\mathbf H$ is the channel state information (CSI), $\mathbf X$ is the transmitted signal Alice trasmits, and $\mathbf N$ is the channel noise. The channel noise is an additive white Gaussian distributed noise representing the random processes that occur in nature.
 
-$\mathbf H$ can be modeled as follows:
+$\mathbf H$ can be modeled as the inner product between the area of departure (AoD) vector, $\mathbf h$, and the transmitter's (TX) antenna pattern, $a$. This can be represented in the following equation:
 
-the inner product between the area of departure (AoD) vector, $\mathbf h$, and the transmitter's (TX) antenna pattern, $a$. This can be represented in the following equation:
-
-$$\mathbf H = \sum a\mathbf h$$
+$$\mathbf H = \sum \mathbf a\mathbf h$$
 
 Each element in the AoD vector $\mathbf h$ represents the environment's attentuation effect on the TX signal in a specific direction. Within a short period of time, these elements do not change.
 
-To solve this model, the MUSIC (Multiple Signal Classification) algorithm is used to compute the AoD vector. This algorithm minizes the difference between the estimation and ground truth CSI. A regular MUSIC algorithm requires Alice to measure the CSI with a sufficient number of antenna modes during the training phase in order to solve for the AoD. However, this significantly limits the number of available antenna modes for data transmission.
+To further analyze the attenuation effects, the charactistics of the AoD vector $\mathbf h$ can be broken down into two components: a magnitude and phase. This can be modeled as follows:
+
+$$\mathbf h = |\mathbf h|e^{-\theta}$$
+
+where $|\mathbf h|$ is the magnitude of the AoD vector and $\theta$ is the phase of the vector. As the signal travels further (i.e. RX is farther from the TX), the magnitude of the transmission decreases. The phase, too, depends on the distance the RX is from the TX. Keeping magnitude constant, the phase will change the transmission pattern every wavelength of the signal. Combining the two characteristics together, we observe a pattern similar to the one in Figure 1 below.
+
+{{< figure library="true" numbered="true" src="attenuation.png" title="Attenuation example." >}}
+
+To solve the CSI model, the MUSIC (Multiple Signal Classification) algorithm is used to compute the AoD vector. This algorithm minimizes the difference between the estimation and ground truth CSI. A regular MUSIC algorithm requires Alice to measure the CSI with a sufficient number of antenna modes during the training phase in order to solve for the AoD. However, this significantly limits the number of available antenna modes for data transmission. 
 
 To reduce the number of antenna modes used during training, and consequently increasing the number of antenna modes for data transmission, the problem is converted into a regularized underdetermined LP with less equations than the unknowns. This problem is then solved with a compressive sensing technique.
 
 With the computed AoD, Alice will be able to predict $\mathbf H$ during transmission and sends the product of the inverse of $\mathbf H$ multiplied to $\mathbf X$ in order to pre-equalize the channel for Bob.
+
+By itself, this model is vulnerable to eavesdropping from an adversary (Eve) with multi-antennas. With multiple antennas, the eavesdropper will be able to generate more than one channel models, increasing their spacial diversity. Providing more degrees of freedom will enable Eve to determine which bits of the transmission are being jammed through iJam. Thus, the idea to introduce channel randomization to along with iJam was conceived.
 
 ### Implementation and Experimentation
 (Alvin)
@@ -291,8 +300,7 @@ The important points to look at in these results is the measured vs predicted ch
 (Samson)
 iJam with Channel Randomization successfully achieves to protect key bits from multi-antenna eavesdroppers by creating an artificially fast-fading channel effect. This work demonstrates an improved approach to the existing iJam method who utilizes a jamming method to randomly jam one of two duplicated bits. However, iJam is found to be vulnerable to multi-antenna eavesdroppers who can utilize the spatial diversity to calculate the channel effect of the pilot symbols. Therefore, we propose a defense mechanism against such attacks by combining a channel randomization with a prediction-based channel equalization.
 
-The channel randomization technique leverages a mechanically reconfigurable antenna that rotates to rapidly change the channel state information during transmission. The angle-of-departure (AoD) based channel estimation is used to cancel its effects for the intended receiver, and the pilot vulnerability exploited by an eavesdropper is now eliminated with our CSI channel estimation mechanism, which this allows Alice to predict and pre-equalize the channel effect for Bob. As a result, a secure establishment is created between the transmitter and reviver, while the eavesdropper views an unstable channel.
-
+The channel randomization technique leverages a mechanically reconfigurable antenna that rotates to rapidly change the channel state information during transmission. The angle-of-departure (AoD) based channel estimation is used to cancel its effects for the intended receiver, and the pilot vulnerability exploited by an eavesdropper is now eliminated with our CSI channel estimation mechanism, which this allows Alice to predict and pre-equalize the channel effect for Bob. As a result, a secure establishment is created between the transmitter and receiver, while the eavesdropper views an unstable channel.
 
 #### Equipment
 - Alice
