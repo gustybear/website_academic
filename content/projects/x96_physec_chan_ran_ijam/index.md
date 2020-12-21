@@ -178,7 +178,8 @@ The downfall to iJam is that it only works against single-antenna eavesdropper. 
 This is where we propose a defense mechanism against multi-antenna eavesdropper, iJam with channel randomization. This builds off of iJam and comes in two parts: precode the channel effect that we expect to see between the Alice and Bob, removing the need for pilot symbols, and to constantly rotate the transmitting antenna to create a constantly changing channel. In order to precode the channel effect, we develop a training model, or a angle-of-departure (AoD) estimation algorithm, to predict the channel effect, which is effective in a unchanging environment. Since we precode the channel effect on Alice's side, the receiving signal that Bob sees requires no further processing, and no longer needs pilot symbols to undo the channel effect. Since there are no longer any pilot symbols in the transmission, an eavesdropper can no longer calculate the channel effect between itself and Alice, thus unable to decipher the key symbols. As for the second part, we constantly rotate Alice's antenna, which in turn constantly changes the channel. In conjunction with the first part, our AoD estimation algorithm will be trained with the angles that we will use as we rotate, so we have a wide range of channels to use. We do this since in contrast, had we kept a constant channel by not rotating the antenna, an eavesdropper with enough time can decipher the channel effect and recover the key. By constantly changing the channel, an eavesdropper is unable to keep up and cannot determine the channel effect, securing the key transmission.
 
 ### Background
-(Brian)
+(Maile / Brian)
+You're writing about iJam and how it works, channel state information, and how iJam is vulnerable to multi-antenna setups
 
 ### Methodology
 (Willy)
@@ -211,13 +212,25 @@ With the computed AoD, Alice will be able to predict $\mathbf H$ during transmis
 By itself, this model is vulnerable to eavesdropping from an adversary (Eve) with multi-antennas. With multiple antennas, the eavesdropper will be able to generate more than one channel models, increasing their spacial diversity. Providing more degrees of freedom will enable Eve to determine which bits of the transmission are being jammed through iJam. Thus, the idea to introduce channel randomization to along with iJam was conceived.
 
 ### Implementation and Experimentation
-(Maile / Alvin)
+(Alvin)
+iJam with Channel Randomization was implemented by connecting various hardware components with Labview, which allows us to interface with each hardware component in order to perform our experiments. The implementation and experimentation we will be going over in detail with be of the 09/10/2020 experiment.
+
+The hardware used in this experiment are two high gain directional antennas (PE51082) for Bob and Eve, a rotating antenna (WAT5VJB) for Alice, a planar RF reflector, as well as USRPs (Ettus N210) for each antenna to generate and receive signals.
+In Labview, we are able to have Alice transmit either a randomized bitstream or a bitstream with all ones, and we can then view the received signal at both Bob's and Eve's end. Channel randomization can then be toggled, by taking the channel effect at the receiver side, and precodes it to Alice's signal. As an angle of departure algorithm has not yet been implemented, a temporary solution was used where we take the channel state information at the receiver and use that to precode the message.
+
+In the 09/10 experimentation, we ran with three scenarios. These scenarios are modeled in figures 1-3.
+
+The various scenarios were picked in order to determine whether we can view the reflected signal path when running the experiment, to verify that we are processing/receiving the data correctly. Along with this, the scenario allows us to determine what Eve, the eavesdropper sees when receiving the signal from Alice. We ran the experiment outdoors in as an open space as possible, to try and minimize signal reflection. It can be seen however, that in the experiment pictures there are buildings in the vicinity when running the experiment.
+
+The results of the experimentation can be seen in the following image gallery.
+
+The important points to look at in these results is the measured vs predicted channel state information magnitude (CSI). It can be seen that the measured CSI magnitudes correlates loosely with the predicted CSI magnitudes. This may be due to errors in the prediction method used or an unstable phase of the data. Then another point of interest is that of the ground truth vs estimated AoD vectors. In the circular plots it can be seen that for the scenarios with a higher RPM, that the estimated AoD vectors correlate less closely to the ground truth as compared to scenarios with a lower RPM. Then again with the difference that RPM makes, is that in sub scenarios with the same RPM (a & b), the measured CSI magnitude are similar to each other, whereas the one sub scenario (c) with a different, faster RPM, is visually different from the two other sub scenarios. This furthers our analysis in the difference of faster RPMs in the implementation of our algorithm, where faster RPMs, where they may provide a faster key transmission speed may have a lower stability.
 
 ### Conclusion
 (Samson)
 iJam with Channel Randomization successfully achieves to protect key bits from multi-antenna eavesdroppers by creating an artificially fast-fading channel effect. This work demonstrates an improved approach to the existing iJam method who utilizes a jamming method to randomly jam one of two duplicated bits. However, iJam is found to be vulnerable to multi-antenna eavesdroppers who can utilize the spatial diversity to calculate the channel effect of the pilot symbols. Therefore, we propose a defense mechanism against such attacks by combining a channel randomization with a prediction-based channel equalization.
 
-The channel randomization technique leverages a mechanically reconfigurable antenna that rotates to rapidly change the channel state information during transmission. The angle-of-departure (AoD) based channel estimation is used to cancel its effects for the intended receiver, and the pilot vulnerability exploited by an eavesdropper is now eliminated with our CSI channel estimation mechanism, which this allows Alice to predict and pre-equalize the channel effect for Bob. As a result, a secure establishment is created between the transmitter and reviver, while the eavesdropper views an unstable channel.
+The channel randomization technique leverages a mechanically reconfigurable antenna that rotates to rapidly change the channel state information during transmission. The angle-of-departure (AoD) based channel estimation is used to cancel its effects for the intended receiver, and the pilot vulnerability exploited by an eavesdropper is now eliminated with our CSI channel estimation mechanism, which this allows Alice to predict and pre-equalize the channel effect for Bob. As a result, a secure establishment is created between the transmitter and receiver, while the eavesdropper views an unstable channel.
 
 #### Equipment
 - Alice
