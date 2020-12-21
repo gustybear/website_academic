@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Enhancing Wireless Physcial-Layer Security with Channel Randomization"
 
 subtitle: "Spring, 2020"
@@ -179,8 +179,29 @@ This is where we propose a defense mechanism against multi-antenna eavesdropper,
 
 ### Background
 (Maile / Brian)
+You're writing about iJam and how it works, channel state information, and how iJam is vulnerable to multi-antenna setups
+
 ### Methodology
-(Willy)
+(Willy) To predict the CSI for different antenna modes without sending the pilots symbols, Alice computes the angle of departure vector (AoD) using a subset of antenna modes dedicated for training. This can be modeled as follows:
+
+$$\mathbf Y = \mathbf H\mathbf X + \mathbf N$$
+
+where $\mathbf Y$ is the signals received by Bob, $\mathbf H$ is the channel state information (CSI), $\mathbf X$ is the transmitted signal Alice trasmits, and $\mathbf N$ is the channel noise.
+
+$\mathbf H$ can be modeled as follows:
+
+the inner product between the area of departure (AoD) vector, $\mathbf h$, and the transmitter's (TX) antenna pattern, $a$. This can be represented in the following equation:
+
+$$\mathbf H = \sum a\mathbf h$$
+
+Each element in the AoD vector $\mathbf h$ represents the environment's attentuation effect on the TX signal in a specific direction. Within a short period of time, these elements do not change.
+
+To solve this model, the MUSIC (Multiple Signal Classification) algorithm is used to compute the AoD vector. This algorithm minizes the difference between the estimation and ground truth CSI. A regular MUSIC algorithm requires Alice to measure the CSI with a sufficient number of antenna modes during the training phase in order to solve for the AoD. However, this significantly limits the number of available antenna modes for data transmission.
+
+To reduce the number of antenna modes used during training, and consequently increasing the number of antenna modes for data transmission, the problem is converted into a regularized underdetermined LP with less equations than the unknowns. This problem is then solved with a compressive sensing technique.
+
+With the computed AoD, Alice will be able to predict $\mathbf H$ during transmission and sends the product of the inverse of $\mathbf H$ multiplied to $\mathbf X$ in order to pre-equalize the channel for Bob.
+
 ### Implementation and Experimentation
 (Alvin)
 iJam with Channel Randomization was implemented by connecting various hardware components with Labview, which allows us to interface with each hardware component in order to perform our experiments. The implementation and experimentation we will be going over in detail with be of the 09/10/2020 experiment.
