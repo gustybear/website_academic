@@ -209,6 +209,12 @@ iJam with Channel Randomization was implemented by connecting various hardware c
 The hardware used in this experiment are two high gain directional antennas (PE51082) for Bob and Eve, a rotating antenna (WAT5VJB) for Alice, a planar RF reflector, as well as USRPs (Ettus N210) for each antenna to generate and receive signals.
 In Labview, we are able to have Alice transmit either a randomized bitstream or a bitstream with all ones, and we can then view the received signal at both Bob's and Eve's end. Channel randomization can then be toggled, by taking the channel effect at the receiver side, and precodes it to Alice's signal. As an angle of departure algorithm has not yet been implemented, a temporary solution was used where we take the channel state information at the receiver and use that to precode the message.
 
+In the 09/10 experimentation, we ran with three scenarios. These scenarios are modeled in figures 1-3.
+
+The various scenarios were picked in order to determine whether we can view the reflected signal path when running the experiment, to verify that we are processing/receiving the data correctly. Along with this, the scenario allows us to determine what Eve, the eavesdropper sees when receiving the signal from Alice. We ran the experiment outdoors in as an open space as possible, to try and minimize signal reflection. It can be seen however, that in the experiment pictures there are buildings in the vicinity when running the experiment.
+
+The results of the experimentation
+
 ### Conclusion
 (Samson)
 iJam with Channel Randomization successfully achieves to protect key bits from multi-antenna eavesdroppers by creating an artificially fast-fading channel effect. This work demonstrates an improved approach to the existing iJam method who utilizes a jamming method to randomly jam one of two duplicated bits. However, iJam is found to be vulnerable to multi-antenna eavesdroppers who can utilize the spatial diversity to calculate the channel effect of the pilot symbols. Therefore, we propose a defense mechanism against such attacks by combining a channel randomization with a prediction-based channel equalization.
