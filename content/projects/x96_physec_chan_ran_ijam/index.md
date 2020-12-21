@@ -232,7 +232,6 @@ The channel randomization technique leverages a mechanically reconfigurable ante
 - RF reflector
   - Large corner, small corner, plane reflector.
 
-#### Procedure
 ***
 
 ## Figures
