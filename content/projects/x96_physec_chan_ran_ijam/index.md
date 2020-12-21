@@ -145,7 +145,11 @@ gallery_item:
 
 ---
 ***
-{{< gallery >}}
+## Presentation
+{{< youtube id="DPqoX8ZLRdo" >}}
+
+***
+
 ## Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
 
@@ -164,14 +168,20 @@ TMYTEK mmWave research initiative.
 ## Description
 
 ### Introduction
-Thomas
+(Thomas)
+When performing RF communication between a transmitter and receiver, the signal observes a channel effect, which is dependent on many factors, such as scattering, fading, and power decay as the distance increases. This means the signal sent by the transmitter will not be the signal received by the receiver. However, it is possible to undo this channel effect on the signal with the use of pilot symbols. By utilizing a universal truth where everyone knows what value the pilot symbols are and their position in the message, we can calculate the channel effect by dividing the received pilot symbols by the original pilot symbols, and using this value to remove the channel effect on our received signal.
 
+RF communication is unsecure however, as the tranmission is unencrypted and can easily be seen by an eavesdropper. To establish an encrypted communications channel, iJam, a key exchange protocol, was introduced such that a key can be exchanged over the RF channel. The iJam protocol requires the transmitter, Alice, to send each key symbol twice. The receiver, Bob, equipped with a second transmitting antenna, will randomly choose which key symbol to jam with his second antenna. Since Bob knows which of the two key symbols is being jammed, he can pick out the unjammed symbol, then reconstruct the key by accumulating the unjammed symbols. From an Eavesdropper, Eve's point of view, she is unsure which of the pair of key symbols is the jammed symbol and which is not, leading to a 50% chance of guessing which symbol is correct, effectively obscuring the key from others.
+
+The downfall to iJam is that it only works against single-antenna eavesdropper. With a multi-antenna setup, an eavesdropper can use the additional spatial diversity, the pilot symbols used to calculate the channel effect, and the unchanging channel between the legitimate transmitter and itself to equalize the channel between itself and the transmitter determine which of the two symbols is being jammed, therefore picking out the unjammed symbols and reconstructing the key.
+
+This is where we propose a defense mechanism against multi-antenna eavesdropper, iJam with channel randomization. This builds off of iJam and comes in two parts: precode the channel effect that we expect to see between the Alice and Bob, removing the need for pilot symbols, and to constantly rotate the transmitting antenna to create a constantly changing channel. In order to precode the channel effect, we develop a training model, or a angle-of-departure (AoD) estimation algorithm, to predict the channel effect, which is effective in a unchanging environment. Since we precode the channel effect on Alice's side, the receiving signal that Bob sees requires no further processing, and no longer needs pilot symbols to undo the channel effect. Since there are no longer any pilot symbols in the transmission, an eavesdropper can no longer calculate the channel effect between itself and Alice, thus unable to decipher the key symbols. As for the second part, we constantly rotate Alice's antenna, which in turn constantly changes the channel. In conjunction with the first part, our AoD estimation algorithm will be trained with the angles that we will use as we rotate, so we have a wide range of channels to use. We do this since in contrast, had we kept a constant channel by not rotating the antenna, an eavesdropper with enough time can decipher the channel effect and recover the key. By constantly changing the channel, an eavesdropper is unable to keep up and cannot determine the channel effect, securing the key transmission.
 
 ### Background
-Brian
+(Brian)
 
 ### Methodology
-To predict the CSI for different antenna modes without sending the pilots symbols, Alice computes the angle of departure vector (AoD) using a subset of antenna modes dedicated for training. This can be modeled as follows:
+(Willy) To predict the CSI for different antenna modes without sending the pilots symbols, Alice computes the angle of departure vector (AoD) using a subset of antenna modes dedicated for training. This can be modeled as follows:
 
 $$\mathbf Y = \mathbf H\mathbf X + \mathbf N$$
 
@@ -192,14 +202,19 @@ To reduce the number of antenna modes used during training, and consequently inc
 With the computed AoD, Alice will be able to predict $\mathbf H$ during transmission and sends the product of the inverse of $\mathbf H$ multiplied to $\mathbf X$ in order to pre-equalize the channel for Bob.
 
 ### Implementation and Experimentation
+(Maile / Alvin)
 
 ### Conclusion
-Samson
+(Samson)
+iJam with Channel Randomization successfully achieves to protect key bits from multi-antenna eavesdroppers by creating an artificially fast-fading channel effect. This work demonstrates an improved approach to the existing iJam method who utilizes a jamming method to randomly jam one of two duplicated bits. However, iJam is found to be vulnerable to multi-antenna eavesdroppers who can utilize the spatial diversity to calculate the channel effect of the pilot symbols. Therefore, we propose a defense mechanism against such attacks by combining a channel randomization with a prediction-based channel equalization.
+
+The channel randomization technique leverages a mechanically reconfigurable antenna that rotates to rapidly change the channel state information during transmission. The angle-of-departure (AoD) based channel estimation is used to cancel its effects for the intended receiver, and the pilot vulnerability exploited by an eavesdropper is now eliminated with our CSI channel estimation mechanism, which this allows Alice to predict and pre-equalize the channel effect for Bob. As a result, a secure establishment is created between the transmitter and reviver, while the eavesdropper views an unstable channel.
+
 
 #### Equipment
 - Alice
   - USRP node: Ettus N210
-  - Antenna(s)[decimeter ban]: WAT5VJB log-periodic (850-6500 MHz)
+  - Antenna(s)[decimeter band]: WAT5VJB log-periodic (850-6500 MHz)
   - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
 - Bob
   - USRP node: Ettus N210
