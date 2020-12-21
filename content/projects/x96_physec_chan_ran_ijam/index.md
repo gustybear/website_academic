@@ -178,11 +178,15 @@ The downfall to iJam is that it only works against single-antenna eavesdropper. 
 This is where we propose a defense mechanism against multi-antenna eavesdropper, iJam with channel randomization. This builds off of iJam and comes in two parts: precode the channel effect that we expect to see between the Alice and Bob, removing the need for pilot symbols, and to constantly rotate the transmitting antenna to create a constantly changing channel. In order to precode the channel effect, we develop a training model, or a angle-of-departure (AoD) estimation algorithm, to predict the channel effect, which is effective in a unchanging environment. Since we precode the channel effect on Alice's side, the receiving signal that Bob sees requires no further processing, and no longer needs pilot symbols to undo the channel effect. Since there are no longer any pilot symbols in the transmission, an eavesdropper can no longer calculate the channel effect between itself and Alice, thus unable to decipher the key symbols. As for the second part, we constantly rotate Alice's antenna, which in turn constantly changes the channel. In conjunction with the first part, our AoD estimation algorithm will be trained with the angles that we will use as we rotate, so we have a wide range of channels to use. We do this since in contrast, had we kept a constant channel by not rotating the antenna, an eavesdropper with enough time can decipher the channel effect and recover the key. By constantly changing the channel, an eavesdropper is unable to keep up and cannot determine the channel effect, securing the key transmission.
 
 ### Background
-(Brian)
+(Maile / Brian)
 ### Methodology
 (Willy)
 ### Implementation and Experimentation
-(Maile / Alvin)
+(Alvin)
+iJam with Channel Randomization was implemented by connecting various hardware components with Labview, which allows us to interface with each hardware component in order to perform our experiments. The implementation and experimentation we will be going over in detail with be of the 09/10/2020 experiment.
+
+The hardware used in this experiment are two high gain directional antennas (PE51082) for Bob and Eve, a rotating antenna (WAT5VJB) for Alice, a planar RF reflector, as well as USRPs (Ettus N210) for each antenna to generate and receive signals.
+In Labview, we are able to have Alice transmit either a randomized bitstream or a bitstream with all ones, and we can then view the received signal at both Bob's and Eve's end. Channel randomization can then be toggled, by taking the channel effect at the receiver side, and precodes it to Alice's signal. As an angle of departure algorithm has not yet been implemented, a temporary solution was used where we take the channel state information at the receiver and use that to precode the message.
 
 ### Conclusion
 (Samson)
