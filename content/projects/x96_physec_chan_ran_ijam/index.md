@@ -140,13 +140,81 @@ gallery_item:
    image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3706.jpg
    caption: Interfacing with the software used in the experiment.
  - album: gallery
-   image:  https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3702.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3702.jpg
    caption: Team picture!
+ - album: scenario
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/scenario1.png
+   caption: Layout of experiment of Scenario 3
+ - album: scenario
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/scenario2.png
+   caption: Layout of experiment of Scenario 4
+ - album: scenario
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/scenario3.png
+   caption: Layout of experiment of Scenario 5
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03a.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 3a
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03b.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 3b
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03c.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 3c
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs04a.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 4a
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs04v.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 4b
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs04c.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 4c
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs05a.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 5a
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs05b.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 5b
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs05c.png
+   caption: Ground Truth vs Estimate AoD Vector Scenario 5c
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs03a.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 3a
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs03b.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 3b
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs03c.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 3c
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs04a.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 4a
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs04b.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 4b
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs04c.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 4c
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs05a.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 5a
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs05b.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 5b
+ - album: experiment
+   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs05c.png
+   caption: Measured vs Predicted CSI Magnitude Scenario 5c
+
 
 ---
 ***
 ## Presentation
 {{< youtube id="DPqoX8ZLRdo" >}}
+
+***
+## Gallery
+{{< gallery >}}
 
 ***
 
@@ -210,10 +278,12 @@ The hardware used in this experiment are two high gain directional antennas (PE5
 In Labview, we are able to have Alice transmit either a randomized bitstream or a bitstream with all ones, and we can then view the received signal at both Bob's and Eve's end. Channel randomization can then be toggled, by taking the channel effect at the receiver side, and precodes it to Alice's signal. As an angle of departure algorithm has not yet been implemented, a temporary solution was used where we take the channel state information at the receiver and use that to precode the message.
 
 In the 09/10 experimentation, we ran with three scenarios. These scenarios are modeled in figures 1-3.
+{{< gallery album="scenario" >}}
 
 The various scenarios were picked in order to determine whether we can view the reflected signal path when running the experiment, to verify that we are processing/receiving the data correctly. Along with this, the scenario allows us to determine what Eve, the eavesdropper sees when receiving the signal from Alice. We ran the experiment outdoors in as an open space as possible, to try and minimize signal reflection. It can be seen however, that in the experiment pictures there are buildings in the vicinity when running the experiment.
 
 The results of the experimentation can be seen in the following image gallery.
+{{< gallery album="experiment" >}}
 
 The important points to look at in these results is the measured vs predicted channel state information magnitude (CSI). It can be seen that the measured CSI magnitudes correlates loosely with the predicted CSI magnitudes. This may be due to errors in the prediction method used or an unstable phase of the data. Then another point of interest is that of the ground truth vs estimated AoD vectors. In the circular plots it can be seen that for the scenarios with a higher RPM, that the estimated AoD vectors correlate less closely to the ground truth as compared to scenarios with a lower RPM. Then again with the difference that RPM makes, is that in sub scenarios with the same RPM (a & b), the measured CSI magnitude are similar to each other, whereas the one sub scenario (c) with a different, faster RPM, is visually different from the two other sub scenarios. This furthers our analysis in the difference of faster RPMs in the implementation of our algorithm, where faster RPMs, where they may provide a faster key transmission speed may have a lower stability.
 
