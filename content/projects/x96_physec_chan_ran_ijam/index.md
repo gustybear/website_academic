@@ -179,6 +179,7 @@ This is where we propose a defense mechanism against multi-antenna eavesdropper,
 
 ### Background
 (Brian)
+You're writing about iJam and how it works, channel state information, and how iJam is vulnerable to multi-antenna setups
 
 ### Methodology
 (Willy) To predict the CSI for different antenna modes without sending the pilots symbols, Alice computes the angle of departure vector (AoD) using a subset of antenna modes dedicated for training. This can be modeled as follows:
