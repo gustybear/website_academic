@@ -11,7 +11,7 @@ user_groups:
 - Graduate
 
 # Role/position
-role: M.S., Employee of
+role: M.S., Employee of Burns & McDonnell
 
 # Organizations/Affiliations.
 organizations:
@@ -22,9 +22,10 @@ organizations:
 
 # List your academic interest
 interests:
-- Microwave Electronics
-- Wireless Communications
+- Power Systems
 - Network Security
+- Wireless Communications
+- Microwave Electronics
 
 # List your qualifications (such as academic degrees).
 education:
