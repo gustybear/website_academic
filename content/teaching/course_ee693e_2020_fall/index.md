@@ -1,48 +1,63 @@
-+++
-title = "EE693e: Selected Topics in Wireless Security"
-subtitle = "Fall, 2020"
-date = 2020-08-23T20:07:39-10:00
-lastmod = 2020-08-23T20:07:39-10:00
-draft = false
-featured = false
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
 
-# tags and categories
-# for example, use `tags = []` for no tags, or the form `tags = ["a tag", "another tag"]` for one or more tags.
-tags = ["wireless security", "current", "featured"]
-categories = []
+title: "EE693e: Selected Topics in Wireless Security"
 
-# featured image
-# to use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # caption (optional)
-  caption = ""
+subtitle: "Fall, 2020"
 
-  # focal point (optional)
-  # options: smart, center, topleft, top, topright, left, right, bottomleft, bottom, bottomright
-  focal_point = ""
-  preview_only = true
-+++
+summary: "The Fall 2020 iteration of EE693e studies the proceeding of ACM WiSec 2020."
+
+date: 2020-08-23T20:07:39-10:00
+lastmod: 2020-08-23T20:07:39-10:00
+featured: false
+draft: false
+
+authors:
+- Yao Zheng
+
+tags:
+- wireless security
+- current
+- featured
+
+categories: []
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
 ***
-## Abstract
+# Abstract
 
 this course focuses on selected research topics of current interest in wireless security and is intended for undergraduate, master, or doctoral students who are interested in wireless security. at the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems in wireless security, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. main topics of interests include: pairing, authentication, access control, wireless sensing and localization, jamming and anti-jamming, security analysis of wireless applications, hardware/firmware, side-channel analysis, iot privacy, wireless fingerprinting, location privacy, and security in (future) cellular networks.
 
 ***
-## Acknowledgement
+# Acknowledgement
 This course is developed with the materials provided by ACM WiSec
 2020, and the supports of University of Hawaii at Manoa
 Coronavirus Aid, Relief and Economic Security (CARES) grant, 
 NSF grants DGE-1662487, CNS-1948568.
 
 ***
-## Textbook
+# Textbook
 - required: [wisec '20: proceedings of the 13th acm conference on security and
   privacy in wireless and mobile
   networks](https://dl.acm.org/doi/proceedings/10.1145/3395351), by acm. [online access](https://wisec2020.ins.jku.at/program/)
 
 
 ***
-## Logistics
+# Logistics
 - *lecturer*: [yao zheng](mailto:yao.zheng@hawaii.edu) et al.
 - *lecture*: mondays wednesday 9:00am-10:15am,
   virtual via [zoom](https://hawaii.zoom.us/j/5764842348).
@@ -53,12 +68,12 @@ NSF grants DGE-1662487, CNS-1948568.
 
 ***
 
-## Policies
+# Policies
 - *presenter*: you may work in teams of two or three. each team will be assigned with two topics (four papers). each team needs to complete two tasks on each paper: (1) give a in-depth presentation (60 min) and answer all the questions during the q&a (15 min); (2) write a one-page (excluding citations) summary of the paper (in ieee conference format).
 - *audience*: you must work alone and complete the following tasks for each presentation: (1) watch the conference presentation that accompanies the paper; (2) prepare at least one relevent question for the presenter; (3) grade the presenter's presentation and report. 
 ***
 
-## Schedule
+# Schedule
 | time                     | lecture/presentations                | presenter                             | papers                                                                       | video/slides                                                                                 | report                    |
 | ---                      | ---                                  | ---                                   | ---                                                                          | ---                                                                                          | ---                       |
 | Week 01 (Aug 24, 26)     | Course logistic                      | Yao Zheng                             | ---                                                                          | ---                                                                                          | ---                       |

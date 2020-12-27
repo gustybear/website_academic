@@ -2,14 +2,16 @@
 # Display name
 title: Yao Zheng
 
-# Display name (this should match the folder name)
-authors: Yao Zheng
-
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
 role: Assistant Professor
+  
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+- Faculty
 
 # Organizations/Affiliations.
 organizations:
@@ -25,8 +27,9 @@ bio: My research interests mainly focus on wireless communication and cybersecur
 
 # List your academic interest
 interests:
-- Wireless Communication
-- Cybersecurity
+- Wireless Comm.
+- Wireless Sensing
+- Wireless Security
 
 # List your qualifications (such as academic degrees).
 education:
@@ -50,26 +53,28 @@ social:
 - icon: cv
   icon_pack: ai
   link: https://s3-us-west-2.amazonaws.com/gustybear-websites/about_0000_00_00_zheng_y/docs/regular_cv/zheng_y_regular_cv.pdf
+
 - icon: zotero
   icon_pack: ai
   link: https://www.zotero.org/gustybear/
+
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=0nk3blkAAAAJ&hl=en
+
 - icon: github
   icon_pack: fab
   link: https://github.com/gustybear
+
 - icon: envelope
   icon_pack: fa
   link: mailto:yao.zheng@hawaii.edu
 
-# Enter email for Contact widget or Gravatar
-email: ""
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Faculty
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: mailto:yao.zheng@hawaii.edu
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
-I am an Assistant Professor at Department of Electrical Engineering, University of Hawaiʻi at Mānoa. My research interests mainly focus on wireless communication and cybersecurity.
+I am an Assistant Professor at Department of Electrical Engineering, University of Hawaiʻi at Mānoa. My research interests mainly focus on wireless communication, wireless sensing, and wireless security.

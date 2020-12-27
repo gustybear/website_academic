@@ -1,38 +1,40 @@
-+++
-title = "Dylan Anthony"
-
+---
 # Display name
-
-authors = "Dylan Anthony"
+title: Dylan Anthony
 
 # Is this the primary user of the site?
-
-superuser = false
-
-# User group
-
-user_groups = ["Undergraduate"]
+superuser: false
 
 # Role/position
+role: M.S. LOA
 
-role = "Senior, B.S."
+# User group
+user_groups:
+- Graduate LOA
 
 # Organizations/Affiliations.
-
-# Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-
-organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"} ]
+organizations:
+- name: University of Hawaiʻi at Mānoa
+  url: http://manoa.hawaii.edu/
+- name: Department of Electrical Engineering
+  url: http://www.ee.hawaii.edu/
+- name: Wireless and Cybersecurity Laboratory
+  url: facility/wls_cysec_lab
 
 # List your academic interests.
 
-interests = [ "Control Systems", "Optimizations" ]
+interests:
+- Wireless Security
+- Control Systems
+- Optimizations
 
 # List your qualifications (such as academic degrees).
 
-[[education.courses]]
-  course = "B.S. student in Computer Engineering"
-  institution = "University of Hawaiʻi at Mānoa" 
-  year = 2020
+education:
+  courses:
+  - course: B.S. in Computer Engineering
+    institution: University of Hawaiʻi at Mānoa
+    year: 2020
 
 # Social/Academic Networking
 
@@ -42,18 +44,19 @@ interests = [ "Control Systems", "Optimizations" ]
 
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]] 
-  icon = "zotero"
-  icon_pack = "ai"
-  link = "https://www.zotero.org/daanthony/"
+social: 
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/daanthony/
+  
+- icon: github
+  icon_pack: fab
+  link: https://github.com/AlvinYang101
 
-[[social]] 
-  icon = "envelope"
-  icon_pack = "fa" 
-  link = "mailto:danthony@hawaii.edu"
-+++
+  icon: envelope
+  icon_pack: fa
+  link: mailto:danthony@hawaii.edu
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 
-I am currently an undergraduate student going into my senior semester of Electrical Engineering. I am interested in Control theroy, and optimizations. I am expected to graduate in Fall 2020, and I may  have plans to pursue a Masters Degree in Electrical Engineering, with a focus on control theory.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2Nzg4MzBdfQ==
--->
+---

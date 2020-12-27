@@ -1,38 +1,39 @@
-+++
-title = "Maile Kennaugh"
-
+---
 # Display name
-
-authors = "Maile Kennaugh"
+title: Maile Kennaugh
 
 # Is this the primary user of the site?
-
-superuser = false
-
-# User group
-
-user_groups = ["Undergraduate"]
+superuser: false
 
 # Role/position
+role: B.S. (2020)
 
-role = "Senior, B.S."
+# User group
+user_groups:
+- Alumni
 
 # Organizations/Affiliations.
-
-# Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-
-organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"} ]
+organizations:
+- name: University of Hawaiʻi at Mānoa
+  url: http://manoa.hawaii.edu/
+- name: Department of Electrical Engineering
+  url: http://www.ee.hawaii.edu/
+- name: Wireless and Cybersecurity Laboratory
+  url: facility/wls_cysec_lab
 
 # List your academic interests.
 
-interests = [ "Power Systems", "Microelectronics", "FPGAs" ]
+interests:
+- Power Systems
+- Microelectronics
+- FPGAs
 
 # List your qualifications (such as academic degrees).
-
-[[education.courses]]
-  course = "B.S. student in Electrical Engineering"
-  institution = "University of Hawaiʻi at Mānoa" 
-  year = 2020
+education:
+  courses:
+  - course: B.S. in Computer Engineering
+    institution: University of Hawaiʻi at Mānoa
+    year: 2020
 
 # Social/Academic Networking
 
@@ -42,19 +43,13 @@ interests = [ "Power Systems", "Microelectronics", "FPGAs" ]
 
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-  
-[[social]] 
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/mailegd"
+social:
+- icon: github
+  icon_pack: fab
+  link: https://github.com/mailegd
 
-[[social]] 
-  icon = "envelope"
-  icon_pack = "fa" 
-  link = "mailto:mailegd@hawaii.edu"
-+++
+- icon: envelope
+  icon_pack: fa
+  link: mailto:mailegd@hawaii.edu
 
-I am a student at the University of Hawaii at Manoa pursuing a degree in Electrical Engineering Systems track, expecting to graduate in Fall 2020. I have interests in Power Systems and FPGAs.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2Nzg4MzBdfQ==
--->
+---

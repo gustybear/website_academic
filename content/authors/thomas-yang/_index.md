@@ -1,38 +1,46 @@
-+++
-title = "Thomas Yang"
-
+---
 # Display name
-
-authors = "Thomas Yang"
+title: Thomas Yang
 
 # Is this the primary user of the site?
-
-superuser = false
+superuser: false
 
 # User group
-
-user_groups = ["Undergraduate"]
+user_groups:
+- Alumni
 
 # Role/position
+role: B.S., join Nalu Scientific (2020)
 
-role = "Senior, B.S."
+# User group
+user_groups:
+- Alumni
 
 # Organizations/Affiliations.
-
-# Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-
-organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"} ]
-
+organizations:
+- name: University of Hawaiʻi at Mānoa
+  url: http://manoa.hawaii.edu/
+- name: Department of Electrical Engineering
+  url: http://www.ee.hawaii.edu/
+- name: Wireless and Cybersecurity Laboratory
+  url: facility/wls_cysec_lab
 # List your academic interests.
 
-interests = [ "Physical Layer Security", "Mobile Payment & Fraud", "Algorithms", "Artificial Intelligence", "Computer Architecture", "Circuit Design", "FPGA Development"]
+interests:
+- Wireless Physical Layer Security
+- Mobile Payment & Fraud
+- Algorithms
+- Artificial Intelligence
+- Computer Architecture
+- Circuit Design
+- FPGA Development
 
 # List your qualifications (such as academic degrees).
-
-[[education.courses]]
-  course = "B.S. student in Computer Engineering"
-  institution = "University of Hawaiʻi at Mānoa" 
-  year = 2020
+education:
+  courses:
+  - course: B.S. in Computer Engineering
+    institution: University of Hawaiʻi at Mānoa
+    year: 2020
 
 # Social/Academic Networking
 
@@ -42,21 +50,23 @@ interests = [ "Physical Layer Security", "Mobile Payment & Fraud", "Algorithms",
 
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]] 
-  icon = "zotero"
-  icon_pack = "ai"
-  link = "https://www.zotero.org/thomasy4/"
+social:
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/thomasy4/
 
-[[social]] 
-  icon = "envelope"
-  icon_pack = "fa" 
-  link = "mailto:thomasy4@hawaii.edu"
+- icon: envelope
+  icon_pack: fa
+  link: mailto:thomasy4@hawaii.edu
   
-[[social]] 
-  icon = "github"
-  icon_pack = "fab" 
-  link = "https://toomasyang.github.io"
-+++
+- icon: github
+  icon_pack: fab
+  link: https://toomasyang.github.io
 
-I am currently a Senior undergraduate student in Computer Engineering at the University of Hawaiʻi at Mānoa, and expect to graduate in Fall 2020. I am interested in physical layer security and its developments in mmWave communications and 5G.  
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: mailto:thomasy4@hawaii.edu
 
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+---

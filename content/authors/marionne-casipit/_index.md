@@ -1,38 +1,43 @@
-+++
-title = "Marionne Casipit"
-
+---
 # Display name
-
-authors = "Marionne Casipit"
+title: Marionne Casipit
 
 # Is this the primary user of the site?
-
-superuser = false
+superuser: false
 
 # User group
 
-user_groups = ["Graduate"]
+user_groups:
+- Graduate
+- Class Staff
 
 # Role/position
-
-role = "M.S."
+role: M.S.
 
 # Organizations/Affiliations.
-
-# Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-
-organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"} ]
+organizations:
+- name: University of Hawaiʻi at Mānoa
+  url: http://manoa.hawaii.edu/
+- name: Department of Electrical Engineering
+  url: http://www.ee.hawaii.edu/
+- name: Wireless and Cybersecurity Laboratory
+  url: facility/wls_cysec_lab
 
 # List your academic interests.
 
-interests = [ "Computer Architecture", "Embedded Systems", "FPGAs"]
+interests:
+- Wireless Security
+- Computer Architecture
+- Embedded Systems
+- FPGAs
+
 
 # List your qualifications (such as academic degrees).
-
-[[education.courses]]
-  course = "B.S. student in Computer Engineering"
-  institution = "University of Hawaiʻi at Mānoa" 
-  year = 2020
+education:
+  courses:
+  - course: B.S. in Computer Engineering
+    institution: University of Hawaiʻi at Mānoa
+    year: 2020
 
 # Social/Academic Networking
 
@@ -43,19 +48,12 @@ interests = [ "Computer Architecture", "Embedded Systems", "FPGAs"]
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
   
-[[social]] 
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/marionne"
-
-[[social]] 
-  icon = "envelope"
-  icon_pack = "fa" 
-  link = "mailto:marionne@hawaii.edu"
-+++
-
-I am currently an undergraduate student in the Computer Engineering track, and I am expected to graduate in Spring 2020.
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2Nzg4MzBdfQ==
--->
+social: 
+- icon: zotero
+  icon_pack: ai
+  link: https://github.com/marionne
+  
+- icon: github
+  icon_pack: fab
+  link: mailto:marionne@hawaii.edu
+---

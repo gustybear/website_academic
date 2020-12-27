@@ -2,14 +2,16 @@
 # Display name
 title: David Liang
 
-# Display name (this should match the folder name)
-authors: David Liang
-
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
 role: M.S.
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+- Collaborator
 
 # Organizations/Affiliations.
 organizations:
@@ -55,10 +57,7 @@ social:
 # Enter email for Contact widget or Gravatar
 email: ""
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Graduate
----
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 
-I am currently pursuing my Master's of Electrical Engineering at the University of Hawaiʻi at Mānoa.
+---

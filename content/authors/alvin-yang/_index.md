@@ -1,38 +1,38 @@
-+++
-title = "Alvin Yang"
-
+---
 # Display name
-
-authors = "Alvin Yang"
+title: Alvin Yang
 
 # Is this the primary user of the site?
-
-superuser = false
-
-# User group
-
-user_groups = ["Undergraduate"]
+superuser: false
 
 # Role/position
+role: B.S., OGS, (2020)
 
-role = "Senior, B.S."
+# User group
+user_groups:
+- Alumni
 
 # Organizations/Affiliations.
-
-# Separate multiple entries with a comma, using the form: [ {name="Org1", url=""}, {name="Org2", url=""} ].
-
-organizations = [ { name = "University of Hawaiʻi at Mānoa", url = "http://manoa.hawaii.edu/" }, { name = "Department of Electrical Engineering", url = "http://www.ee.hawaii.edu/"} ]
+organizations:
+- name: University of Hawaiʻi at Mānoa
+  url: http://manoa.hawaii.edu/
+- name: Department of Electrical Engineering
+  url: http://www.ee.hawaii.edu/
+- name: Wireless and Cybersecurity Laboratory
+  url: facility/wls_cysec_lab
 
 # List your academic interests.
-
-interests = [ "Machine Learning", "Data Analysis", "Computer Design", "AI" ]
+interests:
+- Wireless Sensing
+- Wireless Security
+- Machine Learning
 
 # List your qualifications (such as academic degrees).
-
-[[education.courses]]
-  course = "B.S. student in Computer Engineering"
-  institution = "University of Hawaiʻi at Mānoa" 
-  year = 2020
+education:
+  courses:
+  - course: B.S. in Computer Engineering
+    institution: University of Hawaiʻi at Mānoa
+    year: 2020
 
 # Social/Academic Networking
 
@@ -42,23 +42,23 @@ interests = [ "Machine Learning", "Data Analysis", "Computer Design", "AI" ]
 
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]] 
-  icon = "zotero"
-  icon_pack = "ai"
-  link = "https://www.zotero.org/alvin101/"
+social: 
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/alvin101/
   
-[[social]] 
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/AlvinYang101"
+- icon: github
+  icon_pack: fab
+  link: https://github.com/AlvinYang101
 
-[[social]] 
-  icon = "envelope"
-  icon_pack = "fa" 
-  link = "mailto:ayang27@hawaii.edu"
-+++
+  icon: envelope
+  icon_pack: fa
+  link: mailto:ayang27@hawaii.edu
 
-I am a student at the University of Hawaii at Manoa pursuing a Computer Engineering track, expecting to graduate in Fall 2020. I have interests in machine learning involving AI and data analysis.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2Nzg4MzBdfQ==
--->
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: mailto:ayang27@hawaii.edu
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+---

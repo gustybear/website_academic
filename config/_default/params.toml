@@ -69,7 +69,7 @@ diagram = false
 privacy_pack = false
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false, projects=true}}
+edit_page = {repo_url = "", content_dir = "", repo_branch = "master", editable = {docs = false, page = false, post = false, projects= false}}
 
 ############################
 ## Contact details
@@ -95,7 +95,7 @@ directions = "Take the elevator at the Leahi (Diamond Head) side of Holmes Hall.
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 # office_hours = "Mondays and Wednesdays 14:00PM - 16:00PM"
-office_hours = "Mondays 14:30PM - 16:00PM"
+office_hours = "Mondays 14:00PM - 16:00PM"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com/yaozheng/office_hours"
