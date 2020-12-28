@@ -11,6 +11,7 @@ role: B.S. (2020)
 # User group
 user_groups:
 - Alumni
+- Class of 2020
 
 # Organizations/Affiliations.
 organizations:

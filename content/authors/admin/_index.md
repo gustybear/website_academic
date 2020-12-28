@@ -23,7 +23,7 @@ organizations:
   url: facility/wls_cysec_lab
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests mainly focus on wireless communication and cybersecurity.
+# bio: My research interests mainly focus on wireless communication and cybersecurity.
 
 # List your academic interest
 interests:

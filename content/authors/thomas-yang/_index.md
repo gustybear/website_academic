@@ -15,6 +15,7 @@ role: B.S., join Nalu Scientific (2020)
 # User group
 user_groups:
 - Alumni
+- Class of 2020
 
 # Organizations/Affiliations.
 organizations:

@@ -7,15 +7,14 @@ subtitle: "EEx96, Fall, 2020"
 summary: "This EEx96 project implements iJam with channel randomization: a physical-layer key establishment protocol robust to wireless eavesdropping."
 
 tags:
-- eex96
 - physical layer security
 - channel randomization
 - reconfigurable antenna
-- iJam
+- ijam
 - labview
 - sdr
-- current
-- featured
+- active project
+- active eex96 project
 
 date: 2020-01-10T00:00:00-10:00
 

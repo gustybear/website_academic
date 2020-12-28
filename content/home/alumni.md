@@ -7,23 +7,23 @@ widget: people
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 91
 
-title: Team
+title: Alumni
 subtitle: ''
 
 content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    - Principal Investigators
-    - Researchers
+    # - Principal Investigators
+    # - Researchers
     # - Class Staff
-    - Graduate
-    - BAM
-    - Undergraduate 
-    - Visitors
-    # - Alumni
+    # - Graduate
+    # - BAM
+    # - Undergraduate 
+    # - Visitors
+    - Class of 2020
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -38,6 +38,3 @@ design:
   # Show user's organizations/affiliations?
   show_organizations: false
 ---
-{{% callout note %}}
-Graduate research assistant (GRA) position(s) availabe. [Contact me](./#contact) with your CV for an interview.
-{{% /callout %}}

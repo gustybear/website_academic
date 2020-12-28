@@ -6,12 +6,12 @@ title: Willy Chang
 superuser: false
 
 # Role/position
-role: B.S. to M.S.
+role: B.A.M., RA
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- BAM
+- Undergraduate
 
 # Organizations/Affiliations.
 organizations:

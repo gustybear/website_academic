@@ -10,8 +10,9 @@ authors:
 tags:
 - mmwave
 - network
-- current
-- featured
+- invasive species
+- remote sensing
+- active grant
 
 summary: "CNS-1948568, $174,911.00, PI"
 

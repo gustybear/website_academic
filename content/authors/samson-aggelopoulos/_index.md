@@ -11,7 +11,7 @@ user_groups:
 
 # Role/position
 
-role: B.S., URA
+role: B.S., RA
 
 # Organizations/Affiliations.
 organizations:

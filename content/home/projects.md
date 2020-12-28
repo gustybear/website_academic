@@ -28,11 +28,11 @@ content:
   # - name: Seminars
   #   tag: seminars
   - name: All
-    tag: featured
+    tag: active project
   - name: Research
-    tag: research
+    tag: active research project
   - name: EEx96
-    tag: eex96
+    tag: active eex96 project
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

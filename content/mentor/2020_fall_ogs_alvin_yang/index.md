@@ -5,7 +5,7 @@ title: "Outstanding Graduate Senior, Fall 2020"
 
 subtitle: "Alvin Yang"
 
-summary: "Congratulate to Mr. Alvin Yang (left three) to be awarded the
+summary: "Congratulation to Alvin Yang (left three) to be awarded the
 outstanding graduate senior in the Department of Electrical Engineering, Fall
 2020."
 

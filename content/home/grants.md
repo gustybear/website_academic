@@ -26,10 +26,10 @@ content:
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
   
-  - name: Current
-    tag: current
+  - name: Active
+    tag: active grant
   - name: All
-    tag: featured
+    tag: "*"
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

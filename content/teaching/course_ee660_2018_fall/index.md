@@ -4,7 +4,7 @@ subtitle = "Fall, 2018, with labs"
 date = 2018-08-19T00:00:00-10:00
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["digital design", "fpga", "featured"]
+tags = ["digital design", "fpga", "offered course"]
 +++
 
 ***

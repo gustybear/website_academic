@@ -1,11 +1,27 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "2020_gsh_stem_festival"
+title: "STEM Fest Virtual, Girl Scouts of Hawaii, 2020"
 subtitle: ""
-summary: ""
-authors: []
-tags: []
+summary: "Congratulation to the EEx96 undergraduate research group on
+presenting their harmonic radar-based tracking system for coconut rhinoceros beetle (CRB) monitoring, featured in the Girl Scouts of Hawaii's 2020 STEM festival."
+authors:
+- Samson Aggelopoulos
+- Willy Chang
+- Maile Kennaugh
+- Brian Lu
+- Matthew Sahara
+- Alvin Yang
+- Thomas Yang
+- Yao Zheng
+
+tags:
+- outreach
+- k-12
+- wireless sensing
+- radar
+- invasive species
+
 categories: []
 date: 2020-12-23T11:28:43-10:00
 lastmod: 2020-12-23T11:28:43-10:00
