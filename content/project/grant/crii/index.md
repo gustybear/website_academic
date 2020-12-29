@@ -4,15 +4,16 @@ date: 2020-05-01T00:00:00-10:00
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-authors:
-- Yao Zheng
-
 tags:
 - mmwave
 - network
 - invasive species
 - remote sensing
+- grant
 - active grant
+
+authors:
+- Yao Zheng
 
 summary: "CNS-1948568, $174,911.00, PI"
 
@@ -23,11 +24,22 @@ summary: "CNS-1948568, $174,911.00, PI"
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
   placement: 3
-  caption: "Model ROBin with a semideterministic wiretap channel model"
+  caption: ""
   focal_point: "Center"
   preview_only: true
   alt_text: " "
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+links:
+- name: 'paper'
+  url: 'https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view'
+- name: 'paper'
+  url: 'https://api.zotero.org/users/3468578/publications/items/DMYQ96PG/file/view'
 ---
+# Abstract
 The growing data resolution in remote sensing spurs the adoption of millimeter-wave (mmWave) communication modules on energy-harvesting devices to increase the data delivery bandwidth. The energy conditions on these devices are not always satisfiable to initiate or maintain the mmWave links and require systems to be capable of anticipating communication failures and take preemptive actions to minimize energy expenditures. Fortunately, the environmental information provided by remote sensors contains sufficient knowledge to enable the design of such systems. The goal of this project is to develop algorithms and tools to exploit this information and augment the solar-harvesting remote invasive species monitoring system in the State of Hawaii with mmWave data delivery capability. The work in this project will enable researchers, industry, and students to realize high bandwidth real-time remote sensing with power-constrained devices in real-world applications. The results of this research will impact fields across scientific, industrial, and military interests, including agriculture, ecology, meteorology, infrastructure, and public utility monitoring, etc., where timely communication of high-resolution sensory data is essential.
 
 The fundamental intuition of the proposed approach is that environmental factors, such as weather conditions, signal blockages, can be recognized via the inherent capability or interactions between the remote sensors. Knowledge of these factors can be utilized to optimize device awakening, beam scanning, and signal amplification, etc., at the physical layer. Three complimentary research thrusts are pursued: 1) extracting the correlation between solar harvesting conditions and mmWave signal attenuations; developing models and circuits to estimate the mmWave signal attenuations at specific solar conditions; 2) designing a distributed sensing architecture to detect mmWave beam blockage and accelerate beam alignment, by exploiting the low-power decimeter band communication implemented by the existing system; 3) formulating and solving a constrained route placement problem for an autonomous aerial data collector to optimize its mmWave signal reception as it maneuvers between sensor clusters and flight restricted regions. All products of this work will be made freely available to the research community, along with documentation and tutorials. The in-lab testbed to be established during the project will be made available online for remote testing. The hardware schematic of the sensor platform, deployment profiles, data traces, and important meta-data will be posted online to spur further use, test, and research to advance the field.

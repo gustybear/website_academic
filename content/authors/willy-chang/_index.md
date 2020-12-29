@@ -23,7 +23,7 @@ organizations:
   url: https://www.hsfl.hawaii.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in machine learning, image processing, and web development.
+# bio: I am interested in machine learning, image processing, and web development.
 
 # List your academic interest
 interests:

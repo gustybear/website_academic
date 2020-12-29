@@ -34,7 +34,9 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+- "research/x96_physec_chan_ran_ijam"
+
 publishDate: '2020-09-10T22:51:47.839027Z'
 publication_types:
 - 1
@@ -62,4 +64,18 @@ abstract: Physical-layer key generation methods utilize the variations of the co
 publication: '*Proceedings of the 13th ACM Conference on Security and Privacy in Wireless
   and Mobile Networks*'
 doi: 10.1145/3395351.3401705
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+url_pdf: 'https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view'
+url_code: ''
+url_dataset: 'https://github.com/gustybear-research/x96_physec_chan_ran'
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: 'https://www.youtube.com/watch?v=lMRiCmiHmb0'
 ---

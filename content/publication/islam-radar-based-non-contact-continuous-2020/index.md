@@ -1,5 +1,5 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+# Documentation: https://wowchemy.com/docs/managing-content/
 
 title: Radar-Based Non-Contact Continuous Identity Authentication
 subtitle: ''
@@ -9,10 +9,11 @@ authors:
 - Olga Borić-Lubecke
 - Yao Zheng
 - Victor M Lubecke
-tags: []
+tags:
+- '"journal"'
 categories: []
-date: '2020-07-15'
-lastmod: 2020-09-10T13:20:28-10:00
+date: '2020-07-01'
+lastmod: 2020-12-27T16:02:54-10:00
 featured: false
 draft: false
 
@@ -30,9 +31,24 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-10T23:20:21.314648Z'
+publishDate: '2020-12-28T02:02:53.433878Z'
 publication_types:
 - 2
-abstract: ''
+abstract: Non-contact vital signs monitoring using microwave Doppler radar has shown
+  great promise in healthcare applications. Recently, this unobtrusive form of physiological
+  sensing has also been gaining attention for its potential for continuous identity
+  authentication, which can reduce the vulnerability of traditional one-pass validation
+  authentication systems. Physiological Doppler radar is an attractive approach for
+  continuous identity authentication as it requires neither contact nor line-of-sight
+  and does not give rise to privacy concerns associated with video imaging. This paper
+  presents a review of recent advances in radar-based identity authentication systems.
+  It includes an evaluation of the applicability of different research efforts in
+  authentication using respiratory patterns and heart-based dynamics. It also identifies
+  aspects of future research required to address remaining challenges in applying
+  unobtrusive respiration-based or heart-based identity authentication to practical
+  systems. With the advancement of machine learning and artificial intelligence, radar-based
+  continuous authentication can grow to serve a wide range of valuable functions in
+  society.
 publication: '*Remote Sensing*'
+doi: 10.3390/rs12142279
 ---

@@ -12,7 +12,7 @@ user_groups:
 - Class Staff
 
 # Role/position
-role: M.S.
+role: M.S., TA
 
 # Organizations/Affiliations.
 organizations:

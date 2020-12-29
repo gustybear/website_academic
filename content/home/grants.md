@@ -14,7 +14,7 @@ subtitle: ''
 
 content:
   # Page type to display. E.g. project.
-  page_type: grants
+  page_type: project
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -29,7 +29,7 @@ content:
   - name: Active
     tag: active grant
   - name: All
-    tag: "*"
+    tag: "grant"
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

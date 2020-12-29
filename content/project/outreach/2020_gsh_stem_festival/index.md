@@ -3,8 +3,7 @@
 
 title: "STEM Fest Virtual, Girl Scouts of Hawaii, 2020"
 subtitle: ""
-summary: "Congratulation to the EEx96 undergraduate research group on
-presenting their harmonic radar-based tracking system for coconut rhinoceros beetle (CRB) monitoring, featured in the Girl Scouts of Hawaii's 2020 STEM festival."
+summary: "The EEx96 undergraduate research group presented their harmonic radar system for coconut rhinoceros beetle (CRB) tracking in the Girl Scouts of Hawaii's 2020 STEM festival."
 authors:
 - Samson Aggelopoulos
 - Willy Chang

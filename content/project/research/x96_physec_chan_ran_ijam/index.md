@@ -49,9 +49,12 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 url_pdf: ""
-url_slides: ""
+url_slides: "https://github.com/gustybear-research/x96_physec_chan_ran/blob/main/prst_2020_12_11/EE496%20poster%20session_%20iJam_chan_ran.pdf"
 url_poster: ""
 url_code: ""
+url_source: ''
+url_dataset: 'https://github.com/gustybear-research/x96_physec_chan_ran'
+url_video: 'https://www.youtube.com/watch?v=DPqoX8ZLRdo'
 
 # Markdown Slides (optional).
 #   Associate this project with Markdown slides.
