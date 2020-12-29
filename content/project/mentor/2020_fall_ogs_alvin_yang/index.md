@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Outstanding Graduate Senior, Fall 2020"
+title: "Outstanding Graduate Senior (OGS), Fall 2020"
 
 subtitle: "Alvin Yang"
 
@@ -19,13 +19,12 @@ authors:
 - Yao Zheng
 
 tags:
-- mentor
 - undergraduate
 - eex96
 - physical layer security
 - channel randomization
-- current
-- featured
+- recent mentor
+- mentor
 
 categories: []
 
@@ -35,7 +34,17 @@ categories: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
+
+links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+- name: Video
+  url: https://www.youtube.com/watch?v=kW3s9PlMcyk
+- name: Endorsement
+  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/mentor_2020_fall_ogs_alvin_yang/outstanding_senior_alvin_yang.pdf
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -44,3 +53,19 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+***
+# Convocation
+{{< youtube-enhance kW3s9PlMcyk >}}
+
+***
+
+# Endorsement
+>  I came to know Alvin through my first undergraduate class in 2018, EE260: Introduction to Digital Design, and served as his academic and CENG x96 project advisor in the past three years. During this time, Alvin has made significant contributions to several research projects, including one awarded NSF grant proposal. one IEEE journal paper, two conference papers, and participate in several community outreach activities, while maintaining an excellent academic standing...
+> -- <cite>Yao Zheng</cite>
+> 
+
+***
+# Acknowledgement
+Alvin' work is partially supported NSF grants CNS-1948568, DGE-1662487, and
+TMYTEK mmWave research initiative.
+

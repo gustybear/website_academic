@@ -34,9 +34,9 @@ image:
 # - name: Custom Link
 #   url: http://example.org
 links:
-- name: 'paper'
+- name: PUB
   url: 'https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view'
-- name: 'paper'
+- name: PUB
   url: 'https://api.zotero.org/users/3468578/publications/items/DMYQ96PG/file/view'
 ---
 # Abstract

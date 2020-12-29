@@ -70,12 +70,11 @@ doi: 10.1145/3395351.3401705
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view'
-url_code: ''
-url_dataset: 'https://github.com/gustybear-research/x96_physec_chan_ran'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: 'https://www.youtube.com/watch?v=lMRiCmiHmb0'
+links:
+- name: PDF
+  url: https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view
+- name: Dataset
+  url: https://github.com/gustybear-research/x96_physec_chan_ran
+- name: Video
+  url: https://www.youtube.com/watch?v=lMRiCmiHmb0
 ---

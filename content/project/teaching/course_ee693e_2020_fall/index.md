@@ -36,18 +36,21 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+- name: Sample Report
+  url: ./docs/reports/course_ee693e_2020_fall/week_02/01/
+- name: Sample Report
+  url: ./docs/reports/course_ee693e_2020_fall/week_02/02/
 ---
 ***
 # Abstract
 
 this course focuses on selected research topics of current interest in wireless security and is intended for undergraduate, master, or doctoral students who are interested in wireless security. at the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems in wireless security, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. main topics of interests include: pairing, authentication, access control, wireless sensing and localization, jamming and anti-jamming, security analysis of wireless applications, hardware/firmware, side-channel analysis, iot privacy, wireless fingerprinting, location privacy, and security in (future) cellular networks.
-
-***
-# Acknowledgement
-This course is developed with the materials provided by ACM WiSec
-2020, and the supports of University of Hawaii at Manoa
-Coronavirus Aid, Relief and Economic Security (CARES) grant, 
-NSF grants DGE-1662487, CNS-1948568.
 
 ***
 # Textbook
@@ -93,6 +96,11 @@ NSF grants DGE-1662487, CNS-1948568.
 | Week 15 (Nov 30, Dec 02) | Security in 4G/LTE                   | Yao Zheng                             | [Kohls et al.][kohls2019], [Fang et al.][fang2020]                           | [Kohls et al.(SLD)][kohls2019sld], [Fang et al.(SLD)][fang2020vid]                           |                           |
 | Week 16 (Dec 07, 09)     | Security in 5G                       | Yao Zheng                             | [Yeh et al.][yeh2020], [Hessel et al.][hessel2020]                           | [Yeh et al.(VID)][yeh2020vid], [Hessel et al.(VID)][hessel2020vid]                           |                           |
 ***
+# Acknowledgement
+This course is developed with the materials provided by ACM WiSec
+2020, and the supports of University of Hawaii at Manoa
+Coronavirus Aid, Relief and Economic Security (CARES) grant, 
+NSF grants DGE-1662487, CNS-1948568.
 
 
 [paper urls]: # (paper urls)
@@ -153,13 +161,13 @@ NSF grants DGE-1662487, CNS-1948568.
 [kohls2019sld]: https://wisec19.fiu.edu/wp-content/uploads/wisec_19_kk.pdf
 
 [report urls]: # (report urls)
-[week02rpt]: ../../docs/reports/course_ee693e_2020_fall/week_02/
-[week04rpt]: ../../docs/reports/course_ee693e_2020_fall/week_04/
-[week05rpt]: ../../docs/reports/course_ee693e_2020_fall/week_05/
-[week06rpt]: ../../docs/reports/course_ee693e_2020_fall/week_06/
-[week07rpt]: ../../docs/reports/course_ee693e_2020_fall/week_07/
-[week08rpt]: ../../docs/reports/course_ee693e_2020_fall/week_08/
-[week09rpt]: ../../docs/reports/course_ee693e_2020_fall/week_09/
-[week10rpt]: ../../docs/reports/course_ee693e_2020_fall/week_10/
-[week11rpt]: ../../docs/reports/course_ee693e_2020_fall/week_11/
-[week13rpt]: ../../docs/reports/course_ee693e_2020_fall/week_13/
+[week02rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_02/
+[week04rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_04/
+[week05rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_05/
+[week06rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_06/
+[week07rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_07/
+[week08rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_08/
+[week09rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_09/
+[week10rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_10/
+[week11rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_11/
+[week13rpt]: ../../../docs/reports/course_ee693e_2020_fall/week_13/

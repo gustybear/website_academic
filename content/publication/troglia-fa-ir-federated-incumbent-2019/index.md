@@ -59,4 +59,13 @@ abstract: "The next-generation spectrum access system (SAS) for the Citizens Bro
 publication: '*2019 IEEE International Symposium on Dynamic Spectrum Access Networks
   (DySPAN) - Workshop on Data-Driven Dynamic Spectrum Sharing*'
 doi: 10.1109/DySPAN.2019.8935736
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+links:
+- name: PDF
+  url: https://api.zotero.org/users/3468578/publications/items/QYHAR4NG/file/view
 ---

@@ -53,4 +53,13 @@ abstract: Orthogonal blinding based schemes for wireless physical layer security
   other antenna modes.
 publication: '*IEEE INFOCOM 2020 - IEEE Conference on Computer Communications*'
 doi: 10.1109/INFOCOM41043.2020.9155439
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+links:
+- name: PDF
+  url: https://api.zotero.org/users/3468578/publications/items/V5Q39YQA/file/view
 ---

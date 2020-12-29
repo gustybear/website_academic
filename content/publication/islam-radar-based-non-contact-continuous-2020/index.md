@@ -51,4 +51,13 @@ abstract: Non-contact vital signs monitoring using microwave Doppler radar has s
   society.
 publication: '*Remote Sensing*'
 doi: 10.3390/rs12142279
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+links:
+- name: PDF
+  url: https://api.zotero.org/users/3468578/publications/items/DMYQ96PG/file/view
 ---

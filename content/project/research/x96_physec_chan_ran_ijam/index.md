@@ -48,13 +48,12 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-url_pdf: ""
-url_slides: "https://github.com/gustybear-research/x96_physec_chan_ran/blob/main/prst_2020_12_11/EE496%20poster%20session_%20iJam_chan_ran.pdf"
-url_poster: ""
-url_code: ""
-url_source: ''
-url_dataset: 'https://github.com/gustybear-research/x96_physec_chan_ran'
-url_video: 'https://www.youtube.com/watch?v=DPqoX8ZLRdo'
+- name: Video
+  url: https://www.youtube.com/watch?v=DPqoX8ZLRdo
+- name: Slides
+  url: https://github.com/gustybear-research/x96_physec_chan_ran/blob/main/prst_2020_12_11/EE496%20poster%20session_%20iJam_chan_ran.pdf
+- name: Dataset
+  url: https://github.com/gustybear-research/x96_physec_chan_ran
 
 # Markdown Slides (optional).
 #   Associate this project with Markdown slides.
@@ -166,11 +165,6 @@ gallery_item:
 ***
 # Abstract
 Wireless physical layer security scheme, such as orthogonal blinding, is able to achieve this level of secure communications by transmitting artificial noise into the null-space of the receiver's channel, thus corrupting reception of any unwanted eavesdroppers.  This physical-layering method supersedes other theoretical methods, such as zero-forcing beam-forming because it does not rely on having any prior knowledge about an eavesdroppers channel.  Security based analysis supports the idea that Orthogonal blinding can closely approach the same secrecy rate as zero-force beam-forming when compared to single-antenna eavesdroppers.  However, further analysis shows that orthogonal blinding is less effective against multi-antenna eavesdroppers.  This is because multi-antenna eavesdroppers would have sufficient spatial dimensions to aid them in separating the original message from the artificial generated noise. Schulz and Zheng et al. demonstrates that an eavesdropper can leverage a known or low entropy symbols in a transmission and quickly create a decoding filter in order to recover the missing pieces of the transmission; equivalent to a known-plaintext attack in crypto-analysis.  In this project, we investigate an orthogonal blinding based physical-layer security method immune to the known-plaintext attack.
-
-***
-# Acknowledgement
-This project is partially supported NSF grants CNS-1948568, CNS-1948568, and
-TMYTEK mmWave research initiative.
 
 ***
 # Presentation
@@ -323,6 +317,11 @@ The channel randomization technique leverages a mechanically reconfigurable ante
 | 05       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 3                | 100      | [Download][2020_09_10_s05_2_4G_a] |
 | 05       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 3                | 100      | [Download][2020_09_10_s05_2_4G_b] |
 | 05       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 1                | 100      | [Download][2020_09_10_s05_2_4G_c] |
+
+***
+# Acknowledgement
+This project is partially supported NSF grants CNS-1948568, DGE-1662487, and
+TMYTEK mmWave research initiative.
 
 
 [footnote]: # ()
