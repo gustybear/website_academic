@@ -95,28 +95,28 @@ abstract = " Digital circuits are the foundations to build calculators, computer
 ## Schedule
 | TIME                                            | LECTURE                                                             | LABORATORY                                 | READING                        | ASSIGMENT                                     | DUE (before first lecture) |
 | ---                                             | ---                                                                 | ---                                        | ---                            | ---                                           | ---                        |
-| [Week 1 (Jan 13, 15, 17)][week 01 url]          | Course Logistic and Introduction                                    |                                            | zyBooks Week 01                |                                               | --                         |
-| [Week 2 (Jan 22, 24)][week 02 url]              | Number Systems                                                      | Vivado Tutorial                            | zyBooks Week 02                | Numbering Systems                             | --                         |
-| [Week 3 (Jan 27, 29, 31)][week 03 url]          | Combinational Logic: Switches, Transistors, Logic Gates             | Modeling Concepts                          | zyBooks Week 03                | Switches, Transistors, Logic Gates            | Week 1                     |
-| [Week 4 (Feb 03, 05, 07)][week 04 url]          | Combinational Logic: Boolean Algebra                                | Numbering Systems                          | zyBooks Week 04                | Boolean Algebra                               | Week 2                     |
-| [Week 5 (Feb 10, 12, 14)][week 05 url]          | Combinational Logic: Design Process, More Gates                     | Multi-Output Circuits                      | zyBooks Week 05                | Design Process, More Gates                    | Week 3                     |
-| Week 6 (Feb 19)                                 | Review: Combinational Logic                                         |                                            |                                |                                               | Week 4                     |
-| [Week 6 (Feb 21)][week 06 url]                  | Midterm I: Computer allowed.                                        | At home.                                   | 9:30AM - 10:45AM               |                                               |                            |
-| [Week 7 (Feb 24, 26, 28)][week 07 url]          | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Tasks Functions, and Testbench             | [zyBooks Week 07][read 07 url] | Latches and Flip-Flops                        | Week 5                     |
-| [Week 8 (Mar 02, 04, 06)][week 08 url]          | Sequential Logic: Finite State Machines                             | Modeling Latches and Flip-Flops            | [zyBooks Week 08][read 08 url] | Finite State Machines                         | --                         |
-| [Week 9 (Mar 09, 11, 13)][week 09 url]          | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Finite State Machines                      | [zyBooks Week 09][read 09 url] | Registers, Counters, Shifters, and Arithmetic | Week 7                     |
-| Spring Recess (Mar 16  - Mar 20)                |                                                                     |                                            |                                |                                               |
-| Week 10 (Mar 23)                                | Review: Sequential Logic                                            |                                            |                                |                                               | Week 8                     |
-| [Week 10 (Mar 25)][week 10 url]                 | Midterm Exam II:          Computer allowed.                         | At home.                                   | 9:30AM - 10:45AM               |                                               |
-| Week 10 (Mar 27)                                | Review: Midterm Exam II                                             |                                            |                                |                                               |
-| [Week 11 (Mar 30, Apr 01, Apr 03)][week 11 url] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11][read 11 url] | Register-Transfer Level Process               | Week 9                     |
-| [Week 12 (Apr 06, 08)][week 12 url]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12][read 12 url] | Register Files, Cache, and Memory Components  | --                         |
-| [Week 13 (Apr 13, 15, 17)][week 13 url]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13][read 13 url] | Optimizations and Tradeoffs                   | Week 11                    |
-| [Week 14 (Apr 20, 22, 24)][week 14 url]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14][read 14 url] | Physical Implementation on ICs                | Week 12                    |
-| [Week 15 (Apr 27, 29, May 01)][week 15 url]     | Programmable Processors                                             | Catch-up Lab                               | [zyBooks Week 15][read 15 url] | Programmable Processors                       | Week 13                    |
-| [Week 16 (May 04, 06)][week 16 url]             | Class Review                                                        |                                            |                                |                                               | Week 14                    |
-| Study Days (May 08, 09)                         |                                                                     |                                            |                                |                                               |
-| [Week 17 (May 11)][week 17 url]                 | Final:       Computer allowed                                       | Kuykendall Hall 305                        | 9:45AM - 11:45AM               |                                               | Week 15                    |
+| [Week 1 (1/11. 1/13, 1/15)][week 01 url]          | Course Logistic and Introduction                                    |                                            | zyBooks Week 01                |                                               | --                         |
+| [Week 2 (1/20. 1/22)][week 02 url]              | Number Systems                                                      | Vivado Tutorial                            | zyBooks Week 02                | Numbering Systems                             | --                         |
+| [Week 3 (1/25. 1/27, 1/29)][week 03 url]          | Combinational Logic: Switches, Transistors, Logic Gates             | Modeling Concepts                          | zyBooks Week 03                | Switches, Transistors, Logic Gates            | Week 1                     |
+| [Week 4 (2/1, 2/3, 2/5)][week 04 url]          | Combinational Logic: Boolean Algebra                                | Numbering Systems                          | zyBooks Week 04                | Boolean Algebra                               | Week 2                     |
+| [Week 5 (2/8, 2/10, 2/12)][week 05 url]          | Combinational Logic: Design Process, More Gates                     | Multi-Output Circuits                      | zyBooks Week 05                | Design Process, More Gates                    | Week 3                     |
+| Week 6 (Feb 17)                                 | Review: Combinational Logic                                         |                                            |                                |                                               | Week 4                     |
+| [Week 6 (Feb 19)][week 06 url]                  | Midterm I: Computer allowed.                                        | At home.                                   | 9:30AM - 10:45AM               |                                               |                            |
+| [Week 7 (2/22, 2/24, 2/26)][week 07 url]          | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Tasks Functions, and Testbench             | [zyBooks Week 07][read 07 url] | Latches and Flip-Flops                        | Week 5                     |
+| [Week 8 (3/1, 3/3, 3/5)][week 08 url]          | Sequential Logic: Finite State Machines                             | Modeling Latches and Flip-Flops            | [zyBooks Week 08][read 08 url] | Finite State Machines                         | --                         |
+| [Week 9 (3/8, 3/10, 3/12)][week 09 url]          | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Finite State Machines                      | [zyBooks Week 09][read 09 url] | Registers, Counters, Shifters, and Arithmetic | Week 7                     |
+| Spring Recess (Mar 15  - Mar 19)                |                                                                     |                                            |                                |                                               |
+| Week 10 (Mar 22)                                | Review: Sequential Logic                                            |                                            |                                |                                               | Week 8                     |
+| [Week 10 (Mar 24)][week 10 url]                 | Midterm Exam II:          Computer allowed.                         | At home.                                   | 9:30AM - 10:45AM               |                                               |
+| Week 10 (Mar 26)                                | Review: Midterm Exam II                                             |                                            |                                |                                               |
+| [Week 11 (3/29, 3/31, 4/2)][week 11 url] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11][read 11 url] | Register-Transfer Level Process               | Week 9                     |
+| [Week 12 (4/5, 4/7, 4/9)][week 12 url]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12][read 12 url] | Register Files, Cache, and Memory Components  | --                         |
+| [Week 13 (4/12, 4/14, 4/16)][week 13 url]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13][read 13 url] | Optimizations and Tradeoffs                   | Week 11                    |
+| [Week 14 (4/19, 4/21, 4/23))][week 14 url]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14][read 14 url] | Physical Implementation on ICs                | Week 12                    |
+| [Week 15 (4/26, 4/28, 4/30)][week 15 url]     | Programmable Processors                                             | Catch-up Lab                               | [zyBooks Week 15][read 15 url] | Programmable Processors                       | Week 13                    |
+| [Week 16 (May 03, 05)][week 16 url]             | Class Review                                                        |                                            |                                |                                               | Week 14                    |
+| Study Days (May 07, 08)                         |                                                                     |                                            |                                |                                               |
+| [Week 17 (May 10)][week 17 url]                 | Final:       Computer allowed                                       | Kuykendall Hall 305                        | 9:45AM - 11:45AM               |                                               | Week 15                    |
 
 ***
 ## Resources
@@ -167,21 +167,21 @@ abstract = " Digital circuits are the foundations to build calculators, computer
 [week 17 url]: https://classroom.github.com/a/ahPU1u-k
 
 [read urls]: # (reading urls)
-[read 01 url]: # (reading urls)
-[read 02 url]: # (reading urls)
-[read 03 url]: # (reading urls)
-[read 04 url]: # (reading urls)
-[read 05 url]: # (reading urls)
+[read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
+[read 02 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/2/section/1
+[read 03 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/3/section/1
+[read 04 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/4/section/1
+[read 05 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/5/section/1
 [read 06 url]: # (reading urls)
-[read 07 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/3/section/1
-[read 08 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/4/section/1
-[read 09 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/5/section/1
+[read 07 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/6/section/1
+[read 08 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/7/section/1
+[read 09 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/8/section/1
 [read 10 url]: # (reading urls)
-[read 11 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/6/section/1
-[read 12 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/7/section/1
-[read 13 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/8/section/1
-[read 14 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/9/section/1
-[read 15 url]: https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020/chapter/10/section/1
+[read 11 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/9/section/1
+[read 12 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/10/section/1
+[read 13 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/11/section/1
+[read 14 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/12/section/1
+[read 15 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/13/section/1
 [read 16 url]: # (reading urls)
 [read 17 url]: # (reading urls)
 
