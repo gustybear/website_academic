@@ -11,16 +11,16 @@ abstract = " Digital circuits are the foundations to build calculators, computer
 
 ## Logistics
 - *Lecturer*: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-- *Teaching Assistant(s)*: [Anthony Gasbarro](mailto:agasbarr@hawaii.edu)
-- *Grader(s)*: [Marionne Casipit](mailto:marionne@hawaii.edu)
+- *Teaching Assistant(s)*: [Marionne Casipit](mailto:marionne@hawaii.edu)
+- *Grader(s)*: N/A
 - *Lecture Time*: Mondays, Wednesdays, and Fridays 9:30am-10:20am, Kuykendall Hall 305.
 - *Lab Time*: Tuesdays 9:00am-11:45am or 1:30pm-4:15pm, Holmes Hall 451.
 - *Office hours*: see [here](../../#contact).
 
 ***
 ## Textbook
-- *Required*: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020), by Zybooks
-  - Buy at [ZyBooks](https://learn.zybooks.com/zybook/HAWAIIEE260Spring2020)
+- *Required*: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks
+  - Buy at [ZyBooks](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021)
   - [How to use Zybooks](https://learn.zybooks.com/zybook/HowToUseZyBooks2)
 - *Optional*: [Digital Design Principles and Practice with Verilog (5th Edition)](https://www.pearson.com/us/higher-education/program/Wakerly-Digital-Design-Principles-and-Practices-5th-Edition/PGM337271.html), by John F. Wakerly.
   - Buy at [Amazon](https://www.amazon.com/Digital-Design-Principles-Practices-5th/dp/013446009X/ref=sr_1_1?ie=UTF8&qid=1546977313&sr=8-1&keywords=Digital+Design+Principles+and+Practice).
