@@ -66,5 +66,5 @@ projects: []
 
 ***
 # Acknowledgement
-The presented work is partially supported NSF grants CNS-1948568, DGE-1662487, and
+The presented work is partially supported by NSF grants CNS-1948568, DGE-1662487, and
 TMYTEK mmWave research initiative.

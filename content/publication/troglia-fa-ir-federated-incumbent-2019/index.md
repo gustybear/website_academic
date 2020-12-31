@@ -12,7 +12,14 @@ authors:
 - Alvin Yang
 - Thomas Yang
 tags:
-- '"conference"'
+- sensor
+- spectrum sensing
+- authentication
+- spectrum access
+- distributed sensing
+- machine learning
+- federated learning
+
 categories: []
 date: '2019-11-01'
 lastmod: 2020-12-27T16:09:54-10:00

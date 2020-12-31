@@ -48,8 +48,7 @@ links:
   url: ./docs/reports/course_ee693e_2020_fall/week_02/02/
 ---
 ***
-# Abstract
-
+# Executive Summary
 this course focuses on selected research topics of current interest in wireless security and is intended for undergraduate, master, or doctoral students who are interested in wireless security. at the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems in wireless security, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. main topics of interests include: pairing, authentication, access control, wireless sensing and localization, jamming and anti-jamming, security analysis of wireless applications, hardware/firmware, side-channel analysis, iot privacy, wireless fingerprinting, location privacy, and security in (future) cellular networks.
 
 ***

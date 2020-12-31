@@ -15,32 +15,32 @@
 
 [[main]]
   name = "Grants"
-  url = "#grants"
+  url = "./project/grant"
   weight = 30
 
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "./publication"
   weight = 40
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "./project/research"
   weight = 50
 
 [[main]]
   name = "Teaching"
-  url = "#teaching"
+  url = "./project/teaching"
   weight = 60
 
 [[main]]
   name = "Outreach"
-  url = "#outreach"
+  url = "./project/outreach"
   weight = 70
 
 [[main]]
   name = "Mentor"
-  url = "#mentor"
+  url = "./project/mentor"
   weight = 80
 
 [[main]]

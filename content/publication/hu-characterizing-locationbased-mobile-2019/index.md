@@ -12,8 +12,13 @@ authors:
 - Matthew Troglia
 - Qingyang Wang
 tags:
-- '"Computer Science - Cryptography and Security"'
-- '"conference"'
+- botnet
+- mobile network
+- ad network
+- location based service
+- traffic analysis
+- behavior anaysis
+- tracking
 categories: []
 date: '2019-03-01'
 lastmod: 2020-12-27T16:25:08-10:00

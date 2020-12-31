@@ -44,17 +44,21 @@ education:
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social: 
-- icon: zotero
-  icon_pack: ai
-  link: https://www.zotero.org/alvin101/
+- icon: home
+  icon_pack: fa
+  link: https://alvinyang101.github.io/
+
+- icon: envelope
+  icon_pack: fa
+  link: mailto:ayang27@hawaii.edu
   
 - icon: github
   icon_pack: fab
   link: https://github.com/AlvinYang101
-
-  icon: envelope
-  icon_pack: fa
-  link: mailto:ayang27@hawaii.edu
+  
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/alvin101/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: mailto:ayang27@hawaii.edu

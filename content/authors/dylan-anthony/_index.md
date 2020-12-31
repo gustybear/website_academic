@@ -6,7 +6,7 @@ title: Dylan Anthony
 superuser: false
 
 # Role/position
-role: M.S. LOA
+role: M.S.
 
 # User group
 user_groups:

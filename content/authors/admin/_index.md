@@ -20,7 +20,7 @@ organizations:
 - name: Department of Electrical Engineering
   url: http://www.ee.hawaii.edu/
 - name: Wireless and Cybersecurity Laboratory
-  url: facility/wls_cysec_lab
+  url: project/facility
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests mainly focus on wireless communication and cybersecurity.
@@ -52,11 +52,15 @@ education:
 social:
 - icon: cv
   icon_pack: ai
-  link: https://s3-us-west-2.amazonaws.com/gustybear-websites/about_0000_00_00_zheng_y/docs/regular_cv/zheng_y_regular_cv.pdf
+  link: https://orcid.org/0000-0003-2820-1034/print
 
-- icon: zotero
-  icon_pack: ai
-  link: https://www.zotero.org/gustybear/
+# - icon: orcid
+#   icon_pack: ai
+#   link: https://orcid.org/0000-0003-2820-1034
+
+# - icon: zotero
+#   icon_pack: ai
+#   link: https://www.zotero.org/gustybear/
 
 - icon: google-scholar
   icon_pack: ai
@@ -64,7 +68,7 @@ social:
 
 - icon: github
   icon_pack: fab
-  link: https://github.com/gustybear
+  link: https://github.com/gustybear-research
 
 - icon: envelope
   icon_pack: fa

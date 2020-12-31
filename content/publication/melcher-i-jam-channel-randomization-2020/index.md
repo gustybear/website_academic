@@ -14,7 +14,18 @@ authors:
 - Samson Aggelopoulos
 - Yanjun Pan
 - Ming Li
-tags: []
+tags:
+- key establishment
+- known-plaintext attack
+- channel randomization
+- wireless physical layer security
+- secure communication
+- eavesdropper
+- multiantenna eavesdroppers
+- noise injection
+- reconfigurable antenna
+- dialog coding
+
 categories: []
 date: '2020-07-09'
 lastmod: 2020-09-10T12:51:56-10:00

@@ -10,7 +10,13 @@ authors:
 - Yao Zheng
 - Victor M Lubecke
 tags:
-- '"journal"'
+- doppler radar
+- non-contact measurement
+- respiration
+- heartbeat
+- sensor
+- authentication
+
 categories: []
 date: '2020-07-01'
 lastmod: 2020-12-27T16:02:54-10:00

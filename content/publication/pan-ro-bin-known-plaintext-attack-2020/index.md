@@ -9,7 +9,16 @@ authors:
 - Yao Zheng
 - Ming Li
 tags:
-- '"conference"'
+- known-plaintext attack
+- orthogonal blinding
+- channel randomization
+- wireless physical layer security
+- secure communication
+- eavesdropper
+- multiantenna eavesdroppers
+- noise injection
+- reconfigurable antenna
+
 categories: []
 date: '2020-04-01'
 lastmod: 2020-12-27T16:06:13-10:00

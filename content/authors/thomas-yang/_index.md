@@ -52,10 +52,10 @@ education:
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-- icon: zotero
-  icon_pack: ai
-  link: https://www.zotero.org/thomasy4/
-
+- icon: home
+  icon_pack: fa
+  link: https://toomasyang.github.io/
+  
 - icon: envelope
   icon_pack: fa
   link: mailto:thomasy4@hawaii.edu
@@ -63,6 +63,11 @@ social:
 - icon: github
   icon_pack: fab
   link: https://toomasyang.github.io
+
+- icon: zotero
+  icon_pack: ai
+  link: https://www.zotero.org/thomasy4/
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: mailto:thomasy4@hawaii.edu

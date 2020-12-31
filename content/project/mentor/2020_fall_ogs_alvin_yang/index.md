@@ -21,7 +21,11 @@ authors:
 tags:
 - undergraduate
 - eex96
-- physical layer security
+- wireless physical layer security
+- mmwave
+- invasive species
+- radar
+- sensor
 - channel randomization
 - recent mentor
 - mentor
@@ -66,6 +70,6 @@ projects: []
 
 ***
 # Acknowledgement
-Alvin' work is partially supported NSF grants CNS-1948568, DGE-1662487, and
+Alvin' work is partially supported by NSF grants CNS-1948568, DGE-1662487, and
 TMYTEK mmWave research initiative.
 
