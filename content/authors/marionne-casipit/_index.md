@@ -55,5 +55,9 @@ social:
   
 - icon: github
   icon_pack: fab
+  link: https://github.com/marionne
+  
+- icon: envelope
+  icon_pack: fa
   link: mailto:marionne@hawaii.edu
 ---
