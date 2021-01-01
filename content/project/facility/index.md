@@ -1,24 +1,43 @@
-+++
-# Project title.
-title = "Wireless and Cybersecurity Laboratory"
+---
+title: "Wireless and Cybersecurity Laboratory"
+date: "2018-05-03T18:13:12-10:00"
 
-tags = ["laboratory"]
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags:
+- facility
+- wireless
+- security
+- sensor
+- communication
+- radar
+- mmwave
+- sensor
 
-# Date this page was created.
-date = 2018-05-03T18:13:12-10:00
+authors:
+- Yao Zheng
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view = 2
+summary: "CNS-1948568, $174,911.00, PI"
 
-# Header
-[header]
-  image = "headers/laboratory_panorama.png"
-  caption = "Wireless and Cybersecurity Laboratory"
-+++
+# Featured image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 3
+  caption: ""
+  focal_point: "Center"
+  preview_only: true
+  alt_text: " "
 
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+---
+***
+# Executive Summary
 The Wireless and Cybersecurity Laboratory is well-equipped for developing and testing of radio frequency (RF) hardware. The laboratory provides test equipment, such as software-defined radio (SDR) hardware including universal software radio peripherals (USRPs); signal generators, spectrum analyzers, network analyzers; soldering and reworking stations suitable for work with surface-mount components, RF cables, attenuators, power splitters/combiners, directional couplers; design and simulation software for ICs and PCBs and other miscellaneous hardware and software. 
 
 The laboratory provides project participants with private server clusters and laptops and/or desktop computers, in addition to computers used for the experiments; various software licenses, including MATLAB, Candence, LabVIEW, OriginLab, and Adobe Creative Cloud; and remote access to all instruments, computers, and actuators, which encourages students from other islands or institutions to collaborate.

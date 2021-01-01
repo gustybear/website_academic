@@ -41,6 +41,7 @@ links:
 - name: PUB
   url: 'https://api.zotero.org/users/3468578/publications/items/DMYQ96PG/file/view'
 ---
+***
 # Executive Summary
 The growing data resolution in remote sensing spurs the adoption of millimeter-wave (mmWave) communication modules on energy-harvesting devices to increase the data delivery bandwidth. The energy conditions on these devices are not always satisfiable to initiate or maintain the mmWave links and require systems to be capable of anticipating communication failures and take preemptive actions to minimize energy expenditures. Fortunately, the environmental information provided by remote sensors contains sufficient knowledge to enable the design of such systems. The goal of this project is to develop algorithms and tools to exploit this information and augment the solar-harvesting remote invasive species monitoring system in the State of Hawaii with mmWave data delivery capability. The work in this project will enable researchers, industry, and students to realize high bandwidth real-time remote sensing with power-constrained devices in real-world applications. The results of this research will impact fields across scientific, industrial, and military interests, including agriculture, ecology, meteorology, infrastructure, and public utility monitoring, etc., where timely communication of high-resolution sensory data is essential.
 

@@ -50,13 +50,13 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-- icon: cv
-  icon_pack: ai
-  link: https://orcid.org/0000-0003-2820-1034/print
-
-# - icon: orcid
+# - icon: cv
 #   icon_pack: ai
-#   link: https://orcid.org/0000-0003-2820-1034
+#   link: https://orcid.org/0000-0003-2820-1034/print
+
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-2820-1034
 
 # - icon: zotero
 #   icon_pack: ai
