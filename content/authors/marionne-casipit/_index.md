@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Marionne Casipit
+title: Marionne Millan
 
 # Is this the primary user of the site?
 superuser: false
@@ -56,6 +56,10 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/marionne
+
+- icon: home
+  icon_pack: fa
+  link: https://marionne.github.io/
   
 - icon: envelope
   icon_pack: fa
