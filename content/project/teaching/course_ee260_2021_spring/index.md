@@ -4,14 +4,14 @@ subtitle = "Spring, 2020, updated labs"
 date = 2020-01-10T00:00:00-10:00
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-authors= ["Marionne Casipit", "Anthony Gasbarro", "Yao Zheng"]
+authors= ["Marionne Millan", "Yao Zheng"]
 tags = ["digital design", "fpga", "offered course"]
 abstract = " Digital circuits are the foundations to build calculators, computers and cell phones, etc. This course explores these foundations by using modern digital design techniques to design, implement and test digital circuits ranging from basic logic gates to state machines that perform useful functions like calculations, counting, timing, and a host of other applications. Students will learn modern design techniques, using a hardware description language (HDL) such as Verilog to design, simulate and implement logic systems consisting of basic gates, adders, multiplexers, latches, counters, and basic processors. The function and operation of programmable logic devices, such as field programmable gate arrays (FPGAs), will be described and discussed in terms of how an HDL logic design is mapped and implemented. Experiments involving the design of combinational and sequential circuits will provide students a hand-on introduction to basic digital electrical engineering concepts and the skills needed to gain more advanced skills. In the laboratory, students will construct, troubleshoot, and test the digital circuits that they have developed using a hardware description language. These custom logic designs will be implemented using FPGAs and validated using test equipment."
 +++
 
 ## Logistics
 - *Lecturer*: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-- *Teaching Assistant(s)*: [Marionne Casipit](mailto:marionne@hawaii.edu)
+- *Teaching Assistant(s)*: [Marionne Millan](mailto:marionne@hawaii.edu)
 - *Grader(s)*: N/A
 - *Lecture Time*: Mondays, Wednesdays, and Fridays 9:30am-10:20am, Kuykendall Hall 305.
 - *Lab Time*: Tuesdays 9:00am-11:45am or 1:30pm-4:15pm, Holmes Hall 451.
@@ -108,8 +108,7 @@ abstract = " Digital circuits are the foundations to build calculators, computer
 | Spring Recess (Mar 15  - Mar 19)                |                                                                     |                                            |                                |                                               |
 | Week 10 (Mar 22)                                | Review: Sequential Logic                                            |                                            |                                |                                               | Week 8                     |
 | [Week 10 (Mar 24)][week 10 url]                 | Midterm Exam II:          Computer allowed.                         | At home.                                   | 9:30AM - 10:45AM               |                                               |
-| Week 10 (Mar 26)                                | Review: Midterm Exam II                                             |                                            |                                |                                               |
-| [Week 11 (3/29, 3/31, 4/2)][week 11 url] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11][read 11 url] | Register-Transfer Level Process               | Week 9                     |
+| [Week 11 (3/29, 3/31)][week 11 url] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11][read 11 url] | Register-Transfer Level Process               | Week 9                     |
 | [Week 12 (4/5, 4/7, 4/9)][week 12 url]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12][read 12 url] | Register Files, Cache, and Memory Components  | --                         |
 | [Week 13 (4/12, 4/14, 4/16)][week 13 url]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13][read 13 url] | Optimizations and Tradeoffs                   | Week 11                    |
 | [Week 14 (4/19, 4/21, 4/23))][week 14 url]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14][read 14 url] | Physical Implementation on ICs                | Week 12                    |
