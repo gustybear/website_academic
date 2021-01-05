@@ -19,8 +19,8 @@ organizations:
   url: http://manoa.hawaii.edu/
 - name: Department of Electrical Engineering
   url: http://www.ee.hawaii.edu/
-- name: Wireless and Cybersecurity Laboratory
-  url: project/facility
+# - name: Wireless and Cybersecurity Laboratory
+#   url: project/facility
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests mainly focus on wireless communication and cybersecurity.

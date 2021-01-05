@@ -19,8 +19,6 @@ organizations:
   url: http://manoa.hawaii.edu/
 - name: Department of Electrical Engineering
   url: http://www.ee.hawaii.edu/
-- name: Hawaii Space Flight Laboratory
-  url: https://www.hsfl.hawaii.edu/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: I am interested in machine learning, image processing, and web development.

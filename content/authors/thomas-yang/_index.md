@@ -23,8 +23,7 @@ organizations:
   url: http://manoa.hawaii.edu/
 - name: Department of Electrical Engineering
   url: http://www.ee.hawaii.edu/
-- name: Wireless and Cybersecurity Laboratory
-  url: facility/wls_cysec_lab
+
 # List your academic interests.
 
 interests:
