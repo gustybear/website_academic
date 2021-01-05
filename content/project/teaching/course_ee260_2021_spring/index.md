@@ -4,14 +4,14 @@ subtitle = "Spring, 2020, updated labs"
 date = 2020-01-10T00:00:00-10:00
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-authors= ["Marionne Casipit", "Anthony Gasbarro", "Yao Zheng"]
+authors= ["Marionne Millan", "Yao Zheng"]
 tags = ["digital design", "fpga", "offered course"]
 abstract = " Digital circuits are the foundations to build calculators, computers and cell phones, etc. This course explores these foundations by using modern digital design techniques to design, implement and test digital circuits ranging from basic logic gates to state machines that perform useful functions like calculations, counting, timing, and a host of other applications. Students will learn modern design techniques, using a hardware description language (HDL) such as Verilog to design, simulate and implement logic systems consisting of basic gates, adders, multiplexers, latches, counters, and basic processors. The function and operation of programmable logic devices, such as field programmable gate arrays (FPGAs), will be described and discussed in terms of how an HDL logic design is mapped and implemented. Experiments involving the design of combinational and sequential circuits will provide students a hand-on introduction to basic digital electrical engineering concepts and the skills needed to gain more advanced skills. In the laboratory, students will construct, troubleshoot, and test the digital circuits that they have developed using a hardware description language. These custom logic designs will be implemented using FPGAs and validated using test equipment."
 +++
 
 ## Logistics
 - *Lecturer*: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-- *Teaching Assistant(s)*: [Marionne Casipit](mailto:marionne@hawaii.edu)
+- *Teaching Assistant(s)*: [Marionne Millan](mailto:marionne@hawaii.edu)
 - *Grader(s)*: N/A
 - *Lecture Time*: Mondays, Wednesdays, and Fridays 9:30am-10:20am, Kuykendall Hall 305.
 - *Lab Time*: Tuesdays 9:00am-11:45am or 1:30pm-4:15pm, Holmes Hall 451.
