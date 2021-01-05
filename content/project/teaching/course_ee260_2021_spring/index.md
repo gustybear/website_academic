@@ -1,15 +1,69 @@
-+++
-title = "EE260: Introduction to Digital Design"
-subtitle = "Spring, 2020, updated labs"
-date = 2020-01-10T00:00:00-10:00
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-authors= ["Marionne Millan", "Yao Zheng"]
-tags = ["digital design", "fpga", "offered course"]
-abstract = " Digital circuits are the foundations to build calculators, computers and cell phones, etc. This course explores these foundations by using modern digital design techniques to design, implement and test digital circuits ranging from basic logic gates to state machines that perform useful functions like calculations, counting, timing, and a host of other applications. Students will learn modern design techniques, using a hardware description language (HDL) such as Verilog to design, simulate and implement logic systems consisting of basic gates, adders, multiplexers, latches, counters, and basic processors. The function and operation of programmable logic devices, such as field programmable gate arrays (FPGAs), will be described and discussed in terms of how an HDL logic design is mapped and implemented. Experiments involving the design of combinational and sequential circuits will provide students a hand-on introduction to basic digital electrical engineering concepts and the skills needed to gain more advanced skills. In the laboratory, students will construct, troubleshoot, and test the digital circuits that they have developed using a hardware description language. These custom logic designs will be implemented using FPGAs and validated using test equipment."
-+++
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
 
-## Logistics
+title: "EE260: Introduction to Digital Design"
+
+subtitle: "Spring, 2021 (Virtual)"
+
+summary: "EE260 is the introductory course on digital circuit synthesis, focusing on the design and implementation of combinational logic, sequential logic, and basic central processor (van Neumann/Princeton architecture) through Verilog HDL and FPGA."
+
+date: 2021-01-05T10:51:00-10:00
+lastmod: 2021-01-05T10:51:00-10:00
+featured: false
+draft: false
+
+authors:
+- Yao Zheng
+- Marionne Millan
+
+tags:
+- digital circuit
+- hardware synthesis
+- verilog
+- fpga
+- xilinx
+- combinational logic
+- sequential logic
+- finite state machine
+- high level finite state machine
+- van neumann architecture
+- princeton architecture
+- offered course
+- current semester
+
+categories: []
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+
+links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+#- name: Sample Report
+#  url: ./docs/reports/course_ee693e_2020_fall/week_02/01/
+#- name: Sample Report
+#  url: ./docs/reports/course_ee693e_2020_fall/week_02/02/
+---
+***
+# Executive Summary
+This course explores the foundation of digital circuit design, starting from Boolean algebra, through combinational and sequential logic, to finite state machines and basic central processing units (CPUs) under von Neumann architecture. The associated laboratory segment introduces modern digital design techniques, e.g., hardware description language ([Verilog] HDL) and field-programmable gate array (FPGA), to model, implement, and test the aforementioned digital circuits.
+***
+
+# Logistics
 - *Lecturer*: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
 - *Teaching Assistant(s)*: [Marionne Millan](mailto:marionne@hawaii.edu)
 - *Grader(s)*: N/A
@@ -18,7 +72,7 @@ abstract = " Digital circuits are the foundations to build calculators, computer
 - *Office hours*: see [here](../../#contact).
 
 ***
-## Textbook
+# Textbook
 - *Required*: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks
   - Buy at [ZyBooks](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021)
   - [How to use Zybooks](https://learn.zybooks.com/zybook/HowToUseZyBooks2)
@@ -33,7 +87,7 @@ abstract = " Digital circuits are the foundations to build calculators, computer
 - *Optional*: [FPGA Prototyping by SystemVerilog Examples: Xilinx MicroBlaze MCS SoC Edition (2nd Edition)](https://academic.csuohio.edu/chu_p/rtl/fpga_mcs_sv.html), by Pong P. Chu.
 
 ***
-## Xilinx Vivado and Basys3 
+# Xilinx Vivado and Basys3 
 (required for lab and assignments)
 - [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html):
   - Access Vivado on campus computers:

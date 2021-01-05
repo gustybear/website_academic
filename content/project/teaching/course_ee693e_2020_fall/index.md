@@ -18,7 +18,7 @@ authors:
 tags:
 - wireless security
 - offered course
-- current semester
+# - current semester
 
 categories: []
 
