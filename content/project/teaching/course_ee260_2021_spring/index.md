@@ -108,6 +108,17 @@ This course explores the foundation of digital circuit design, starting from Boo
   - [Basys3 Schematic][basys3 schematic url]
 
 ***
+# Lab Info
+Labs will be held in your section's Discord server. Lab reports will be submitted in Google Classroom.
+
+### Section 1 (Tuesdays, 9:00am - 11:45am)
+https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey
+https://discord.gg/qMKyx6PcsP
+### Section 2 (Tuesdays, 1:30pm - 4:15pm)
+https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu
+https://discord.gg/cfkJVUBFyN
+
+***
 ## Grading
 ### Rubric
 | Problem | Unacceptable(0) | Marginal(1) | Acceptable(2) | Very Good(3) | Excellent(4) |
