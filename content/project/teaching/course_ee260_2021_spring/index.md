@@ -108,15 +108,16 @@ This course explores the foundation of digital circuit design, starting from Boo
   - [Basys3 Schematic][basys3 schematic url]
 
 ***
-# Lab Info
-Labs will be held in your section's Discord server. Lab reports will be submitted in Google Classroom.
+# Labs
+Labs will be held in your section's Discord server. Lab reports will be assigned and submitted using Google Classroom.
 
 ### Section 1 (Tuesdays, 9:00am - 11:45am)
-https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey
-https://discord.gg/qMKyx6PcsP
+- [Discord Server](https://discord.gg/qMKyx6PcsP)
+- [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey)
+
 ### Section 2 (Tuesdays, 1:30pm - 4:15pm)
-https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu
-https://discord.gg/cfkJVUBFyN
+- [Discord Server](https://discord.gg/cfkJVUBFyN)
+- [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu)
 
 ***
 ## Grading
@@ -160,25 +161,25 @@ https://discord.gg/cfkJVUBFyN
 ## Schedule
 | TIME                                            | LECTURE                                                             | LABORATORY                                 | READING                        | ASSIGMENT                                     | DUE (before first lecture) |
 | ---                                             | ---                                                                 | ---                                        | ---                            | ---                                           | ---                        |
-| [Week 1 (1/11. 1/13, 1/15)][week 01 url]          | Course Logistic and Introduction                                    |                                            | zyBooks Week 01                |                                               | --                         |
-| [Week 2 (1/20. 1/22)][week 02 url]              | Number Systems                                                      | Vivado Tutorial                            | zyBooks Week 02                | Numbering Systems                             | --                         |
-| [Week 3 (1/25. 1/27, 1/29)][week 03 url]          | Combinational Logic: Switches, Transistors, Logic Gates             | Modeling Concepts                          | zyBooks Week 03                | Switches, Transistors, Logic Gates            | Week 1                     |
-| [Week 4 (2/1, 2/3, 2/5)][week 04 url]          | Combinational Logic: Boolean Algebra                                | Numbering Systems                          | zyBooks Week 04                | Boolean Algebra                               | Week 2                     |
-| [Week 5 (2/8, 2/10, 2/12)][week 05 url]          | Combinational Logic: Design Process, More Gates                     | Multi-Output Circuits                      | zyBooks Week 05                | Design Process, More Gates                    | Week 3                     |
+| [Week 1 (1/11. 1/13, 1/15)]          | Course Logistic and Introduction                                    |                                            | zyBooks Week 01                |                                               | --                         |
+| [Week 2 (1/20. 1/22)]              | Number Systems                                                      | Vivado Tutorial                            | zyBooks Week 02                | Numbering Systems                             | --                         |
+| [Week 3 (1/25. 1/27, 1/29)]          | Combinational Logic: Switches, Transistors, Logic Gates             | Modeling Concepts                          | zyBooks Week 03                | Switches, Transistors, Logic Gates            | Week 1                     |
+| [Week 4 (2/1, 2/3, 2/5)]          | Combinational Logic: Boolean Algebra                                | Numbering Systems                          | zyBooks Week 04                | Boolean Algebra                               | Week 2                     |
+| [Week 5 (2/8, 2/10, 2/12)]          | Combinational Logic: Design Process, More Gates                     | Multi-Output Circuits                      | zyBooks Week 05                | Design Process, More Gates                    | Week 3                     |
 | Week 6 (Feb 17)                                 | Review: Combinational Logic                                         |                                            |                                |                                               | Week 4                     |
-| [Week 6 (Feb 19)][week 06 url]                  | Midterm I: Computer allowed.                                        | At home.                                   | 9:30AM - 10:45AM               |                                               |                            |
-| [Week 7 (2/22, 2/24, 2/26)][week 07 url]          | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Tasks Functions, and Testbench             | [zyBooks Week 07][read 07 url] | Latches and Flip-Flops                        | Week 5                     |
-| [Week 8 (3/1, 3/3, 3/5)][week 08 url]          | Sequential Logic: Finite State Machines                             | Modeling Latches and Flip-Flops            | [zyBooks Week 08][read 08 url] | Finite State Machines                         | --                         |
-| [Week 9 (3/8, 3/10, 3/12)][week 09 url]          | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Finite State Machines                      | [zyBooks Week 09][read 09 url] | Registers, Counters, Shifters, and Arithmetic | Week 7                     |
+| [Week 6 (Feb 19)]                  | Midterm I: Computer allowed.                                        | At home.                                   | 9:30AM - 10:45AM               |                                               |                            |
+| [Week 7 (2/22, 2/24, 2/26)]          | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Tasks Functions, and Testbench             | [zyBooks Week 07] | Latches and Flip-Flops                        | Week 5                     |
+| [Week 8 (3/1, 3/3, 3/5)]          | Sequential Logic: Finite State Machines                             | Modeling Latches and Flip-Flops            | [zyBooks Week 08] | Finite State Machines                         | --                         |
+| [Week 9 (3/8, 3/10, 3/12)]          | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Finite State Machines                      | [zyBooks Week 09] | Registers, Counters, Shifters, and Arithmetic | Week 7                     |
 | Spring Recess (Mar 15  - Mar 19)                |                                                                     |                                            |                                |                                               |
 | Week 10 (Mar 22)                                | Review: Sequential Logic                                            |                                            |                                |                                               | Week 8                     |
-| [Week 10 (Mar 24)][week 10 url]                 | Midterm Exam II:          Computer allowed.                         | At home.                                   | 9:30AM - 10:45AM               |                                               |
-| [Week 11 (3/29, 3/31)][week 11 url] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11][read 11 url] | Register-Transfer Level Process               | Week 9                     |
-| [Week 12 (4/5, 4/7, 4/9)][week 12 url]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12][read 12 url] | Register Files, Cache, and Memory Components  | --                         |
-| [Week 13 (4/12, 4/14, 4/16)][week 13 url]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13][read 13 url] | Optimizations and Tradeoffs                   | Week 11                    |
-| [Week 14 (4/19, 4/21, 4/23))][week 14 url]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14][read 14 url] | Physical Implementation on ICs                | Week 12                    |
-| [Week 15 (4/26, 4/28, 4/30)][week 15 url]     | Programmable Processors                                             | Catch-up Lab                               | [zyBooks Week 15][read 15 url] | Programmable Processors                       | Week 13                    |
-| [Week 16 (May 03, 05)][week 16 url]             | Class Review                                                        |                                            |                                |                                               | Week 14                    |
+| [Week 10 (Mar 24)]                 | Midterm Exam II:          Computer allowed.                         | At home.                                   | 9:30AM - 10:45AM               |                                               |
+| [Week 11 (3/29, 3/31)] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11] | Register-Transfer Level Process               | Week 9                     |
+| [Week 12 (4/5, 4/7, 4/9)]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12] | Register Files, Cache, and Memory Components  | --                         |
+| [Week 13 (4/12, 4/14, 4/16)]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13] | Optimizations and Tradeoffs                   | Week 11                    |
+| [Week 14 (4/19, 4/21, 4/23))]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14] | Physical Implementation on ICs                | Week 12                    |
+| [Week 15 (4/26, 4/28, 4/30)]     | Programmable Processors                                             | Catch-up Lab                               | [zyBooks Week 15] | Programmable Processors                       | Week 13                    |
+| [Week 16 (May 03, 05)]             | Class Review                                                        |                                            |                                |                                               | Week 14                    |
 | Study Days (May 07, 08)                         |                                                                     |                                            |                                |                                               |
 | [Week 17 (May 10)][week 17 url]                 | Final:       Computer allowed                                       | Kuykendall Hall 305                        | 9:45AM - 11:45AM               |                                               | Week 15                    |
 
@@ -209,26 +210,6 @@ https://discord.gg/cfkJVUBFyN
 - [Atom][atom url]
 - [Atom Github Integration][atom github url]
 - [Atom Markdown Enhanced Package][atom markdown enhanced url]
-
-
-[week urls]: # (week urls)
-[week 01 url]: https://classroom.github.com/a/2va04_ad
-[week 02 url]: https://classroom.github.com/a/SvtGnkD7
-[week 03 url]: https://classroom.github.com/a/rFAYuj_8
-[week 04 url]: https://classroom.github.com/a/UZPNuyoo
-[week 05 url]: https://classroom.github.com/a/JNxgXMaM
-[week 06 url]: https://classroom.github.com/a/TfhRNuDv
-[week 07 url]: https://classroom.github.com/a/fIGWecjk
-[week 08 url]: https://classroom.github.com/a/eeiPKFYJ
-[week 09 url]: https://classroom.github.com/a/v2DQycY1
-[week 10 url]: https://classroom.github.com/a/jruqU2Sl
-[week 11 url]: https://classroom.github.com/a/5TDnj9SM
-[week 12 url]: https://classroom.github.com/a/WyB0SkZD
-[week 13 url]: https://classroom.github.com/a/76NMroe-
-[week 14 url]: https://classroom.github.com/a/7tRD76MI
-[week 15 url]: https://classroom.github.com/a/ym8TefFX
-[week 16 url]: https://classroom.github.com/a/eqfZxWdk
-[week 17 url]: https://classroom.github.com/a/ahPU1u-k
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
