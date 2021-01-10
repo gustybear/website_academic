@@ -114,29 +114,29 @@ This course explores the foundation of digital circuit design, starting from Boo
 ***
 # Schedule
 ## Lecture
-| TIME                                       | TOPICS                                                              | READING/HW                     | HW due         |
-| ---                                        | ---                                                                 | ---                            | ---            |
-| [Week 1 (1/11. 1/13, 1/15)][week 01 url]   | Course Logistic and Introduction                                    | [zyBooks Week 01][read 01 url] | 23:59:59, 1/17 |
-| [Week 2 (1/20. 1/22)][week 02 url]         | Number Systems                                                      | [zyBooks Week 02][read 02 url] | 23:59:59, 1/24 |
-| [Week 3 (1/25. 1/27, 1/29)][week 03 url]   | Combinational Logic: Switches, Transistors, Logic Gates             | [zyBooks Week 03][read 03 url] | 23:59:59, 1/31 |
-| [Week 4 (2/1, 2/3, 2/5)][week 04 url]      | Combinational Logic: Boolean Algebra                                | [zyBooks Week 04][read 04 url] | 23:59:59, 2/7  |
-| [Week 5 (2/8, 2/10, 2/12)][week 05 url]    | Combinational Logic: Design Process, More Gates                     | [zyBooks Week 05][read 05 url] | 23:59:59, 2/14 |
-| Week 6 (Feb 17)                            | Review: Combinational Logic                                         | --                             | --             |
-| Week 6 (Feb 19)                            | Midterm I: 9:30AM - 10:45AM                                         | --                             | --             |
-| [Week 7 (2/22, 2/24, 2/26)][week 07 url]   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | [zyBooks Week 07][read 07 url] | 23:59:59, 2/28 |
-| [Week 8 (3/1, 3/3, 3/5)][week 08 url]      | Sequential Logic: Finite State Machines                             | [zyBooks Week 08][read 08 url] | 23:59:59, 3/7  |
-| [Week 9 (3/8, 3/10, 3/12)][week 09 url]    | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | [zyBooks Week 09][read 09 url] | 23:59:59, 3/14 |
-| Spring Recess (Mar 15  - Mar 19)           | --                                                                  | --                             | --             |
-| Week 10 (Mar 22)                           | Review: Sequential Logic                                            | --                             | --             |
-| Week 10 (Mar 24)                           | Midterm II: 9:30AM - 10:45AM                                        | --                             | --             |
-| [Week 11 (3/29, 3/31)][week 11 url]        | Review: Midterm II, Register-Transfer Level Design                  | [zyBooks Week 11][read 11 url] | 23:59:59, 4/4  |
-| [Week 12 (4/5, 4/7, 4/9)][week 12 url]     | Register Memory Components and FIFO                                 | [zyBooks Week 12][read 12 url] | 23:59:59, 4/11 |
-| [Week 13 (4/12, 4/14, 4/16)][week 13 url]  | Optimizations and Tradeoffs                                         | [zyBooks Week 13][read 13 url] | 23:59:59, 4/18 |
-| [Week 14 (4/19, 4/21, 4/23))][week 14 url] | Physical Implementation on ICs                                      | [zyBooks Week 14][read 14 url] | 23:59:59, 4/25 |
-| [Week 15 (4/26, 4/28, 4/30)][week 15 url]  | Programmable Processors                                             | [zyBooks Week 15][read 15 url] | 23:59:59, 5/02 |
-| Week 16 (5/3, 5/5)                         | Class Review                                                        | --                             | --             |
-| Study Days (May 07, 08)                    | --                                                                  | --                             | --             |
-| Week 17 (5/10)                             | Final: 9:45AM - 11:45AM                                             | --                             | --             |
+| TIME                                     | TOPICS                                                              | READING/HW                     | HW due         |
+| ---                                      | ---                                                                 | ---                            | ---            |
+| [Week 1 (1/11. 1/13, 1/15)][week 01 url] | Course Logistic and Introduction                                    | [zyBooks Week 01][read 01 url] | 23:59:59, 1/17 |
+| Week 2 (1/20. 1/22)                      | Number Systems                                                      | zyBooks Week 02                | 23:59:59, 1/24 |
+| Week 3 (1/25. 1/27, 1/29)                | Combinational Logic: Switches, Transistors, Logic Gates             | zyBooks Week 03                | 23:59:59, 1/31 |
+| Week 4 (2/1, 2/3, 2/5)                   | Combinational Logic: Boolean Algebra                                | zyBooks Week 04                | 23:59:59, 2/7  |
+| Week 5 (2/8, 2/10, 2/12)                 | Combinational Logic: Design Process, More Gates                     | zyBooks Week 05                | 23:59:59, 2/14 |
+| Week 6 (Feb 17)                          | Review: Combinational Logic                                         | --                             | --             |
+| Week 6 (Feb 19)                          | Midterm I: 9:30AM - 10:45AM                                         | --                             | --             |
+| Week 7 (2/22, 2/24, 2/26)                | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | zyBooks Week 07                | 23:59:59, 2/28 |
+| Week 8 (3/1, 3/3, 3/5)                   | Sequential Logic: Finite State Machines                             | zyBooks Week 08                | 23:59:59, 3/7  |
+| Week 9 (3/8, 3/10, 3/12)                 | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | zyBooks Week 09                | 23:59:59, 3/14 |
+| Spring Recess (Mar 15  - Mar 19)         | --                                                                  | --                             | --             |
+| Week 10 (Mar 22)                         | Review: Sequential Logic                                            | --                             | --             |
+| Week 10 (Mar 24)                         | Midterm II: 9:30AM - 10:45AM                                        | --                             | --             |
+| Week 11 (3/29, 3/31)                     | Review: Midterm II, Register-Transfer Level Design                  | zyBooks Week 11                | 23:59:59, 4/4  |
+| Week 12 (4/5, 4/7, 4/9)                  | Register Memory Components and FIFO                                 | zyBooks Week 12                | 23:59:59, 4/11 |
+| Week 13 (4/12, 4/14, 4/16)               | Optimizations and Tradeoffs                                         | zyBooks Week 13                | 23:59:59, 4/18 |
+| Week 14 (4/19, 4/21, 4/23)               | Physical Implementation on ICs                                      | zyBooks Week 14                | 23:59:59, 4/25 |
+| Week 15 (4/26, 4/28, 4/30)               | Programmable Processors                                             | zyBooks Week 15                | 23:59:59, 5/02 |
+| Week 16 (5/3, 5/5)                       | Class Review                                                        | --                             | --             |
+| Study Days (May 07, 08)                  | --                                                                  | --                             | --             |
+| Week 17 (5/10)                           | Final: 9:45AM - 11:45AM                                             | --                             | --             |
 
 ## Laboratory
 
