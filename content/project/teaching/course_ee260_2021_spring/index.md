@@ -187,7 +187,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 - [Digikey Schemeit][digikey schemeit url]
 
 [week urls]: # (week urls)
-[week 01 url]: https://classroom.github.com/a/2va04_ad
+[week 01 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_01_slides.pdf
 [week 02 url]: https://classroom.github.com/a/SvtGnkD7
 [week 03 url]: https://classroom.github.com/a/rFAYuj_8
 [week 04 url]: https://classroom.github.com/a/UZPNuyoo
