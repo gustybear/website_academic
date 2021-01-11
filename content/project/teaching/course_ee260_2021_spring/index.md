@@ -64,16 +64,16 @@ This course explores the foundation of digital circuit design, starting from Boo
 ***
 
 # Logistics
-- *Lecturer*: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-- *Teaching Assistant*: [Marionne Millan](mailto:marionne@hawaii.edu)
-- *Lecture*:
+- **Personnel**:
+  - Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
+    - Office hours: see [here](../../#contact).
+  - TA: [Marionne Millan](mailto:marionne@hawaii.edu)
+    - Office Hours: 
+- **Lecture**:
   - Textbook: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks.
   - Time: Mondays, Wednesdays, and Fridays 9:30am-10:20am.
   - Format: [Zoom](https://hawaii.zoom.us/j/5764842348).
-- *Laboratory*:
-  - Tools:
-    - Software: Xilinx Vivado. 
-    - Hardware: Basys 3 FPGA Trainer Board.
+- **Laboratory**:
   - Time: 
     - Session 01: Tuesdays 9:00am-11:45am.
     - Session 02: Tuesdays 1:30pm-4:15pm.
@@ -84,103 +84,96 @@ This course explores the foundation of digital circuit design, starting from Boo
     - Session 02:
       - [Discord Server](https://discord.gg/cfkJVUBFyN)
       - [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu)
-- *Office hours*: see [here](../../#contact).
+  - Software: [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html). 
+    - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
+    - Mac (MacOS): requires a Linux virtual instance 
+      - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url]
+      - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
+  - Hardware: Basys 3 FPGA Trainer Board
+    - Pick up at Holme Hall 488 on 1/13, 2:00PM (limited quantities, first come, fisrt served).
+    - Buy at [Digilent](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/).
 
 ***
 # Grading
-- *Homework*: Participation and challenge problems are **different** for each student and **automatically graded** by the zyBook platform. You are encouraged to discuss homework assignments with your classmates. Discussions may include general approaches to a problem and suggested resource material. 
+- **Homework**: Participation and challenge problems are **different** for each student and **automatically graded** by the zyBook platform. You are encouraged to discuss homework assignments with your classmates. Discussions may include general approaches to a problem and suggested resource material. 
 
-- *Lab reports*: Lab report, **submitted per team**, are **graded by peer teams** based on the rubric specified by the TA. All team members must attend lab, jointly demonstration their implementations, and submit a single lab report to the TA. You may discuss the general approach to the lab assignment with other teams. You are encouraged to discuss lab assignments with other teams. Discussions may include general approaches to a design and suggested resource material.
+- **Lab reports**: Lab report, **submitted per team**, are **graded by peer teams** based on the rubric specified by the TA. All team members must attend lab, jointly demonstration their implementations, and submit a single lab report to the TA. You may discuss the general approach to the lab assignment with other teams. You are encouraged to discuss lab assignments with other teams. Discussions may include general approaches to a design and suggested resource material.
 
-- *Exams*: All exams are strictly individual efforts. 
+- **Exams**: All exams are strictly individual efforts. 
 
-- *Proscribed Conduct*: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
-
-## Percentages
+- **Percentages**
 | Participation | Challenge | Labs           | Midterms (2) | Final |
 | ----------    | ------    | -------------- | -------      | ---   |
 | 5%            | 20%       | 25%            | 30%          | 20%   |
 
-## Curves
+- **Curves**
 | Linear                         | Bell            |
 | ---                            | ---             |
 | participation, challenge, Labs | Midterms, Final |
 
-## Cutoffs
+- **Cutoffs**
 | A-     | B-    | C-    |
 | ------ | ----- | ----- |
 | 70%    | 50%   | 30%   |
 
+- **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
+
 ***
 # Schedule
 ## Lecture
-| TIME                                     | TOPICS                                                              | READING/HW                     | HW due         |
-| ---                                      | ---                                                                 | ---                            | ---            |
-| [Week 1 (1/11. 1/13, 1/15)][week 01 url] | Course Logistic and Introduction                                    | [zyBooks Week 01][read 01 url] | 23:59:59, 1/17 |
-| Week 2 (1/20. 1/22)                      | Number Systems                                                      | zyBooks Week 02                | 23:59:59, 1/24 |
-| Week 3 (1/25. 1/27, 1/29)                | Combinational Logic: Switches, Transistors, Logic Gates             | zyBooks Week 03                | 23:59:59, 1/31 |
-| Week 4 (2/1, 2/3, 2/5)                   | Combinational Logic: Boolean Algebra                                | zyBooks Week 04                | 23:59:59, 2/7  |
-| Week 5 (2/8, 2/10, 2/12)                 | Combinational Logic: Design Process, More Gates                     | zyBooks Week 05                | 23:59:59, 2/14 |
-| Week 6 (Feb 17)                          | Review: Combinational Logic                                         | --                             | --             |
-| Week 6 (Feb 19)                          | Midterm I: 9:30AM - 10:45AM                                         | --                             | --             |
-| Week 7 (2/22, 2/24, 2/26)                | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | zyBooks Week 07                | 23:59:59, 2/28 |
-| Week 8 (3/1, 3/3, 3/5)                   | Sequential Logic: Finite State Machines                             | zyBooks Week 08                | 23:59:59, 3/7  |
-| Week 9 (3/8, 3/10, 3/12)                 | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | zyBooks Week 09                | 23:59:59, 3/14 |
-| Spring Recess (Mar 15  - Mar 19)         | --                                                                  | --                             | --             |
-| Week 10 (Mar 22)                         | Review: Sequential Logic                                            | --                             | --             |
-| Week 10 (Mar 24)                         | Midterm II: 9:30AM - 10:45AM                                        | --                             | --             |
-| Week 11 (3/29, 3/31)                     | Review: Midterm II, Register-Transfer Level Design                  | zyBooks Week 11                | 23:59:59, 4/4  |
-| Week 12 (4/5, 4/7, 4/9)                  | Register Memory Components and FIFO                                 | zyBooks Week 12                | 23:59:59, 4/11 |
-| Week 13 (4/12, 4/14, 4/16)               | Optimizations and Tradeoffs                                         | zyBooks Week 13                | 23:59:59, 4/18 |
-| Week 14 (4/19, 4/21, 4/23)               | Physical Implementation on ICs                                      | zyBooks Week 14                | 23:59:59, 4/25 |
-| Week 15 (4/26, 4/28, 4/30)               | Programmable Processors                                             | zyBooks Week 15                | 23:59:59, 5/02 |
-| Week 16 (5/3, 5/5)                       | Class Review                                                        | --                             | --             |
-| Study Days (May 07, 08)                  | --                                                                  | --                             | --             |
-| Week 17 (5/10)                           | Final: 9:45AM - 11:45AM                                             | --                             | --             |
+| TIME                                     | TOPICS                                                              | READING/HW             | DEADLINE      |
+| ---                                      | ---                                                                 | ---                    | ---           |
+| [Week 1 (1/11. 1/13, 1/15)][week 01 url] | Course Logistic and Introduction                                    | [Week 01][read 01 url] | 1/17, 11:59PM |
+| Week 2 (1/20. 1/22)                      | Number Systems                                                      | Week 02                | 1/24, 11:59PM |
+| Week 3 (1/25. 1/27, 1/29)                | Combinational Logic: Switches, Transistors, Logic Gates             | Week 03                | 1/31, 11:59PM |
+| Week 4 (2/1, 2/3, 2/5)                   | Combinational Logic: Boolean Algebra                                | Week 04                | 2/7, 11:59PM  |
+| Week 5 (2/8, 2/10, 2/12)                 | Combinational Logic: Design Process, More Gates                     | Week 05                | 2/14, 11:59PM |
+| Week 6 (Feb 17)                          | Review: Combinational Logic                                         | --                     | --            |
+| Week 6 (Feb 19)                          | Midterm I: 9:30AM - 10:45AM                                         | --                     | --            |
+| Week 7 (2/22, 2/24, 2/26)                | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Week 07                | 2/28, 11:59PM |
+| Week 8 (3/1, 3/3, 3/5)                   | Sequential Logic: Finite State Machines                             | Week 08                | 3/7, 11:59PM  |
+| Week 9 (3/8, 3/10, 3/12)                 | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Week 09                | 3/14, 11:59PM |
+| Spring Recess (Mar 15  - Mar 19)         | --                                                                  | --                     | --            |
+| Week 10 (Mar 22)                         | Review: Sequential Logic                                            | --                     | --            |
+| Week 10 (Mar 24)                         | Midterm II: 9:30AM - 10:45AM                                        | --                     | --            |
+| Week 11 (3/29, 3/31)                     | Review: Midterm II, Register-Transfer Level Design                  | Week 11                | 4/4, 11:59PM  |
+| Week 12 (4/5, 4/7, 4/9)                  | Register Memory Components and FIFO                                 | Week 12                | 4/11, 11:59PM |
+| Week 13 (4/12, 4/14, 4/16)               | Optimizations and Tradeoffs                                         | Week 13                | 4/18, 11:59PM |
+| Week 14 (4/19, 4/21, 4/23)               | Physical Implementation on ICs                                      | Week 14                | 4/25, 11:59PM |
+| Week 15 (4/26, 4/28, 4/30)               | Programmable Processors                                             | Week 15                | 5/02, 11:59PM |
+| Week 16 (5/3, 5/5)                       | Class Review                                                        | --                     | --            |
+| Study Days (May 07, 08)                  | --                                                                  | --                     | --            |
+| Week 17 (5/10)                           | Final: 9:45AM - 11:45AM                                             | --                     | --            |
 
 ## Laboratory
-
-## Laboratory
-
-| TIME                      | Topic                                 		| Submissions	| DEADLINE 		|
-| ---                       | ---                                        	| --- 			| ---          	|
-| Week 1 (1/12)         	| No Lab                                     	| ---  			| ---			|
-| Week 2 (1/19)      		| Vivado Tutorial                            	| [lab 01 url]	| 1/24, 11:59pm |
-| Week 3 (1/26)          	| Modeling Concepts                           	| [lab 02 url] 	| 1/31, 11:59pm |
-| Week 4 (2/2)    	    	| Numbering Systems                          	| [lab 02 url]  | 2/7, 11:59pm  |
-| Week 5 (2/9)          	| Multi-Output Circuits                      	| [lab 02 url]  | 2/21, 11:59pm |
-| Week 6 (2/16)             | No lab                                     	| ---           | --- 			|
-| Week 7 (2/23)          	| Tasks Functions, and Testbench             	| [lab 02 url]  | 2/28, 11:59pm |
-| Week 8 (3/2)	       	   	| Modeling Latches and Flip-Flops            	| [lab 02 url]  | 3/7, 11:59pm 	|
-| Week 9 (3/9)          	| Finite State Machines                      	| [lab 02 url] 	| 3/14, 11:59pm |
-| Spring Recess (3/16)      | No Lab                                        |  ---          | --- 			|
-| Week 10 (3/23)            | No Lab                                        |  ---          | --- 			|
-| Week 11 (3/30)	 		| Modeling Registers and Counters            	| [lab 02 url]  | 4/4, 11:59pm 	|
-| Week 12 (4/6)	            | Architectural Wizard and IP Catalog        	| [lab 02 url] 	| 4/10, 11:59pm |
-| Week 13 (4/13)         	| Behavioral Modeling and Timing Constraints 	| [lab 02 url]  | 4/18, 11:59pm |
-| Week 14 (4/20)	        | Sequential System Design using ASM Charts  	| [lab 02 url]  | 4/25, 11:59pm |
-| Week 15 (4/27)     		| Catch-up Lab                               	| [lab 02 url]  | 5/2, 11:59pm 	|
-| Week 16 (4/4)	            | No Lab                                        | ---           | --- 			|
-| Study Days (May 07, 08)   | No Lab                                        | ---           | --- 			|
-| Week 17 (May 10)	        | No Lab     	                              	| --- 			| --- 			|
+| TIME                    | Topic                                      | Submissions              | DEADLINE      |
+| ---                     | ---                                        | ---                      | ---           |
+| Week 1 (1/12)           | --                                         | ---                      | ---           |
+| Week 2 (1/19)           | Vivado Tutorial                            | [Lab 01][lab 01 sub url] | 1/24, 11:59PM |
+| Week 3 (1/26)           | Modeling Concepts                          | Lab 02                   | 1/31, 11:59PM |
+| Week 4 (2/2)            | Numbering Systems                          | Lab 03                   | 2/7, 11:59PM  |
+| Week 5 (2/9)            | Multi-Output Circuits                      | Lab 04                   | 2/21, 11:59PM |
+| Week 6 (2/16)           | --                                         | ---                      | ---           |
+| Week 7 (2/23)           | Tasks Functions, and Testbench             | Lab 05                   | 2/28, 11:59PM |
+| Week 8 (3/2)            | Modeling Latches and Flip-Flops            | Lab 06                   | 3/7, 11:59PM  |
+| Week 9 (3/9)            | Finite State Machines                      | Lab 06                   | 3/14, 11:59PM |
+| Spring Recess (3/16)    | --                                         | ---                      | ---           |
+| Week 10 (3/23)          | --                                         | ---                      | ---           |
+| Week 11 (3/30)          | Modeling Registers and Counters            | Lab 07                   | 4/4, 11:59PM  |
+| Week 12 (4/6)           | Architectural Wizard and IP Catalog        | Lab 08                   | 4/10, 11:59PM |
+| Week 13 (4/13)          | Behavioral Modeling and Timing Constraints | Lab 09                   | 4/18, 11:59PM |
+| Week 14 (4/20)          | Sequential System Design using ASM Charts  | Lab 10                   | 4/25, 11:59PM |
+| Week 15 (4/27)          | Catch-up Lab                               | Lab 11                   | 5/2, 11:59PM  |
+| Week 16 (4/4)           | --                                         | ---                      | ---           |
+| Study Days (May 07, 08) | --                                         | ---                      | ---           |
+| Week 17 (May 10)        | --                                         | ---                      | ---           |
 
 ***
 # Resources
 ## Xilinx Vivado and Basys3 
 - [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html):
-  - Access Vivado on campus computers:
-    - Holmes Hall 451
-    - Holmes Hall 387
-  - Access Vivado on personal computers:
-    - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
-    - Mac (MacOS): requires a Linux virtual instance 
-      - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url], [setup usb][virtualbox usb guide url]
-      - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
   - [Xilinx Vivado Getting Started][xilinx vivado getting started url]
 - [Basys 3 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
-  - Access Basys 3 board on campus: 
-    - Holmes Hall 451 (in-house use only)
-    - Holmes Hall 483 (limited quantities , short loan, first come, fisrt served) 
   - [Basys3 Master XDC File][basys3 master xdc file url]
   - [Basys3 Reference Manual][basys3 reference manual url]
   - [Basys3 Schematic][basys3 schematic url]
@@ -231,16 +224,16 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 16 url]: # (reading urls)
 [read 17 url]: # (reading urls)
 
-[labs urls]: # (labs urls)
-[lab 01 url]: 
-[lab 02 url]: 
-[lab 03 url]: 
-[lab 04 url]: 
-[lab 05 url]: 
-[lab 06 url]: 
-[lab 07 url]: 
-[lab 08 url]: 
-[lab 09 url]: 
+[labs sub urls]: # (labs sub urls)
+[lab 01 sub url]: # (labs sub urls)
+[lab 02 sub url]: # (labs sub urls)
+[lab 03 sub url]: # (labs sub urls)
+[lab 04 sub url]: # (labs sub urls)
+[lab 05 sub url]: # (labs sub urls)
+[lab 06 sub url]: # (labs sub urls)
+[lab 07 sub url]: # (labs sub urls)
+[lab 08 sub url]: # (labs sub urls)
+[lab 09 sub url]: # (labs sub urls)
 
 [resource urls]: # (resource urls)
 [xilinx vivado installation guide url]: ./tutorials/xilinx_vivado_installation_guide/
