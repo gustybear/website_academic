@@ -140,29 +140,30 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 ## Laboratory
 
-| TIME                                            | TOPICS                                                             | LABORATORY                                 | READING                        | ASSIGMENT                                     | DUE (before first lecture) |
-| ---                                             | ---                                                                 | ---                                        | ---                            | ---                                           | ---                        |
-| [Week 1 (1/11. 1/13, 1/15)]          | Course Logistic and Introduction                                    |                                            | zyBooks Week 01                |                                               | --                         |
-| [Week 2 (1/20. 1/22)]              | Number Systems                                                      | Vivado Tutorial                            | zyBooks Week 02                | Numbering Systems                             | --                         |
-| [Week 3 (1/25. 1/27, 1/29)]          | Combinational Logic: Switches, Transistors, Logic Gates             | Modeling Concepts                          | zyBooks Week 03                | Switches, Transistors, Logic Gates            | Week 1                     |
-| [Week 4 (2/1, 2/3, 2/5)]          | Combinational Logic: Boolean Algebra                                | Numbering Systems                          | zyBooks Week 04                | Boolean Algebra                               | Week 2                     |
-| [Week 5 (2/8, 2/10, 2/12)]          | Combinational Logic: Design Process, More Gates                     | Multi-Output Circuits                      | zyBooks Week 05                | Design Process, More Gates                    | Week 3                     |
-| Week 6 (Feb 17)                                 | Review: Combinational Logic                                         |                                            |                                |                                               | Week 4                     |
-| [Week 6 (Feb 19)]                  | Midterm I: Computer allowed.                                        | At home.                                   | 9:30AM - 10:45AM               |                                               |                            |
-| [Week 7 (2/22, 2/24, 2/26)]          | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Tasks Functions, and Testbench             | [zyBooks Week 07] | Latches and Flip-Flops                        | Week 5                     |
-| [Week 8 (3/1, 3/3, 3/5)]          | Sequential Logic: Finite State Machines                             | Modeling Latches and Flip-Flops            | [zyBooks Week 08] | Finite State Machines                         | --                         |
-| [Week 9 (3/8, 3/10, 3/12)]          | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Finite State Machines                      | [zyBooks Week 09] | Registers, Counters, Shifters, and Arithmetic | Week 7                     |
-| Spring Recess (Mar 15  - Mar 19)                |                                                                     |                                            |                                |                                               |
-| Week 10 (Mar 22)                                | Review: Sequential Logic                                            |                                            |                                |                                               | Week 8                     |
-| [Week 10 (Mar 24)]                 | Midterm Exam II:          Computer allowed.                         | At home.                                   | 9:30AM - 10:45AM               |                                               |
-| [Week 11 (3/29, 3/31)] | Register-Transfer Level Design                                      | Modeling Registers and Counters            | [zyBooks Week 11] | Register-Transfer Level Process               | Week 9                     |
-| [Week 12 (4/5, 4/7, 4/9)]             | Register Memory Components and FIFO                                 | Architectural Wizard and IP Catalog        | [zyBooks Week 12] | Register Files, Cache, and Memory Components  | --                         |
-| [Week 13 (4/12, 4/14, 4/16)]         | Optimizations and Tradeoffs                                         | Behavioral Modeling and Timing Constraints | [zyBooks Week 13] | Optimizations and Tradeoffs                   | Week 11                    |
-| [Week 14 (4/19, 4/21, 4/23))]         | Physical Implementation on ICs                                      | Sequential System Design using ASM Charts  | [zyBooks Week 14] | Physical Implementation on ICs                | Week 12                    |
-| [Week 15 (4/26, 4/28, 4/30)]     | Programmable Processors                                             | Catch-up Lab                               | [zyBooks Week 15] | Programmable Processors                       | Week 13                    |
-| [Week 16 (May 03, 05)]             | Class Review                                                        |                                            |                                |                                               | Week 14                    |
-| Study Days (May 07, 08)                         |                                                                     |                                            |                                |                                               |
-| [Week 17 (May 10)][week 17 url]                 | Final:       Computer allowed                                       | Kuykendall Hall 305                        | 9:45AM - 11:45AM               |                                               | Week 15                    |
+## Laboratory
+
+| TIME                      | Topic                                 		| Submissions	| DEADLINE 		|
+| ---                       | ---                                        	| --- 			| ---          	|
+| Week 1 (1/12)         	| No Lab                                     	| ---  			| ---			|
+| Week 2 (1/19)      		| Vivado Tutorial                            	| [lab 01 url]	| 1/24, 11:59pm |
+| Week 3 (1/26)          	| Modeling Concepts                           	| [lab 02 url] 	| 1/31, 11:59pm |
+| Week 4 (2/2)    	    	| Numbering Systems                          	| [lab 02 url]  | 2/7, 11:59pm  |
+| Week 5 (2/9)          	| Multi-Output Circuits                      	| [lab 02 url]  | 2/21, 11:59pm |
+| Week 6 (2/16)             | No lab                                     	| ---           | --- 			|
+| Week 7 (2/23)          	| Tasks Functions, and Testbench             	| [lab 02 url]  | 2/28, 11:59pm |
+| Week 8 (3/2)	       	   	| Modeling Latches and Flip-Flops            	| [lab 02 url]  | 3/7, 11:59pm 	|
+| Week 9 (3/9)          	| Finite State Machines                      	| [lab 02 url] 	| 3/14, 11:59pm |
+| Spring Recess (3/16)      | No Lab                                        |  ---          | --- 			|
+| Week 10 (3/23)            | No Lab                                        |  ---          | --- 			|
+| Week 11 (3/30)	 		| Modeling Registers and Counters            	| [lab 02 url]  | 4/4, 11:59pm 	|
+| Week 12 (4/6)	            | Architectural Wizard and IP Catalog        	| [lab 02 url] 	| 4/10, 11:59pm |
+| Week 13 (4/13)         	| Behavioral Modeling and Timing Constraints 	| [lab 02 url]  | 4/18, 11:59pm |
+| Week 14 (4/20)	        | Sequential System Design using ASM Charts  	| [lab 02 url]  | 4/25, 11:59pm |
+| Week 15 (4/27)     		| Catch-up Lab                               	| [lab 02 url]  | 5/2, 11:59pm 	|
+| Week 16 (4/4)	            | No Lab                                        | ---           | --- 			|
+| Study Days (May 07, 08)   | No Lab                                        | ---           | --- 			|
+| Week 17 (May 10)	        | No Lab     	                              	| --- 			| --- 			|
+
 ***
 # Resources
 ## Xilinx Vivado and Basys3 
@@ -229,6 +230,17 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 15 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/13/section/1
 [read 16 url]: # (reading urls)
 [read 17 url]: # (reading urls)
+
+[labs urls]: # (labs urls)
+[lab 01 url]: 
+[lab 02 url]: 
+[lab 03 url]: 
+[lab 04 url]: 
+[lab 05 url]: 
+[lab 06 url]: 
+[lab 07 url]: 
+[lab 08 url]: 
+[lab 09 url]: 
 
 [resource urls]: # (resource urls)
 [xilinx vivado installation guide url]: ./tutorials/xilinx_vivado_installation_guide/
