@@ -149,21 +149,21 @@ This course explores the foundation of digital circuit design, starting from Boo
 | TIME                    | Topic                                      | Submissions              | DEADLINE      |
 | ---                     | ---                                        | ---                      | ---           |
 | Week 1 (1/12)           | --                                         | ---                      | ---           |
-| Week 2 (1/19)           | Vivado Tutorial                            | [Lab 01][lab 01 sub url] | 1/24, 11:59PM |
-| Week 3 (1/26)           | Modeling Concepts                          | Lab 02                   | 1/31, 11:59PM |
-| Week 4 (2/2)            | Numbering Systems                          | Lab 03                   | 2/7, 11:59PM  |
-| Week 5 (2/9)            | Multi-Output Circuits                      | Lab 04                   | 2/21, 11:59PM |
+| Week 2 (1/19)           | Vivado Tutorial                            | [Lab 01, Sec. 1][labS1 01 sub url], [Lab 01, Sec. 2][labS1 01 sub url] | 1/24, 11:59PM |
+| Week 3 (1/26)           | Modeling Concepts                          | [Lab 02, Sec. 1][labS1 02 sub url], [Lab 02, Sec. 2][labS1 02 sub url] | 1/31, 11:59PM |
+| Week 4 (2/2)            | Numbering Systems                          | [Lab 03, Sec. 1][labS1 03 sub url], [Lab 03, Sec. 2][labS1 03 sub url] | 2/7, 11:59PM  |
+| Week 5 (2/9)            | Multi-Output Circuits                      | [Lab 04, Sec. 1][labS1 04 sub url], [Lab 04, Sec. 2][labS1 04 sub url]  2/21, 11:59PM |
 | Week 6 (2/16)           | --                                         | ---                      | ---           |
-| Week 7 (2/23)           | Tasks Functions, and Testbench             | Lab 05                   | 2/28, 11:59PM |
-| Week 8 (3/2)            | Modeling Latches and Flip-Flops            | Lab 06                   | 3/7, 11:59PM  |
-| Week 9 (3/9)            | Finite State Machines                      | Lab 06                   | 3/14, 11:59PM |
+| Week 7 (2/23)           | Tasks Functions, and Testbench             | [Lab 05, Sec. 1][labS1 05 sub url], [Lab 05, Sec. 2][labS1 05 sub url] | 2/28, 11:59PM |
+| Week 8 (3/2)            | Modeling Latches and Flip-Flops            | [Lab 06, Sec. 1][labS1 06 sub url], [Lab 06, Sec. 2][labS1 06 sub url] | 3/7, 11:59PM  |
+| Week 9 (3/9)            | Finite State Machines                      | [Lab 07, Sec. 1][labS1 07 sub url], [Lab 07, Sec. 2][labS1 07 sub url] | 3/14, 11:59PM |
 | Spring Recess (3/16)    | --                                         | ---                      | ---           |
 | Week 10 (3/23)          | --                                         | ---                      | ---           |
-| Week 11 (3/30)          | Modeling Registers and Counters            | Lab 07                   | 4/4, 11:59PM  |
-| Week 12 (4/6)           | Architectural Wizard and IP Catalog        | Lab 08                   | 4/10, 11:59PM |
-| Week 13 (4/13)          | Behavioral Modeling and Timing Constraints | Lab 09                   | 4/18, 11:59PM |
-| Week 14 (4/20)          | Sequential System Design using ASM Charts  | Lab 10                   | 4/25, 11:59PM |
-| Week 15 (4/27)          | Catch-up Lab                               | Lab 11                   | 5/2, 11:59PM  |
+| Week 11 (3/30)          | Modeling Registers and Counters            | [Lab 08, Sec. 1][labS1 08 sub url], [Lab 08, Sec. 2][labS1 08 sub url] | 4/4, 11:59PM  |
+| Week 12 (4/6)           | Architectural Wizard and IP Catalog        | [Lab 09, Sec. 1][labS1 09 sub url], [Lab 09, Sec. 2][labS1 09 sub url] | 4/10, 11:59PM |
+| Week 13 (4/13)          | Behavioral Modeling and Timing Constraints | [Lab 10, Sec. 1][labS1 10 sub url], [Lab 10, Sec. 2][labS1 10 sub url] | 4/18, 11:59PM |
+| Week 14 (4/20)          | Sequential System Design using ASM Charts  | [Lab 11, Sec. 1][labS1 11 sub url], [Lab 11, Sec. 2][labS1 11 sub url] | 4/25, 11:59PM |
+| Week 15 (4/27)          | Catch-up Lab                               |                          | 5/2, 11:59PM  |
 | Week 16 (4/4)           | --                                         | ---                      | ---           |
 | Study Days (May 07, 08) | --                                         | ---                      | ---           |
 | Week 17 (May 10)        | --                                         | ---                      | ---           |
@@ -224,16 +224,27 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 16 url]: # (reading urls)
 [read 17 url]: # (reading urls)
 
-[labs sub urls]: # (labs sub urls)
-[lab 01 sub url]: https://classroom.google.com/w/MjUwMzMyNjE4MTk4/tc/MjUxODE0ODk5NTE2
-[lab 02 sub url]: # (labs sub urls)
-[lab 03 sub url]: # (labs sub urls)
-[lab 04 sub url]: # (labs sub urls)
-[lab 05 sub url]: # (labs sub urls)
-[lab 06 sub url]: # (labs sub urls)
-[lab 07 sub url]: # (labs sub urls)
-[lab 08 sub url]: # (labs sub urls)
-[lab 09 sub url]: # (labs sub urls)
+[labsS1 sub urls]: # (labs sub urls)
+[labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
+[labS1 02 sub url]: # (labs sub urls)
+[labS1 03 sub url]: # (labs sub urls)
+[labS1 04 sub url]: # (labs sub urls)
+[labS1 05 sub url]: # (labs sub urls)
+[labS1 06 sub url]: # (labs sub urls)
+[labS1 07 sub url]: # (labs sub urls)
+[labS1 08 sub url]: # (labs sub urls)
+[labS1 09 sub url]: # (labs sub urls)
+
+[labsS2 sub urls]: # (labs sub urls)
+[labS2 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjUxODI5NjI2OTgx/details
+[labS2 02 sub url]: # (labs sub urls)
+[labS2 03 sub url]: # (labs sub urls)
+[labS2 04 sub url]: # (labs sub urls)
+[labS2 05 sub url]: # (labs sub urls)
+[labS2 06 sub url]: # (labs sub urls)
+[labS2 07 sub url]: # (labs sub urls)
+[labS2 08 sub url]: # (labs sub urls)
+[labS2 09 sub url]: # (labs sub urls)
 
 [resource urls]: # (resource urls)
 [xilinx vivado installation guide url]: ./tutorials/xilinx_vivado_installation_guide/
