@@ -225,7 +225,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 17 url]: # (reading urls)
 
 [labs sub urls]: # (labs sub urls)
-[lab 01 sub url]: # https://classroom.google.com/w/MjUwMzMyNjE4MTk4/tc/MjUxODE0ODk5NTE2
+[lab 01 sub url]: https://classroom.google.com/w/MjUwMzMyNjE4MTk4/tc/MjUxODE0ODk5NTE2
 [lab 02 sub url]: # (labs sub urls)
 [lab 03 sub url]: # (labs sub urls)
 [lab 04 sub url]: # (labs sub urls)
