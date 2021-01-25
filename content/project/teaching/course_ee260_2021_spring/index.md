@@ -70,9 +70,9 @@ This course explores the foundation of digital circuit design, starting from Boo
   - TA: [Marionne Millan](mailto:marionne@hawaii.edu)
     - Office Hours: 
 - **Lecture**:
-  - Textbook: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks.
   - Time: Mondays, Wednesdays, and Fridays 9:30am-10:20am.
   - Format: [Zoom](https://hawaii.zoom.us/j/5764842348).
+  - Textbook: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks.
 - **Laboratory**:
   - Time: 
     - Session 01: Tuesdays 9:00am-11:45am.
@@ -90,7 +90,7 @@ This course explores the foundation of digital circuit design, starting from Boo
       - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url]
       - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
   - Hardware: Basys 3 FPGA Trainer Board
-    - Pick up at Holme Hall 488 on 1/13, 2:00PM (limited quantities, first come, fisrt served).
+    - Pick up at Holme Hall 488 on 1/13, 2:00pm-3:00pm (limited quantities, first come, fisrt served).
     - Buy at [Digilent](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/).
 
 ***
@@ -121,37 +121,37 @@ This course explores the foundation of digital circuit design, starting from Boo
 ***
 # Schedule
 ## Lecture
-| TIME                                     | TOPICS                                                              | READING/HW             | DEADLINE      |
-| ---                                      | ---                                                                 | ---                    | ---           |
-| [Week 1 (1/11. 1/13, 1/15)][week 01 url] | Course Logistic and Introduction                                    | [Week 01][read 01 url] | 1/17, 11:59PM |
-| Week 2 (1/20. 1/22)                      | Number Systems                                                      | Week 02                | 1/24, 11:59PM |
-| Week 3 (1/25. 1/27, 1/29)                | Combinational Logic: Switches, Transistors, Logic Gates             | Week 03                | 1/31, 11:59PM |
-| Week 4 (2/1, 2/3, 2/5)                   | Combinational Logic: Boolean Algebra                                | Week 04                | 2/7, 11:59PM  |
-| Week 5 (2/8, 2/10, 2/12)                 | Combinational Logic: Design Process, More Gates                     | Week 05                | 2/14, 11:59PM |
-| Week 6 (Feb 17)                          | Review: Combinational Logic                                         | --                     | --            |
-| Week 6 (Feb 19)                          | Midterm I: 9:30AM - 10:45AM                                         | --                     | --            |
-| Week 7 (2/22, 2/24, 2/26)                | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops | Week 07                | 2/28, 11:59PM |
-| Week 8 (3/1, 3/3, 3/5)                   | Sequential Logic: Finite State Machines                             | Week 08                | 3/7, 11:59PM  |
-| Week 9 (3/8, 3/10, 3/12)                 | Sequential Logic: Registers, Counters, Shifters, and Arithmetic     | Week 09                | 3/14, 11:59PM |
-| Spring Recess (Mar 15  - Mar 19)         | --                                                                  | --                     | --            |
-| Week 10 (Mar 22)                         | Review: Sequential Logic                                            | --                     | --            |
-| Week 10 (Mar 24)                         | Midterm II: 9:30AM - 10:45AM                                        | --                     | --            |
-| Week 11 (3/29, 3/31)                     | Review: Midterm II, Register-Transfer Level Design                  | Week 11                | 4/4, 11:59PM  |
-| Week 12 (4/5, 4/7, 4/9)                  | Register Memory Components and FIFO                                 | Week 12                | 4/11, 11:59PM |
-| Week 13 (4/12, 4/14, 4/16)               | Optimizations and Tradeoffs                                         | Week 13                | 4/18, 11:59PM |
-| Week 14 (4/19, 4/21, 4/23)               | Physical Implementation on ICs                                      | Week 14                | 4/25, 11:59PM |
-| Week 15 (4/26, 4/28, 4/30)               | Programmable Processors                                             | Week 15                | 5/02, 11:59PM |
-| Week 16 (5/3, 5/5)                       | Class Review                                                        | --                     | --            |
-| Study Days (May 07, 08)                  | --                                                                  | --                     | --            |
-| Week 17 (5/10)                           | Final: 9:45AM - 11:45AM                                             | --                     | --            |
+| TIME                                                            | TOPICS                                                                 | READING/HW             | DEADLINE      |
+| ---                                                             | ---                                                                    | ---                    | ---           |
+| Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url]) | [Course Logistic and Introduction][week 01 url]                        | [Week 01][read 01 url] | 1/17, 11:59PM |
+| Week 2 ([1/20][recording 0120 url]. [1/22][recording 0122 url]) | [Number Systems][week 02 url]                                          | [Week 02][read 02 url] | 1/24, 11:59PM |
+| Week 3 (1/25. 1/27, 1/29)                                       | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url] | 1/31, 11:59PM |
+| Week 4 (2/1, 2/3, 2/5)                                          | Combinational Logic: Boolean Algebra                                   | Week 04                | 2/7, 11:59PM  |
+| Week 5 (2/8, 2/10, 2/12)                                        | Combinational Logic: Design Process, More Gates                        | Week 05                | 2/14, 11:59PM |
+| Week 6 (Feb 17)                                                 | Review: Combinational Logic                                            | --                     | --            |
+| Week 6 (Feb 19)                                                 | Midterm I: 9:30AM - 10:45AM                                            | --                     | --            |
+| Week 7 (2/22, 2/24, 2/26)                                       | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                | 2/28, 11:59PM |
+| Week 8 (3/1, 3/3, 3/5)                                          | Sequential Logic: Finite State Machines                                | Week 08                | 3/7, 11:59PM  |
+| Week 9 (3/8, 3/10, 3/12)                                        | Sequential Logic: Registers, Counters, Shifters, and Arithmetic        | Week 09                | 3/14, 11:59PM |
+| Spring Recess (Mar 15  - Mar 19)                                | --                                                                     | --                     | --            |
+| Week 10 (Mar 22)                                                | Review: Sequential Logic                                               | --                     | --            |
+| Week 10 (Mar 24)                                                | Midterm II: 9:30AM - 10:45AM                                           | --                     | --            |
+| Week 11 (3/29, 3/31)                                            | Review: Midterm II, Register-Transfer Level Design                     | Week 11                | 4/4, 11:59PM  |
+| Week 12 (4/5, 4/7, 4/9)                                         | Register Memory Components and FIFO                                    | Week 12                | 4/11, 11:59PM |
+| Week 13 (4/12, 4/14, 4/16)                                      | Optimizations and Tradeoffs                                            | Week 13                | 4/18, 11:59PM |
+| Week 14 (4/19, 4/21, 4/23)                                      | Physical Implementation on ICs                                         | Week 14                | 4/25, 11:59PM |
+| Week 15 (4/26, 4/28, 4/30)                                      | Programmable Processors                                                | Week 15                | 5/02, 11:59PM |
+| Week 16 (5/3, 5/5)                                              | Class Review                                                           | --                     | --            |
+| Study Days (May 07, 08)                                         | --                                                                     | --                     | --            |
+| Week 17 (5/14)                                                  | Final: 9:45AM - 11:45AM                                                | --                     | --            |
 
 ## Laboratory
 | TIME                    | Topic                                      | Submissions                |                             | DEADLINE      |
 | ---                     | ---                                        | ---                        | ---                         | ---           |
 | Week 1 (1/12)           | --                                         | Section 1                  | Section 2                   | ---           |
-| Week 2 (1/19)           | Vivado Tutorial                            | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url]  | 1/24, 11:59PM |
-| Week 3 (1/26)           | Modeling Concepts                          | Lab 02                     | Lab 02                      | 1/31, 11:59PM |
-| Week 4 (2/2)            | Numbering Systems                          | Lab 03                     | Lab 03                      | 2/7, 11:59PM  |
+| Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]              | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url]  | 1/24, 11:59PM |
+| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]            | Lab 02                     | Lab 02                      | 1/31, 11:59PM |
+| Week 4 (2/2)            | [Numbering Systems][lab 03 url]            | Lab 03                     | Lab 03                      | 2/7, 11:59PM  |
 | Week 5 (2/9)            | Multi-Output Circuits                      | Lab 04                     | Lab 04                      | 2/21, 11:59PM |
 | Week 6 (2/16)           | --                                         | ---                        | ---                         | ---           |
 | Week 7 (2/23)           | Tasks Functions, and Testbench             | Lab 05                     | Lab 05                      | 2/28, 11:59PM |
@@ -188,22 +188,28 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 [week urls]: # (week urls)
 [week 01 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_01_slides.pdf
-[week 02 url]: https://classroom.github.com/a/SvtGnkD7
-[week 03 url]: https://classroom.github.com/a/rFAYuj_8
-[week 04 url]: https://classroom.github.com/a/UZPNuyoo
-[week 05 url]: https://classroom.github.com/a/JNxgXMaM
+[week 02 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_02_slides.pdf
+[week 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_03_slides.pdf
+[week 04 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_04_slides.pdf
+[week 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_06_slides.pdf
 [week 06 url]: https://classroom.github.com/a/TfhRNuDv
-[week 07 url]: https://classroom.github.com/a/fIGWecjk
-[week 08 url]: https://classroom.github.com/a/eeiPKFYJ
-[week 09 url]: https://classroom.github.com/a/v2DQycY1
+[week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_07_slides.pdf
+[week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_08_slides.pdf
+[week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_09_slides.pdf
 [week 10 url]: https://classroom.github.com/a/jruqU2Sl
-[week 11 url]: https://classroom.github.com/a/5TDnj9SM
-[week 12 url]: https://classroom.github.com/a/WyB0SkZD
-[week 13 url]: https://classroom.github.com/a/76NMroe-
-[week 14 url]: https://classroom.github.com/a/7tRD76MI
-[week 15 url]: https://classroom.github.com/a/ym8TefFX
+[week 11 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_11_slides.pdf
+[week 12 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_12_slides.pdf
+[week 13 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_13_slides.pdf
+[week 14 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_14_slides.pdf
+[week 15 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_15_slides.pdf
 [week 16 url]: https://classroom.github.com/a/eqfZxWdk
 [week 17 url]: https://classroom.github.com/a/ahPU1u-k
+
+[recording urls]: # (recording urls)
+[recording 0113 url]: https://youtu.be/RtppPuw2Thw
+[recording 0115 url]: https://youtu.be/Io-uqv-oNEM
+[recording 0120 url]: https://youtu.be/nSlZ9HoWbqk
+[recording 0122 url]: https://youtu.be/WLKV46bScUY
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
@@ -223,6 +229,11 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 15 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/13/section/1
 [read 16 url]: # (reading urls)
 [read 17 url]: # (reading urls)
+
+[labs urls]: # (labs urls)
+[lab 01 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_01.zip
+[lab 02 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_02.zip
+[lab 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_03.zip
 
 [labsS1 sub urls]: # (labs sub urls)
 [labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
