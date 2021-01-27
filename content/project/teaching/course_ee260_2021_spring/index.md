@@ -124,8 +124,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 | TIME                                                            | TOPICS                                                                 | READING/HW             | DEADLINE      |
 | ---                                                             | ---                                                                    | ---                    | ---           |
 | Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url]) | [Course Logistic and Introduction][week 01 url]                        | [Week 01][read 01 url] | 1/17, 11:59PM |
-| Week 2 ([1/20][recording 0120 url]. [1/22][recording 0122 url]) | [Number Systems][week 02 url]                                          | [Week 02][read 02 url] | 1/24, 11:59PM |
-| Week 3 (1/25. 1/27, 1/29)                                       | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url] | 1/31, 11:59PM |
+| Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url]) | [Number Systems][week 02 url]                                          | [Week 02][read 02 url] | 1/24, 11:59PM |
+| Week 3 ([1/25][recording 0125 url], 1/27, 1/29)                 | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url] | 1/31, 11:59PM |
 | Week 4 (2/1, 2/3, 2/5)                                          | Combinational Logic: Boolean Algebra                                   | Week 04                | 2/7, 11:59PM  |
 | Week 5 (2/8, 2/10, 2/12)                                        | Combinational Logic: Design Process, More Gates                        | Week 05                | 2/14, 11:59PM |
 | Week 6 (Feb 17)                                                 | Review: Combinational Logic                                            | --                     | --            |
@@ -210,6 +210,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0115 url]: https://youtu.be/Io-uqv-oNEM
 [recording 0120 url]: https://youtu.be/nSlZ9HoWbqk
 [recording 0122 url]: https://youtu.be/WLKV46bScUY
+[recording 0125 url]: https://youtu.be/zd7QDoAOB5M
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
