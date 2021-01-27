@@ -150,7 +150,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | ---                     | ---                                        | ---                        | ---                         | ---           |
 | Week 1 (1/12)           | --                                         | Section 1                  | Section 2                   | ---           |
 | Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]              | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url]  | 1/24, 11:59PM |
-| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]            | Lab 02                     | Lab 02                      | 1/31, 11:59PM |
+| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]            | [Lab 02][labS1 02 sub url] | [Lab 02][labS2 02 sub url]  | 1/31, 11:59PM |
 | Week 4 (2/2)            | [Numbering Systems][lab 03 url]            | Lab 03                     | Lab 03                      | 2/7, 11:59PM  |
 | Week 5 (2/9)            | Multi-Output Circuits                      | Lab 04                     | Lab 04                      | 2/21, 11:59PM |
 | Week 6 (2/16)           | --                                         | ---                        | ---                         | ---           |
@@ -238,7 +238,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 [labsS1 sub urls]: # (labs sub urls)
 [labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
-[labS1 02 sub url]: # (labs sub urls)
+[labS1 02 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjYwNDg4Mzk4MDg0/details
 [labS1 03 sub url]: # (labs sub urls)
 [labS1 04 sub url]: # (labs sub urls)
 [labS1 05 sub url]: # (labs sub urls)
@@ -249,7 +249,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 [labsS2 sub urls]: # (labs sub urls)
 [labS2 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjUxODI5NjI2OTgx/details
-[labS2 02 sub url]: # (labs sub urls)
+[labS2 02 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjYwNDg4Mzk4OTgy/details
 [labS2 03 sub url]: # (labs sub urls)
 [labS2 04 sub url]: # (labs sub urls)
 [labS2 05 sub url]: # (labs sub urls)
