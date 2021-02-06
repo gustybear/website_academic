@@ -24,7 +24,7 @@ organizations:
 
 interests:
 - Wireless Security
-- mmWwave Network
+- mmwave Network
 
 # List your qualifications (such as academic degrees).
 education:
