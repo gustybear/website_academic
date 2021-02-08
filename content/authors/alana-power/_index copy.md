@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Samson Aggelopoulos
+title: Alana Power
 
 # Is this the primary user of the site?
 superuser: false
@@ -23,15 +23,15 @@ organizations:
 # List your academic interests.
 
 interests:
-- Wireless Security
 - mmwave Network
+- Antennas
 
 # List your qualifications (such as academic degrees).
 education:
   courses:
   - course: B.S. in Electrical Engineering
     institution: University of Hawaiʻi at Mānoa
-    year: 2020
+    year: 2021
 
 # Social/Academic Networking
 
@@ -43,8 +43,11 @@ education:
 
 
 social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/alanapower/
 - icon: envelope
   icon_pack: fa
-  link: mailto:saggelop@hawaii.edu
+  link: mailto:afpower@hawaii.edu
 ---
 
