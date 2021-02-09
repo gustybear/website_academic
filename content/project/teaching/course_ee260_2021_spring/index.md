@@ -71,32 +71,18 @@ This course explores the foundation of digital circuit design, starting from Boo
 | TA: [Marionne Millan](mailto:marionne@hawaii.edu)  | Office Hours:                               |
 
 - **Lecture**:
-| Time               | Location                                      | Textbook                                                                                             |
-| ----               | ---                                         | ---                                                                                                  |
-| MWF 9:30am-10:20am | [Zoom](https://hawaii.zoom.us/j/5764842348) | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021) |
+| Time               | Location                                    | Textbook                                                                                             | Homework Effort | Exam Effort |
+| ----               | ---                                         | ---                                                                                                  | ---             | ---         |
+| MWF 9:30am-10:20am | [Zoom](https://hawaii.zoom.us/j/5764842348) | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021) | Individual      | Individual  |
 
 - **Laboratory**:
-| Session | Time             | Location                                                                                                                  |
-| ---     | ----             | ---                                                                                                                       |
-| 01      | T 9:00am-11:45am | [Discord](https://discord.gg/qMKyx6PcsP), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey) |
-| 02      | T 1:30pm-4:15pm  | [Discord](https://discord.gg/cfkJVUBFyN), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu) |
-
-  - Software: [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html). 
-    - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
-    - Mac (MacOS): requires a Linux virtual instance 
-      - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url]
-      - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
-  - Hardware: Basys 3 FPGA Trainer Board
-    - Pick up at Holme Hall 488 on 1/13, 2:00pm-3:00pm (limited quantities, first come, fisrt served).
-    - Buy at [Digilent](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/).
+| Session | Time             | Location                                                                                                                  | Report Effort |
+| ---     | ----             | ---                                                                                                                       | ---           |
+| 01      | T 9:00am-11:45am | [Discord](https://discord.gg/qMKyx6PcsP), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey) | Group         |
+| 02      | T 1:30pm-4:15pm  | [Discord](https://discord.gg/cfkJVUBFyN), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu) | Group         |
 
 ***
 # Grading
-- **Homework**: Participation and challenge problems are **different** for each student and **automatically graded** by the zyBook platform. You are encouraged to discuss homework assignments with your classmates. Discussions may include general approaches to a problem and suggested resource material. 
-
-- **Lab reports**: Lab report, **submitted per team**, are **graded by peer teams** based on the rubric specified by the TA. All team members must attend lab, jointly demonstration their implementations, and submit a single lab report to the TA. You may discuss the general approach to the lab assignment with other teams. You are encouraged to discuss lab assignments with other teams. Discussions may include general approaches to a design and suggested resource material.
-
-- **Exams**: All exams are strictly individual efforts. 
 
 - **Percentages**
 | Participation | Challenge | Labs           | Midterms (2) | Final |
@@ -167,10 +153,18 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 ***
 # Resources
-## Xilinx Vivado and Basys3 
-- [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html):
+## [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html).
+  - Installation
+    - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
+    - Mac (MacOS): requires a Linux virtual instance 
+      - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url]
+      - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
   - [Xilinx Vivado Getting Started][xilinx vivado getting started url]
-- [Basys 3 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
+
+## [Basys 3 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
+  - Acquire
+    - Pick up: Holme Hall 488, 1/13, 2:00pm-3:00pm.
+    - Buy: [Digilent](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/).
   - [Basys3 Master XDC File][basys3 master xdc file url]
   - [Basys3 Reference Manual][basys3 reference manual url]
   - [Basys3 Schematic][basys3 schematic url]
