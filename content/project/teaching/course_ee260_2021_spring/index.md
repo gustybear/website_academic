@@ -65,25 +65,22 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 # Logistics
 - **Personnel**:
-  - Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-    - Office hours: see [here](../../../#contact).
-  - TA: [Marionne Millan](mailto:marionne@hawaii.edu)
-    - Office Hours: 
+|                                                    |                                             |
+| ----                                               | ---                                         |
+| Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu) | Office Hours: see [here](../../../#contact) |
+| TA: [Marionne Millan](mailto:marionne@hawaii.edu)  | Office Hours:                               |
+
 - **Lecture**:
-  - Time: Mondays, Wednesdays, and Fridays 9:30am-10:20am.
-  - Format: [Zoom](https://hawaii.zoom.us/j/5764842348).
-  - Textbook: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks.
+| Time               | Location                                      | Textbook                                                                                             |
+| ----               | ---                                         | ---                                                                                                  |
+| MWF 9:30am-10:20am | [Zoom](https://hawaii.zoom.us/j/5764842348) | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021) |
+
 - **Laboratory**:
-  - Time: 
-    - Session 01: Tuesdays 9:00am-11:45am.
-    - Session 02: Tuesdays 1:30pm-4:15pm.
-  - Format: 
-    - Session 01:
-      - [Discord Server](https://discord.gg/qMKyx6PcsP)
-      - [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey)
-    - Session 02:
-      - [Discord Server](https://discord.gg/cfkJVUBFyN)
-      - [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu)
+| Session | Time             | Location                                                                                                                  |
+| ---     | ----             | ---                                                                                                                       |
+| 01      | T 9:00am-11:45am | [Discord](https://discord.gg/qMKyx6PcsP), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey) |
+| 02      | T 1:30pm-4:15pm  | [Discord](https://discord.gg/cfkJVUBFyN), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu) |
+
   - Software: [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html). 
     - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
     - Mac (MacOS): requires a Linux virtual instance 
