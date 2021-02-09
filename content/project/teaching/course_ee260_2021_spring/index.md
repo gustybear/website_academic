@@ -66,7 +66,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 # Logistics
 - **Personnel**:
   - Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-    - Office hours: see [here](../../#contact).
+    - Office hours: see [here](../../../#contact).
   - TA: [Marionne Millan](mailto:marionne@hawaii.edu)
     - Office Hours: 
 - **Lecture**:
@@ -126,8 +126,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url])                             | [Course Logistic and Introduction][week 01 url]                        | [Week 01][read 01 url] | 1/17, 11:59PM |
 | Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url])                             | [Number Systems][week 02 url]                                          | [Week 02][read 02 url] | 1/24, 11:59PM |
 | Week 3 ([1/25][recording 0125 url], [1/27][recording 0127 url], [1/29][recording 0129 url]) | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url] | 1/31, 11:59PM |
-| Week 4 ([2/1][recording 0201 url], 2/3, 2/5)                                                | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url] | 2/7, 11:59PM  |
-| Week 5 (2/8, 2/10, 2/12)                                                                    | Combinational Logic: Design Process, More Gates                        | Week 05                | 2/14, 11:59PM |
+| Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])    | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url] | 2/7, 11:59PM  |
+| Week 5 ([2/8][recording 0208 url], 2/10, 2/12)                                              | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url] | 2/14, 11:59PM |
 | Week 6 (Feb 17)                                                                             | Review: Combinational Logic                                            | --                     | --            |
 | Week 6 (Feb 19)                                                                             | Midterm I: 9:30AM - 10:45AM                                            | --                     | --            |
 | Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                | 2/28, 11:59PM |
@@ -214,6 +214,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0127 url]: https://youtu.be/qOvsE0DwB6g
 [recording 0129 url]: https://youtu.be/GnCvNdikZ9E
 [recording 0201 url]: https://youtu.be/aKAWfHtch7E
+[recording 0203 url]: https://youtu.be/3XZm8G8HvGQ
+[recording 0205 url]: https://youtu.be/TT6feNwPG5o
+[recording 0208 url]: https://youtu.be/j1XKgbZsiyQ
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
