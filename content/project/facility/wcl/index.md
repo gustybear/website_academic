@@ -17,7 +17,7 @@ tags:
 authors:
 - Yao Zheng
 
-summary: "CNS-1948568, $174,911.00, PI"
+summary: "Our laboratory is a 400 sq ft space located at the fourth floor of Holmes Hall, curating a selection of RF instruments for wireless research and development."
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.

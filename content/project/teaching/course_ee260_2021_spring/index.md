@@ -65,41 +65,24 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 # Logistics
 - **Personnel**:
-  - Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)
-    - Office hours: see [here](../../#contact).
-  - TA: [Marionne Millan](mailto:marionne@hawaii.edu)
-    - Office Hours: 
+|                                                    |                                             |
+| ----                                               | ---                                         |
+| Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu) | Office Hours: see [here](../../../#contact) |
+| TA: [Marionne Millan](mailto:marionne@hawaii.edu)  | Office Hours:                               |
+
 - **Lecture**:
-  - Time: Mondays, Wednesdays, and Fridays 9:30am-10:20am.
-  - Format: [Zoom](https://hawaii.zoom.us/j/5764842348).
-  - Textbook: [EE 260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021), by Zybooks.
+| Time               | Location                                    | Textbook                                                                                             | Homework Effort | Exam Effort |
+| ----               | ---                                         | ---                                                                                                  | ---             | ---         |
+| MWF 9:30am-10:20am | [Zoom](https://hawaii.zoom.us/j/5764842348) | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021) | Individual      | Individual  |
+
 - **Laboratory**:
-  - Time: 
-    - Session 01: Tuesdays 9:00am-11:45am.
-    - Session 02: Tuesdays 1:30pm-4:15pm.
-  - Format: 
-    - Session 01:
-      - [Discord Server](https://discord.gg/qMKyx6PcsP)
-      - [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey)
-    - Session 02:
-      - [Discord Server](https://discord.gg/cfkJVUBFyN)
-      - [Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu)
-  - Software: [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html). 
-    - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
-    - Mac (MacOS): requires a Linux virtual instance 
-      - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url]
-      - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
-  - Hardware: Basys 3 FPGA Trainer Board
-    - Pick up at Holme Hall 488 on 1/13, 2:00pm-3:00pm (limited quantities, first come, fisrt served).
-    - Buy at [Digilent](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/).
+| Session | Time             | Location                                                                                                                  | Report Effort |
+| ---     | ----             | ---                                                                                                                       | ---           |
+| 01      | T 9:00am-11:45am | [Discord](https://discord.gg/qMKyx6PcsP), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MTk4?cjc=l4oycey) | Group         |
+| 02      | T 1:30pm-4:15pm  | [Discord](https://discord.gg/cfkJVUBFyN), [Google Classroom](https://classroom.google.com/c/MjUwMzMyNjE4MjA5?cjc=e3kptgu) | Group         |
 
 ***
 # Grading
-- **Homework**: Participation and challenge problems are **different** for each student and **automatically graded** by the zyBook platform. You are encouraged to discuss homework assignments with your classmates. Discussions may include general approaches to a problem and suggested resource material. 
-
-- **Lab reports**: Lab report, **submitted per team**, are **graded by peer teams** based on the rubric specified by the TA. All team members must attend lab, jointly demonstration their implementations, and submit a single lab report to the TA. You may discuss the general approach to the lab assignment with other teams. You are encouraged to discuss lab assignments with other teams. Discussions may include general approaches to a design and suggested resource material.
-
-- **Exams**: All exams are strictly individual efforts. 
 
 - **Percentages**
 | Participation | Challenge | Labs           | Midterms (2) | Final |
@@ -126,8 +109,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url])                             | [Course Logistic and Introduction][week 01 url]                        | [Week 01][read 01 url] | 1/17, 11:59PM |
 | Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url])                             | [Number Systems][week 02 url]                                          | [Week 02][read 02 url] | 1/24, 11:59PM |
 | Week 3 ([1/25][recording 0125 url], [1/27][recording 0127 url], [1/29][recording 0129 url]) | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url] | 1/31, 11:59PM |
-| Week 4 ([2/1][recording 0201 url], 2/3, 2/5)                                                | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url] | 2/7, 11:59PM  |
-| Week 5 (2/8, 2/10, 2/12)                                                                    | Combinational Logic: Design Process, More Gates                        | Week 05                | 2/14, 11:59PM |
+| Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])    | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url] | 2/7, 11:59PM  |
+| Week 5 ([2/8][recording 0208 url], 2/10, 2/12)                                              | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url] | 2/14, 11:59PM |
 | Week 6 (Feb 17)                                                                             | Review: Combinational Logic                                            | --                     | --            |
 | Week 6 (Feb 19)                                                                             | Midterm I: 9:30AM - 10:45AM                                            | --                     | --            |
 | Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                | 2/28, 11:59PM |
@@ -152,7 +135,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]              | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url]  | 1/24, 11:59PM |
 | Week 3 (1/26)           | [Modeling Concepts][lab 02 url]            | [Lab 02][labS1 02 sub url] | [Lab 02][labS2 02 sub url]  | 1/31, 11:59PM |
 | Week 4 (2/2)            | [Numbering Systems][lab 03 url]            | [Lab 03][labS1 03 sub url] | [Lab 03][labS2 03 sub url]  | 2/7, 11:59PM  |
-| Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]        | Lab 04                     | Lab 04                      | 2/21, 11:59PM |
+| Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]        | [Lab 04][labS1 04 sub url] | [Lab 04][labS2 04 sub url]  | 2/21, 11:59PM |
 | Week 6 (2/16)           | --                                         | ---                        | ---                         | ---           |
 | Week 7 (2/23)           | Tasks Functions, and Testbench             | Lab 05                     | Lab 05                      | 2/28, 11:59PM |
 | Week 8 (3/2)            | Modeling Latches and Flip-Flops            | Lab 06                     | Lab 06                      | 3/7, 11:59PM  |
@@ -170,10 +153,18 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 ***
 # Resources
-## Xilinx Vivado and Basys3 
-- [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html):
+## [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html).
+  - Installation
+    - PC (Windows and Linux systems): [installation guide][xilinx vivado installation guide video url]
+    - Mac (MacOS): requires a Linux virtual instance 
+      - [Oracle VM VirtualBox (local, free)](https://www.virtualbox.org/): [installation guide][virtualbox guide url]
+      - [Amazon Workspaces (cloud, paid)](https://aws.amazon.com/workspaces/): [installation guide][amazon workspace guide url]
   - [Xilinx Vivado Getting Started][xilinx vivado getting started url]
-- [Basys 3 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
+
+## [Basys 3 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
+  - Acquire
+    - Pick up: Holme Hall 488, 1/13, 2:00pm-3:00pm.
+    - Buy: [Digilent](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/).
   - [Basys3 Master XDC File][basys3 master xdc file url]
   - [Basys3 Reference Manual][basys3 reference manual url]
   - [Basys3 Schematic][basys3 schematic url]
@@ -214,6 +205,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0127 url]: https://youtu.be/qOvsE0DwB6g
 [recording 0129 url]: https://youtu.be/GnCvNdikZ9E
 [recording 0201 url]: https://youtu.be/aKAWfHtch7E
+[recording 0203 url]: https://youtu.be/3XZm8G8HvGQ
+[recording 0205 url]: https://youtu.be/TT6feNwPG5o
+[recording 0208 url]: https://youtu.be/j1XKgbZsiyQ
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
@@ -244,7 +238,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
 [labS1 02 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjYwNDg4Mzk4MDg0/details
 [labS1 03 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjY1MzY4MzI0NDg0/details
-[labS1 04 sub url]: # (labs sub urls)
+[labS1 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjcwMzc4NDI1ODY1/details
 [labS1 05 sub url]: # (labs sub urls)
 [labS1 06 sub url]: # (labs sub urls)
 [labS1 07 sub url]: # (labs sub urls)
@@ -255,7 +249,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS2 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjUxODI5NjI2OTgx/details
 [labS2 02 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjYwNDg4Mzk4OTgy/details
 [labS2 03 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjY1Njc3Mjk4Mjkz/details
-[labS2 04 sub url]: # (labs sub urls)
+[labS2 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjcwMzc4NDI2MDgy/details
 [labS2 05 sub url]: # (labs sub urls)
 [labS2 06 sub url]: # (labs sub urls)
 [labS2 07 sub url]: # (labs sub urls)
