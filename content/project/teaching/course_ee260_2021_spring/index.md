@@ -111,7 +111,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 3 ([1/25][recording 0125 url], [1/27][recording 0127 url], [1/29][recording 0129 url]) | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url]         | 1/31, 11:59PM |
 | Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])    | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url]         | 2/7, 11:59PM  |
 | Week 5 ([2/8][recording 0208 url], 2/10, 2/12)                                              | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url]         | 2/14, 11:59PM |
-| Week 6 (2/17)                                                                               | [Practice Midterm I][week 06 practice url]                             | [submit][week 06 practice url] | --            |
+| Week 6 (2/17)                                                                               | [Practice Midterm I][week 06 practice url]                             | [submit (Section 1)][week 06 practice submit url S1]   | --            |
+| Week 6 (2/17)                                                                               | ---                                                                    | [submit (Section 2)][week 06 practice submit url S2]   | --            |
 | Week 6 (Feb 19)                                                                             | Midterm I: 9:30AM - 10:45AM                                            | --                             | --            |
 | Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                        | 2/28, 11:59PM |
 | Week 8 (3/1, 3/3, 3/5)                                                                      | Sequential Logic: Finite State Machines                                | Week 08                        | 3/7, 11:59PM  |
@@ -183,8 +184,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_03_slides.pdf
 [week 04 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_04_slides.pdf
 [week 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_06_slides.pdf
-[week 06 practice url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/practice/
-[week 06 practice submit url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/practice/
+[week 06 practice url]:http://www2.hawaii.edu/~yaozheng/docs/exams/course_ee260_2021_spring/miterm_01/practice/
+[week 06 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc0NjIyMTg2MTQ2/details
+[week 06 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc0NjIyMTg2MTc5/details
 [week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_07_slides.pdf
 [week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_08_slides.pdf
 [week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_09_slides.pdf
