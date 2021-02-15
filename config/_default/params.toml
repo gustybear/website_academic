@@ -91,7 +91,8 @@ address = {street = "2540 Dole Street, Holmes Hall 437", city = "Honolulu", regi
 coordinates = {latitude = "21.297072", longitude = "-157.816415"}
 
 # Directions for visitors to locate you.
-directions = "Take the elevator at the Leahi (Diamond Head) side of Holmes Hall. Exit on the Fourth floor. Room 437 is in the left hallway facing Waikiki."
+# directions = "Take the elevator at the Leahi (Diamond Head) side of Holmes Hall. Exit on the Fourth floor. Room 437 is in the left hallway facing Waikiki."
+directions = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 # office_hours = "Mondays and Wednesdays 14:00PM - 16:00PM"
@@ -138,7 +139,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+main_menu = {enable = true, align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -150,8 +151,9 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 
-# Link authors to their profile page? (true/false)
-link_authors = true
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
 abstract_length = 100
@@ -169,15 +171,6 @@ plugins_js  = []
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
-
-# Available address formats.
-[address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
-
-# Load CSS
-#   E.g. custom css at `/assets/scss/custom.css` is automatic loadded
 
 # Configuration of publication pages.
 [publications]
@@ -198,6 +191,10 @@ plugins_js  = []
   post_view = 2
   publication_view = 2
   talk_view = 2
+
+# Breadcrumb navigation
+[breadcrumb]
+  page_types = {book = true}
 
 ############################
 ## Comments
@@ -253,12 +250,12 @@ plugins_js  = []
   # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
   #   https://www.mapbox.com/studio/account/tokens
   #
-  # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  engine = 2
+    # Map provider:
+  #   "": No map
+  #   "google": Google Maps
+  #   "mapnik": OpenStreetMap (Mapnik)
+  #   "mapbox": OpenStreetMap (Mapbox)
+  provider = "mapnik"
   api_key = ""
   zoom = 15
 
@@ -268,13 +265,14 @@ plugins_js  = []
 [marketing]
   google_analytics = ""
   google_tag_manager = ""
+  google_site_verification = ""
 
 ############################
 ## Content Management System
 ############################
 [cms]
-  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
-  netlify_cms = true
+  branch = "master"
+  local_backend = false
 
 ############################
 ## Icon Pack Extensions

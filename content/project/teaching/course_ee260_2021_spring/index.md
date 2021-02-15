@@ -104,29 +104,29 @@ This course explores the foundation of digital circuit design, starting from Boo
 ***
 # Schedule
 ## Lecture
-| TIME                                                                                        | TOPICS                                                                 | READING/HW             | DEADLINE      |
-| ---                                                                                         | ---                                                                    | ---                    | ---           |
-| Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url])                             | [Course Logistic and Introduction][week 01 url]                        | [Week 01][read 01 url] | 1/17, 11:59PM |
-| Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url])                             | [Number Systems][week 02 url]                                          | [Week 02][read 02 url] | 1/24, 11:59PM |
-| Week 3 ([1/25][recording 0125 url], [1/27][recording 0127 url], [1/29][recording 0129 url]) | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url] | 1/31, 11:59PM |
-| Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])    | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url] | 2/7, 11:59PM  |
-| Week 5 ([2/8][recording 0208 url], 2/10, 2/12)                                              | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url] | 2/14, 11:59PM |
-| Week 6 (Feb 17)                                                                             | Review: Combinational Logic                                            | --                     | --            |
-| Week 6 (Feb 19)                                                                             | Midterm I: 9:30AM - 10:45AM                                            | --                     | --            |
-| Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                | 2/28, 11:59PM |
-| Week 8 (3/1, 3/3, 3/5)                                                                      | Sequential Logic: Finite State Machines                                | Week 08                | 3/7, 11:59PM  |
-| Week 9 (3/8, 3/10, 3/12)                                                                    | Sequential Logic: Registers, Counters, Shifters, and Arithmetic        | Week 09                | 3/14, 11:59PM |
-| Spring Recess (Mar 15  - Mar 19)                                                            | --                                                                     | --                     | --            |
-| Week 10 (Mar 22)                                                                            | Review: Sequential Logic                                               | --                     | --            |
-| Week 10 (Mar 24)                                                                            | Midterm II: 9:30AM - 10:45AM                                           | --                     | --            |
-| Week 11 (3/29, 3/31)                                                                        | Review: Midterm II, Register-Transfer Level Design                     | Week 11                | 4/4, 11:59PM  |
-| Week 12 (4/5, 4/7, 4/9)                                                                     | Register Memory Components and FIFO                                    | Week 12                | 4/11, 11:59PM |
-| Week 13 (4/12, 4/14, 4/16)                                                                  | Optimizations and Tradeoffs                                            | Week 13                | 4/18, 11:59PM |
-| Week 14 (4/19, 4/21, 4/23)                                                                  | Physical Implementation on ICs                                         | Week 14                | 4/25, 11:59PM |
-| Week 15 (4/26, 4/28, 4/30)                                                                  | Programmable Processors                                                | Week 15                | 5/02, 11:59PM |
-| Week 16 (5/3, 5/5)                                                                          | Class Review                                                           | --                     | --            |
-| Study Days (May 07, 08)                                                                     | --                                                                     | --                     | --            |
-| Week 17 (5/14)                                                                              | Final: 9:45AM - 11:45AM                                                | --                     | --            |
+| TIME                                                                                        | TOPICS                                                                 | READING/HW                     | DEADLINE      |
+| ---                                                                                         | ---                                                                    | ---                            | ---           |
+| Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url])                             | [Course Logistic and Introduction][week 01 url]                        | [Week 01][read 01 url]         | 1/17, 11:59PM |
+| Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url])                             | [Number Systems][week 02 url]                                          | [Week 02][read 02 url]         | 1/24, 11:59PM |
+| Week 3 ([1/25][recording 0125 url], [1/27][recording 0127 url], [1/29][recording 0129 url]) | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Week 03][read 03 url]         | 1/31, 11:59PM |
+| Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])    | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url]         | 2/7, 11:59PM  |
+| Week 5 ([2/8][recording 0208 url], 2/10, 2/12)                                              | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url]         | 2/14, 11:59PM |
+| Week 6 (2/17)                                                                               | [Practice Midterm I][week 06 practice url]                             | [submit][week 06 practice url] | --            |
+| Week 6 (Feb 19)                                                                             | Midterm I: 9:30AM - 10:45AM                                            | --                             | --            |
+| Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                        | 2/28, 11:59PM |
+| Week 8 (3/1, 3/3, 3/5)                                                                      | Sequential Logic: Finite State Machines                                | Week 08                        | 3/7, 11:59PM  |
+| Week 9 (3/8, 3/10, 3/12)                                                                    | Sequential Logic: Registers, Counters, Shifters, and Arithmetic        | Week 09                        | 3/14, 11:59PM |
+| Spring Recess (Mar 15  - Mar 19)                                                            | --                                                                     | --                             | --            |
+| Week 10 (Mar 22)                                                                            | Practice Midterm II                                                    | --                             | --            |
+| Week 10 (Mar 24)                                                                            | Midterm II: 9:30AM - 10:45AM                                           | --                             | --            |
+| Week 11 (3/29, 3/31)                                                                        | Review: Midterm II, Register-Transfer Level Design                     | Week 11                        | 4/4, 11:59PM  |
+| Week 12 (4/5, 4/7, 4/9)                                                                     | Register Memory Components and FIFO                                    | Week 12                        | 4/11, 11:59PM |
+| Week 13 (4/12, 4/14, 4/16)                                                                  | Optimizations and Tradeoffs                                            | Week 13                        | 4/18, 11:59PM |
+| Week 14 (4/19, 4/21, 4/23)                                                                  | Physical Implementation on ICs                                         | Week 14                        | 4/25, 11:59PM |
+| Week 15 (4/26, 4/28, 4/30)                                                                  | Programmable Processors                                                | Week 15                        | 5/02, 11:59PM |
+| Week 16 (5/3, 5/5)                                                                          | Class Review                                                           | --                             | --            |
+| Study Days (May 07, 08)                                                                     | --                                                                     | --                             | --            |
+| Week 17 (5/14)                                                                              | Final: 9:45AM - 11:45AM                                                | --                             | --            |
 
 ## Laboratory
 | TIME                    | Topic                                      | Submissions                |                             | DEADLINE      |
@@ -183,7 +183,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_03_slides.pdf
 [week 04 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_04_slides.pdf
 [week 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_06_slides.pdf
-[week 06 url]: https://classroom.github.com/a/TfhRNuDv
+[week 06 practice url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/practice/
+[week 06 practice submit url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/practice/
 [week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_07_slides.pdf
 [week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_08_slides.pdf
 [week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_09_slides.pdf

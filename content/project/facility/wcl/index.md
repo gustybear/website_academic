@@ -1,5 +1,5 @@
 ---
-title: "Wireless and Cybersecurity Laboratory"
+title: "Wireless and Cybersecurity Laboratory (WCL)"
 date: "2018-05-03T18:13:12-10:00"
 
 # Tags: can be used for filtering projects.
@@ -17,7 +17,7 @@ tags:
 authors:
 - Yao Zheng
 
-summary: "Our laboratory is a 400 sq ft space located at the fourth floor of Holmes Hall, curating a selection of RF instruments for wireless research and development."
+summary: "WCL is a 400 sq ft space located at the fourth floor of Holmes Hall, curating a selection of RF instruments for wireless research and development."
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
@@ -37,28 +37,34 @@ image:
 #   url: http://example.org
 ---
 ***
+
 # Executive Summary
-The Wireless and Cybersecurity Laboratory is well-equipped for developing and testing of radio frequency (RF) hardware. The laboratory provides test equipment, such as software-defined radio (SDR) hardware including universal software radio peripherals (USRPs); signal generators, spectrum analyzers, network analyzers; soldering and reworking stations suitable for work with surface-mount components, RF cables, attenuators, power splitters/combiners, directional couplers; design and simulation software for ICs and PCBs and other miscellaneous hardware and software. 
 
-The laboratory provides project participants with private server clusters and laptops and/or desktop computers, in addition to computers used for the experiments; various software licenses, including MATLAB, Candence, LabVIEW, OriginLab, and Adobe Creative Cloud; and remote access to all instruments, computers, and actuators, which encourages students from other islands or institutions to collaborate.
+***
+# Logistics
+| Location        | Physical Access                                                                                                              | Remote Access                                   |
+| ----            | ---                                                                                                                          | ---                                             |
+| Holmes Hall 488 | fill [request form][http://ee.hawaii.edu/gfx/content/RoomAccessForm.pdf] and contact [EE office](mailto:eeoffice@hawaii.edu) | contact [Yao Zheng](mailto:yaozheng@hawaii.edu) |
 
 ***
 
-## Logistics
-- *Location*: Holmes Hall 488.
-- *Physical Access*: contact [Electrical Engineering
-  Office](mailto:eeoffice@hawaii.edu)
-- *Public Remote Access*: 
-  - password: contact [Yao Zheng](mailto:yaozheng@hawaii.edu)
-  - vpn credential: download it [here](https://gustybear-facility.s3-us-west-2.amazonaws.com/public.zip)
-  - account username: public
-- <a name="schedule">*Public Laboratory Session*: schedule it [here](https://calendly.com/yaozheng/pub_lab_sessions)</a>
-- Full schedule:  
-<iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Pacific%2FHonolulu&amp;src=aGF3YWlpLmVkdV82b210cm9kN3ZpMGw1b2tmcmppY2lodDZhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23515151&amp;title=Public%20Laboratory%20Hours&amp;mode=WEEK" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
-***
+# Resource
+The laboratory provides (1) RF prototyping equipment, including decimeter band software-defined radios (SDRs), SDR compatible mmWave band phased arrays, and frequency converters. (2) RF instruments, including signal generators, spectrum analyzers, network analyzers. (3) Fabrications equipment, including soldering, reworking stations, 3D print, and laser cutting service. (4) A selection of RF cables, attenuators, power splitters/combiners, directional couplers, etc. (5) Design and Simulation software, including Ansys HFSS, MATLAB, NI LabVIEW, OriginLab, and Adobe Creative Cloud. (6) Private server clusters and laptops and/or desktop computers, in addition to computers used for the experiments; various software licenses, including Ansys HFSS, MATLAB, NI LabVIEW, OriginLab, and Adobe Creative Cloud. (7) Remote access to all instruments, computers, actuators, etc.
 
-## Resource
-- Gateways:
+- Decimeter Band SDR Kits
+
+- mmWave Phased Array Kits
+
+- Instruments
+
+- Fabrications
+
+- Computation
+
+- Software
+
+- Remote Access
+
   - orion (Netgear Nighthawk AC1900): 10.10.3.1
   - yamata (Netgear Nighthawk AC1900): 10.10.4.1
 - SDRs:
