@@ -112,7 +112,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])    | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Week 04][read 04 url]                                                     | 2/7, 11:59PM  |
 | Week 5 ([2/8][recording 0208 url], [2/10][recording 0210 url], [2/12][recording 0212 url])  | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url]                                                     | 2/14, 11:59PM |
 | Week 6 ([2/17][recording 0217 url])                                                         | [Practice Midterm I][week 06 practice url]                             | [S1][week 06 practice submit url S1], [S2][week 06 practice submit url S2] | --            |
-| Week 6 (2/19)                                                                               | Midterm I: 9:30AM - 10:45AM                                            | --                                                                         | --            |
+| Week 6 (2/19)                                                                               | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                        | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
 | Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                                                                    | 2/28, 11:59PM |
 | Week 8 (3/1, 3/3, 3/5)                                                                      | Sequential Logic: Finite State Machines                                | Week 08                                                                    | 3/7, 11:59PM  |
 | Week 9 (3/8, 3/10, 3/12)                                                                    | Sequential Logic: Registers, Counters, Shifters, and Arithmetic        | Week 09                                                                    | 3/14, 11:59PM |
@@ -183,9 +183,12 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_03_slides.pdf
 [week 04 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_04_slides.pdf
 [week 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_05_slides.pdf
-[week 06 practice url]:http://www2.hawaii.edu/~yaozheng/docs/exams/course_ee260_2021_spring/miterm_01/practice/
+[week 06 practice url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/practice/
 [week 06 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc0NjIyMTg2MTQ2/details
 [week 06 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc0NjIyMTg2MTc5/details
+[week 06 game url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/game/
+[week 06 game submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc0NjIyMTg2MTQ2/details
+[week 06 game submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc0NjIyMTg2MTc5/details
 [week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_07_slides.pdf
 [week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_08_slides.pdf
 [week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_09_slides.pdf
