@@ -187,8 +187,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 06 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc0NjIyMTg2MTQ2/details
 [week 06 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc0NjIyMTg2MTc5/details
 [week 06 game url]:../../../docs/exams/course_ee260_2021_spring/miterm_01/game/
-[week 06 game submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc0NjIyMTg2MTQ2/details
-[week 06 game submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc0NjIyMTg2MTc5/details
+[week 06 game submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc2Mjc3MTc2OTM2/details
+[week 06 game submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc2Mjc3MTc2OTYy/details
 [week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_07_slides.pdf
 [week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_08_slides.pdf
 [week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_09_slides.pdf
