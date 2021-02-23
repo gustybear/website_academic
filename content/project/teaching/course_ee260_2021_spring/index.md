@@ -68,7 +68,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 |                                                    |                                             |
 | ----                                               | ---                                         |
 | Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu) | Office Hours: see [here](../../../#contact) |
-| TA: [Marionne Millan](mailto:marionne@hawaii.edu)  | Office Hours:                               |
+| TA: [Marionne Millan](mailto:marionne@hawaii.edu)  | Office Hours: Tues. 11:45am-12:45pm, 4:15-5:15pm |                              |
 
 - **Lecture**:
 | Time               | Location                                    | Textbook                                                                                             | Homework Effort | Exam Effort |
