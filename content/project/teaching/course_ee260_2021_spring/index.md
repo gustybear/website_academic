@@ -113,7 +113,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 5 ([2/8][recording 0208 url], [2/10][recording 0210 url], [2/12][recording 0212 url])  | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Week 05][read 05 url]                                                     | 2/14, 11:59PM |
 | Week 6 ([2/17][recording 0217 url])                                                         | [Practice Midterm I][week 06 practice url]                             | [S1][week 06 practice submit url S1], [S2][week 06 practice submit url S2] | --            |
 | Week 6 (2/19)                                                                               | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                        | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
-| Week 7 (2/22, 2/24, 2/26)                                                                   | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                                                                    | 2/28, 11:59PM |
+| Week 7 ([2/22][recording 0222 url]), 2/24, 2/26)                                            | Review: Midterm I, Sequential Logic: Clock, Latches, and Flip-Flops    | Week 07                                                                    | 2/28, 11:59PM |
 | Week 8 (3/1, 3/3, 3/5)                                                                      | Sequential Logic: Finite State Machines                                | Week 08                                                                    | 3/7, 11:59PM  |
 | Week 9 (3/8, 3/10, 3/12)                                                                    | Sequential Logic: Registers, Counters, Shifters, and Arithmetic        | Week 09                                                                    | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                            | --                                                                     | --                                                                         | --            |
@@ -129,27 +129,27 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 17 (5/14)                                                                              | Final: 9:45AM - 11:45AM                                                | --                                                                         | --            |
 
 ## Laboratory
-| TIME                    | Topic                                      | Submissions                |                             | DEADLINE      |
-| ---                     | ---                                        | ---                        | ---                         | ---           |
-| Week 1 (1/12)           | --                                         | Section 1                  | Section 2                   | ---           |
-| Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]              | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url]  | 1/24, 11:59PM |
-| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]            | [Lab 02][labS1 02 sub url] | [Lab 02][labS2 02 sub url]  | 1/31, 11:59PM |
-| Week 4 (2/2)            | [Numbering Systems][lab 03 url]            | [Lab 03][labS1 03 sub url] | [Lab 03][labS2 03 sub url]  | 2/7, 11:59PM  |
-| Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]        | [Lab 04][labS1 04 sub url] | [Lab 04][labS2 04 sub url]  | 2/21, 11:59PM |
-| Week 6 (2/16)           | --                                         | ---                        | ---                         | ---           |
-| Week 7 (2/23)           | Tasks Functions, and Testbench             | Lab 05                     | Lab 05                      | 2/28, 11:59PM |
-| Week 8 (3/2)            | Modeling Latches and Flip-Flops            | Lab 06                     | Lab 06                      | 3/7, 11:59PM  |
-| Week 9 (3/9)            | Finite State Machines                      | Lab 07                     | Lab 07                      | 3/14, 11:59PM |
-| Spring Recess (3/16)    | --                                         | ---                        | ---                         | ---           |
-| Week 10 (3/23)          | --                                         | ---                        | ---                         | ---           |
-| Week 11 (3/30)          | Modeling Registers and Counters            | Lab 08                     | Lab 08                      | 4/4, 11:59PM  |
-| Week 12 (4/6)           | Architectural Wizard and IP Catalog        | Lab 09                     | Lab 09                      | 4/10, 11:59PM |
-| Week 13 (4/13)          | Behavioral Modeling and Timing Constraints | Lab 10                     | Lab 10                      | 4/18, 11:59PM |
-| Week 14 (4/20)          | Sequential System Design using ASM Charts  | Lab 11                     | Lab 11                      | 4/25, 11:59PM |
-| Week 15 (4/27)          | Catch-up Lab                               | ---                        | ---                         | 5/2, 11:59PM  |
-| Week 16 (4/4)           | --                                         | ---                        | ---                         | ---           |
-| Study Days (May 07, 08) | --                                         | ---                        | ---                         | ---           |
-| Week 17 (May 10)        | --                                         | ---                        | ---                         | ---           |
+| TIME                    | Topic                                        | Submissions                |                            | DEADLINE      |
+| ---                     | ---                                          | ---                        | ---                        | ---           |
+| Week 1 (1/12)           | --                                           | Section 1                  | Section 2                  | ---           |
+| Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]                | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url] | 1/24, 11:59PM |
+| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]              | [Lab 02][labS1 02 sub url] | [Lab 02][labS2 02 sub url] | 1/31, 11:59PM |
+| Week 4 (2/2)            | [Numbering Systems][lab 03 url]              | [Lab 03][labS1 03 sub url] | [Lab 03][labS2 03 sub url] | 2/7, 11:59PM  |
+| Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]          | [Lab 04][labS1 04 sub url] | [Lab 04][labS2 04 sub url] | 2/21, 11:59PM |
+| Week 6 (2/16)           | --                                           | ---                        | ---                        | ---           |
+| Week 7 (2/23)           | [Tasks Functions, and Testbench][lab 05 url] | Lab 05                     | Lab 05                     | 2/28, 11:59PM |
+| Week 8 (3/2)            | Modeling Latches and Flip-Flops              | Lab 06                     | Lab 06                     | 3/7, 11:59PM  |
+| Week 9 (3/9)            | Finite State Machines                        | Lab 07                     | Lab 07                     | 3/14, 11:59PM |
+| Spring Recess (3/16)    | --                                           | ---                        | ---                        | ---           |
+| Week 10 (3/23)          | --                                           | ---                        | ---                        | ---           |
+| Week 11 (3/30)          | Modeling Registers and Counters              | Lab 08                     | Lab 08                     | 4/4, 11:59PM  |
+| Week 12 (4/6)           | Architectural Wizard and IP Catalog          | Lab 09                     | Lab 09                     | 4/10, 11:59PM |
+| Week 13 (4/13)          | Behavioral Modeling and Timing Constraints   | Lab 10                     | Lab 10                     | 4/18, 11:59PM |
+| Week 14 (4/20)          | Sequential System Design using ASM Charts    | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
+| Week 15 (4/27)          | Catch-up Lab                                 | ---                        | ---                        | 5/2, 11:59PM  |
+| Week 16 (4/4)           | --                                           | ---                        | ---                        | ---           |
+| Study Days (May 07, 08) | --                                           | ---                        | ---                        | ---           |
+| Week 17 (May 10)        | --                                           | ---                        | ---                        | ---           |
 
 ***
 # Resources
@@ -216,6 +216,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0210 url]: https://youtu.be/tzZee1WCJjY
 [recording 0212 url]: https://youtu.be/8y-eXbUz4pM
 [recording 0217 url]: https://youtu.be/pNOfUSQwvdQ
+[recording 0222 url]: https://youtu.be/Iy2d9AWodQk
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
@@ -241,6 +242,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab 02 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_02.zip
 [lab 03 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_03.zip
 [lab 04 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_04.zip
+[lab 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_05.zip
 
 [labsS1 sub urls]: # (labs sub urls)
 [labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
