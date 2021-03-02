@@ -29,6 +29,7 @@ S3_BUCKET                     = s3://gustybear-websites
 build_webpages:
 	# @academic import --overwrite --bibtex ./content/publication/yao-zheng.bib
 	@academic import --bibtex ./content/publication/yao-zheng.bib
+	@git submodule update --init --recursive --remote
 	@rm -rf $(WEBSITE_SRC)
 	@find . -name "Icon?" -exec rm {} \;
 	@hugo mod get -u
