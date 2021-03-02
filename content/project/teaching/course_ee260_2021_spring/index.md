@@ -113,8 +113,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 5 ([2/8][recording 0208 url], [2/10][recording 0210 url], [2/12][recording 0212 url])  | [Combinational Logic: Design Process, More Gates][week 05 url]               | [Week 05][read 05 url]                                                     | 2/14, 11:59PM |
 | Week 6 ([2/17][recording 0217 url])                                                         | [Practice Midterm I][week 06 practice url]                                   | [S1][week 06 practice submit url S1], [S2][week 06 practice submit url S2] | --            |
 | Week 6 ([2/19, sol][week 06 sol url])                                                       | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                              | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
-| Week 7 ([2/22][recording 0222 url]), 2/24, 2/26)                                            | [Sequential Logic: Clock, Latches, and Flip-Flops][week 07 url]              | [Week 07][read 07 url]                                                     | 2/28, 11:59PM |
-| Week 8 (3/1, 3/3, 3/5)                                                                      | [Sequential Logic: Finite State Machines][week 08 url]                       | Week 08                                                                    | 3/7, 11:59PM  |
+| Week 7 ([2/22][recording 0222 url]), [2/24][recording 0224 url], [2/26][recording 0226 url])| [Sequential Logic: Clock, Latches, and Flip-Flops][week 07 url]              | [Week 07][read 07 url]                                                     | 2/28, 11:59PM |
+| Week 8 ([3/1][recording 0301 url], 3/3, 3/5)                                                | [Sequential Logic: Finite State Machines][week 08 url]                       | Week 08                                                                    | 3/7, 11:59PM  |
 | Week 9 (3/8, 3/10, 3/12)                                                                    | Sequential Logic: Registers, Counters, Shifters, and Arithmetic              | Week 09                                                                    | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                            | --                                                                           | --                                                                         | --            |
 | Week 10 (3/22)                                                                              | Practice Midterm II                                                          | --                                                                         | --            |
@@ -218,6 +218,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0212 url]: https://youtu.be/8y-eXbUz4pM
 [recording 0217 url]: https://youtu.be/pNOfUSQwvdQ
 [recording 0222 url]: https://youtu.be/Iy2d9AWodQk
+[recording 0224 url]: https://youtu.be/LS11RUABmFo
+[recording 0226 url]: https://youtu.be/OyeArTPWShU
+[recording 0301 url]: https://youtu.be/anNbjOznNO8
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
