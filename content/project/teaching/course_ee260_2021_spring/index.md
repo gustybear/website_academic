@@ -138,7 +138,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]          | [Lab 04][labS1 04 sub url] | [Lab 04][labS2 04 sub url] | 2/21, 11:59PM |
 | Week 6 (2/16)           | --                                           | ---                        | ---                        | ---           |
 | Week 7 (2/23)           | [Tasks Functions, and Testbench][lab 05 url] | [Lab 05][labS1 05 sub url] | [Lab 05][labS1 05 sub url] | 2/28, 11:59PM |
-| Week 8 (3/2)            | [Modeling Latches and Flip-Flops][lab 06 url]| Lab 06                     | Lab 06                     | 3/7, 11:59PM  |
+| Week 8 (3/2)            | [Modeling Latches and Flip-Flops][lab 06 url]| [Lab 06][labS1 06 sub url] | [Lab 06][labS2 06 sub url] | 3/7, 11:59PM  |
 | Week 9 (3/9)            | Finite State Machines                        | Lab 07                     | Lab 07                     | 3/14, 11:59PM |
 | Spring Recess (3/16)    | --                                           | ---                        | ---                        | ---           |
 | Week 10 (3/23)          | --                                           | ---                        | ---                        | ---           |
@@ -255,7 +255,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS1 03 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjY1MzY4MzI0NDg0/details
 [labS1 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjcwMzc4NDI1ODY1/details
 [labS1 05 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc3NjU2MDM3OTY2/details
-[labS1 06 sub url]: # (labs sub urls)
+[labS1 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkxNDIzNDYxMzY2/details
 [labS1 07 sub url]: # (labs sub urls)
 [labS1 08 sub url]: # (labs sub urls)
 [labS1 09 sub url]: # (labs sub urls)
@@ -266,7 +266,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS2 03 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjY1Njc3Mjk4Mjkz/details
 [labS2 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjcwMzc4NDI2MDgy/details
 [labS2 05 sub url]: https://classroom.google.com/u/0/w/MjUwMzMyNjE4MjA5/tc/Mjc2OTc0MjM5OTgx
-[labS2 06 sub url]: # (labs sub urls)
+[labS2 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjkxNjQ4MzQ4ODM3/details
 [labS2 07 sub url]: # (labs sub urls)
 [labS2 08 sub url]: # (labs sub urls)
 [labS2 09 sub url]: # (labs sub urls)
