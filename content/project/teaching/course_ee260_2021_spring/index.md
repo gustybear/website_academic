@@ -115,7 +115,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 6 ([2/19, sol][week 06 sol url])                                                        | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                                | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
 | Week 7 ([2/22][recording 0222 url]), [2/24][recording 0224 url], [2/26][recording 0226 url]) | [Sequential Logic: Clock, Latches, and Flip-Flops][week 07 url]                | [Week 07][read 07 url]                                                     | 2/28, 11:59PM |
 | Week 8 ([3/1][recording 0301 url], [3/3][recording 0303 url], [3/5][recording 0305 url]      | [Sequential Logic: Finite State Machines][week 08 url]                         | [Week 08][read 08 url]                                                     | 3/7, 11:59PM  |
-| Week 9 ([3/8][recording 0308 url], 3/10, 3/12)                                               | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
+| Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], 3/12)                         | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                             | --                                                                             | --                                                                         | --            |
 | Week 10 (3/22)                                                                               | Practice Midterm II                                                            | --                                                                         | --            |
 | Week 10 (3/24)                                                                               | Midterm II: 9:30AM - 10:45AM                                                   | --                                                                         | --            |
@@ -139,7 +139,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 6 (2/16)           | --                                           | ---                        | ---                        | ---           |
 | Week 7 (2/23)           | [Tasks Functions, and Testbench][lab 05 url] | [Lab 05][labS1 05 sub url] | [Lab 05][labS1 05 sub url] | 2/28, 11:59PM |
 | Week 8 (3/2)            | [Modeling Latches and Flip-Flops][lab 06 url]| [Lab 06][labS1 06 sub url] | [Lab 06][labS2 06 sub url] | 3/7, 11:59PM  |
-| Week 9 (3/9)            | [Finite State Machines][lab 07 url]          | Lab 07                     | Lab 07                     | 3/14, 11:59PM |
+| Week 9 (3/9)            | [Finite State Machines][lab 07 url]          | [Lab 07][labS1 07 sub url] | [Lab 07][labS2 07 sub url] | 3/14, 11:59PM |
 | Spring Recess (3/16)    | --                                           | ---                        | ---                        | ---           |
 | Week 10 (3/23)          | --                                           | ---                        | ---                        | ---           |
 | Week 11 (3/30)          | Modeling Registers and Counters              | Lab 08                     | Lab 08                     | 4/4, 11:59PM  |
@@ -224,6 +224,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0303 url]: https://youtu.be/bKm5rYalXHA
 [recording 0305 url]: https://youtu.be/_IhJ0ECNnSY
 [recording 0308 url]: https://youtu.be/9vp-RKdkr5I
+[recording 0310 url]: https://youtu.be/q2X74p8BGSY
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
@@ -260,7 +261,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS1 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjcwMzc4NDI1ODY1/details
 [labS1 05 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc3NjU2MDM3OTY2/details
 [labS1 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkxNDIzNDYxMzY2/details
-[labS1 07 sub url]: # (labs sub urls)
+[labS1 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkwOTk3NDQ5OTcz/details
 [labS1 08 sub url]: # (labs sub urls)
 [labS1 09 sub url]: # (labs sub urls)
 
@@ -271,7 +272,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS2 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjcwMzc4NDI2MDgy/details
 [labS2 05 sub url]: https://classroom.google.com/u/0/w/MjUwMzMyNjE4MjA5/tc/Mjc2OTc0MjM5OTgx
 [labS2 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjkxNjQ4MzQ4ODM3/details
-[labS2 07 sub url]: # (labs sub urls)
+[labS2 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjk0Mjg5MTg0MzI5/details
 [labS2 08 sub url]: # (labs sub urls)
 [labS2 09 sub url]: # (labs sub urls)
 
