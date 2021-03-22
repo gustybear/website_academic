@@ -117,7 +117,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 8 ([3/1][recording 0301 url], [3/3][recording 0303 url], [3/5][recording 0305 url]      | [Sequential Logic: Finite State Machines][week 08 url]                         | [Week 08][read 08 url]                                                     | 3/7, 11:59PM  |
 | Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], [3/12][recording 0312 url])   | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                             | --                                                                             | --                                                                         | --            |
-| Week 10 (3/22)                                                                               | [Practice Midterm II][week 10 practice url]                                    | --                                                                         | --            |
+| Week 10 ([3/22][recording 0322 url])                                                         | [Practice Midterm II][week 10 practice url]                                    | --                                                                         | --            |
 | Week 10 (3/24)                                                                               | Midterm II: 9:30AM - 10:45AM                                                   | --                                                                         | --            |
 | Week 11 (3/29, 3/31)                                                                         | Register-Transfer Level Design                                                 | Week 11                                                                    | 4/4, 11:59PM  |
 | Week 12 (4/5, 4/7, 4/9)                                                                      | Register Memory Components and FIFO                                            | Week 12                                                                    | 4/11, 11:59PM |
@@ -227,6 +227,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0308 url]: https://youtu.be/9vp-RKdkr5I
 [recording 0310 url]: https://youtu.be/q2X74p8BGSY
 [recording 0312 url]: https://youtu.be/VOkZueH-JeU
+[recording 0322 url]: https://youtu.be/Ah44ermxwx8
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
