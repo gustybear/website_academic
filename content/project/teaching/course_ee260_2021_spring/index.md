@@ -115,9 +115,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 6 ([2/19, sol][week 06 sol url])                                                        | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                                | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
 | Week 7 ([2/22][recording 0222 url]), [2/24][recording 0224 url], [2/26][recording 0226 url]) | [Sequential Logic: Clock, Latches, and Flip-Flops][week 07 url]                | [Week 07][read 07 url]                                                     | 2/28, 11:59PM |
 | Week 8 ([3/1][recording 0301 url], [3/3][recording 0303 url], [3/5][recording 0305 url]      | [Sequential Logic: Finite State Machines][week 08 url]                         | [Week 08][read 08 url]                                                     | 3/7, 11:59PM  |
-| Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], 3/12)                         | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
+| Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], [3/12][recording 0312 url])   | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                             | --                                                                             | --                                                                         | --            |
-| Week 10 (3/22)                                                                               | Practice Midterm II                                                            | --                                                                         | --            |
+| Week 10 (3/22)                                                                               | [Practice Midterm II][week 10 practice url]                                    | --                                                                         | --            |
 | Week 10 (3/24)                                                                               | Midterm II: 9:30AM - 10:45AM                                                   | --                                                                         | --            |
 | Week 11 (3/29, 3/31)                                                                         | Register-Transfer Level Design                                                 | Week 11                                                                    | 4/4, 11:59PM  |
 | Week 12 (4/5, 4/7, 4/9)                                                                      | Register Memory Components and FIFO                                            | Week 12                                                                    | 4/11, 11:59PM |
@@ -193,6 +193,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_07_slides.pdf
 [week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_08_slides.pdf
 [week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_09_slides.pdf
+[week 10 practice url]:../../../docs/exams/course_ee260_2021_spring/miterm_02/practice/
 [week 10 url]: https://classroom.github.com/a/jruqU2Sl
 [week 11 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_11_slides.pdf
 [week 12 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_12_slides.pdf
@@ -225,6 +226,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0305 url]: https://youtu.be/_IhJ0ECNnSY
 [recording 0308 url]: https://youtu.be/9vp-RKdkr5I
 [recording 0310 url]: https://youtu.be/q2X74p8BGSY
+[recording 0312 url]: https://youtu.be/VOkZueH-JeU
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
