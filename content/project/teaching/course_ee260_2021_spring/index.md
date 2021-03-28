@@ -118,8 +118,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], [3/12][recording 0312 url])   | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                             | --                                                                             | --                                                                         | --            |
 | Week 10 ([3/22][recording 0322 url])                                                         | [Practice Midterm II][week 10 practice url]                                    | [S1][week 10 practice submit url S2], [S2][week 10 practice submit url S2] | --            |
-| Week 10 (3/24)                                                                               | Midterm II: 9:30AM - 10:45AM                                                   | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
-| Week 11 (3/29, 3/31)                                                                         | Register-Transfer Level Design                                                 | Week 11                                                                    | 4/4, 11:59PM  |
+| Week 10 (3/24)                                                                               | [Midterm II: 9:30AM - 10:45AM][week 10 game url]                               | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
+| Week 11 (3/29, 3/31)                                                                         | [Register-Transfer Level Design][week 11 url]                                  | [Week 11][read 11 url]                                                     | 4/4, 11:59PM  |
 | Week 12 (4/5, 4/7, 4/9)                                                                      | Register Memory Components and FIFO                                            | Week 12                                                                    | 4/11, 11:59PM |
 | Week 13 (4/12, 4/14, 4/16)                                                                   | Optimizations and Tradeoffs                                                    | Week 13                                                                    | 4/18, 11:59PM |
 | Week 14 (4/19, 4/21, 4/23)                                                                   | Physical Implementation on ICs                                                 | Week 14                                                                    | 4/25, 11:59PM |
@@ -142,7 +142,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 (3/9)            | [Finite State Machines][lab 07 url]          | [Lab 07][labS1 07 sub url] | [Lab 07][labS2 07 sub url] | 3/14, 11:59PM |
 | Spring Recess (3/16)    | --                                           | ---                        | ---                        | ---           |
 | Week 10 (3/23)          | --                                           | ---                        | ---                        | ---           |
-| Week 11 (3/30)          | Modeling Registers and Counters              | Lab 08                     | Lab 08                     | 4/4, 11:59PM  |
+| Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]| Lab 08                     | Lab 08                     | 4/4, 11:59PM  |
 | Week 12 (4/6)           | Architectural Wizard and IP Catalog          | Lab 09                     | Lab 09                     | 4/10, 11:59PM |
 | Week 13 (4/13)          | Behavioral Modeling and Timing Constraints   | Lab 10                     | Lab 10                     | 4/18, 11:59PM |
 | Week 14 (4/20)          | Sequential System Design using ASM Charts    | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
@@ -196,7 +196,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 10 practice url]:../../../docs/exams/course_ee260_2021_spring/miterm_02/practice/
 [week 10 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzAxNTMxOTI1MTE0/details
 [week 10 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzAxNTMxOTI1MTQ5/details
-[week 10 url]: https://classroom.github.com/a/jruqU2Sl
+[week 10 game url]:../../../docs/exams/course_ee260_2021_spring/miterm_02/game/
 [week 10 game submit url S1]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzA2OTA4MjA2MjY0/details
 [week 10 game submit url S2]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzA2OTA4NjI0NDU3/details
 [week 11 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_11_slides.pdf
@@ -260,6 +260,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_05.zip
 [lab 06 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_06.zip
 [lab 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_07.zip
+[lab 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_08.zip
 
 [labsS1 sub urls]: # (labs sub urls)
 [labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
