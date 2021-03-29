@@ -142,7 +142,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 (3/9)            | [Finite State Machines][lab 07 url]          | [Lab 07][labS1 07 sub url] | [Lab 07][labS2 07 sub url] | 3/14, 11:59PM |
 | Spring Recess (3/16)    | --                                           | ---                        | ---                        | ---           |
 | Week 10 (3/23)          | --                                           | ---                        | ---                        | ---           |
-| Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]| Lab 08                     | Lab 08                     | 4/4, 11:59PM  |
+| Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]| [Lab 08][labS1 08 sub url] | [Lab 08][labS2 08 sub url] | 4/4, 11:59PM  |
 | Week 12 (4/6)           | Architectural Wizard and IP Catalog          | Lab 09                     | Lab 09                     | 4/10, 11:59PM |
 | Week 13 (4/13)          | Behavioral Modeling and Timing Constraints   | Lab 10                     | Lab 10                     | 4/18, 11:59PM |
 | Week 14 (4/20)          | Sequential System Design using ASM Charts    | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
