@@ -270,7 +270,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS1 05 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc3NjU2MDM3OTY2/details
 [labS1 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkxNDIzNDYxMzY2/details
 [labS1 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkwOTk3NDQ5OTcz/details
-[labS1 08 sub url]: # (labs sub urls)
+[labS1 08 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzExMTA1MDk4NzI2/details
 [labS1 09 sub url]: # (labs sub urls)
 
 [labsS2 sub urls]: # (labs sub urls)
@@ -281,7 +281,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS2 05 sub url]: https://classroom.google.com/u/0/w/MjUwMzMyNjE4MjA5/tc/Mjc2OTc0MjM5OTgx
 [labS2 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjkxNjQ4MzQ4ODM3/details
 [labS2 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjk0Mjg5MTg0MzI5/details
-[labS2 08 sub url]: # (labs sub urls)
+[labS2 08 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzExMTE0NTAyNzUy/details
 [labS2 09 sub url]: # (labs sub urls)
 
 [resource urls]: # (resource urls)
