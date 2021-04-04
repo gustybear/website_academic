@@ -143,7 +143,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Spring Recess (3/16)    | --                                               | ---                        | ---                        | ---           |
 | Week 10 (3/23)          | --                                               | ---                        | ---                        | ---           |
 | Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]    | [Lab 08][labS1 08 sub url] | [Lab 08][labS2 08 sub url] | 4/4, 11:59PM  |
-| Week 12 (4/6)           | [Architectural Wizard and IP Catalog][lab 09 url | Lab 09                     | Lab 09                     | 4/10, 11:59PM |
+| Week 12 (4/6)           | [Architectural Wizard and IP Catalog][lab 09 url]| Lab 09                     | Lab 09                     | 4/10, 11:59PM |
 | Week 13 (4/13)          | Behavioral Modeling and Timing Constraints       | Lab 10                     | Lab 10                     | 4/18, 11:59PM |
 | Week 14 (4/20)          | Sequential System Design using ASM Charts        | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
 | Week 15 (4/27)          | Catch-up Lab                                     | ---                        | ---                        | 5/2, 11:59PM  |
@@ -233,6 +233,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0312 url]: https://youtu.be/VOkZueH-JeU
 [recording 0322 url]: https://youtu.be/Ah44ermxwx8
 [recording 0329 url]: https://youtu.be/J_4rpI6FpI0
+[recording 0331 url]: https://youtu.be/tDa7I-SHRQE
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
