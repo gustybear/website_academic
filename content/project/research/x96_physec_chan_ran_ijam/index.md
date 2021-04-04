@@ -219,7 +219,7 @@ $$\mathbf h = |\mathbf h|e^{-\theta}$$
 
 where $|\mathbf h|$ is the magnitude of the AoD vector and $\theta$ is the phase of the vector. As the signal travels further (i.e. RX is farther from the TX), the magnitude of the transmission decreases. The phase, too, depends on the distance the RX is from the TX. Keeping magnitude constant, the phase will change the transmission pattern every wavelength of the signal. Combining the two characteristics together, we observe a pattern similar to the one in Figure 1 below.
 
-{{< figure library="true" numbered="true" src="attenuation.png" title="Attenuation example." >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/x96_physec_chan_ran/raw/main/attenuation.png" title="Attenuation example." >}}
 
 To solve the CSI model, the MUSIC (Multiple Signal Classification) algorithm is used to compute the AoD vector. This algorithm minimizes the difference between the estimation and ground truth CSI. A regular MUSIC algorithm requires Alice to measure the CSI with a sufficient number of antenna modes during the training phase in order to solve for the AoD. However, this significantly limits the number of available antenna modes for data transmission.
 

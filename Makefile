@@ -32,6 +32,7 @@ build_webpages:
 	@git submodule update --init --recursive --remote
 	@rm -rf $(WEBSITE_SRC)
 	@find . -name "Icon?" -exec rm {} \;
+	@hugo mod clean
 	@hugo mod get -u
 	@hugo
 
