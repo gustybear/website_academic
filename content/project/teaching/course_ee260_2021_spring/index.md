@@ -120,7 +120,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 10 ([3/22][recording 0322 url])                                                           | [Practice Midterm II][week 10 practice url]                                  | [S1][week 10 practice submit url S2], [S2][week 10 practice submit url S2] | --            |
 | Week 10 (3/24)                                                                                 | [Midterm II: 9:30AM - 10:45AM][week 10 game url]                             | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
 | Week 11 ([3/29][recording 0329 url], [3/31][recording 0331 url])                               | [Register-Transfer Level Design][week 11 url]                                | [Week 11][read 11 url]                                                     | 4/4, 11:59PM  |
-| Week 12 (4/5, 4/7, 4/9)                                                                        | [Register Memory Components and FIFO][week 12 url]                           | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
+| Week 12 ([4/5][recording 0405 url], 4/7, 4/9)                                                  | [Register Memory Components and FIFO][week 12 url]                           | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
 | Week 13 (4/12, 4/14, 4/16)                                                                     | Optimizations and Tradeoffs                                                  | Week 13                                                                    | 4/18, 11:59PM |
 | Week 14 (4/19, 4/21, 4/23)                                                                     | Physical Implementation on ICs                                               | Week 14                                                                    | 4/25, 11:59PM |
 | Week 15 (4/26, 4/28, 4/30)                                                                     | Programmable Processors                                                      | Week 15                                                                    | 5/02, 11:59PM |
@@ -234,6 +234,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0322 url]: https://youtu.be/Ah44ermxwx8
 [recording 0329 url]: https://youtu.be/J_4rpI6FpI0
 [recording 0331 url]: https://youtu.be/tDa7I-SHRQE
+[recording 0405 url]: https://youtu.be/kYcv13UohG8
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
