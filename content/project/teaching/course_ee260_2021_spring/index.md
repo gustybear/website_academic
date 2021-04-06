@@ -264,7 +264,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab 06 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_06.zip
 [lab 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_07.zip
 [lab 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_08.zip
-[lab 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_09.zip
+[lab 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_09.zip
 
 
 [labsS1 sub urls]: # (labs sub urls)
