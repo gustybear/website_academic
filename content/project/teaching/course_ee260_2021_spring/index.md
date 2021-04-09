@@ -118,7 +118,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], [3/12][recording 0312 url])   | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
 | Spring Recess (Mar 15  - Mar 19)                                                               | --                                                                           | --                                                                         | --            |
 | Week 10 ([3/22][recording 0322 url])                                                           | [Practice Midterm II][week 10 practice url]                                  | [S1][week 10 practice submit url S2], [S2][week 10 practice submit url S2] | --            |
-| Week 10 (3/24)                                                                                 | [Midterm II: 9:30AM - 10:45AM][week 10 game url]                             | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
+| Week 10 ([3/24, sol][week 10 sol url])                                                                                 | [Midterm II: 9:30AM - 10:45AM][week 10 game url]     | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
 | Week 11 ([3/29][recording 0329 url], [3/31][recording 0331 url])                               | [Register-Transfer Level Design][week 11 url]                                | [Week 11][read 11 url]                                                     | 4/4, 11:59PM  |
 | Week 12 ([4/5][recording 0405 url], 4/7, 4/9)                                                  | [Register Memory Components and FIFO][week 12 url]                           | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
 | Week 13 (4/12, 4/14, 4/16)                                                                     | Optimizations and Tradeoffs                                                  | Week 13                                                                    | 4/18, 11:59PM |
@@ -197,6 +197,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 10 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzAxNTMxOTI1MTE0/details
 [week 10 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzAxNTMxOTI1MTQ5/details
 [week 10 game url]:../../../docs/exams/course_ee260_2021_spring/miterm_02/game/
+[week 10 sol url]:../../../docs/exams/course_ee260_2021_spring/miterm_02/solution/
 [week 10 game submit url S1]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzA2OTA4MjA2MjY0/details
 [week 10 game submit url S2]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzA2OTA4NjI0NDU3/details
 [week 11 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_11_slides.pdf
