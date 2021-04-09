@@ -143,7 +143,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Spring Recess (3/16)    | --                                               | ---                        | ---                        | ---           |
 | Week 10 (3/23)          | --                                               | ---                        | ---                        | ---           |
 | Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]    | [Lab 08][labS1 08 sub url] | [Lab 08][labS2 08 sub url] | 4/4, 11:59PM  |
-| Week 12 (4/6)           | [Architectural Wizard and IP Catalog][lab 09 url]| Lab 09                     | Lab 09                     | 4/10, 11:59PM |
+| Week 12 (4/6)           | [Architectural Wizard and IP Catalog][lab 09 url]| [Lab 09][labS1 09 sub url] | [Lab 09][labS2 09 sub url] | 4/10, 11:59PM |
 | Week 13 (4/13)          | Behavioral Modeling and Timing Constraints       | Lab 10                     | Lab 10                     | 4/18, 11:59PM |
 | Week 14 (4/20)          | Sequential System Design using ASM Charts        | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
 | Week 15 (4/27)          | Catch-up Lab                                     | ---                        | ---                        | 5/2, 11:59PM  |
@@ -265,6 +265,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab 06 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_06.zip
 [lab 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_07.zip
 [lab 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_08.zip
+[lab 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_09.zip
+
 
 [labsS1 sub urls]: # (labs sub urls)
 [labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
@@ -275,7 +277,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS1 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkxNDIzNDYxMzY2/details
 [labS1 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkwOTk3NDQ5OTcz/details
 [labS1 08 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzExMTA1MDk4NzI2/details
-[labS1 09 sub url]: # (labs sub urls)
+[labS1 09 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzEzMDY1MjY3MDE2/details
 
 [labsS2 sub urls]: # (labs sub urls)
 [labS2 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjUxODI5NjI2OTgx/details
@@ -286,7 +288,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [labS2 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjkxNjQ4MzQ4ODM3/details
 [labS2 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjk0Mjg5MTg0MzI5/details
 [labS2 08 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzExMTE0NTAyNzUy/details
-[labS2 09 sub url]: # (labs sub urls)
+[labS2 09 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzEzMDY1MzE1OTUy/details
 
 [resource urls]: # (resource urls)
 [xilinx vivado installation guide url]: ./tutorials/xilinx_vivado_installation_guide/
