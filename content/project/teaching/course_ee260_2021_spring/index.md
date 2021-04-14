@@ -121,7 +121,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 10 ([3/24, sol][week 10 sol url])                                                       | [Midterm II: 9:30AM - 10:45AM][week 10 game url]                               | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
 | Week 11 ([3/29][recording 0329 url], [3/31][recording 0331 url])                             | [Register-Transfer Level Design][week 11 url]                                  | [Week 11][read 11 url]                                                     | 4/4, 11:59PM  |
 | Week 12 ([4/5][recording 0405 url], [4/7][recording 0407 url], [4/9][recording 0409 url])    | [Register Memory Components and FIFO][week 12 url]                             | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
-| Week 13 ([4/12][recording 0412 url], 4/14, 4/16)                                             | Optimizations and Tradeoffs                                                    | [Week 13][read 13 url]                                                     | 4/18, 11:59PM |
+| Week 13 ([4/12][recording 0412 url], 4/14, 4/16)                                             | [Optimizations and Tradeoffs][week 13 url]                                     | [Week 13][read 13 url]                                                     | 4/18, 11:59PM |
 | Week 14 (4/19, 4/21, 4/23)                                                                   | Physical Implementation on ICs                                                 | Week 14                                                                    | 4/25, 11:59PM |
 | Week 15 (4/26, 4/28, 4/30)                                                                   | Programmable Processors                                                        | Week 15                                                                    | 5/02, 11:59PM |
 | Week 16 (5/3, 5/5)                                                                           | Class Review                                                                   | --                                                                         | --            |
@@ -270,11 +270,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_08.zip
 [lab 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_09.zip
 [lab 10 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_10.zip
-<<<<<<< Updated upstream
 [lab 11 url]: 
-
-=======
->>>>>>> Stashed changes
 
 
 [labsS1 sub urls]: # (labs sub urls)
