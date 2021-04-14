@@ -104,52 +104,52 @@ This course explores the foundation of digital circuit design, starting from Boo
 ***
 # Schedule
 ## Lecture
-| TIME                                                                                           | TOPICS                                                                       | READING/HW                                                                 | DEADLINE      |
-| ---                                                                                            | ---                                                                          | ---                                                                        | ---           |
-| Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url])                                | [Course Logistic and Introduction][week 01 url]                              | [Week 01][read 01 url]                                                     | 1/17, 11:59PM |
-| Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url])                                | [Number Systems][week 02 url]                                                | [Week 02][read 02 url]                                                     | 1/24, 11:59PM |
+| TIME                                                                                         | TOPICS                                                                         | READING/HW                                                                 | DEADLINE      |
+| ---                                                                                          | ---                                                                            | ---                                                                        | ---           |
+| Week 1 ([1/13][recording 0113 url], [1/15][recording 0115 url])                              | [Course Logistic and Introduction][week 01 url]                                | [Week 01][read 01 url]                                                     | 1/17, 11:59PM |
+| Week 2 ([1/20][recording 0120 url], [1/22][recording 0122 url])                              | [Number Systems][week 02 url]                                                  | [Week 02][read 02 url]                                                     | 1/24, 11:59PM |
 | Week 3 ([1/25][recording 0125 url], [1/27][recording 0127 url], [1/29][recording 0129 url])  | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url]         | [Week 03][read 03 url]                                                     | 1/31, 11:59PM |
 | Week 4 ([2/1][recording 0201 url], [2/3][recording 0203 url], [2/5][recording 0205 url])     | [Combinational Logic: Boolean Algebra][week 04 url]                            | [Week 04][read 04 url]                                                     | 2/7, 11:59PM  |
 | Week 5 ([2/8][recording 0208 url], [2/10][recording 0210 url], [2/12][recording 0212 url])   | [Combinational Logic: Design Process, More Gates][week 05 url]                 | [Week 05][read 05 url]                                                     | 2/14, 11:59PM |
-| Week 6 ([2/17][recording 0217 url])                                                            | [Practice Midterm I][week 06 practice url]                                   | [S1][week 06 practice submit url S1], [S2][week 06 practice submit url S2] | --            |
-| Week 6 ([2/19, sol][week 06 sol url])                                                          | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                              | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
+| Week 6 ([2/17][recording 0217 url])                                                          | [Practice Midterm I][week 06 practice url]                                     | [S1][week 06 practice submit url S1], [S2][week 06 practice submit url S2] | --            |
+| Week 6 ([2/19, sol][week 06 sol url])                                                        | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                                | [S1][week 06 game submit url S1], [S2][week 06 game submit url S2]         | --            |
 | Week 7 ([2/22][recording 0222 url]), [2/24][recording 0224 url], [2/26][recording 0226 url]) | [Sequential Logic: Clock, Latches, and Flip-Flops][week 07 url]                | [Week 07][read 07 url]                                                     | 2/28, 11:59PM |
 | Week 8 ([3/1][recording 0301 url], [3/3][recording 0303 url], [3/5][recording 0305 url]      | [Sequential Logic: Finite State Machines][week 08 url]                         | [Week 08][read 08 url]                                                     | 3/7, 11:59PM  |
 | Week 9 ([3/8][recording 0308 url], [3/10][recording 0310 url], [3/12][recording 0312 url])   | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url] | [Week 09][read 09 url]                                                     | 3/14, 11:59PM |
-| Spring Recess (Mar 15  - Mar 19)                                                               | --                                                                           | --                                                                         | --            |
-| Week 10 ([3/22][recording 0322 url])                                                           | [Practice Midterm II][week 10 practice url]                                  | [S1][week 10 practice submit url S2], [S2][week 10 practice submit url S2] | --            |
-| Week 10 ([3/24, sol][week 10 sol url])                                                                                 | [Midterm II: 9:30AM - 10:45AM][week 10 game url]     | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
-| Week 11 ([3/29][recording 0329 url], [3/31][recording 0331 url])                               | [Register-Transfer Level Design][week 11 url]                                | [Week 11][read 11 url]                                                     | 4/4, 11:59PM  |
-| Week 12 ([4/5][recording 0405 url], 4/7, 4/9)                                                  | [Register Memory Components and FIFO][week 12 url]                           | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
-| Week 13 (4/12, 4/14, 4/16)                                                                     | Optimizations and Tradeoffs                                                  | Week 13                                                                    | 4/18, 11:59PM |
-| Week 14 (4/19, 4/21, 4/23)                                                                     | Physical Implementation on ICs                                               | Week 14                                                                    | 4/25, 11:59PM |
-| Week 15 (4/26, 4/28, 4/30)                                                                     | Programmable Processors                                                      | Week 15                                                                    | 5/02, 11:59PM |
-| Week 16 (5/3, 5/5)                                                                             | Class Review                                                                 | --                                                                         | --            |
-| Study Days (5/7,5/8)                                                                           | --                                                                           | --                                                                         | --            |
-| Week 17 (5/14)                                                                                 | Final: 9:45AM - 11:45AM                                                      | --                                                                         | --            |
+| Spring Recess (Mar 15  - Mar 19)                                                             | --                                                                             | --                                                                         | --            |
+| Week 10 ([3/22][recording 0322 url])                                                         | [Practice Midterm II][week 10 practice url]                                    | [S1][week 10 practice submit url S2], [S2][week 10 practice submit url S2] | --            |
+| Week 10 ([3/24, sol][week 10 sol url])                                                       | [Midterm II: 9:30AM - 10:45AM][week 10 game url]                               | [S1][week 10 game submit url S1], [S2][week 10 game submit url S2]         | --            |
+| Week 11 ([3/29][recording 0329 url], [3/31][recording 0331 url])                             | [Register-Transfer Level Design][week 11 url]                                  | [Week 11][read 11 url]                                                     | 4/4, 11:59PM  |
+| Week 12 ([4/5][recording 0405 url], [4/7][recording 0407 url], [4/9][recording 0409 url])    | [Register Memory Components and FIFO][week 12 url]                             | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
+| Week 13 ([4/12][recording 0412 url], 4/14, 4/16)                                             | Optimizations and Tradeoffs                                                    | [Week 13][read 13 url]                                                     | 4/18, 11:59PM |
+| Week 14 (4/19, 4/21, 4/23)                                                                   | Physical Implementation on ICs                                                 | Week 14                                                                    | 4/25, 11:59PM |
+| Week 15 (4/26, 4/28, 4/30)                                                                   | Programmable Processors                                                        | Week 15                                                                    | 5/02, 11:59PM |
+| Week 16 (5/3, 5/5)                                                                           | Class Review                                                                   | --                                                                         | --            |
+| Study Days (5/7,5/8)                                                                         | --                                                                             | --                                                                         | --            |
+| Week 17 (5/14)                                                                               | Final: 9:45AM - 11:45AM                                                        | --                                                                         | --            |
 
 ## Laboratory
-| TIME                    | Topic                                            | Submissions                |                            | DEADLINE      |
-| ---                     | ---                                              | ---                        | ---                        | ---           |
-| Week 1 (1/12)           | --                                               | Section 1                  | Section 2                  | ---           |
-| Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]                    | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url] | 1/24, 11:59PM |
-| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]                  | [Lab 02][labS1 02 sub url] | [Lab 02][labS2 02 sub url] | 1/31, 11:59PM |
-| Week 4 (2/2)            | [Numbering Systems][lab 03 url]                  | [Lab 03][labS1 03 sub url] | [Lab 03][labS2 03 sub url] | 2/7, 11:59PM  |
-| Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]              | [Lab 04][labS1 04 sub url] | [Lab 04][labS2 04 sub url] | 2/21, 11:59PM |
-| Week 6 (2/16)           | --                                               | ---                        | ---                        | ---           |
-| Week 7 (2/23)           | [Tasks Functions, and Testbench][lab 05 url]     | [Lab 05][labS1 05 sub url] | [Lab 05][labS1 05 sub url] | 2/28, 11:59PM |
-| Week 8 (3/2)            | [Modeling Latches and Flip-Flops][lab 06 url]    | [Lab 06][labS1 06 sub url] | [Lab 06][labS2 06 sub url] | 3/7, 11:59PM  |
-| Week 9 (3/9)            | [Finite State Machines][lab 07 url]              | [Lab 07][labS1 07 sub url] | [Lab 07][labS2 07 sub url] | 3/14, 11:59PM |
-| Spring Recess (3/16)    | --                                               | ---                        | ---                        | ---           |
-| Week 10 (3/23)          | --                                               | ---                        | ---                        | ---           |
-| Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]    | [Lab 08][labS1 08 sub url] | [Lab 08][labS2 08 sub url] | 4/4, 11:59PM  |
-| Week 12 (4/6)           | [Architectural Wizard and IP Catalog][lab 09 url]| [Lab 09][labS1 09 sub url] | [Lab 09][labS2 09 sub url] | 4/10, 11:59PM |
-| Week 13 (4/13)          | Behavioral Modeling and Timing Constraints       | [Lab 10][labS1 10 sub url] | [Lab 10][labS2 10 sub url] | 4/18, 11:59PM |
-| Week 14 (4/20)          | Sequential System Design using ASM Charts        | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
-| Week 15 (4/27)          | Catch-up Lab                                     | ---                        | ---                        | 5/2, 11:59PM  |
-| Week 16 (4/4)           | --                                               | ---                        | ---                        | ---           |
-| Study Days (May 07, 08) | --                                               | ---                        | ---                        | ---           |
-| Week 17 (May 10)        | --                                               | ---                        | ---                        | ---           |
+| TIME                    | Topic                                                    | Submissions                |                            | DEADLINE      |
+| ---                     | ---                                                      | ---                        | ---                        | ---           |
+| Week 1 (1/12)           | --                                                       | Section 1                  | Section 2                  | ---           |
+| Week 2 (1/19)           | [Vivado Tutorial][lab 01 url]                            | [Lab 01][labS1 01 sub url] | [Lab 01][labS2 01 sub url] | 1/24, 11:59PM |
+| Week 3 (1/26)           | [Modeling Concepts][lab 02 url]                          | [Lab 02][labS1 02 sub url] | [Lab 02][labS2 02 sub url] | 1/31, 11:59PM |
+| Week 4 (2/2)            | [Numbering Systems][lab 03 url]                          | [Lab 03][labS1 03 sub url] | [Lab 03][labS2 03 sub url] | 2/7, 11:59PM  |
+| Week 5 (2/9)            | [Multi-Output Circuits][lab 04 url]                      | [Lab 04][labS1 04 sub url] | [Lab 04][labS2 04 sub url] | 2/21, 11:59PM |
+| Week 6 (2/16)           | --                                                       | ---                        | ---                        | ---           |
+| Week 7 (2/23)           | [Tasks Functions, and Testbench][lab 05 url]             | [Lab 05][labS1 05 sub url] | [Lab 05][labS1 05 sub url] | 2/28, 11:59PM |
+| Week 8 (3/2)            | [Modeling Latches and Flip-Flops][lab 06 url]            | [Lab 06][labS1 06 sub url] | [Lab 06][labS2 06 sub url] | 3/7, 11:59PM  |
+| Week 9 (3/9)            | [Finite State Machines][lab 07 url]                      | [Lab 07][labS1 07 sub url] | [Lab 07][labS2 07 sub url] | 3/14, 11:59PM |
+| Spring Recess (3/16)    | --                                                       | ---                        | ---                        | ---           |
+| Week 10 (3/23)          | --                                                       | ---                        | ---                        | ---           |
+| Week 11 (3/30)          | [Modeling Registers and Counters][lab 08 url]            | [Lab 08][labS1 08 sub url] | [Lab 08][labS2 08 sub url] | 4/4, 11:59PM  |
+| Week 12 (4/6)           | [Architectural Wizard and IP Catalog][lab 09 url]        | [Lab 09][labS1 09 sub url] | [Lab 09][labS2 09 sub url] | 4/10, 11:59PM |
+| Week 13 (4/13)          | [Behavioral Modeling and Timing Constraints][lab 10 url] | [Lab 10][labS1 10 sub url] | [Lab 10][labS2 10 sub url] | 4/18, 11:59PM |
+| Week 14 (4/20)          | Sequential System Design using ASM Charts                | Lab 11                     | Lab 11                     | 4/25, 11:59PM |
+| Week 15 (4/27)          | Catch-up Lab                                             | ---                        | ---                        | 5/2, 11:59PM  |
+| Week 16 (4/4)           | --                                                       | ---                        | ---                        | ---           |
+| Study Days (May 07, 08) | --                                                       | ---                        | ---                        | ---           |
+| Week 17 (May 10)        | --                                                       | ---                        | ---                        | ---           |
 
 ***
 # Resources
@@ -236,6 +236,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0329 url]: https://youtu.be/J_4rpI6FpI0
 [recording 0331 url]: https://youtu.be/tDa7I-SHRQE
 [recording 0405 url]: https://youtu.be/kYcv13UohG8
+[recording 0407 url]: https://youtu.be/frvdQcka0x0
+[recording 0409 url]: https://youtu.be/Ad3YPhXkpvc
+[recording 0412 url]: https://youtu.be/kcbqTWbn3wM
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
@@ -267,8 +270,11 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_08.zip
 [lab 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_09.zip
 [lab 10 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_10.zip
+<<<<<<< Updated upstream
 [lab 11 url]: 
 
+=======
+>>>>>>> Stashed changes
 
 
 [labsS1 sub urls]: # (labs sub urls)
