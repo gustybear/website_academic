@@ -59,8 +59,9 @@ publication: '*2021 IEEE Global Communications Conference: Communication & Infor
 doi:
 links:
 - name: PDF
-  url: 
   url: https://api.zotero.org/users/3468578/publications/items/J8HR5AFI/file/view
+- name: Report
+  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/conf_globecom_multi_moda_dev_pair/view.pdf
 - name: Dataset
   url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
 ---

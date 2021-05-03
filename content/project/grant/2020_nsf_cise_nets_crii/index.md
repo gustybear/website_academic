@@ -37,9 +37,23 @@ image:
 #   url: http://example.org
 links:
 - name: PUB
-  url: 'https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view'
+  url: '../../publication/paryavi-machine-vision-tools-2021/'
 - name: PUB
-  url: 'https://api.zotero.org/users/3468578/publications/items/DMYQ96PG/file/view'
+  url: '../../publication/melcher-i-jam-channel-randomization-2020/'
+- name: PUB
+  url: '../../publication/melcher-i-jam-channel-randomization-2020/'
+- name: Dataset
+  url: 'https://github.com/gustybear-research/x96_mmw_under_weather'
+- name: Dataset
+  url: 'https://github.com/gustybear-research/x96_distbed_wifi_sensing'
+- name: Dataset
+  url: 'https://github.com/gustybear-research/x96_mmw_sig_cov'
+- name: Outreach
+  url: '../../outreach/2020_gsh_stem_festival/'
+- name: Mentor
+  url: '../../mentor/2021_spring_seoty_willy_chang/'
+- name: Mentor
+  url: '../../mentor/2020_fall_ogs_alvin_yang/'
 ---
 ***
 # Executive Summary
