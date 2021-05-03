@@ -50,7 +50,7 @@
 
 [[main]]
   name = "Facility"
-  url = "./project/facility"
+  url = "./project/facility/wcl"
   weight = 95
 
 

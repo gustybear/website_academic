@@ -123,7 +123,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 12 ([4/5][recording 0405 url], [4/7][recording 0407 url], [4/9][recording 0409 url])    | [Register Memory Components and FIFO][week 12 url]                             | [Week 12][read 12 url]                                                     | 4/11, 11:59PM |
 | Week 13 ([4/12][recording 0412 url], [4/14][recording 0414 url], [4/16][recording 0416 url]) | [Optimizations and Tradeoffs][week 13 url]                                     | [Week 13][read 13 url]                                                     | 4/18, 11:59PM |
 | Week 14 ([4/19][recording 0419 url], [4/21][recording 0421 url], [4/23][recording 0423 url]) | [Physical Implementation on ICs][week 14 url]                                  | [Week 14][read 14 url]                                                     | 4/25, 11:59PM |
-| Week 15 (4/26, 4/28, 4/30)                                                                   | [Programmable Processors][week 15 url]                                         | [Week 15][read 15 url]                                                     | 5/02, 11:59PM |
+| Week 15 ([4/26][recording 0426 url], [4/28][recording 0428 url], [4/30][recording 0430 url]) | [Programmable Processors][week 15 url]                                         | [Week 15][read 15 url]                                                     | 5/02, 11:59PM |
 | Week 16 (5/3, 5/5)                                                                           | Class Review                                                                   | --                                                                         | --            |
 | Study Days (5/7,5/8)                                                                         | --                                                                             | --                                                                         | --            |
 | Week 17 (5/14)                                                                               | Final: 9:45AM - 11:45AM                                                        | --                                                                         | --            |
@@ -244,6 +244,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0419 url]: https://youtu.be/4Fg3OoCjEho
 [recording 0421 url]: https://youtu.be/zmqfPlbq4Ww
 [recording 0423 url]: https://youtu.be/qz9bKvlZCJY
+[recording 0426 url]: https://youtu.be/pX8NtuTNpvE
+[recording 0428 url]: https://youtu.be/iV4xkz7ygaI
+[recording 0430 url]: https://youtu.be/uaOPjOimqsg
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1

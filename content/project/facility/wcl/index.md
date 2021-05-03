@@ -40,59 +40,34 @@ image:
 
 # Executive Summary
 
+This laboratory in Holmes Hall 488 is used for experimental work involving radio frequency (RF) communication, sensing, and security. The laboratory provides RF prototyping equipment and instruments, including mmWave beamforming kit, software-defined radios (SDRs), signal generators, spectrum analyzers, network analyzers; fabrication and assembly tools, including soldering and reworking stations, RF components, including cables, attenuators, power splitters/combiners, directional couplers; design and simulation software for ICs and PCBs; and other miscellaneous. The laboratory provides project participants with private server clusters, laptops, and desktop computers; various software licenses, including MATLAB, Candence, LabVIEW, OriginLab, and Adobe Creative Cloud; and remote access to all instruments, computers, and actuators.
+
 ***
 # Logistics
 | Location        | Physical Access                                                                                                              | Remote Access                                   |
 | ----            | ---                                                                                                                          | ---                                             |
-| Holmes Hall 488 | fill [request form][http://ee.hawaii.edu/gfx/content/RoomAccessForm.pdf] and contact [EE office](mailto:eeoffice@hawaii.edu) | contact [Yao Zheng](mailto:yaozheng@hawaii.edu) |
+| Holmes Hall 488 | contact [EE office](mailto:eeoffice@hawaii.edu) | contact [Yao Zheng](mailto:yaozheng@hawaii.edu) |
 
 ***
 
 # Resource
-The laboratory provides (1) RF prototyping equipment, including decimeter band software-defined radios (SDRs), SDR compatible mmWave band phased arrays, and frequency converters. (2) RF instruments, including signal generators, spectrum analyzers, network analyzers. (3) Fabrications equipment, including soldering, reworking stations, 3D print, and laser cutting service. (4) A selection of RF cables, attenuators, power splitters/combiners, directional couplers, etc. (5) Design and Simulation software, including Ansys HFSS, MATLAB, NI LabVIEW, OriginLab, and Adobe Creative Cloud. (6) Private server clusters and laptops and/or desktop computers, in addition to computers used for the experiments; various software licenses, including Ansys HFSS, MATLAB, NI LabVIEW, OriginLab, and Adobe Creative Cloud. (7) Remote access to all instruments, computers, actuators, etc.
-
-- Decimeter Band SDR Kits
-
-- mmWave Phased Array Kits
 
 - Instruments
+  - Spectrum Analyzers: 
+    - icarus (Keysight N9010B): 10.10.3.103
+  - Signal Generators:
+    - Keysight 33210A
+  - Oscilloscopes:
+    - Keysight DSOX1102G
+  - Power Supplies:
+    - Keysight E36313A
 
-- Fabrications
-
-- Computation
-
-- Software
-
-- Remote Access
-
-  - orion (Netgear Nighthawk AC1900): 10.10.3.1
-  - yamata (Netgear Nighthawk AC1900): 10.10.4.1
-- SDRs:
+- RF Hardware
   - TX (Ettus N210) : 10.10.3.20
   - RX (Ettus N210): 10.10.3.10, 10.10.3.15, 10.10.3.25
   - OctoClock-G (Ettus CDA-2990): 10.10.3.30
-- Rotating Antennas: 
-  - calypso (Raspberry Pi 2 Model B): 10.10.3.133
-  - daedalus (Raspberry Pi 2 Model B): 10.10.3.146
-- Spectrum Analyzers: 
-  - icarus (Keysight N9010B): 10.10.3.103
-- Signal Generators:
-  - Keysight 33210A
-- Oscilloscopes:
-  - Keysight DSOX1102G
-- Power Supplies:
-  - Keysight E36313A
-- Computers:
-  - tie (Dell OptiPlex 755): 10.10.4.146
-  - enterprise (Dell XPS 15 9560): 10.10.3.142
-  - hammurabi (Dell XPS 13 9370): 10.10.3.125
-  - ranger (LENOVO ThinkStation E30): 10.10.3.111
-  - endurance (LENOVO ThinkStation E30): 10.10.3.108
-- Servers:
-  - amaterasu (LENOVO ThinkServer RD230, 64GB MEM): 10.10.3.137, 10.10.4.139
-  - messiah (LENOVO ThinkServer RD230, 32GB MEM): 10.10.4.140
-  - odyssey (LENOVO ThinkServer RD230, 32GB MEM): 10.10.4.122
-- Fabrications:
-  - HAKKO: FM-206, FX-951, FM-2024, FM-2022, FM-2029, FM-2027
 
+- RF Software
+
+- Fabrications
 ***
