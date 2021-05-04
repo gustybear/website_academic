@@ -53,7 +53,11 @@ This laboratory in Holmes Hall 488 is used for experimental work involving radio
 # Resource
 
 - Instruments
-  - Spectrum Analyzers (Keysight N9010B, N9917A):
+  - *Spectrum Analyzers (Keysight N9010B, N9918A)*: WCL is equipped with two
+    spectrum analzyers. The benchtop model (Keysight N9010B) operates from 10Hz
+    to 7GHz and has been upgraded with a pre-amplifier and 40MHz analysis
+    bandwidth. The handheld model (Keysight N9918A) operates from 30kHz to
+    26.5GHz and has been upgraded with vector network analysis functions.
   - Signal Generators (Keysight 33210A):
   - Oscilloscopes (Keysight DSOX1102G):
   - Power Supplies (Keysight E36313A):
