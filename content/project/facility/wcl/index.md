@@ -53,21 +53,16 @@ This laboratory in Holmes Hall 488 is used for experimental work involving radio
 # Resource
 
 - Instruments
-  - Spectrum Analyzers: 
-    - icarus (Keysight N9010B): 10.10.3.103
-  - Signal Generators:
-    - Keysight 33210A
-  - Oscilloscopes:
-    - Keysight DSOX1102G
-  - Power Supplies:
-    - Keysight E36313A
+  - Spectrum Analyzers (Keysight N9010B, N9917A):
+  - Signal Generators (Keysight 33210A):
+  - Oscilloscopes (Keysight DSOX1102G):
+  - Power Supplies (Keysight E36313A):
+  - Multimeter ():
 
 - RF Hardware
-  - TX (Ettus N210) : 10.10.3.20
-  - RX (Ettus N210): 10.10.3.10, 10.10.3.15, 10.10.3.25
-  - OctoClock-G (Ettus CDA-2990): 10.10.3.30
+  - *mmWave Comm/Sensing/Sounder*: Our mmWave developing system is a customized 24-31GHz radio system implemented with a mmWave beamforming kit (BBox Lites/UD Box from TMYTEK), Ettus USRPs (N210, CDA-2990), and COTS Wi-Fi NICs (Intel 5300). The system consists of a 16-channel 24-31GHz phased array antenna and a frequency Up/Down converter, which interfaces with baseband devices (LabVIEW controlled USRPs or COTS Wi-Fi NICs). Each channel provides $ 360^{\circ} $ phase shifter coverage with $ 5^{\circ} $ per step, 400 ms beam switching time. The 3dB beam aperture is $ 13^{\circ} $ horizontally and $ 14^{\circ} $ vertically. The angle coverage is +/-$ 45^{\circ} $ horizontally and +/-$ 60^{\circ} $ vertically. The baseband devices can support up to 80MHz bandwidth with 64 subcarriers for data transmission or CSI measurements.
 
 - RF Software
-
+  - *Ansys HFSS*: HFSS is a commercial finite element method solver for electromagnetic structures from Ansys. The acronym stands for high-frequency structure simulator. HFSS is one of several commercial tools used for antenna design, and the design of complex radio frequency electronic circuit elements including filters, transmission lines, and packaging.
 - Fabrications
 ***

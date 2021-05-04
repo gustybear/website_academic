@@ -61,7 +61,7 @@ links:
 - name: PDF
   url: https://api.zotero.org/users/3468578/publications/items/J8HR5AFI/file/view
 - name: Report
-  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/conf_globecom_multi_moda_dev_pair/view.pdf
+  url: https://arxiv.org/abs/2105.00314
 - name: Dataset
   url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
 ---
