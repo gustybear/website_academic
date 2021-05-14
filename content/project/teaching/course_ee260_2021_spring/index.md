@@ -126,7 +126,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 15 ([4/26][recording 0426 url], [4/28][recording 0428 url], [4/30][recording 0430 url]) | [Programmable Processors][week 15 url]                                         | [Week 15][read 15 url]                                                     | 5/02, 11:59PM |
 | Week 16 ([5/3][recording 0503 url], [5/5][recording 0505 url])                               | [Practice Final][week 16 practice url]                                         | --                                                                         | --            |
 | Study Days (5/7,5/8)                                                                         | --                                                                             | --                                                                         | --            |
-| Week 17 (5/14)                                                                               | Final: 9:45AM - 11:45AM                                                        | --                                                                         | --            |
+| Week 17 (5/14)                                                                               | Final: 9:45AM - 11:45AM                                                        | [S1][week 17 game submit url S1], [S2][week 17 game submit url S2]         | 5/14, 11:45AM |
 
 ## Laboratory
 | TIME                    | Topic                                                    | Submissions                |                            | DEADLINE      |
@@ -207,6 +207,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 15 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_15_slides.pdf
 [week 16 practice url]:../../../docs/exams/course_ee260_2021_spring/final/practice/
 [week 17 url]: https://classroom.github.com/a/ahPU1u-k
+[week 17 game submit url S1]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzM4ODY0NDI0MDc2/details
+[week 17 game submit url S2]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzQyODI1MzM5MzMx/details
 
 [recording urls]: # (recording urls)
 [recording 0113 url]: https://youtu.be/RtppPuw2Thw
