@@ -124,7 +124,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 13 ([4/12][recording 0412 url], [4/14][recording 0414 url], [4/16][recording 0416 url]) | [Optimizations and Tradeoffs][week 13 url]                                     | [Week 13][read 13 url]                                                     | 4/18, 11:59PM |
 | Week 14 ([4/19][recording 0419 url], [4/21][recording 0421 url], [4/23][recording 0423 url]) | [Physical Implementation on ICs][week 14 url]                                  | [Week 14][read 14 url]                                                     | 4/25, 11:59PM |
 | Week 15 ([4/26][recording 0426 url], [4/28][recording 0428 url], [4/30][recording 0430 url]) | [Programmable Processors][week 15 url]                                         | [Week 15][read 15 url]                                                     | 5/02, 11:59PM |
-| Week 16 ([5/3][recording 0503 url], 5/5)                                                     | Class Review                                                                   | --                                                                         | --            |
+| Week 16 ([5/3][recording 0503 url], [5/5][recording 0505 url])                               | [Practice Final][week 16 practice url]                                         | --                                                                         | --            |
 | Study Days (5/7,5/8)                                                                         | --                                                                             | --                                                                         | --            |
 | Week 17 (5/14)                                                                               | Final: 9:45AM - 11:45AM                                                        | --                                                                         | --            |
 
@@ -205,7 +205,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 13 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_13_slides.pdf
 [week 14 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_14_slides.pdf
 [week 15 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/slides/ee260_2021_spring_materials_week_15_slides.pdf
-[week 16 url]: https://classroom.github.com/a/eqfZxWdk
+[week 16 practice url]:../../../docs/exams/course_ee260_2021_spring/final/practice/
 [week 17 url]: https://classroom.github.com/a/ahPU1u-k
 
 [recording urls]: # (recording urls)
@@ -248,6 +248,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [recording 0428 url]: https://youtu.be/iV4xkz7ygaI
 [recording 0430 url]: https://youtu.be/uaOPjOimqsg
 [recording 0503 url]: https://youtu.be/HIHR0tBOeWw
+[recording 0505 url]: https://youtu.be/PWIIeYGItZY
 
 [read urls]: # (reading urls)
 [read 01 url]: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021/chapter/1/section/1
