@@ -68,11 +68,6 @@ gallery_item:
    caption: Experimental setup with two high gain antennas and a rotating antenna.
 
 
- - album: scenario
-   image: https://raw.githubusercontent.com/gustybear-research/x96_physec_chan_ran/main/exp_2020_01_23/__images__/experiment_design/scenario_01.png
-   caption: Layout of experiment of Scenario 1
-
-
  - album: experiment
    image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03a.png
    caption: Ground Truth vs Estimate AoD Vector Scenario 3a
@@ -87,7 +82,7 @@ gallery_item:
 ---
 ***
 # Executive Summary
-(Samson) text here
+(Samson) At-home screening systems for obstructive sleep apnea (OSA), integrated with conctactless and contact-based sensing modalities 
 
 ***
 # Presentation
@@ -138,36 +133,3 @@ gallery_item:
 [data url]: # (data urls)
 
 [2020_01_23_s01_1_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_1_6G_a
-[2020_01_23_s01_1_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_1_6G_b
-[2020_01_23_s01_1_6G_c]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_1_6G_c
-[2020_01_23_s01_2_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_2_6G_a
-[2020_01_23_s01_2_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_2_6G_b
-[2020_01_23_s01_2_6G_c]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_2_6G_c
-[2020_01_23_s01_3_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_3_6G_a
-[2020_01_23_s01_3_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_3_6G_b
-
-[2020_01_30_s02_0_9G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_0_9G_a
-[2020_01_30_s02_0_9G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_0_9G_b
-[2020_01_30_s02_1_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_1_6G_a
-[2020_01_30_s02_1_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_1_6G_b
-[2020_01_30_s02_2_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_2_6G_a
-[2020_01_30_s02_2_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_2_6G_b
-[2020_01_30_s01_3_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_3_6G_a
-[2020_01_30_s01_3_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_30/s02_3_6G_b
-
-[2020_03_05_s02_1_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_03_05/s02_1_6G_a
-[2020_03_05_s02_1_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_03_05/s02_1_6G_b
-[2020_03_05_s02_2_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_03_05/s02_2_6G_a
-[2020_03_05_s02_2_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_03_05/s02_2_6G_b
-[2020_03_05_s02_3_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_03_05/s02_3_6G_a
-[2020_03_05_s02_3_6G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_03_05/s02_3_6G_b
-
-[2020_09_10_s03_2_4G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s03_2_4G_a
-[2020_09_10_s03_2_4G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s03_2_4G_b
-[2020_09_10_s03_2_4G_c]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s03_2_4G_c
-[2020_09_10_s04_2_4G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s04_2_4G_a
-[2020_09_10_s04_2_4G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s04_2_4G_b
-[2020_09_10_s04_2_4G_c]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s04_2_4G_c
-[2020_09_10_s05_2_4G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s05_2_4G_a
-[2020_09_10_s05_2_4G_b]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s05_2_4G_b
-[2020_09_10_s05_2_4G_c]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_09_10/s05_2_4G_c
