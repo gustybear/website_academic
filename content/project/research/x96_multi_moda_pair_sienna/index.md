@@ -120,7 +120,7 @@ gallery_item:
 
 ***
 # Conclusion
-
+(Samson) 
 
 
 ***
