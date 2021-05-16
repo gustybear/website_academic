@@ -120,8 +120,8 @@ To approximate the mixing matrix $W$, we first apply Principle Component Analysi
 $P$ is then rotated to obtain maximum independence between its row vectors, with the rotation matrix $V$. This gives us our mixing matrix $W=V\times B$.
 
 ## Level-Crossing Quantization
-Level-crossing quantization is an algorithm for producing a binary fingerprint from an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.
-![Quantization-of-Signal.png](Quantization-of-Signal.png)
+Level-crossing quantization is an algorithm for producing a binary fingerprint from an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.  
+<img src="Quantization-of-Signal.png" alt="Quantization of Signal" width="300"/>  
 We define a number of set levels $q$ with a unique binary representation for each space between levels, given by $QTZ(x)$. The value of $x$ at each timestep is transformed by $QTZ(x)$ into a binary code representing its value relative to the set levels.
 
 ## Fuzzy Commitment
