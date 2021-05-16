@@ -49,11 +49,11 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 - name: Video
-  url: https://www.youtube.com/watch?v=DPqoX8ZLRdo
+  url: https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s
 - name: Slides
-  url: https://github.com/gustybear-research/x96_physec_chan_ran/blob/main/prst_2020_12_11/EE496%20poster%20session_%20iJam_chan_ran.pdf
+  url: 
 - name: Dataset
-  url: https://github.com/gustybear-research/x96_physec_chan_ran
+  url: 
 
 # Markdown Slides (optional).
 #   Associate this project with Markdown slides.
@@ -66,99 +66,22 @@ gallery_item:
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0239.jpg
    caption: Experimental setup with two high gain antennas and a rotating antenna.
- - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0243.jpg
-   caption: Experimental setup with two high gain antennas and a rotating antenna.
- - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0246.jpg
-   caption: Closeup of the high gain antenna.
- - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0248.jpg
-   caption: Closeup of the rotating antenna.
- - album: highlights
-   image:  https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/DSC_0249.jpg
-   caption: Matthew holding a planarly reflector.
- - album: highlights
-   image:  https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3668.jpg
-   caption: Experiment with corner reflectors.
- - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3706.jpg
-   caption: Interfacing with the software used in the experiment.
- - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/IMG_3702.jpg
-   caption: Team picture!
+
 
  - album: scenario
    image: https://raw.githubusercontent.com/gustybear-research/x96_physec_chan_ran/main/exp_2020_01_23/__images__/experiment_design/scenario_01.png
    caption: Layout of experiment of Scenario 1
- - album: scenario
-   image: https://raw.githubusercontent.com/gustybear-research/x96_physec_chan_ran/main/exp_2020_01_23/__images__/experiment_design/scenario_01.png
-   caption: Layout of experiment of Scenario 2
- - album: scenario
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/scenario1.png
-   caption: Layout of experiment of Scenario 3
- - album: scenario
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/scenario2.png
-   caption: Layout of experiment of Scenario 4
- - album: scenario
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/scenario3.png
-   caption: Layout of experiment of Scenario 5
+
 
  - album: experiment
    image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03a.png
    caption: Ground Truth vs Estimate AoD Vector Scenario 3a
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03b.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 3b
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs03c.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 3c
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs04a.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 4a
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs04b.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 4b
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs04c.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 4c
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs05a.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 5a
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs05b.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 5b
- - album: experiment
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/AoD_2_4Gs05c.png
-   caption: Ground Truth vs Estimate AoD Vector Scenario 5c
+
 
  - album: results
    image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs03a.png
    caption: Measured vs Predicted CSI Magnitude Scenario 3a
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs03b.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 3b
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs03c.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 3c
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs04a.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 4a
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs04b.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 4b
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs04c.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 4c
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs05a.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 5a
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs05b.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 5b
- - album: results
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_physec_chan_ran/main/exp_2020_09_10/__images__/website/pred_2_4Gs05c.png
-   caption: Measured vs Predicted CSI Magnitude Scenario 5c
+
 
 
 ---
