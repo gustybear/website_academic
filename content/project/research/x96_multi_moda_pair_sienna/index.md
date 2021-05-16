@@ -211,13 +211,7 @@ gallery_item:
 
 
 
-[footnote]: # ()
 
-[^1]: The rotating speed is based on actual measurment instead of the input
-  value to the rotator interface. For instance, the actual rotating speed is 3rpm when  the input value is 10rpm.
-
-[^2]: The gain range of the SBX daughter board used by the experiment is 0.0
-  to 31.5 dB step 0.5dB. Therefore, to set the gain to 9dB in Labview, the gain step should be 18. The WAT5VJB LPA gives approxmiately 10 dBi gain in its boom diretion.
 [data url]: # (data urls)
 
 [2020_01_23_s01_1_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_1_6G_a
