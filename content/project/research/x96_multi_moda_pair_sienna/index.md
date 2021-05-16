@@ -204,20 +204,8 @@ gallery_item:
 
 # Appendix
 ## Equipment
-- Alice
-  - USRP node: Ettus N210
-  - Antenna(s)[decimeter band]: WAT5VJB log-periodic (850-6500 MHz)
-  - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
-- Bob
-  - USRP node: Ettus N210
-  - Antenna(s)[decimeter band): WAT5VJB or PE51082 (2400 MHz only)
-  - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
-- Eve
-  - USRP node: Ettus N210
-  - Antenna(s)[decimeter band): WAT5VJB or PE51082 (2400 MHz only)
-  - Antenna(s)[mmWave band]: TMYTEK BBox Lite (24000 - 30000 MHz)
-- RF reflector
-  - Large corner, small corner, plane reflector.
+(Brian) text here
+
 
 
 ## Data
