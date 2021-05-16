@@ -206,61 +206,9 @@ gallery_item:
 ## Equipment
 (Brian) text here
 
-
-
-## Data
-### Exp. 2020/01/23
-| Scenario | Alice Gain[^1] | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector    | Rot. Speed (rpm)[^2] | Time (s) | Data                   |
-| ---      | ---            | ---      | ---      | ---                    | ---      | ---          | ---                  | ---      | ---                    |
-| 01       | 30dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_1_6G_a] |
-| 01       | 45dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_1_6G_b] |
-| 01       | 60dB           | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_1_6G_c] |
-| 01       | 30dB           | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_2_6G_a] |
-| 01       | 45dB           | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_2_6G_b] |
-| 01       | 60dB           | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_2_6G_c] |
-| 01       | 45dB           | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_3_6G_a] |
-| 01       | 60dB           | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                    | 100      | [Download][2020_01_23_s01_3_6G_b] |
-
-### Exp. 2020/01/30
-| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector   | Rot. Speed (rpm) | Time (s) | Data                   |
-| ---      | ---        | ---      | ---      | ---                    | ---      | ---         | ---              | ---      | ---                    |
-| 02       | 30dB       | 0dB      | 0dB      | 0.9G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s02_0_9G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 0.9G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s02_0_9G_b] |
-| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s02_1_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s02_1_6G_b] |
-| 02       | 30dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s02_2_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s02_2_6G_b] |
-| 02       | 30dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s01_3_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_01_30_s01_3_6G_b] |
-
-### Exp. 2020/03/05
-| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector   | Rot. Speed (rpm) | Time (s) | Data                   |
-| ---      | ---        | ---      | ---      | ---                    | ---      | ---         | ---              | ---      | ---                    |
-| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][2020_03_05_s02_1_6G_a] |
-| 02       | 30dB       | 0dB      | 0dB      | 1.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_03_05_s02_1_6G_b] |
-| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][2020_03_05_s02_2_6G_a] |
-| 02       | 45dB       | 0dB      | 0dB      | 2.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_03_05_s02_2_6G_b] |
-| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (sl) | 3                | 100      | [Download][2020_03_05_s02_3_6G_a] |
-| 02       | 60dB       | 0dB      | 0dB      | 3.6G                   | 500k     | Corner (lg) | 3                | 100      | [Download][2020_03_05_s02_3_6G_b] |
-
-### Exp. 2020/09/10
-
-| Scenario | Alice Gain | Bob Gain | Eve Gain | Central Frequency (Hz) | I/Q Rate | Reflector | Rot. Speed (rpm) | Time (s) | Data                   |
-| ---      | ---        | ---      | ---      | ---                    | ---      | ---       | ---              | ---      | ---                    |
-| 03       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][2020_09_10_s03_2_4G_a] |
-| 03       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][2020_09_10_s03_2_4G_b] |
-| 03       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 1                | 100      | [Download][2020_09_10_s03_2_4G_c] |
-| 04       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][2020_09_10_s04_2_4G_a] |
-| 04       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 3                | 100      | [Download][2020_09_10_s04_2_4G_b] |
-| 04       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | NA        | 1                | 100      | [Download][2020_09_10_s04_2_4G_c] |
-| 05       | 15dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 3                | 100      | [Download][2020_09_10_s05_2_4G_a] |
-| 05       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 3                | 100      | [Download][2020_09_10_s05_2_4G_b] |
-| 05       | 30dB       | 0dB      | NA       | 2.4G                   | 500k     | Plane     | 1                | 100      | [Download][2020_09_10_s05_2_4G_c] |
-
 ***
 # Acknowledgement
-This project is partially supported NSF grants CNS-1948568, DGE-1662487, and
-TMYTEK mmWave research initiative.
+
 
 
 [footnote]: # ()
