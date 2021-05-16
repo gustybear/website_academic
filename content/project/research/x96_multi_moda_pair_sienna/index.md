@@ -82,7 +82,7 @@ gallery_item:
 ---
 ***
 # Executive Summary
-(Samson) At-home screening systems for obstructive sleep apnea (OSA), integrated with conctactless and contact-based sensing modalities 
+(Samson) text here
 
 ***
 # Presentation
