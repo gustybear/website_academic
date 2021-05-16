@@ -7,13 +7,17 @@ subtitle: "EEx96, Spring, 2021"
 summary: "This EEx96 project implements SIENNA: a context-based pairing protocol for reliable multimodality sleep apnea screening tests."
 
 tags:
-- sleep apnea
+- obstructive sleep apnea
+- at-home screening
 - multimodalty screening 
+- device pairing
 - friendly jamming
 - fuzzy commitment
 - JADE ICA
+- yao xor lemma
 - eavesdropper
 - spoofing
+- polysomnography
 - active project
 - active eex96 project
 
