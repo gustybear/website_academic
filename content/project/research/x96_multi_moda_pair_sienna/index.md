@@ -109,14 +109,17 @@ gallery_item:
 
 ***
 
-# Methodology
-(Steph) SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropping.
+# Methodology  
+[//]: # (Steph)  
+SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropping.
 ## JADE-ICA
 Joint Approximate Diagonalization of Eigenmatrices for Independent Component Analysis (JADE-ICA) is an algorithm for separating independent sources from a mixed signal. SIENNA uses JADE-ICA to separate mixed breathing patterns, in the event the PRMS picks up the breathing of multiple people.
 ## Level-Crossing Quantization
-Level-Crossing Quantization is an algorithm for producing a binary fingerprint from an analog signal. SIENNA uses Level-Crossing Quantization to produce a fingerprint for the breathing pattern of the target patient.
+Level-crossing quantization is an algorithm for producing a binary fingerprint from an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.
 ## Fuzzy Commitment
+The fuzzy commitment scheme uses Reed-Solomon (RS) encoding to incorporate error tolerance into cryptographic commitment generation. This allows SIENNA to accept close matches to the target breathing pattern, within a controllable threshold.
 ## Friendly Jamming
+SIENNA uses a friendly jamming scheme to thwart eavesdopping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the orignal symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed, and reconstruct the original message.
 
 ***
 
