@@ -9,7 +9,7 @@ summary: "This EEx96 project implements SIENNA: a context-based pairing protocol
 tags:
 - obstructive sleep apnea
 - at-home screening
-- multimodalty screening 
+- multimodalty
 - device pairing
 - friendly jamming
 - fuzzy commitment
