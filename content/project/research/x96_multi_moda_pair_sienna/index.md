@@ -135,7 +135,7 @@ A hash function $H$ is used to compare $ s $ and $ \hat{s} $. The “hardness”
 ## Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/protocol.jpg" title="Overview of the fuzzy commitment and friendly jamming process." >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Protocol.jpg" title="Overview of the fuzzy commitment and friendly jamming process." >}}
 ***
 
 # Implementation
