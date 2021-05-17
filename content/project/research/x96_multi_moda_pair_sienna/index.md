@@ -126,7 +126,7 @@ Level-crossing quantization is an algorithm for producing a binary representatio
 
 *Figure: Illustration of level-crossing quantization with two thresholds.*   
 
-We define a number of set thresholds $q$ with a unique binary representation for each space between thresholds, given by $QTZ(x)$. The value of $x$ at each timestep is transformed by $QTZ(x)$ into a binary code representing its position between the thresholds.
+We define a number of set thresholds $q$ with a unique binary representation for each space between thresholds, given by $QTZ(x)$. The value of $x$ at each sample time is transformed by $QTZ(x)$ into a binary code representing its position between the thresholds.
 
 ## Fuzzy Commitment
 The fuzzy commitment scheme uses Reed-Solomon encoding to incorporate error tolerance into cryptographic commitment generation. This allows SIENNA to accept close matches to the target breathing pattern, within a controllable threshold.
@@ -135,7 +135,7 @@ Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Ree
 A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of the security in this approach is based on the number of bits used in the hash function and the number of bits used in the key salt. With 128 bits for the key salt and 256 bits for the hash function, the hardness is comparable to SHA-256 encryption. 
 
 ## Friendly Jamming
-SIENNA uses a friendly jamming scheme to thwart eavesdopping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the orignal symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
+SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
 <img src="protocol.jpg" alt="Protocol" width="300"/>  
 
