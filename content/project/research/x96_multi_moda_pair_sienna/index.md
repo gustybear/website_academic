@@ -54,10 +54,7 @@ links:
 #  url: https://twitter.com/georgecushen
 - name: Video
   url: https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s
-- name: Slides
-  url: 
-- name: Dataset
-  url: 
+
 
 # Markdown Slides (optional).
 #   Associate this project with Markdown slides.
@@ -84,8 +81,25 @@ gallery_item:
    caption: Experiment 4
    
    - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
-   caption: highlights
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2091_00002.jpg
+   caption: highlights 1
+   
+      - album: highlights
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2102_00004.jpg
+   caption: highlights 2
+   
+      - album: highlights
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2127_00007.jpg
+   caption: highlights 3
+   
+      - album: highlights
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2167_00010.jpg
+   caption: highlights 4
+   
+      - album: highlights
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2185_00015.jpg
+   caption: highlights 5
+   
 
 
 
