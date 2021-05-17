@@ -132,9 +132,10 @@ $P$ is then rotated to obtain maximum independence between its row vectors, with
 ## Level-Crossing Quantization
 Level-crossing quantization is an algorithm for producing a binary representation of an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.  
 
-<img src="Quantization-of-Signal.png" alt="Quantization of Signal" width="300"/>  
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Quantization-of-Signal.jpg" title="Illustration of level-crossing quantization with two thresholds." >}}
+<!-- <img src="Quantization-of-Signal.jpg" alt="Quantization of Signal" width="300"/>  
 
-*Figure: Illustration of level-crossing quantization with two thresholds.*   
+*Figure: Illustration of level-crossing quantization with two thresholds.*    -->
 
 We define a number of set thresholds $q$ with a unique binary representation for each space between thresholds, given by $QTZ(x)$. The value of $x$ at each sample time is transformed by $QTZ(x)$ into a binary code representing its position between the thresholds.
 
@@ -147,9 +148,10 @@ A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of 
 ## Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
-<img src="protocol.jpg" alt="Protocol" width="300"/>  
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Protocol.jpg" title="Overview of the fuzzy commitment and friendly jamming process." >}}
+<!-- <img src="protocol.jpg" alt="Protocol" width="300"/>  
 
-*Figure: Overview of the fuzzy commitment and friendly jamming process.*  
+*Figure: Overview of the fuzzy commitment and friendly jamming process.*   -->
 ***
 
 # Implementation
