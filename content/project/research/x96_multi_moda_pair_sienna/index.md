@@ -66,32 +66,32 @@ links:
 gallery_item:
  - album: experiments
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
-   caption: Experiment 1
+   caption: Experiment a
   - album: experiments
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/two.jpg
-   caption: Experiment 2
+   caption: Experiment b
   - album: experiments
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/three.jpg
-   caption: Experiment 3
+   caption: Experiment c
   - album: experiments
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/four.jpg
-   caption: Experiment 4
+   caption: Experiment d
    
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2091_00002.jpg
-   caption: highlights 1
+   caption: highlights a
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2102_00004.jpg
-   caption: highlights 2
+   caption: highlights b
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2127_00007.jpg
-   caption: highlights 3
+   caption: highlights c
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2167_00010.jpg
-   caption: highlights 4
+   caption: highlights d
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2185_00015.jpg
-   caption: highlights 5
+   caption: highlights e
 
 
 
