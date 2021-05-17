@@ -130,7 +130,6 @@ gallery_item:
 ***
 
 # Methodology  
-[//]: # (Steph)  
 SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks.
 
 ### JADE-ICA
