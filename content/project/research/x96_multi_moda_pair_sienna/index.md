@@ -142,7 +142,7 @@ $P$ is then rotated to obtain maximum independence between its row vectors, with
 ### Level-Crossing Quantization
 Level-crossing quantization is an algorithm for producing a binary representation of an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.  
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Quantization-of-Signal.jpg?raw=true" title="Illustration of level-crossing quantization with two thresholds." >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/Quantization-of-Signal.jpg" title="Illustration of level-crossing quantization with two thresholds." >}}
 <!-- <img src="Quantization-of-Signal.jpg" alt="Quantization of Signal" width="100"/>  
 
 *Figure: Illustration of level-crossing quantization with two thresholds.*    -->
@@ -158,7 +158,7 @@ A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of 
 ## Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Protocol.jpg?raw=true" title="Overview of the fuzzy commitment and friendly jamming process." >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/1be6badd570d456df22277357a2c6e1f574e2034/prst_2021_05_07/Protocol.jpg" title="Overview of the fuzzy commitment and friendly jamming process." >}}
 <!-- <img src="protocol.jpg" alt="Protocol" width="100"/>  
 
 *Figure: Overview of the fuzzy commitment and friendly jamming process.*   -->
