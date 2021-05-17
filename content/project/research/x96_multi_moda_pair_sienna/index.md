@@ -98,7 +98,7 @@ gallery_item:
 ---
 ***
 # Executive Summary
-(Samson) At-home screening systems for obstructive sleep apnea (OSA) utilizes contactless and contact-based sensing modalities, which allow for reliable remote chronic disease management. However, multimodality screening systems are vulnerable to wireless exploitations for device pairing as patients switch between modalities during screening tests. Malicious attacks from non-compliant patients would be able to manipulate the data by eavesdropping or spoofing the wireless signal. To mitigate all attacks, we present **SIENNA**, an in**SI**der r**E**sista**N**t co**N**text-based p**A**iring protocol. SIENNA leverages JADE-ICA to identify a user’s respiration pattern within a multi-person environment and uses fuzzy commitment for automatic device pairing. Friendly jamming techniques would be used to prevent an insider with knowledge of respiration patterns from acquiring the pairing key. Our results show that SIENNA is able securely pair devices with more than 90% success rate under noisy environments and is robust against attackers with full knowledge context information.
+  At-home screening systems for obstructive sleep apnea (OSA) utilizes contactless and contact-based sensing modalities, which allow for reliable remote chronic disease management. However, multimodality screening systems are vulnerable to wireless exploitations for device pairing as patients switch between modalities during screening tests. Malicious attacks from non-compliant patients would be able to manipulate the data by eavesdropping or spoofing the wireless signal. To mitigate all attacks, we present **SIENNA**, an in**SI**der r**E**sista**N**t co**N**text-based p**A**iring protocol. SIENNA leverages JADE-ICA to identify a user’s respiration pattern within a multi-person environment and uses fuzzy commitment for automatic device pairing. Friendly jamming techniques would be used to prevent an insider with knowledge of respiration patterns from acquiring the pairing key. Our results show that SIENNA is able securely pair devices with more than 90% success rate under noisy environments and is robust against attackers with full knowledge context information.
 
 ***
 # Presentation
@@ -112,13 +112,15 @@ gallery_item:
 ***
 
 # Introduction
-(Alana) In America today, millions suffer from obstructive sleep apnea (OSA), an airway muscle related breathing condition that involuntarily causes respiratory cessations during sleep. Poor treatment can cause a myriad of negative health problems, however the typical diagnostic procedure, an In-lab polysomnography (PSG) commonly referred to as a sleep study, can be costly, intrusive and are scarce requiring the patient to be in-lab overnight. The alternative, at home OSA screenings, provide convenience and are economically advantageous, but the device pairing they utilize can be vulnerable to wireless exploitation and testing fraud.
+  In America millions suffer from obstructive sleep apnea (OSA), an airway muscle related breathing condition that involuntarily causes respiratory cessations during sleep. Poor treatment can cause a myriad of negative health problems, however the typical diagnostic procedure, an In-lab polysomnography (PSG) commonly referred to as a sleep study, can be costly, intrusive and are requires the patient to be in-lab overnight. The alternative, at home OSA screenings, provide convenience and is economically advantageous, but the device pairing they utilize can be vulnerable to wireless exploitation and testing fraud.
 
 ***
 
 # Background
-  At-home multimodality OSA screening system we utilized has three modules: one - a respiratory belt that straps around the chest, measuring changes in thoracic circumference from respiration. two - a physiological radar monitoring system or PRMS that measures the phase shift of reflected signals from the patient’s chest movements. And three - a mobile OSA app that connects to and collects data from the sensing modalities.
+  The at-home multimodality OSA screening system we utilized has three modules: One - a respiratory belt that straps around the chest, measuring changes in thoracic circumference from respiration. Two - a physiological radar monitoring system or PRMS that measures the phase shift of reflected signals from the patient’s chest movements. And Three - a mobile OSA app that connects to and collects data from the sensing modalities.
+  
   The issue with at-home OSA screening comes with it’s pairing vulnerability. The belt is typically paired with the patient’s phone by a medical technician during the clinic visit. The PRMS however is paired without supervision at the user’s home. This unsupervised pairing process could be subject to exploitation from a non-compliant user. Our design goals were to pair the two devices with zero human interaction in such a way that the process is protected against a co-located adversary.
+  
   What distinguishes our adversary model is that the system’s legitimate user could also be an attacker. They may seek to eavesdrop the pairing between the PRMS and their phone to extract the security key, decrypt and review the data before a doctor examines it. They may also leverage the eavesdropped key in order to transmit false data to the mobile device, manipulating the testing outcome. 
 
 
@@ -150,7 +152,7 @@ First, the transmitter $a$ and the receiver $b$ both extract fingerprints $f_a$ 
 Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Reed-Solomon decoding function, we decode $\hat{s}=\overline{RS}(\hat{l})$. Due to the error-correction capability of Reed-Solomon codes, $s=\hat{s}$ if and only if $l$ and $\hat{l}$ differ by a set number of bits.  
 A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of the security in this approach is based on the number of bits used in the hash function and the number of bits used in the key salt. With 128 bits for the key salt and 256 bits for the hash function, the hardness is comparable to SHA-256 encryption. 
 
-### Friendly Jamming
+## Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
 {{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Protocol.jpg?raw=true" title="Overview of the fuzzy commitment and friendly jamming process." >}}
