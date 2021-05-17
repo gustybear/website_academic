@@ -124,13 +124,13 @@ gallery_item:
 [//]: # (Steph)  
 SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks.
 
-### JADE-ICA
+#### JADE-ICA
 Joint Approximate Diagonalization of Eigenmatrices for Independent Component Analysis (JADE-ICA) is an algorithm for separating independent sources from a mixed signal. SIENNA uses JADE-ICA to separate mixed breathing patterns, in the event the PRMS picks up the breathing of multiple subjects.  
 JADE-ICA approximates a source matrix $S$, composed of a column vector for each source signal $s_i(t)$, where $i=1 ... N$, and $N$ represents the number of independent sources (i.e., the number of distinct breathing patterns present). The input is provided as a mixed matrix $X$, which is assumed to be a linear combination of sources $s_i(t)$. Thus, $X$ can be described by the equation $X = W\times S$, where $W$ is a matrix describing how the independent sources are mixed.  
 To approximate the mixing matrix $W$, we first apply Principle Component Analysis (PCA) to the input matrix $X$, resulting in $P = B\times X$. PCA identifies the orthogonal vectors along which there is the most variance, so the columns of $P$ will be perfectly orthogonal, regardless of rotation.
 $P$ is then rotated to obtain maximum independence between its row vectors, with the rotation matrix $V$. This gives us our mixing matrix $W=V\times B$.
 
-## Level-Crossing Quantization
+### Level-Crossing Quantization
 Level-crossing quantization is an algorithm for producing a binary representation of an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.  
 
 {{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Quantization-of-Signal.jpg?raw=true" title="Illustration of level-crossing quantization with two thresholds." >}}
@@ -140,7 +140,7 @@ Level-crossing quantization is an algorithm for producing a binary representatio
 
 We define a number of set thresholds $q$ with a unique binary representation for each space between thresholds, given by $QTZ(x)$. The value of $x$ at each sample time is transformed by $QTZ(x)$ into a binary code representing its position between the thresholds.
 
-## Fuzzy Commitment
+### Fuzzy Commitment
 The fuzzy commitment scheme uses Reed-Solomon encoding to incorporate error tolerance into cryptographic commitment generation. This allows SIENNA to accept close matches to the target breathing pattern, within a controllable threshold.
 First, the transmitter $a$ and the receiver $b$ both extract fingerprints $f_a$ and $f_b$ using a combination of the above methods. To thwart mix-up attacks, we need to consider $f_a$ and $f_b$ a match if and only if they are within a set threshold. This is accomplished by first encoding a key salt $s$ with Reed-Solomon encoding, giving us $l=RS(s)$. We then compute the commitment $c$ as $l$ XOR $f_a$, and transmit the result.
 Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Reed-Solomon decoding function, we decode $\hat{s}=\overline{RS}(\hat{l})$. Due to the error-correction capability of Reed-Solomon codes, $s=\hat{s}$ if and only if $l$ and $\hat{l}$ differ by a set number of bits.  
