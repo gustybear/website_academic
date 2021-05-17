@@ -68,27 +68,24 @@ links:
 
 gallery_item:
  - album: experiments
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_wirles_physllgcl_sensing/main/Website_Pictures/one.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
    caption: Experiment 1
    
     - album: experiments
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_wirles_physllgcl_sensing/main/Website_Pictures/two.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/two.jpg
    caption: Experiment 2
    
     - album: experiments
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_wirles_physllgcl_sensing/main/Website_Pictures/three.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/three.jpg
    caption: Experiment 3
    
     - album: experiments
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_wirles_physllgcl_sensing/main/Website_Pictures/four.jpg
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/four.jpg
    caption: Experiment 4
-
-
- - album: highlights
-   image: https://media.githubusercontent.com/media/gustybear-research/x96_wirles_physllgcl_sensing/main/Website_Pictures/four.jpg
-   caption: highlight 1
-
-
+   
+   - album: highlights
+   image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
+   caption: highlights
 
 
 
