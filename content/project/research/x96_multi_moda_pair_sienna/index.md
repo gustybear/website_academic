@@ -184,10 +184,13 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
 ## Equipment
 -PRMS 
    -TMYTEK mmWave Kit, NI USRP
+   
 -Wireless Respiratory belt
     -Pneumotrace 1132
+    
 -OSA app 
    -Android app with modality switching
+   
 -Eavesdropper 
    -BLE with Kismet and Ubertooth
 ***
