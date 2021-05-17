@@ -132,14 +132,14 @@ We define a number of set thresholds $q$ with a unique binary representation for
 The fuzzy commitment scheme uses Reed-Solomon encoding to incorporate error tolerance into cryptographic commitment generation. This allows SIENNA to accept close matches to the target breathing pattern, within a controllable threshold.
 First, the transmitter $a$ and the receiver $b$ both extract fingerprints $f_a$ and $f_b$ using a combination of the above methods. To thwart mix-up attacks, we need to consider $f_a$ and $f_b$ a match if and only if they are within a set threshold. This is accomplished by first encoding a key salt $s$ with Reed-Solomon encoding, giving us $l=RS(s)$. We then compute the commitment $c$ as $l$ XOR $f_a$, and transmit the result.
 Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Reed-Solomon decoding function, we decode $\hat{s}=\overline{RS}(\hat{l})$. Due to the error-correction capability of Reed-Solomon codes, $s=\hat{s}$ if and only if $l$ and $\hat{l}$ differ by a set number of bits.  
-
-<img src="protocol.jpg" alt="Protocol" width="300"/>  
-
-*Figure: Overview of the fuzzy commitment and friendly jamming process.*  
+A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of the security in this approach is based on the number of bits used in the hash function and the number of bits used in the key salt. With 128 bits for the key salt and 256 bits for the hash function, the hardness is comparable to SHA-256 encryption. 
 
 ## Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdopping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the orignal symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
+<img src="protocol.jpg" alt="Protocol" width="300"/>  
+
+*Figure: Overview of the fuzzy commitment and friendly jamming process.*  
 ***
 
 # Implementation and Experimentation
