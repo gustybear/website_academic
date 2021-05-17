@@ -72,7 +72,7 @@ gallery_item:
   image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2108_00004.jpg
   caption: highlights b
 - album: highlights
-  image:https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2127_00007.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2127_00007.jpg
   caption: highlights c
 - album: highlights
   image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2167_00010.jpg
