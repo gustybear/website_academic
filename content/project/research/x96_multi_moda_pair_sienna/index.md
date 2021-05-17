@@ -92,6 +92,7 @@ gallery_item:
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2185_00015.jpg
    caption: highlights e
+   
 ---
 ***
 # Executive Summary
