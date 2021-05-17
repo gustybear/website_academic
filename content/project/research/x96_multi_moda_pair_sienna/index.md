@@ -54,10 +54,7 @@ links:
 #  url: https://twitter.com/georgecushen
 - name: Video
   url: https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s
-- name: Slides
-  url: 
-- name: Dataset
-  url: 
+
 
 
 # Markdown Slides (optional).
@@ -183,6 +180,7 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
 
 ***
 # Appendix
+
 ## Equipment
 -PRMS 
   -TMYTEK mmWave Kit, NI USRP
@@ -193,14 +191,8 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
 -Eavesdropper 
   -BLE with Kismet and Ubertooth
 
-
-***
 # Acknowledgement
 This project is partially supported NSF grants CNS-1948568, W911NF-19-1-0050, IIP-1831303, IIS-1915738 and TMYTEK mmWave research initiative.
 
 
 
-
-[data url]: # (data urls)
-
-[2020_01_23_s01_1_6G_a]: https://github.com/gustybear-research/x96_physec_chan_ran/tree/main/exp_2020_01_23/s01_1_6G_a
