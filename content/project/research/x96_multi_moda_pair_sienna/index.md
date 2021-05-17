@@ -111,7 +111,7 @@ gallery_item:
 
 # Methodology  
 [//]: # (Steph)  
-SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropping.
+SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks.
 
 ## JADE-ICA
 Joint Approximate Diagonalization of Eigenmatrices for Independent Component Analysis (JADE-ICA) is an algorithm for separating independent sources from a mixed signal. SIENNA uses JADE-ICA to separate mixed breathing patterns, in the event the PRMS picks up the breathing of multiple subjects.  
@@ -137,9 +137,8 @@ Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Ree
 
 *Figure: Overview of the fuzzy commitment and friendly jamming process.*  
 
-
 ## Friendly Jamming
-SIENNA uses a friendly jamming scheme to thwart eavesdopping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the orignal symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed, and reconstruct the original message.
+SIENNA uses a friendly jamming scheme to thwart eavesdopping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the orignal symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
 ***
 
