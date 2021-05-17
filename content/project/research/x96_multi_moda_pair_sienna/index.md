@@ -67,32 +67,32 @@ links:
 gallery_item:
    
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2091_00002.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/_DSC2091_00002.jpg
   caption: highlights a
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2102_00004.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/_DSC2102_00004.jpg
   caption: highlights b
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2127_00007.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/_DSC2127_00007.jpg
   caption: highlights c
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2167_00010.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/_DSC2167_00010.jpg
   caption: highlights d
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2185_00015.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/_DSC2185_00015.jpg
   caption: highlights e
 
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/one.jpg
   caption: Experiment a
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/two.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/two.jpg
   caption: Experiment b
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/three.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/three.jpg
   caption: Experiment c
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/four.jpg
+  image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/main/Website_Pictures/four.jpg
   caption: Experiment d
 
 ---
