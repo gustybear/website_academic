@@ -1,5 +1,4 @@
 ---
-
 draft: false
 title: "Insider-Resistant Context-Based Pairing for Multimodality Sleep Apnea Test"
 
@@ -93,11 +92,7 @@ gallery_item:
  - album: highlights
    image: https://media.githubusercontent.com/media/gustybear-research/websites/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2185_00015.jpg
    caption: highlights e
-
-
-
 ---
-
 ***
 # Executive Summary
 (Samson) At-home screening systems for obstructive sleep apnea (OSA) utilizes contactless and contact-based sensing modalities, which allow for reliable remote chronic disease management. However, multimodality screening systems are vulnerable to wireless exploitations for device pairing as patients switch between modalities during screening tests. Malicious attacks from non-compliant patients would be able to manipulate the data by eavesdropping or spoofing the wireless signal. To mitigate all attacks, we present **SIENNA**, an in**SI**der r**E**sista**N**t co**N**text-based p**A**iring protocol. SIENNA leverages JADE-ICA to identify a user’s respiration pattern within a multi-person environment and uses fuzzy commitment for automatic device pairing. Friendly jamming techniques would be used to prevent an insider with knowledge of respiration patterns from acquiring the pairing key. Our results show that SIENNA is able securely pair devices with more than 90% success rate under noisy environments and is robust against attackers with full knowledge context information.
