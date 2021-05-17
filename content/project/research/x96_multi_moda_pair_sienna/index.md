@@ -54,6 +54,10 @@ links:
 #  url: https://twitter.com/georgecushen
 - name: Video
   url: https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s
+- name: Slides
+  url: 
+- name: Dataset
+  url: 
 
 
 # Markdown Slides (optional).
