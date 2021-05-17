@@ -65,34 +65,33 @@ links:
 # slides: example
 
 gallery_item:
-   gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2091_00002.jpg
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2091_00002.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2091_00002.jpg
   caption: highlights a
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2102_00004.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2102_00004.jpg
   caption: highlights b
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2127_00007.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2127_00007.jpg
   caption: highlights c
 - album: highlights
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2167_00010.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2167_00010.jpg
   caption: highlights d
 - album: highlights
   image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/_DSC2185_00015.jpg
   caption: highlights e
 
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/one.jpg
   caption: Experiment a
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/two.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/two.jpg
   caption: Experiment b
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/three.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/three.jpg
   caption: Experiment c
 - album: experiments
-  image: https://media.githubusercontent.com/media/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/four.jpg
+  image: https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Website_Pictures/four.jpg
   caption: Experiment d
 
 ---
@@ -117,7 +116,11 @@ gallery_item:
 ***
 
 # Background
-  The at-home multimodality OSA screening system we utilized has three modules: one - a respiratory belt that straps around the chest, measuring changes in thoracic circumference from respiration. two - a physiological radar monitoring system or PRMS that measures the phase shift of reflected signals from the patient’s chest movements. And three - a mobile OSA app that connects to and collects data from the sensing modalities. The issue with at-home OSA screening comes with it’s pairing vulnerability. The belt is typically paired with the patient’s phone by a medical technician during the clinic visit. The PRMS however is paired without supervision at the user’s home. This unsupervised pairing process could be subject to exploitation from a non-compliant user. Our design goals were to pair the two devices with zero human interaction in such a way that the process is protected against a co-located adversary. What distinguishes our adversary model is that the system’s legitimate user could also be an attacker. They may seek to eavesdrop the pairing between the PRMS and their phone to extract the security key, decrypt and review the data before a doctor examines it. They may also leverage the eavesdropped key in order to transmit false data to the mobile device, manipulating the testing outcome. 
+  The at-home multimodality OSA screening system we utilized has three modules: One - a respiratory belt that straps around the chest, measuring changes in thoracic circumference from respiration. Two - a physiological radar monitoring system or PRMS that measures the phase shift of reflected signals from the patient’s chest movements. And Three - a mobile OSA app that connects to and collects data from the sensing modalities.
+  
+  The issue with at-home OSA screening comes with it’s pairing vulnerability. The belt is typically paired with the patient’s phone by a medical technician during the clinic visit. The PRMS however is paired without supervision at the user’s home. This unsupervised pairing process could be subject to exploitation from a non-compliant user. Our design goals were to pair the two devices with zero human interaction in such a way that the process is protected against a co-located adversary.
+  
+  What distinguishes our adversary model is that the system’s legitimate user could also be an attacker. They may seek to eavesdrop the pairing between the PRMS and their phone to extract the security key, decrypt and review the data before a doctor examines it. They may also leverage the eavesdropped key in order to transmit false data to the mobile device, manipulating the testing outcome. 
 
 
 ***
@@ -148,7 +151,7 @@ First, the transmitter $a$ and the receiver $b$ both extract fingerprints $f_a$ 
 Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Reed-Solomon decoding function, we decode $\hat{s}=\overline{RS}(\hat{l})$. Due to the error-correction capability of Reed-Solomon codes, $s=\hat{s}$ if and only if $l$ and $\hat{l}$ differ by a set number of bits.  
 A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of the security in this approach is based on the number of bits used in the hash function and the number of bits used in the key salt. With 128 bits for the key salt and 256 bits for the hash function, the hardness is comparable to SHA-256 encryption. 
 
-### Friendly Jamming
+## Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
 {{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Protocol.jpg?raw=true" title="Overview of the fuzzy commitment and friendly jamming process." >}}
