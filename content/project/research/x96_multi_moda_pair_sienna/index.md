@@ -150,7 +150,7 @@ First, the transmitter $a$ and the receiver $b$ both extract fingerprints $f_a$ 
 Upon receiving the commitment, $b$ extracts $\hat{l}=c$ XOR $f_b$. Using the Reed-Solomon decoding function, we decode $\hat{s}=\overline{RS}(\hat{l})$. Due to the error-correction capability of Reed-Solomon codes, $s=\hat{s}$ if and only if $l$ and $\hat{l}$ differ by a set number of bits.  
 A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of the security in this approach is based on the number of bits used in the hash function and the number of bits used in the key salt. With 128 bits for the key salt and 256 bits for the hash function, the hardness is comparable to SHA-256 encryption. 
 
-## Friendly Jamming
+### Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
 {{< figure library="true" numbered="true" src="https://github.com/gustybear-research/websites/blob/master/content/project/research/x96_multi_moda_pair_sienna/Protocol.jpg?raw=true" title="Overview of the fuzzy commitment and friendly jamming process." >}}
