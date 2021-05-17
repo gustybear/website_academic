@@ -190,7 +190,7 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
   -Android app with modality switching
 -Eavesdropper 
   -BLE with Kismet and Ubertooth
-
+***
 # Acknowledgement
 This project is partially supported NSF grants CNS-1948568, W911NF-19-1-0050, IIP-1831303, IIS-1915738 and TMYTEK mmWave research initiative.
 
