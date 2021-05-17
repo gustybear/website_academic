@@ -102,7 +102,7 @@ gallery_item:
 
 ***
 # Presentation
-{{< https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s >}}
+
 
 ***
 
