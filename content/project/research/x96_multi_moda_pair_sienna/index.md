@@ -112,7 +112,7 @@ gallery_item:
 ***
 
 # Introduction
-(Alana) text here
+(Alana) In America today, millions suffer from obstructive sleep apnea (OSA), an airway muscle related breathing condition that involuntarily causes respiratory cessations during sleep. Poor treatment can cause a myriad of negative health problems, however the typical diagnostic procedure, an In-lab polysomnography (PSG) commonly referred to as a sleep study, can be costly, intrusive and are scarce requiring the patient to be in-lab overnight. The alternative, at home OSA screenings, provide convenience and are economically advantageous, but the device pairing they utilize can be vulnerable to wireless exploitation and testing fraud.
 
 ***
 
