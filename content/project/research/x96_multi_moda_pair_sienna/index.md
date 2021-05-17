@@ -66,32 +66,32 @@ links:
 
 gallery_item:
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/_DSC2091_00002.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2091_00002.jpg
   caption: highlights a
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/_DSC2102_00004.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2108_00004.jpg
   caption: highlights b
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/_DSC2127_00007.jpg
+  image:https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2127_00007.jpg
   caption: highlights c
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/_DSC2167_00010.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2167_00010.jpg
   caption: highlights d
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/_DSC2185_00015.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2185_00015.jpg
   caption: highlights e
 
 - album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/one.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/one.jpg
   caption: Experiment a
 - album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/two.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/two.jpg
   caption: Experiment b
 - album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/three.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/three.jpg
   caption: Experiment c
 - album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/four.jpg
+  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/four.jpg
   caption: Experiment d
 
 ---
