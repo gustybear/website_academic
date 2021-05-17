@@ -54,6 +54,10 @@ links:
 #  url: https://twitter.com/georgecushen
 - name: Video
   url: https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s
+- name: Slides
+  url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/EE496%20Poster_%20SIENNA.pdf
+- name: Dataset
+  url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
 
 
 
