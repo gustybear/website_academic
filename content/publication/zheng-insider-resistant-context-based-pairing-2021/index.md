@@ -59,7 +59,7 @@ publication: '*2021 IEEE Global Communications Conference: Communication & Infor
 doi:
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/J8HR5AFI/file/view
+  url: https://api.zotero.org/users/3468578/publications/items/X5WI599E/file/view
 - name: Report
   url: https://arxiv.org/abs/2105.00314
 - name: Dataset
