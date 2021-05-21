@@ -7,11 +7,12 @@ superuser: false
 
 # User group
 user_groups:
-- Undergraduate
+- Alumni
+- Class of 2021
 
 # Role/position
 
-role: B.S., RA
+role: B.S., join Raytheon Technologies (2021)
 
 # Organizations/Affiliations.
 organizations:

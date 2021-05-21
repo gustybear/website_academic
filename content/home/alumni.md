@@ -24,6 +24,7 @@ content:
     # - Undergraduate 
     # - Visitors
     - Class of 2020
+    - Class of 2021
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

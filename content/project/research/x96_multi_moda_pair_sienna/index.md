@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Insider-Resistant Context-Based Pairing for Multimodality Sleep Apnea Test"
+title: "Insider-Resistant Context-Based Pairing (SIENNA) for Multimodality Sleep Apnea Test"
 
 subtitle: "EEx96, Spring, 2021"
 
@@ -26,9 +26,9 @@ date: 2021-05-16T00:00:00-10:00
 authors:
 - Stephanie Aelmore
 - Samson Aggelopoulos
-- Marionne Casipit
 - Willy Chang
 - Brian Lu
+- Marionne Millan
 - Alana Power
 - Yao Zheng
 
@@ -52,10 +52,10 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-- name: Video
-  url: https://www.youtube.com/watch?v=TWJSP7n3JsE&t=1s
+- name: PUB
+  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 - name: Slides
-  url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/EE496%20Poster_%20SIENNA.pdf
+  url: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/presentation/EE496%20Poster_%20SIENNA.pdf
 - name: Dataset
   url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
 
@@ -70,20 +70,23 @@ links:
 
 gallery_item:
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2091_00002.jpg?raw=true
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/_DSC2122_00006.jpg
   caption: highlights a
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2108_00004.jpg?raw=true
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/_DSC2165_00009.jpg
   caption: highlights b
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2127_00007.jpg?raw=true
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/_DSC2167_00010.jpg
   caption: highlights c
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2167_00010.jpg?raw=true
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/_DSC2178_00014.jpg
   caption: highlights d
 - album: highlights
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/_DSC2185_00015.jpg?raw=true
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/_DSC2193_00016.jpg
   caption: highlights e
+- album: highlights
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/IMG_3548.jpg
+  caption: highlights f
 
 - album: experiments
   image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/one.jpg?raw=true
@@ -126,11 +129,11 @@ gallery_item:
   
   What distinguishes our adversary model is that the system’s legitimate user could also be an attacker. They may seek to eavesdrop the pairing between the PRMS and their phone to extract the security key, decrypt and review the data before a doctor examines it. They may also leverage the eavesdropped key in order to transmit false data to the mobile device, manipulating the testing outcome. 
 
-
 ***
 
 # Methodology  
-SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks.
+SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks. 
+The pairing procedure of SIENNA is shown in the gallery below. It begins when the user visits a doctor to obtain the test authorization. During the visit, the doctor attaches a respiratory belt to the patient, and pairs it to the user's mobile device OSA app. Once arriving home, the user lies in bed and the PRMS automatically pairs with the mobile device based on the respiration pattern observed by both the PRMS and the respiratory belt. Once the pairing completes, both links from the PRMS and respiration belt to the mobile device are secure. The user can freely choose either the respiratory belt or PRMS for OSA screening, and the selected modality communicates encrypted OSA data to the mobile device. Once testing is completed, the user revisits the doctor and uploads the OSA screening from the mobile device. The doctor runs a compliance check and examines whether there were any significant gaps or inconsistencies with the OSA data. Based on the compliance check report, the doctor decides whether to accept or reject the OSA screening.
 
 ### JADE-ICA
 Joint Approximate Diagonalization of Eigenmatrices for Independent Component Analysis (JADE-ICA) is an algorithm for separating independent sources from a mixed signal. SIENNA uses JADE-ICA to separate mixed breathing patterns, in the event the PRMS picks up the breathing of multiple subjects.  
@@ -138,10 +141,12 @@ JADE-ICA approximates a source matrix $S$, composed of a column vector for each 
 To approximate the mixing matrix $W$, we first apply Principle Component Analysis (PCA) to the input matrix $X$, resulting in $P = B\times X$. PCA identifies the orthogonal vectors along which there is the most variance, so the columns of $P$ will be perfectly orthogonal, regardless of rotation.
 $P$ is then rotated to obtain maximum independence between its row vectors, with the rotation matrix $V$. This gives us our mixing matrix $W=V\times B$.
 
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/jade-ica.png" title="Illustration of JADE-ICA with two targets." width="60%" >}}
+
 ### Level-Crossing Quantization
 Level-crossing quantization is an algorithm for producing a binary representation of an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.  
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/main/prst_2021_05_07/Quantization-of-Signal.jpg?raw=true" title="Illustration of level-crossing quantization with two thresholds." width="30%" >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/Quantization-of-Signal.jpg" title="Illustration of level-crossing quantization with two thresholds." width="40%" >}}
 
 We define a number of set thresholds $q$ with a unique binary representation for each space between thresholds, given by $QTZ(x)$. The value of $x$ at each sample time is transformed by $QTZ(x)$ into a binary code representing its position between the thresholds.
 
@@ -154,7 +159,7 @@ A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of 
 ### Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/1be6badd570d456df22277357a2c6e1f574e2034/prst_2021_05_07/Protocol.jpg?raw=true" title="Overview of the fuzzy commitment and friendly jamming process." width="30%" >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/Protocol.jpg" title="Overview of the fuzzy commitment and friendly jamming process." width="40%" >}}
 ***
 
 # Implementation
@@ -168,8 +173,6 @@ Sienna was tested using a customized mmwave radar from TMYTEK, specifically thei
 To implement eavesdropping attacks, the hosts codes record the packets containing fuzzy commitment and hash values of new keys from the modality switch.
 	The spoofing attack was done with a attacker-generated compliance tracking data encrypted with the deduced key which was transmitted  at  higher  power  during  data  upload  toward the  android app,  in  attempt  to  manipulate  the  latter  into  accepting the fraudulent data, which was verified during offline analysis.
   
-{{< gallery-enhance album="experiments" numbered="true" caption="Project Experimentation">}}
-
 ***
 
 # Results and Analysis
@@ -184,21 +187,82 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
 # Appendix
 
 ## Equipment
-- PRMS 
-  - TMYTEK mmWave Kit
-  - NI USRP
-   
-- Wireless Respiratory belt
-  - Pneumotrace 1132
-    
-- OSA app 
-  - Android app with modality switching
-   
-- Eavesdropper 
-  - BLE with Kismet and Ubertooth
+- PRMS: TMYTEK BBox Lite mmWave phase array + Ettus N210 USRPs
+- Wireless Respiratory belt: Pneumotrace 1132
+- OSA app: Android app with modality switching  
+- Eavesdropper: BLE with Kismet and Ubertooth
+
+## Data
+### Exp. 2021/04/15
+| Breathing Rate | Trial | Respiratory Belt            | PRMS                        |
+| ---            | ---   | ---                         | ---                         |
+| 0.0000 Hz (bg) | 1     | NA                          | [Download][0.0000Hz_prms_1] |
+| 0.0000 Hz (bg) | 2     | NA                          | [Download][0.0000Hz_prms_2] |
+| 0.2000 Hz      | 1     | [Download][0.2000Hz_belt_1] | [Download][0.2000Hz_prms_1] |
+| 0.2000 Hz      | 2     | [Download][0.2000Hz_belt_2] | [Download][0.2000Hz_prms_2] |
+| 0.2500 Hz      | 1     | [Download][0.2500Hz_belt_1] | [Download][0.2500Hz_prms_1] |
+| 0.2500 Hz      | 2     | [Download][0.2500Hz_belt_2] | [Download][0.2500Hz_prms_2] |
+| 0.3000 Hz      | 1     | [Download][0.3000Hz_belt_1] | [Download][0.3000Hz_prms_1] |
+| 0.3000 Hz      | 2     | [Download][0.3000Hz_belt_2] | [Download][0.3000Hz_prms_2] |
+| 0.3167 Hz      | 1     | [Download][0.3167Hz_belt_1] | [Download][0.3167Hz_prms_1] |
+| 0.3167 Hz      | 2     | [Download][0.3167Hz_belt_2] | [Download][0.3167Hz_prms_2] |
+| 0.3333 Hz      | 1     | [Download][0.3333Hz_belt_1] | [Download][0.3333Hz_prms_1] |
+| 0.3333 Hz      | 2     | [Download][0.3333Hz_belt_2] | [Download][0.3333Hz_prms_2] |
+| 0.3500 Hz      | 1     | [Download][0.3500Hz_belt_1] | [Download][0.3500Hz_prms_1] |
+| 0.3500 Hz      | 2     | [Download][0.3500Hz_belt_2] | [Download][0.3500Hz_prms_2] |
+| 0.3667 Hz      | 1     | [Download][0.3667Hz_belt_1] | [Download][0.3667Hz_prms_1] |
+| 0.3667 Hz      | 2     | [Download][0.3667Hz_belt_2] | [Download][0.3667Hz_prms_2] |
+| 0.4000 Hz      | 1     | [Download][0.4000Hz_belt_1] | [Download][0.4000Hz_prms_1] |
+| 0.4000 Hz      | 2     | [Download][0.4000Hz_belt_2] | [Download][0.4000Hz_prms_2] |
+| 0.4500 Hz      | 1     | [Download][0.4500Hz_belt_1] | [Download][0.4500Hz_prms_1] |
+| 0.4500 Hz      | 2     | [Download][0.4500Hz_belt_2] | [Download][0.4500Hz_prms_2] |
+| 0.5000 Hz      | 1     | [Download][0.5000Hz_belt_1] | [Download][0.5000Hz_prms_1] |
+| 0.5000 Hz      | 2     | [Download][0.5000Hz_belt_2] | [Download][0.5000Hz_prms_2] |
 
 # Acknowledgement
 This project is partially supported NSF grants CNS-1948568, W911NF-19-1-0050, IIP-1831303, IIS-1915738 and TMYTEK mmWave research initiative.
 
 
+[0.2000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2000Hz_belt_1_trial.txt
+[0.2000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2000Hz_belt_2_trial.txt
+[0.2500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2500Hz_belt_1_trial.txt
+[0.2500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2500Hz_belt_2_trial.txt
+[0.3000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3000Hz_belt_1_trial.txt
+[0.3000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3000Hz_belt_2_trial.txt
+[0.3167Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3167Hz_belt_1_trial.txt
+[0.3167Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3167Hz_belt_2_trial.txt
+[0.3333Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3333Hz_belt_1_trial.txt
+[0.3333Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3333Hz_belt_2_trial.txt
+[0.3500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3500Hz_belt_1_trial.txt
+[0.3500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3500Hz_belt_2_trial.txt
+[0.3667Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3667Hz_belt_1_trial.txt
+[0.3667Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3667Hz_belt_2_trial.txt
+[0.4000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4000Hz_belt_1_trial.txt
+[0.4000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4000Hz_belt_2_trial.txt
+[0.4500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4500Hz_belt_1_trial.txt
+[0.4500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4500Hz_belt_2_trial.txt
+[0.5000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.5000Hz_belt_1_trial.txt
+[0.5000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.5000Hz_belt_2_trial.txt
 
+[0.0000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.0000Hz_radar_1_trial_background.csv
+[0.0000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.0000Hz_radar_2_trial_background.csv
+[0.2000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2000Hz_radar_1_trial.csv
+[0.2000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2000Hz_radar_2_trial.csv
+[0.2500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2500Hz_radar_1_trial.csv
+[0.2500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.2500Hz_radar_2_trial.csv
+[0.3000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3000Hz_radar_1_trial.csv
+[0.3000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3000Hz_radar_2_trial.csv
+[0.3167Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3167Hz_radar_1_trial.csv
+[0.3167Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3167Hz_radar_2_trial.csv
+[0.3333Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3333Hz_radar_1_trial.csv
+[0.3333Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3333Hz_radar_2_trial.csv
+[0.3500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3500Hz_radar_1_trial.csv
+[0.3500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3500Hz_radar_2_trial.csv
+[0.3667Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3667Hz_radar_1_trial.csv
+[0.3667Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.3667Hz_radar_2_trial.csv
+[0.4000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4000Hz_radar_1_trial.csv
+[0.4000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4000Hz_radar_2_trial.csv
+[0.4500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4500Hz_radar_1_trial.csv
+[0.4500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4500Hz_radar_2_trial.csv
+[0.5000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.5000Hz_radar_1_trial.csv
+[0.5000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.5000Hz_radar_2_trial.csv

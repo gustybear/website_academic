@@ -37,11 +37,7 @@ image:
 #   url: http://example.org
 links:
 - name: PUB
-  url: '../../publication/paryavi-machine-vision-tools-2021/'
-- name: PUB
-  url: '../../publication/melcher-i-jam-channel-randomization-2020/'
-- name: PUB
-  url: '../../publication/melcher-i-jam-channel-randomization-2020/'
+  url: './publication/paryavi-machine-vision-tools-2021/'
 - name: Dataset
   url: 'https://github.com/gustybear-research/x96_mmw_under_weather'
 - name: Dataset

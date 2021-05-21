@@ -6,12 +6,14 @@ title: Willy Chang
 superuser: false
 
 # Role/position
-role: B.A.M., RA
+role: B.S. continue for M.S. (2021)
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate
+- Alumni
+- Graduate
+- Class of 2021
 
 # Organizations/Affiliations.
 organizations:
