@@ -88,18 +88,41 @@ gallery_item:
   image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/IMG_3548.jpg
   caption: highlights f
 
-- album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/one.jpg?raw=true
-  caption: Experiment a
-- album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/two.jpg?raw=true
-  caption: Experiment b
-- album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/three.jpg?raw=true
-  caption: Experiment c
-- album: experiments
-  image: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/blob/c031f6bb2958ab89e05049ff8cfc5c49b8681f88/prst_2021_05_07/four.jpg?raw=true
-  caption: Experiment d
+- album: modality
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/resp_belt.png
+  caption: The respiratory belt detects chest displacement (breathing) through changes in thoracic or abdominal circumference.
+- album: modality
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/prms.png
+  caption: The PRMS detects displacement (breathing) in patient's chest through phase offset between the TX and RX signal.
+
+- album: sienna
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/clinic_visit.png
+  caption: A medical technician places a respiratory belt on a user and pairs it with the user's phone.
+- album: sienna
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/pairing.png
+  caption: A user pairs the PRMS with the user's phone.
+- album: sienna
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/mod_change.png
+  caption: User switches to PRMS for OSA screening.
+- album: sienna
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/verification.png
+  caption: Doctor verifies OSA data for any abnormalities.
+
+- album: implementation
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/sienna_prototype.png
+  caption: Implementation of SIENNA with, an Android application, a contact sensor, and PRMS.
+- album: implementation
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/evaluation_01.jpeg
+  caption: Evaluation 01
+- album: implementation
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/evaluation_02.jpeg
+  caption: Evaluation 02
+- album: implementation
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/evaluation_03.jpeg
+  caption: Evaluation 03
+- album: implementation
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/evaluation_04.jpeg
+  caption: Evaluation 04
 
 ---
 ***
@@ -129,11 +152,13 @@ gallery_item:
   
   What distinguishes our adversary model is that the system’s legitimate user could also be an attacker. They may seek to eavesdrop the pairing between the PRMS and their phone to extract the security key, decrypt and review the data before a doctor examines it. They may also leverage the eavesdropped key in order to transmit false data to the mobile device, manipulating the testing outcome. 
 
+{{< gallery-enhance album="modality" numbered="true" caption="Sensing modalities for at-home OSA screening system.">}}
 ***
 
 # Methodology  
-SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks. 
-The pairing procedure of SIENNA is shown in the gallery below. It begins when the user visits a doctor to obtain the test authorization. During the visit, the doctor attaches a respiratory belt to the patient, and pairs it to the user's mobile device OSA app. Once arriving home, the user lies in bed and the PRMS automatically pairs with the mobile device based on the respiration pattern observed by both the PRMS and the respiratory belt. Once the pairing completes, both links from the PRMS and respiration belt to the mobile device are secure. The user can freely choose either the respiratory belt or PRMS for OSA screening, and the selected modality communicates encrypted OSA data to the mobile device. Once testing is completed, the user revisits the doctor and uploads the OSA screening from the mobile device. The doctor runs a compliance check and examines whether there were any significant gaps or inconsistencies with the OSA data. Based on the compliance check report, the doctor decides whether to accept or reject the OSA screening.
+SIENNA incorporates four main elements to ensure that the breathing pattern monitored by the PRMS is that of the desired patient, and protect the transmitted information from eavesdropper attacks. The pairing procedure of SIENNA is shown in the gallery below. It begins when the user visits a doctor to obtain the test authorization. During the visit, the doctor attaches a respiratory belt to the patient, and pairs it to the user's mobile device OSA app. Once arriving home, the user lies in bed and the PRMS automatically pairs with the mobile device based on the respiration pattern observed by both the PRMS and the respiratory belt. Once the pairing completes, both links from the PRMS and respiration belt to the mobile device are secure. The user can freely choose either the respiratory belt or PRMS for OSA screening, and the selected modality communicates encrypted OSA data to the mobile device. Once testing is completed, the user revisits the doctor and uploads the OSA screening from the mobile device. The doctor runs a compliance check and examines whether there were any significant gaps or inconsistencies with the OSA data. Based on the compliance check report, the doctor decides whether to accept or reject the OSA screening.
+
+{{< gallery-enhance album="sienna" numbered="true" caption="SIENNA Overview">}}
 
 ### JADE-ICA
 Joint Approximate Diagonalization of Eigenmatrices for Independent Component Analysis (JADE-ICA) is an algorithm for separating independent sources from a mixed signal. SIENNA uses JADE-ICA to separate mixed breathing patterns, in the event the PRMS picks up the breathing of multiple subjects.  
@@ -146,7 +171,7 @@ $P$ is then rotated to obtain maximum independence between its row vectors, with
 ### Level-Crossing Quantization
 Level-crossing quantization is an algorithm for producing a binary representation of an analog signal. SIENNA uses level-crossing quantization to produce a fingerprint for the breathing pattern of the target patient.  
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/Quantization-of-Signal.jpg" title="Illustration of level-crossing quantization with two thresholds." width="40%" >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/quantization.png" title="Illustration of level-crossing quantization with two thresholds." width="40%" >}}
 
 We define a number of set thresholds $q$ with a unique binary representation for each space between thresholds, given by $QTZ(x)$. The value of $x$ at each sample time is transformed by $QTZ(x)$ into a binary code representing its position between the thresholds.
 
@@ -159,20 +184,20 @@ A hash function $H$ is used to compare $s$ and $\hat{s}$. The “hardness” of 
 ### Friendly Jamming
 SIENNA uses a friendly jamming scheme to thwart eavesdropping. SIENNA transforms commitments into Orthogonal Frequency-Division Multiplexing (OFDM) symbols, and transmits them in duplicate. The receiver then randomly jams either the original symbol or the duplicate. Since the jammed symbols are difficult to distinguish from the unjammed symbols, only the receiver can identify which symbols are jammed and reconstruct the original message.
 
-{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/Protocol.jpg" title="Overview of the fuzzy commitment and friendly jamming process." width="40%" >}}
+{{< figure library="true" numbered="true" src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/protocol.png" title="Overview of the fuzzy commitment and friendly jamming process." width="40%" >}}
 ***
 
-# Implementation
+# Implementation and Experimentation
 Sienna was tested using a customized mmwave radar from TMYTEK, specifically their BBox and UP/Down Converter. This setup uses a 28GHZ OFDM radar controlled with National Instruments USRP 2974 and interfaced through labview, along with the Pnuemotrace 1132 respiratory sensor. During testing the android device communicates with our host computers through BLE and is connected to our labview implementation, which executes the modality switching and data logging. Our eavesdropper slash spoofer was based on a BLE device using Kismet and Ubertooth.
 
-***
 
-# Experimentation
   For testing purposes we had two testing setups, one indoor and another one outdoors. The indoor setup uses two twin beds, whilst the outdoors setup uses beach mats and umbrellas. Both setups tested in similar fashions with the subjects wearing the respiratory sensors and .5 meters below our mmwave radar. Each experiment lasted approximately 1 hour, during which we toggled modality switches and adversarial attacks through our BLE eavesdropper slash spoofer every 10 minutes. 
   During each experiment a third-party executed the modality switches and operated the computer running the Ubertooth. The packets transmitted by the OSA application, the chest-band, and the mmWave radar were identified based on their Bluetooth Device Addresses (BDAs) obtained prior of the experiment
 To implement eavesdropping attacks, the hosts codes record the packets containing fuzzy commitment and hash values of new keys from the modality switch.
 	The spoofing attack was done with a attacker-generated compliance tracking data encrypted with the deduced key which was transmitted  at  higher  power  during  data  upload  toward the  android app,  in  attempt  to  manipulate  the  latter  into  accepting the fraudulent data, which was verified during offline analysis.
-  
+
+{{< gallery-enhance album="implementation" numbered="true" caption="Implementation and Evaluation of SIENNA.">}}
+
 ***
 
 # Results and Analysis
