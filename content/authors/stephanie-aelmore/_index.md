@@ -6,7 +6,7 @@ title: Stephanie Aelmore
 superuser: false
 
 # Role/position
-role: B.S., RA
+role: B.S., EEx96
 
 # User group
 user_groups:

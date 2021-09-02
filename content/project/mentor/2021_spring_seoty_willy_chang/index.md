@@ -1,11 +1,11 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "HCES Student Engineer of the Year THE (SEOTY), Fall 2020"
+title: "HCES Student Engineer of the Year THE (SEOTY), Spring 2021"
 
 subtitle: "Willy Chang"
 
-summary: "Congratulation to Willy Chang (left first) to be awarded the
+summary: "Congratulation to **Willy Chang** (left first) to be awarded the
 2021 Hawaii Council of Engineering Societies (HCES) student engineer of the year (SEOTY)."
 
 date: 2021-02-01T11:28:23-10:00
@@ -25,6 +25,7 @@ tags:
 - radar
 - sensor
 - recent mentor
+- undergraduate mentor
 - mentor
 
 categories: []

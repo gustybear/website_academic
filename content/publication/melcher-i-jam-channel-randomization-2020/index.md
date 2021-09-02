@@ -73,7 +73,7 @@ abstract: Physical-layer key generation methods utilize the variations of the co
   but reduces the eavesdropper's BER to the level of random guessing, regardless of
   the number of antennas it equips.
 publication: '*Proceedings of the 13th ACM Conference on Security and Privacy in Wireless
-  and Mobile Networks*'
+  and Mobile Networks,* (3rd place in best demo competition)' 
 doi: 10.1145/3395351.3401705
 
 # Custom links (uncomment lines below)

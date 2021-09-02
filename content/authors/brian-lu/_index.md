@@ -6,7 +6,7 @@ title: Brian Lu
 superuser: false
 
 # Role/position
-role: B.S., RA
+role: B.S., EEx96
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

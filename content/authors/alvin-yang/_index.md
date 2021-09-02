@@ -6,7 +6,7 @@ title: Alvin Yang
 superuser: false
 
 # Role/position
-role: B.S., OGS, (2020)
+role: B.S., OGS
 
 # User group
 user_groups:

@@ -52,6 +52,8 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
+- name: CRN
+  url: ./project/research/x96_multi_moda_pair_sienna/#logistics
 - name: PUB
   url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 - name: Slides
@@ -124,6 +126,43 @@ gallery_item:
   image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/evaluation_04.jpeg
   caption: Evaluation 04
 
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/iq.png
+  caption: Raw IQ data received by different RF channels of the PRMS
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/time_domain.png
+  caption: Breathing mixture obtained by (linear) demodulating the raw IQ (top), individual breathing patterns after source separation in comparison with the ones collected by the respiratory belt (bottom)
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/time_feature.png
+  caption: Time domain analysis show the inhale and exhale characters are distinct between the two subjects, which allows patient tracking during modality changes.
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/frequency_feature.png
+  caption: Frequency domain analysis show the inhale and exhale characters are distinct between the two subjects, which allows patient tracking during modality changes.
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/feature_preservation.png
+  caption: Signal reconstructed after 64-level-crossing quantization with vital related dynamic features preserved.
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/friend_similarity.png
+  caption: Similarity between belt-based and PRMS-based breathing patterns, measured with the same subject.
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/attack_similarity.png
+  caption: Similarity between belt-based and PRMS-based breathing patterns, measured with different subjects.
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/slant-ranges.png
+  caption: The effect on the fingerprint similarity due to the change of slant range between the PRMS and the subject.
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/entropy.png
+  caption: Average entropy per bit of the fuzzy commitments, e.g., RS encoded key salt XORed with (multiple) fingerprint segments, measured via NIST tests
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/rs_encode.png
+  caption: Commitment time with RS codes of different message/parity symbol lengths
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/rs_decode.png
+  caption: Reconstruction time with RS codes of different message/parity symbol lengths and symbols errors
+- album: results
+  image: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/friendly_jamming.png
+  caption: Performance of SIENNA against eavesdropping and spoofing in terms of aggregated BER
+
 ---
 ***
 # Executive Summary
@@ -139,6 +178,12 @@ gallery_item:
 {{< gallery-enhance album="highlights" numbered="true" caption="Project Highlights">}}
 
 ***
+# Logistics {#logistics}
+- **CRN**
+| EE196 | EE296 | EE396 | EE496 |
+| ---   | ---   | ---   | ---   |
+| 90737 | 90738 | 90739 | 90740 |
+ ***
 
 # Introduction
   In America millions suffer from obstructive sleep apnea (OSA), an airway muscle related breathing condition that involuntarily causes respiratory cessations during sleep. Poor treatment can cause a myriad of negative health problems, however the typical diagnostic procedure, an In-lab polysomnography (PSG) commonly referred to as a sleep study, can be costly, intrusive and are requires the patient to be in-lab overnight. The alternative, at home OSA screenings, provide convenience and is economically advantageous, but the device pairing they utilize can be vulnerable to wireless exploitation and testing fraud.
@@ -203,9 +248,11 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
 # Results and Analysis
 (Samson) The breathing signature was quantized by utilizing Labview to generate binary fingerprints. The breathing signature is a combination of complex thorax motions, due to respiration and heartbeat movements within +/- 0.5cm to +/- 0.05cm. A quantization step size of 0.05cm at 10 sample rates per second was the best to preserve fine movements. The quality of the binary fingerprints was evaluated based on the hamming distances between fingerprints observed by different modalities. Human subjects are distinguishable based on their inhales exhales and breathing depth which can be directly translated to the hamming distances. The similarities of same subjects observed by different modalities demonstrates an average hamming distance per bit between fingerprints is around 63% within the first 6 seconds. Meanwhile, the similarities between different subject observed by different modalities results an average hamming distance per bit between fingerprints is below 5%. Overall, SIENNA can be set to around 70% to allow accurate patient tracking during modality switches. The security of the fuzzy commitment is measured by the randomness of the commitments. Our results show that the entropy per bit drops nearly by half when the key salt is converted into a commitment due to the redundancy of the human respiratory motion’s cyclic character. Other factors also include when the quantization levels increase, the granularity of the binary sequencing improves, which slightly improves the randomness of the breathing fingerprints, resulting in a higher degree of entropy in the commitments. Also, when the commitment is generated with multiple rounds of XOR operations, the entropy decreases due to the cross-correlation between fingerprint segments. SIENNA’s performance against eavesdropping and spoofing is evaluated by comparing the bit error rate (BER) at the receiver versus the aggregated BER at the attacker’s side. Our experiment showed that the jamming signal could suppress the attacker’s BER to roughly 50%, which would render an undecodable message for the attacker. 
 
+{{< gallery-enhance album="results" numbered="true" caption="Evaluation Results of SIENNA.">}}
+
 ***
 # Conclusion
-(Samson) SIENNA, a novel insider-resistant context based pairing scheme for multi-modality OSA screening systems successfully secures device pairing by employing fuzzy commitment, friendly jamming, and JADE-ICA. SIENNA leverages the unique patterns of a person’s breathing dynamics for secure pairing and mitigates co-located attackers. Attackers with no knowledge of context can be avoided with fuzzy commitment. Attackers with general knowledge of context can be avoided by committing and decommitting multiple samples, taking advantage of the Yao’s XOR lemma properties. Finally, attackers with full knowledge of context can be avoided by employing friendly jamming. Overall, SIENNA is capable of protecting the security key during a pairing process against any attackers equipped with complete knowledge of the context information.
+SIENNA, a novel insider-resistant context based pairing scheme for multi-modality OSA screening systems successfully secures device pairing by employing fuzzy commitment, friendly jamming, and JADE-ICA. SIENNA leverages the unique patterns of a person’s breathing dynamics for secure pairing and mitigates co-located attackers. Attackers with no knowledge of context can be avoided with fuzzy commitment. Attackers with general knowledge of context can be avoided by committing and decommitting multiple samples, taking advantage of the Yao’s XOR lemma properties. Finally, attackers with full knowledge of context can be avoided by employing friendly jamming. Overall, SIENNA is capable of protecting the security key during a pairing process against any attackers equipped with complete knowledge of the context information.
 
 
 ***
@@ -217,32 +264,33 @@ To implement eavesdropping attacks, the hosts codes record the packets containin
 - OSA app: Android app with modality switching  
 - Eavesdropper: BLE with Kismet and Ubertooth
 
-## Data
-### Exp. 2021/04/15
-| Breathing Rate | Trial | Respiratory Belt            | PRMS                        |
-| ---            | ---   | ---                         | ---                         |
-| 0.0000 Hz (bg) | 1     | NA                          | [Download][0.0000Hz_prms_1] |
-| 0.0000 Hz (bg) | 2     | NA                          | [Download][0.0000Hz_prms_2] |
-| 0.2000 Hz      | 1     | [Download][0.2000Hz_belt_1] | [Download][0.2000Hz_prms_1] |
-| 0.2000 Hz      | 2     | [Download][0.2000Hz_belt_2] | [Download][0.2000Hz_prms_2] |
-| 0.2500 Hz      | 1     | [Download][0.2500Hz_belt_1] | [Download][0.2500Hz_prms_1] |
-| 0.2500 Hz      | 2     | [Download][0.2500Hz_belt_2] | [Download][0.2500Hz_prms_2] |
-| 0.3000 Hz      | 1     | [Download][0.3000Hz_belt_1] | [Download][0.3000Hz_prms_1] |
-| 0.3000 Hz      | 2     | [Download][0.3000Hz_belt_2] | [Download][0.3000Hz_prms_2] |
-| 0.3167 Hz      | 1     | [Download][0.3167Hz_belt_1] | [Download][0.3167Hz_prms_1] |
-| 0.3167 Hz      | 2     | [Download][0.3167Hz_belt_2] | [Download][0.3167Hz_prms_2] |
-| 0.3333 Hz      | 1     | [Download][0.3333Hz_belt_1] | [Download][0.3333Hz_prms_1] |
-| 0.3333 Hz      | 2     | [Download][0.3333Hz_belt_2] | [Download][0.3333Hz_prms_2] |
-| 0.3500 Hz      | 1     | [Download][0.3500Hz_belt_1] | [Download][0.3500Hz_prms_1] |
-| 0.3500 Hz      | 2     | [Download][0.3500Hz_belt_2] | [Download][0.3500Hz_prms_2] |
-| 0.3667 Hz      | 1     | [Download][0.3667Hz_belt_1] | [Download][0.3667Hz_prms_1] |
-| 0.3667 Hz      | 2     | [Download][0.3667Hz_belt_2] | [Download][0.3667Hz_prms_2] |
-| 0.4000 Hz      | 1     | [Download][0.4000Hz_belt_1] | [Download][0.4000Hz_prms_1] |
-| 0.4000 Hz      | 2     | [Download][0.4000Hz_belt_2] | [Download][0.4000Hz_prms_2] |
-| 0.4500 Hz      | 1     | [Download][0.4500Hz_belt_1] | [Download][0.4500Hz_prms_1] |
-| 0.4500 Hz      | 2     | [Download][0.4500Hz_belt_2] | [Download][0.4500Hz_prms_2] |
-| 0.5000 Hz      | 1     | [Download][0.5000Hz_belt_1] | [Download][0.5000Hz_prms_1] |
-| 0.5000 Hz      | 2     | [Download][0.5000Hz_belt_2] | [Download][0.5000Hz_prms_2] |
+## data {#data}
+|                    |           |                             |                             |                                   |                                   |                                    |                                    |
+| ---                | ---       | ---                         | ---                         | ---                               | ---                               | ---                                | ---                                |
+|                    | <td colspan=2>{{< figure src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/IMG_3548.jpg" width="50%" >}} <td colspan=2>{{< figure src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/IMG_0284.JPG" width="50%" >}} <td colspan=2>{{< figure src="https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/IMG_0283.JPG" width="50%" >}}
+| **breathing rate** | **trial** | **respiratory belt**        | **prms**                    | **respiratory belt**              | **prms**                          | **respiratory belt**               | **prms**                           |
+| 0.0000 hz (bg)     | 1         | na                          | [download][0.0000hz_prms_1] | na                                | [download][alvin_0.0000hz_prms_1] | na                                 | [download][samson_0.0000hz_prms_1] |
+| 0.0000 hz (bg)     | 2         | na                          | [download][0.0000hz_prms_2] | na                                | [download][alvin_0.0000hz_prms_2] | na                                 | [download][samson_0.0000hz_prms_2] |
+| 0.2000 hz          | 1         | [download][0.2000hz_belt_1] | [download][0.2000hz_prms_1] | [download][alvin_0.2000hz_belt_1] | [download][alvin_0.2000hz_prms_1] | [download][samson_0.2000hz_belt_1] | [download][samson_0.2000hz_prms_1] |
+| 0.2000 hz          | 2         | [download][0.2000hz_belt_2] | [download][0.2000hz_prms_2] | [download][alvin_0.2000hz_belt_2] | [download][alvin_0.2000hz_prms_2] | [download][samson_0.2000hz_belt_2] | [download][samson_0.2000hz_prms_2] |
+| 0.2500 hz          | 1         | [download][0.2500hz_belt_1] | [download][0.2500hz_prms_1] | [download][alvin_0.2500hz_belt_1] | [download][alvin_0.2500hz_prms_1] | [download][samson_0.2500hz_belt_1] | [download][samson_0.2500hz_prms_1] |
+| 0.2500 hz          | 2         | [download][0.2500hz_belt_2] | [download][0.2500hz_prms_2] | [download][alvin_0.2500hz_belt_2] | [download][alvin_0.2500hz_prms_2] | [download][samson_0.2500hz_belt_2] | [download][samson_0.2500hz_prms_2] |
+| 0.3000 hz          | 1         | [download][0.3000hz_belt_1] | [download][0.3000hz_prms_1] | [download][alvin_0.3000hz_belt_1] | [download][alvin_0.3000hz_prms_1] | [download][samson_0.3000hz_belt_1] | [download][samson_0.3000hz_prms_1] |
+| 0.3000 hz          | 2         | [download][0.3000hz_belt_2] | [download][0.3000hz_prms_2] | [download][alvin_0.3000hz_belt_2] | [download][alvin_0.3000hz_prms_2] | [download][samson_0.3000hz_belt_2] | [download][samson_0.3000hz_prms_2] |
+| 0.3167 hz          | 1         | [download][0.3167hz_belt_1] | [download][0.3167hz_prms_1] | [download][alvin_0.3167hz_belt_1] | [download][alvin_0.3167hz_prms_1] | [download][samson_0.3167hz_belt_1] | [download][samson_0.3167hz_prms_1] |
+| 0.3167 hz          | 2         | [download][0.3167hz_belt_2] | [download][0.3167hz_prms_2] | [download][alvin_0.3167hz_belt_2] | [download][alvin_0.3167hz_prms_2] | [download][samson_0.3167hz_belt_2] | [download][samson_0.3167hz_prms_2] |
+| 0.3333 hz          | 1         | [download][0.3333hz_belt_1] | [download][0.3333hz_prms_1] | [download][alvin_0.3333hz_belt_1] | [download][alvin_0.3333hz_prms_1] | [download][samson_0.3333hz_belt_1] | [download][samson_0.3333hz_prms_1] |
+| 0.3333 hz          | 2         | [download][0.3333hz_belt_2] | [download][0.3333hz_prms_2] | [download][alvin_0.3333hz_belt_2] | [download][alvin_0.3333hz_prms_2] | [download][samson_0.3333hz_belt_2] | [download][samson_0.3333hz_prms_2] |
+| 0.3500 hz          | 1         | [download][0.3500hz_belt_1] | [download][0.3500hz_prms_1] | [download][alvin_0.3500hz_belt_1] | [download][alvin_0.3500hz_prms_1] | [download][samson_0.3500hz_belt_1] | [download][samson_0.3500hz_prms_1] |
+| 0.3500 hz          | 2         | [download][0.3500hz_belt_2] | [download][0.3500hz_prms_2] | [download][alvin_0.3500hz_belt_2] | [download][alvin_0.3500hz_prms_2] | [download][samson_0.3500hz_belt_2] | [download][samson_0.3500hz_prms_2] |
+| 0.3667 hz          | 1         | [download][0.3667hz_belt_1] | [download][0.3667hz_prms_1] | [download][alvin_0.3667hz_belt_1] | [download][alvin_0.3667hz_prms_1] | [download][samson_0.3667hz_belt_1] | [download][samson_0.3667hz_prms_1] |
+| 0.3667 hz          | 2         | [download][0.3667hz_belt_2] | [download][0.3667hz_prms_2] | [download][alvin_0.3667hz_belt_2] | [download][alvin_0.3667hz_prms_2] | [download][samson_0.3667hz_belt_2] | [download][samson_0.3667hz_prms_2] |
+| 0.4000 hz          | 1         | [download][0.4000hz_belt_1] | [download][0.4000hz_prms_1] | [download][alvin_0.4000hz_belt_1] | [download][alvin_0.4000hz_prms_1] | [download][samson_0.4000hz_belt_1] | [download][samson_0.4000hz_prms_1] |
+| 0.4000 hz          | 2         | [download][0.4000hz_belt_2] | [download][0.4000hz_prms_2] | [download][alvin_0.4000hz_belt_2] | [download][alvin_0.4000hz_prms_2] | [download][samson_0.4000hz_belt_2] | [download][samson_0.4000hz_prms_2] |
+| 0.4500 hz          | 1         | [download][0.4500hz_belt_1] | [download][0.4500hz_prms_1] | [download][alvin_0.4500hz_belt_1] | [download][alvin_0.4500hz_prms_1] | [download][samson_0.4500hz_belt_1] | [download][samson_0.4500hz_prms_1] |
+| 0.4500 hz          | 2         | [download][0.4500hz_belt_2] | [download][0.4500hz_prms_2] | [download][alvin_0.4500hz_belt_2] | [download][alvin_0.4500hz_prms_2] | [download][samson_0.4500hz_belt_2] | [download][samson_0.4500hz_prms_2] |
+| 0.5000 hz          | 1         | [download][0.5000hz_belt_1] | [download][0.5000hz_prms_1] | [download][alvin_0.5000hz_belt_1] | [download][alvin_0.5000hz_prms_1] | [download][samson_0.5000hz_belt_1] | [download][samson_0.5000hz_prms_1] |
+| 0.5000 hz          | 2         | [download][0.5000hz_belt_2] | [download][0.5000hz_prms_2] | [download][alvin_0.5000hz_belt_2] | [download][alvin_0.5000hz_prms_2] | [download][samson_0.5000hz_belt_2] | [download][samson_0.5000hz_prms_2] |
 
 # Acknowledgement
 This project is partially supported NSF grants CNS-1948568, W911NF-19-1-0050, IIP-1831303, IIS-1915738 and TMYTEK mmWave research initiative.
@@ -291,3 +339,94 @@ This project is partially supported NSF grants CNS-1948568, W911NF-19-1-0050, II
 [0.4500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.4500Hz_radar_2_trial.csv
 [0.5000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.5000Hz_radar_1_trial.csv
 [0.5000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_04_15/0.5000Hz_radar_2_trial.csv
+
+[Alvin_0.2000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2000Hz_belt_1_trial.txt
+[Alvin_0.2000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2000Hz_belt_2_trial.txt
+[Alvin_0.2500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2500Hz_belt_1_trial.txt
+[Alvin_0.2500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2500Hz_belt_2_trial.txt
+[Alvin_0.3000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3000Hz_belt_1_trial.txt
+[Alvin_0.3000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3000Hz_belt_2_trial.txt
+[Alvin_0.3167Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3167Hz_belt_1_trial.txt
+[Alvin_0.3167Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3167Hz_belt_2_trial.txt
+[Alvin_0.3333Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3333Hz_belt_1_trial.txt
+[Alvin_0.3333Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3333Hz_belt_2_trial.txt
+[Alvin_0.3500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3500Hz_belt_1_trial.txt
+[Alvin_0.3500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3500Hz_belt_2_trial.txt
+[Alvin_0.3667Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3667Hz_belt_1_trial.txt
+[Alvin_0.3667Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3667Hz_belt_2_trial.txt
+[Alvin_0.4000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4000Hz_belt_1_trial.txt
+[Alvin_0.4000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4000Hz_belt_2_trial.txt
+[Alvin_0.4500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4500Hz_belt_1_trial.txt
+[Alvin_0.4500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4500Hz_belt_2_trial.txt
+[Alvin_0.5000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.5000Hz_belt_1_trial.txt
+[Alvin_0.5000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.5000Hz_belt_2_trial.txt
+
+[Alvin_0.0000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.0000Hz_radar_1_background.csv
+[Alvin_0.0000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.0000Hz_radar_2_background.csv
+[Alvin_0.2000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2000Hz_radar_1_trial.csv
+[Alvin_0.2000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2000Hz_radar_2_trial.csv
+[Alvin_0.2500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2500Hz_radar_1_trial.csv
+[Alvin_0.2500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.2500Hz_radar_2_trial.csv
+[Alvin_0.3000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3000Hz_radar_1_trial.csv
+[Alvin_0.3000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3000Hz_radar_2_trial.csv
+[Alvin_0.3167Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3167Hz_radar_1_trial.csv
+[Alvin_0.3167Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3167Hz_radar_2_trial.csv
+[Alvin_0.3333Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3333Hz_radar_1_trial.csv
+[Alvin_0.3333Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3333Hz_radar_2_trial.csv
+[Alvin_0.3500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3500Hz_radar_1_trial.csv
+[Alvin_0.3500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3500Hz_radar_2_trial.csv
+[Alvin_0.3667Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3667Hz_radar_1_trial.csv
+[Alvin_0.3667Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.3667Hz_radar_2_trial.csv
+[Alvin_0.4000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4000Hz_radar_1_trial.csv
+[Alvin_0.4000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4000Hz_radar_2_trial.csv
+[Alvin_0.4500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4500Hz_radar_1_trial.csv
+[Alvin_0.4500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.4500Hz_radar_2_trial.csv
+[Alvin_0.5000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.5000Hz_radar_1_trial.csv
+[Alvin_0.5000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Alvin/0.5000Hz_radar_2_trial.csv
+
+[Samson_0.2000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2000Hz_belt_1_trial.txt
+[Samson_0.2000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2000Hz_belt_2_trial.txt
+[Samson_0.2500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2500Hz_belt_1_trial.txt
+[Samson_0.2500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2500Hz_belt_2_trial.txt
+[Samson_0.3000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3000Hz_belt_1_trial.txt
+[Samson_0.3000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3000Hz_belt_2_trial.txt
+[Samson_0.3167Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3167Hz_belt_1_trial.txt
+[Samson_0.3167Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3167Hz_belt_2_trial.txt
+[Samson_0.3333Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3333Hz_belt_1_trial.txt
+[Samson_0.3333Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3333Hz_belt_2_trial.txt
+[Samson_0.3500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3500Hz_belt_1_trial.txt
+[Samson_0.3500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3500Hz_belt_2_trial.txt
+[Samson_0.3667Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3667Hz_belt_1_trial.txt
+[Samson_0.3667Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3667Hz_belt_2_trial.txt
+[Samson_0.4000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4000Hz_belt_1_trial.txt
+[Samson_0.4000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4000Hz_belt_2_trial.txt
+[Samson_0.4500Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4500Hz_belt_1_trial.txt
+[Samson_0.4500Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4500Hz_belt_2_trial.txt
+[Samson_0.5000Hz_belt_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.5000Hz_belt_1_trial.txt
+[Samson_0.5000Hz_belt_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.5000Hz_belt_2_trial.txt
+
+[Samson_0.0000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.0000Hz_radar_1_background.csv
+[Samson_0.0000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.0000Hz_radar_2_background.csv
+[Samson_0.2000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2000Hz_radar_1_trial.csv
+[Samson_0.2000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2000Hz_radar_2_trial.csv
+[Samson_0.2500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2500Hz_radar_1_trial.csv
+[Samson_0.2500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.2500Hz_radar_2_trial.csv
+[Samson_0.3000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3000Hz_radar_1_trial.csv
+[Samson_0.3000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3000Hz_radar_2_trial.csv
+[Samson_0.3167Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3167Hz_radar_1_trial.csv
+[Samson_0.3167Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3167Hz_radar_2_trial.csv
+[Samson_0.3333Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3333Hz_radar_1_trial.csv
+[Samson_0.3333Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3333Hz_radar_2_trial.csv
+[Samson_0.3500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3500Hz_radar_1_trial.csv
+[Samson_0.3500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3500Hz_radar_2_trial.csv
+[Samson_0.3667Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3667Hz_radar_1_trial.csv
+[Samson_0.3667Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.3667Hz_radar_2_trial.csv
+[Samson_0.4000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4000Hz_radar_1_trial.csv
+[Samson_0.4000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4000Hz_radar_2_trial.csv
+[Samson_0.4500Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4500Hz_radar_1_trial.csv
+[Samson_0.4500Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.4500Hz_radar_2_trial.csv
+[Samson_0.5000Hz_prms_1]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.5000Hz_radar_1_trial.csv
+[Samson_0.5000Hz_prms_2]: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing/raw/main/exp_2021_06_03/2021_06_03_Samson/0.5000Hz_radar_2_trial.csv
+
+
+[victor]: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/figures/website/IMG_3548.jpg

@@ -41,6 +41,8 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
+- name: gsHawaii
+  url: https://www.gshawaii.org/
 - name: Video
   url: https://www.youtube.com/watch?v=n4zo-pfkaHM
 - name: Endorsement

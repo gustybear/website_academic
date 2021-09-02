@@ -8,7 +8,7 @@ summary: ''
 authors:
 - Mohsen Paryavi
 - M. Daniel Jenkins
-- MIchael Melzer
+- Michael Melzer
 - Reza Ghorbani
 - Yao Zheng
 - IL Yong Chun

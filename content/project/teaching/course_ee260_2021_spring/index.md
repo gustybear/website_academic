@@ -29,7 +29,7 @@ tags:
 - van neumann architecture
 - princeton architecture
 - offered course
-- current semester
+#- current semester
 
 categories: []
 
@@ -57,13 +57,28 @@ links:
 #  url: ./docs/reports/course_ee693e_2020_fall/week_02/01/
 #- name: Sample Report
 #  url: ./docs/reports/course_ee693e_2020_fall/week_02/02/
+- name: CRN
+  url: ./project/teaching/course_ee260_2021_spring/#logistics
+- name: Textbook
+  url: https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2021
+- name: Sample lecture
+  url: https://youtu.be/3XZm8G8HvGQ
+- name: Sample laboratory
+  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2021_spring/labs/lab_03.zip
+- name: Sample exam
+  url: ./docs/exams/course_ee260_2021_spring/final/practice/
 ---
 ***
 # Executive Summary
 This course explores the foundation of digital circuit design, starting from Boolean algebra, through combinational and sequential logic, to finite state machines and basic central processing units (CPUs) under von Neumann architecture. The associated laboratory segment introduces modern digital design techniques, e.g., hardware description language ([Verilog] HDL) and field-programmable gate array (FPGA), to model, implement, and test the aforementioned digital circuits.
 ***
 
-# Logistics
+# Logistics {#logistics}
+- **CRN**
+| EE260 001 | EE260 002 |
+| ---   | ---   |
+| 85461 | 85462 |
+
 - **Personnel**:
 |                                                    |                                             |
 | ----                                               | ---                                         |

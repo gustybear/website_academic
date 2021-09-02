@@ -1,11 +1,11 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "EE693e: Selected Topics in Wireless Security"
+title: "EE693e (Spec Topics): Wireless and Mobile Security"
 
 subtitle: "Fall, 2020"
 
-summary: "The Fall 2020 iteration of EE693e studies the proceeding of ACM WiSec 2020."
+summary: "The Fall 2020 iteration of EE693e studies research on wireless and mobile security based on the proceeding of ACM WiSec 2020."
 
 date: 2020-08-23T20:07:39-10:00
 lastmod: 2020-08-23T20:07:39-10:00

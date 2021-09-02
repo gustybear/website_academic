@@ -10,7 +10,7 @@ user_groups:
 - Alumni
 
 # Role/position
-role: B.S., join Nalu Scientific (2020)
+role: B.S., join Nalu Scientific
 
 # User group
 user_groups:

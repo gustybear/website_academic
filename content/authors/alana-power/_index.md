@@ -12,7 +12,7 @@ user_groups:
 
 # Role/position
 
-role: B.S., join Raytheon Technologies (2021)
+role: B.S., join Raytheon Technologies
 
 # Organizations/Affiliations.
 organizations:

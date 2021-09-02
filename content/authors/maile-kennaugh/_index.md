@@ -6,7 +6,7 @@ title: Maile Kennaugh
 superuser: false
 
 # Role/position
-role: B.S. (2020)
+role: B.S.
 
 # User group
 user_groups:

@@ -55,6 +55,8 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
+- name: CRN
+  url: ./project/research/x96_physec_chan_ran_ijam/#logistics
 - name: PUB
   url: ./publication/melcher-i-jam-channel-randomization-2020/
 - name: Slides
@@ -181,6 +183,14 @@ Wireless physical layer security scheme, such as orthogonal blinding, is able to
 
 # Highlights
 {{< gallery-enhance album="highlights" numbered="true" caption="Project Highlights">}}
+
+***
+
+# Logistics {#logistics}
+- **CRN**
+| EE196 | EE296 | EE396 | EE496 |
+| ---   | ---   | ---   | ---   |
+| 76253 | 76254 | 76255 | 76256 |
 
 ***
 

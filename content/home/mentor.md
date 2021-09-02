@@ -27,8 +27,10 @@ content:
   filter_button:
   - name: Recent
     tag: 'recent mentor'
-  - name: All
-    tag: 'mentor'
+  - name: Undergraduate
+    tag: 'undergraduate mentor'
+  - name: Graduate
+    tag: 'graduate mentor'
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
