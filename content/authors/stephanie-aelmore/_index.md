@@ -16,8 +16,10 @@ user_groups:
 organizations:
 - name: University of Hawaiʻi at Mānoa
   url: http://manoa.hawaii.edu/
-- name: Department of Electrical Engineering
+- name: Department of Electrical and Computer Engineering
   url: http://www.ee.hawaii.edu/
+- name: VIP Team RoSE
+  url: http://www.uhmviprose.com/
 
 # List your academic interests.
 
