@@ -42,7 +42,7 @@ image:
 projects: []
 publishDate: '2021-05-03T18:37:29.003355Z'
 publication_types:
-- '3'
+- '1'
 abstract: The increasingly sophisticated at-home screening systems for obstructive
   sleep apnea (OSA), integrated with both contactless and contact-based sensing modalities,
   bring convenience and reliability to remote chronic disease management. However,
@@ -55,7 +55,7 @@ abstract: The increasingly sophisticated at-home screening systems for obstructi
   from acquiring the pairing key. Our analysis and test results show that SIENNA can
   achieve reliable ($>$ 90% success rate) device pairing under a noisy environment
   and is robust against the attacker with full knowledge of the context information.
-publication: '*2021 IEEE Global Communications Conference: Communication & Information Systems Security - Communication & Information System Security,* accepted'
+publication: '*2021 IEEE Global Communications Conference: Communication & Information Systems Security - Communication & Information System Security*'
 doi:
 
 links:

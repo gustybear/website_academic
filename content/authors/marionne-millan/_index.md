@@ -12,7 +12,7 @@ user_groups:
 - Class Staff
 
 # Role/position
-role: M.S., TA
+role: M.S., TA, accepted an offer from Raytheon Technologies
 
 # Organizations/Affiliations.
 organizations:

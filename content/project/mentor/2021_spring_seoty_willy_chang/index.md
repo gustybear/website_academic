@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "HCES Student Engineer of the Year THE (SEOTY), Spring 2021"
+title: "HCES Student Engineer of the Year (SEOTY), Spring 2021"
 
 subtitle: "Willy Chang"
 

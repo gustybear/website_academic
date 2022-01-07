@@ -10,8 +10,8 @@ authors:
 - M. Daniel Jenkins
 - Michael Melzer
 - Reza Ghorbani
-- Yao Zheng
 - IL Yong Chun
+- Yao Zheng
 tags: []
 categories: []
 date: '2021-04-02'
@@ -55,4 +55,8 @@ abstract: An incipient population of Coconut Rhinoceros Beetle (CRB; Oryctes rhi
   approach on distributed wireless networks to automate CRB trap surveillance and
   analysis in remote areas.
 publication: "*2021 Hawai'i Conservation Conference*"
+
+links:
+- name: PDF
+  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/publication_paryavi_machine_vision_tools_2021/Paryavi%20et%20al_2021_Machine%20Vision%20Tools%20for%20Delimiting%20Distribution%20of%20Coconut%20Rhinoceros%20Beetle.pdf
 ---

@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Yao Zheng
+title: June Zhang
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Assistant Professor
@@ -27,22 +27,22 @@ organizations:
 
 # List your academic interest
 interests:
-- Wireless Comm.
-- Wireless Sensing
-- Wireless Security
+#- Wireless Comm.
+#- Wireless Sensing
+#- Wireless Security
 
 # List your qualifications (such as academic degrees).
 education:
   courses:
-  - course: Ph.D. in Computer Science and Applications
-    institution: Virginia Polytechnic Institute and State University
-    year: 2016
-  - course: M.S. in Electrical and Computer Engineering
-    institution: Worcester Polytechnic Institute
-    year: 2011
-  - course: B.S. in Microelectronics
-    institution: Fudan University
-    year: 2007
+  - course: Ph.D. in Electrical and Computer Engineering
+    institution: Carnegie Mellon University
+    year: 2015
+  - course: M.S. in Electrical Engineering
+    institution: Stanford University
+    year: 2008
+  - course: B.S. in Electrical and Computer Engineering
+    institution: Georgia Institute of Technology
+    year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -50,35 +50,38 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
+ - icon: external-link-alt
+   icon_pack: fas
+   link: http://www.junezhang.net/
+
 # - icon: cv
 #   icon_pack: ai
 #   link: https://orcid.org/0000-0003-2820-1034/print
 
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0003-2820-1034
+# - icon: orcid
+#   icon_pack: ai
+#   link: https://orcid.org/0000-0003-2820-1034
 
 # - icon: zotero
 #   icon_pack: ai
 #   link: https://www.zotero.org/gustybear/
 
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=0nk3blkAAAAJ&hl=en
-
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gustybear-research
-
-- icon: envelope
-  icon_pack: fa
-  link: mailto:yao.zheng@hawaii.edu
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.com/citations?user=0nk3blkAAAAJ&hl=en
+#
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gustybear-research
+#
+#- icon: envelope
+#  icon_pack: fa
+#  link: mailto:yao.zheng@hawaii.edu
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: mailto:yao.zheng@hawaii.edu
+email: mailto:yingfei@hawaii.edu
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am an Assistant Professor at Department of Electrical Engineering, University of Hawaiʻi at Mānoa. My research interests mainly focus on wireless communication, wireless sensing, and wireless security.

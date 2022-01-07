@@ -17,7 +17,7 @@ user_groups:
 organizations:
 - name: University of Hawaiʻi at Mānoa
   url: http://manoa.hawaii.edu/
-- name: Department of Electrical Engineering
+- name: Department of Electrical and Computer Engineering
   url: http://www.ee.hawaii.edu/
 # - name: Wireless and Cybersecurity Laboratory
 #   url: project/facility

@@ -91,27 +91,26 @@ This course focuses on selected research topics in wireless communication and se
 
 # Schedule {#Schedule}
 
-| TIME                                                                 | TOPIC                                                  | PAPER/NOTES                                    | REPORT               | DUE              |
-| ---------                                                            | ------------------------------------------------------ | -----                                          | ---                  | ---              |
-| Week 01 ([Aug 25][recording 0825 url])                               | Logistic, Telemedicine Overview                        | [nt 01][nt 01 url]                             | NA                   | NA               |
-| Week 02 ([Aug 30][recording 0830 url], [Sep 01][recording 0901 url]) | Student Presentations                                  | [pp 02.1][pp 02.1 url], [pp 02.2][pp 02.2 url] | [rpt 02][rpt 02 url] | 11:59 PM, Sep 12 |
-| Week 03 (Sep 08)                                                     | Telemedicine and Internet of Things                    | --                                             | NA                   | NA               |
-| Week 04 (Sep 13, Sep 15)                                             | Student Presentations                                  | --                                             | --                   | --               |
-| Week 05 (Sep 20, Sep 22)                                             | Telemedicine and Mobile Sensing                        | --                                             | NA                   | NA               |
-| Week 06 (Sep 27, Sep 29)                                             | Student Presentations                                  | --                                             | --                   | --               |
-| Week 07 (Oct 04, Oct 06)                                             | Telemedicine and Augmented Reality                     | --                                             | NA                   | NA               |
-| Week 08 (Oct 13)                                                     | Student Presentations                                  | --                                             | --                   | --               |
-| Week 09 (Oct 18, Oct 20)                                             | Telemedicine and 5G Wireless Network                   | --                                             | NA                   | NA               |
-| Week 10 (Oct 25, Oct 27)                                             | Student Presentations                                  | --                                             | --                   | --               |
-| Week 11 (Nov 01, Nov 03)                                             | Telemedicine and Edge Computing                        | --                                             | NA                   | NA               |
-| Week 12 (Nov 08, Nov 10)                                             | Student Presentations                                  | --                                             | --                   | --               |
-| Week 13 (Nov 15, Nov 17)                                             | Telemedicine and Cloud Computing                       | --                                             | NA                   | NA               |
-| Week 14 (Nov 22, Nov 24)                                             | Student Presentations                                  | --                                             | --                   | --               |
-| Week 15 (Nov 29, Dec 01)                                             | Telemedicine and 3D-Printing                           | --                                             | NA                   | NA               |
-| Week 16 (Dec 06, Dec 08)                                             | Student Presentations                                  | --                                             | --                   | --               |
-| Week 17                                                              | Conclusion                                             | --                                             | NA                   | NA               |
+| TIME                                                                    | TOPIC                                                  | PAPER/NOTES                                    | REPORT               | DUE              |
+| ---------                                                               | ------------------------------------------------------ | -----                                          | ---                  | ---              |
+| Week 01 ([Aug 25][recording 0825 url])                                  | Logistic, Telemedicine Overview                        | [nt 01][nt 01 url]                             | NA                   | NA               |
+| Week 02 ([Aug 30][recording 0830 url], [Sep 01][recording 0901 url])    | Student Presentations                                  | [pp 02.1][pp 02.1 url], [pp 02.2][pp 02.2 url] | [rpt 02][rpt 02 url] | 11:59 PM, Sep 12 |
+| Week 03 ([Sep 08][recording 0908 url])                                  | Telemedicine and Internet of Things                    | [nt 03][nt 03 url]                             | NA                   | NA               |
+| Week 04 ([Sep 13][recording 0913 url], [Sep 15][recording 0915 url])    | Student Presentations                                  | [pp 04.1][pp 04.1 url], [pp 04.2][pp 04.2 url] | [rpt 04][rpt 04 url] | 11:59 PM, Sep 26 |
+| Week 05 ([Sep 20][recording 0920 url], [Sep 22][recording 0922 url])    | Telemedicine and Wireless Sensing                      | [nt 05a][nt 05a url], [nt 05b][nt 05b url]     | NA                   | NA               |
+| Week 06 ([Sep 27][recording 0927 url], [Sep 29][recording 0929 url])    | Student Presentations                                  | [pp 06.1][pp 06.1 url], [pp 06.2][pp 06.2 url] | [rpt 06][rpt 06 url] | 11:59 PM, Oct 12 |
+| Week 07 ([Oct 04][recording 1004 url], [Oct 06][recording 1006 url])    | Telemedicine and AR/VR                                 | [nt 07a][nt 07a url], [nt 07b][nt 07b url]     | NA                   | NA               |
+| Week 08/09 ([Oct 13][recording 1013 url], [Oct 18][recording 1018 url]) | Student Presentations                                  | [pp 08.1][pp 08.1 url], [pp 08.2][pp 08.2 url] | [rpt 08][rpt 08 url] | 11:59 PM, Oct 24 |
+| Week 09 ([Oct 20][recording 1020 url])                                  | Telemedicine and 5G                                    | [nt 09][nt 09 url]                             | NA                   | NA               |
+| Week 10 ([Oct 25][recording 1025 url], [Oct 27][recording 1027 url])    | Student Presentations                                  | [pp 10.1][pp 10.1 url], [pp 10.2][pp 10.2 url] | [rpt 10][rpt 10 url] | 11:59 PM, Nov 07 |
+| Week 11 ([Nov 01][recording 1101 url], [Nov 03][recording 1103 url])    | Telemedicine and Edge Computing                        | [nt 11a][nt 11a url], [nt 11b][nt 11b url]     | NA                   | NA               |
+| Week 12 ([Nov 08][recording 1108 url], [Nov 10][recording 1110 url])    | Student Presentations                                  | [pp 12.1][pp 12.1 url], [pp 12.2][pp 12.2 url] | [rpt 12][rpt 12 url] | 11:59 PM, Nov 21 |
+| Week 13 ([Nov 15][recording 1115 url], [Nov 17][recording 1117 url])    | Telemedicine and Cloud Computing                       | [nt 13a][nt 13a url], [nt 13b][nt 13b url]     | NA                   | NA               |
+| Week 14 ([Nov 22][recording 1122 url], [Nov 24][recording 1124 url])    | Student Presentations                                  | [pp 14.1][pp 14.1 url], [pp 14.2][pp 14.2 url] | --                   | 11:59 PM, Nov 05 |
+| Week 15 (Nov 29, Dec 01)                                                | Telemedicine and 3D-Printing                           | --                                             | NA                   | NA               |
+| Week 16 (Dec 06, Dec 08)                                                | Student Presentations                                  | [pp 16.1][pp 16.1 url], [pp 16.2][pp 16.2 url] | --                   | 11:59 PM, Dec 19 |
+| Week 17                                                                 | Conclusion                                             | --                                             | NA                   | NA               |
 
-***
 
 [footnote]: # ()
 
@@ -123,13 +122,65 @@ This course focuses on selected research topics in wireless communication and se
 [recording 0825 url]: https://youtu.be/K8K8w4nn3LE
 [recording 0830 url]: https://youtu.be/KoFTqDBtoJQ
 [recording 0901 url]: https://youtu.be/mjYajOtTV7A
+[recording 0908 url]: https://youtu.be/oJmDqQ0yK5g
+[recording 0913 url]: https://youtu.be/5FkW8F8-CMw
+[recording 0915 url]: https://youtu.be/REIuUV1U448
+[recording 0920 url]: https://youtu.be/jD70Rk4tBpY
+[recording 0922 url]: https://youtu.be/NbW9WT5D_VA
+[recording 0927 url]: https://youtu.be/SUjzoFbPyME
+[recording 0929 url]: https://youtu.be/zNiE1SjCCWM
+[recording 1004 url]: https://youtu.be/0EzD29HDI4Q
+[recording 1006 url]: https://youtu.be/Xftc64LbEAA
+[recording 1013 url]: https://youtu.be/1Ng4JZSM5qc
+[recording 1018 url]: https://youtu.be/ynD_kXCivFE
+[recording 1020 url]: https://youtu.be/fUhbRA0GjO8
+[recording 1025 url]: https://youtu.be/h7mzwFhR_M0
+[recording 1027 url]: https://youtu.be/cQj1CtbFsMI
+[recording 1101 url]: https://youtu.be/OBgtZiI1hGk
+[recording 1103 url]: https://youtu.be/XdzbFXpuF6Y
+[recording 1108 url]: https://youtu.be/F2g9b7Yhn18
+[recording 1110 url]: https://youtu.be/5XxKVa1x_pk
+[recording 1115 url]: https://youtu.be/SJJ2j1lu1B8
+[recording 1117 url]: https://youtu.be/pvMTg3qgAhs
+[recording 1122 url]: https://youtu.be/rKlSd3DZfkY
+[recording 1124 url]: https://youtu.be/A2pjPfPfrRE
 
 [note urls]: # (note urls)
 [nt 01 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_01.pdf
+[nt 03 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_03.pdf
+[nt 05a url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_05a.pdf
+[nt 05b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_05b.pdf
+[nt 07a url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_07a.pdf
+[nt 07b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_07b.pdf
+[nt 09 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_09.pdf
+[nt 11a url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_11a.pdf
+[nt 11b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_11b.pdf
+[nt 13a url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_13a.pdf
+[nt 13b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_13b.pdf
 
 [paper urls]: # (paper urls)
 [pp 02.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_02_1.zip
 [pp 02.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_02_2.zip
+[pp 04.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_04_1.zip
+[pp 04.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_04_2.zip
+[pp 06.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_06_1.zip
+[pp 06.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_06_2.zip
+[pp 08.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_08_1.zip
+[pp 08.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_08_2.zip
+[pp 10.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_10_1.zip
+[pp 10.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_10_2.zip
+[pp 12.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_12_1.zip
+[pp 12.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_12_2.zip
+[pp 14.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_14_1.zip
+[pp 14.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_14_2.zip
+[pp 16.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_16_1.zip
+[pp 16.2 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_16_2.zip
 
 [report urls]: # (report urls)
 [rpt 02 url]: ../../../docs/reports/course_ee693e_2021_fall/week_02/
+[rpt 04 url]: ../../../docs/reports/course_ee693e_2021_fall/week_04/
+[rpt 06 url]: ../../../docs/reports/course_ee693e_2021_fall/week_06/
+[rpt 08 url]: ../../../docs/reports/course_ee693e_2021_fall/week_08/
+[rpt 10 url]: ../../../docs/reports/course_ee693e_2021_fall/week_10/
+[rpt 12 url]: ../../../docs/reports/course_ee693e_2021_fall/week_12/
+[rpt 14 url]: ../../../docs/reports/course_ee693e_2021_fall/week_14/

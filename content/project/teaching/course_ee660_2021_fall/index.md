@@ -64,7 +64,7 @@ Fundamental understanding of computer architecture is key to hardware and proces
 - **Format**:
 | Lecture Time      | Lecture Location                             | Textbook                                                                            | Assignment | Project |
 | ----               | ---                                         | ---                                                                                 | ---        | ---     |
-| MW 13:30pm-14:45pm | [Zoom](https://hawaii.zoom.us/j/5764842348) | *Required*: Computer Architecture: A Quantitative Approach (5th Edition) (PH11)     | Individual | Team    |
+| MW 13:30pm-14:45pm | [Zoom](https://hawaii.zoom.us/j/5764842348) | *Required*: Computer Architecture: A Quantitative Approach (5th Edition) (PH11)     | Team       | Team    |
 |                    |                                             | *Optional*: Modern Processor Design: Fundamentals of Supperscalar Processors (SL13) |            |         |
 |                    |                                             | *Optional*: FPGA Prototyping By Verilog Examples: Xilinx Spartan-3 Version          |            |         |
 
@@ -84,30 +84,51 @@ Fundamental understanding of computer architecture is key to hardware and proces
 ***
 ## Schedule
 
-| TIME                                                                 | TOPIC                                                  | LECTURE                                         | ASSIGNMENTS            | READING                                |
-| ---------                                                            | ------------------------------------------------------ | ----------------------------------------------- | ---------------------- | -------------------------------------- |
-| Week 01 ([Aug 25][recording 0825 url])                               | Introduction to Computer Architecture                  | [lec 01][lec 01 url]                            | --                     | PH11: Chapter 1, C1-C16.               |
-| Week 02 ([Aug 30][recording 0830 url], [Sep 01][recording 0901 url]) | Review: Pipeline                                       | [lec 02][lec 02 url]                            | --                     | PH11: C26, C30-C58, C61-C81.           |
-| Week 03 (Sep 08)                                                     | Review: Cache                                          | [lec 03][lec 03 url]                            | [assg 01][lab 01 url]  | PH11: B1-B40, SL13:177-209.            |
-| Week 04 (Sep 13, Sep 15)                                             | Out-of-Order Processors                                | [lec 04a][lec 04a url] [lec 04b][lec 04b url]   | --                     | PH11:C43-C61, SL13:217-236.            |
-| Week 05 (Sep 20, Sep 22)                                             | Branch, Register Renaming, and Memory Disambiguation   | [lec 05][lec 05 url]                            | --                     | SL13:237-273.                          |
-| Week 06 (Sep 27, Sep 29)                                             | VLIW Introduction                                      | [lec 06][lec 06 url]                            | --                     | PH11: 192-196, Appendix H              |
-| Week 07 (Oct 04, Oct 06)                                             | Branch Prediction, Advanced Cache Optimizations        | [lec 07a][lec 07a url] [lec 07b][lec 07b url]   | --                     | PH11: C26-C30, SL13:219-237, 453-508   |
-| Week 08 (Oct 13)                                                     | Memory Protection                                      | [lec 08][lec 08 url]                            | [assg 02][lab 02 url]  | PH11:B41,B67,105-144                   |
-| Week 09 (Oct 18, Oct 20)                                             | Vector Processors and GPUs                             | [lec 09a][lec 09a url] [lec 09b][lec 09b url]   | --                     | PH11:344-412                           |
-| Week 10 (Oct 25, Oct 27)                                             | Course Project (Preliminary Presentations)             |                                                 | --                     | --                                     |
-| Week 11 (Nov 01, Nov 03)                                             | Multithreading                                         | [lec 10][lec 10 url]                            | --                     | PH11:221-259                           |
-| Week 12 (Nov 08, Nov 10)                                             | Parallel Programming and Small Multiprocessors         | [lec 11][lec 11 url]                            | --                     | PH11:386-400, 343-378                  |
-| Week 13 (Nov 15, Nov 17)                                             | Interconnection Network                                | [lec 12][lec 12 url]                            | --                     | PH11:Appendix F                        |
-| Week 14 (Nov 22, Nov 24)                                             | Large Multiprocessors (Directory Protocols)            | [lec 13][lec 13 url]                            | --                     | PH11:378-386, 400-429                  |
-| Week 15 (Nov 29, Dec 01)                                             | Case Study: Software Define Radio Part 1               | [lec 14][lec 14 url]                            | --                     | --                                     |
-| Week 16 (Dec 06, Dec 08)                                             | Case Study: Software Define Radio Part 2               | [lec 15][lec 15 url]                            | --                     | --                                     |
-| Week 17                                                              | Course Project (Final Presentations)                   | --                                              | --                     | --                                     |
+| TIME                                                                 | TOPIC                                                  | LECTURE                                         | ASSIGNMENTS            | READING                                | REPORT               | DUE              |
+| ---------                                                            | ------------------------------------------------------ | ----------------------------------------------- | ---------------------- | -------------------------------------- | -------              | ----             |
+| Week 01 ([Aug 25][recording 0825 url])                               | Introduction to Computer Architecture                  | [lec 01][lec 01 url]                            | --                     | PH11: Chapter 1, C1-C16.               |                      |                  |
+| Week 02 ([Aug 30][recording 0830 url], [Sep 01][recording 0901 url]) | Review: Pipeline                                       | [lec 02][lec 02 url]                            | --                     | PH11: C26, C30-C58, C61-C81.           |                      |                  |
+| Week 03 ([Sep 08][recording 0908 url])                               | Review: Pipeline cont.                                 | --                                              | [assg 01][assg 01 url] | --                                     | [rpt 01][rpt 01 url] | 11:59 PM, Oct 02 |
+| Week 04 ([Sep 13][recording 0913 url], [Sep 15][recording 0915 url]) | Review: Cache                                          | [lec 03][lec 03 url]                            | --                     | PH11: B1-B40, SL13:177-209.            |                      |                  |
+| Week 05 ([Sep 20][recording 0920 url], Sep 22)                       | Out-of-Order Processors                                | [lec 04a][lec 04a url] [lec 04b][lec 04b url]   | --                     | PH11:C43-C61, SL13:217-236.            |                      |                  |
+| Week 06 ([Sep 27][recording 0927 url], [Sep 29][recording 0929 url]) | Out-of-Order Processors cont.                          | --                                              | --                     | --                                     |                      |                  |
+| Week 07 ([Oct 04][recording 1004 url], [Oct 06][recording 1006 url]) | Branch, Register Renaming, and Memory Disambiguation   | [lec 05][lec 05 url]                            | --                     | SL13:237-273.                          |                      |                  |
+| Week 08 ([Oct 13][recording 1013 url])                               | VLIW Introduction                                      | [lec 06][lec 06 url]                            | --                     | PH11: 192-196, Appendix H              |                      |                  |
+| Week 09 ([Oct 18][recording 1018 url], [Oct 20][recording 1020 url]) | Branch Prediction, Advanced Cache Optimizations        | [lec 07a][lec 07a url] [lec 07b][lec 07b url]   | --                     | PH11: C26-C30, SL13:219-237, 453-508   |                      |                  |
+| Week 10 ([Oct 25][recording 1025 url], [Oct 27][recording 1027 url]) | Memory Protection                                      | [lec 08][lec 08 url]                            | --                     | PH11:B41,B67,105-144                   |                      |                  |
+| Week 11 ([Nov 01][recording 1101 url], [Nov 03][recording 1103 url]) | Vector Processors and GPUs                             | [lec 09a][lec 09a url] [lec 09b][lec 09b url]   | --                     | PH11:344-412                           |                      |
+| Week 12 ([Nov 08][recording 1108 url], [Nov 10][recording 1110 url]) | Vector Processors and GPUs cont.                       | --                                              | --                     | --                                     |                      |                  |
+| Week 13 ([Nov 15][recording 1115 url], [Nov 17][recording 1117 url]) | Multithreading                                         | [lec 10][lec 10 url]                            | [assg 02][assg 02 url] | PH11:221-259                           |                      | 11:59 PM, Dec 12 |
+| Week 14 ([Nov 22][recording 1122 url])                           | Parallel Programming and Small Multiprocessors         | [lec 11][lec 11 url]                            | --                     | PH11:386-400, 343-378                  |                      |                  |
+| Week 15 (Nov 29, Dec 01)                                             | Interconnection Network                                | [lec 12][lec 12 url]                            | --                     | PH11:Appendix F                        |                      |                  |
+| Week 16 (Dec 06, Dec 08)                                             | Large Multiprocessors (Directory Protocols)            | [lec 13][lec 13 url]                            | --                     | PH11:378-386, 400-429                  |                      |                  |
+| Week 17                                                              | Course Project (Final Presentations)                   | --                                              | --                     | --                                     |                      |                  |
 
 [recording urls]: # (recording urls)
 [recording 0825 url]: https://youtu.be/mWXFyRLh4P8
 [recording 0830 url]: https://youtu.be/cLpoRqQgGaY
 [recording 0901 url]: https://youtu.be/j_hOQ5RBcsU
+[recording 0908 url]: https://youtu.be/8mNwQa3njYw
+[recording 0913 url]: https://youtu.be/w4GWwzGGGWM
+[recording 0915 url]: https://youtu.be/Z275f6Caauk
+[recording 0920 url]: https://youtu.be/5-FgFAIJKj8
+[recording 0922 url]: # (missing)
+[recording 0927 url]: https://youtu.be/4JOFuYp-E8c
+[recording 0929 url]: https://youtu.be/3QQeBnixCZo
+[recording 1004 url]: https://youtu.be/WZp3SDFsNfM
+[recording 1006 url]: https://youtu.be/BNXz5V_is_Q
+[recording 1013 url]: https://youtu.be/49-UyIntIzg
+[recording 1018 url]: https://youtu.be/PCxAUM8KDVo
+[recording 1020 url]: https://youtu.be/4wo40B9fMTk
+[recording 1025 url]: https://youtu.be/5jzzMW79O9w
+[recording 1027 url]: https://youtu.be/XQPVpt1sY7w
+[recording 1101 url]: https://youtu.be/pzSzwKZus4c
+[recording 1103 url]: https://youtu.be/NeJbg8l1-Ao
+[recording 1108 url]: https://youtu.be/KqVF3eit3k0 
+[recording 1110 url]: https://youtu.be/inGcE65WjsU
+[recording 1115 url]: https://youtu.be/nRkJiopJ2IQ
+[recording 1117 url]: https://youtu.be/g2x0ySFTOS8
+[recording 1122 url]: https://youtu.be/Jqia6wvZEQ4
 
 [lec urls]: # (lec urls)
 [lec 01 url]: https://s3-us-west-2.amazonaws.com/gustybear-websites/course_ee660_2021_fall/slides/ee660_2021_fall_materials_week_01_slides.pdf
@@ -129,8 +150,10 @@ Fundamental understanding of computer architecture is key to hardware and proces
 [lec 14 url]: https://s3-us-west-2.amazonaws.com/gustybear-websites/course_ee660_2021_fall/slides/ee660_2021_fall_materials_week_15_slides_a.pdf
 [lec 15 url]: https://s3-us-west-2.amazonaws.com/gustybear-websites/course_ee660_2021_fall/slides/ee660_2021_fall_materials_week_15_slides_b.pdf
 
-[lab urls]: # (lab urls)
-[lab 01 url]: ./laboratories/01/
-[lab 02 url]: ./laboratories/02/
-[lab 03 url]: # (tbd)
+[assg urls]: # (assg urls)
+[assg 01 url]: ../../../docs/assignments/course_ee660_2021_fall/week_03/assignment/
+[assg 02 url]: ../../../docs/assignments/course_ee660_2021_fall/week_13/assignment/
 
+[rpt urls]: # (rpt urls)
+[rpt 01 url]: ../../../docs/assignments/course_ee660_2021_fall/week_03/report/
+[rpt 02 url]: ../../../docs/assignments/course_ee660_2021_fall/week_06/report/

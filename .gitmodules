@@ -10,3 +10,11 @@
 	path = content/docs/reports/course_ee693e_2021_fall
 	url = git@github.com:gustybear-teaching/course_ee693e_2021_fall.git
 	branch = main
+[submodule "content/docs/assignments/course_ee660_2021_fall"]
+	path = content/docs/assignments/course_ee660_2021_fall
+	url = git@github.com:gustybear-teaching/course_ee660_2021_fall.git
+	branch = main
+[submodule "content/project/research/vip_mmwave_comm_and_sensg_integtn"]
+	path = content/project/research/vip_mmwave_comm_and_sensg_integtn
+	url = git@github.com:gustybear-research/vip_mmwave_comm_and_sensg_integtn.git
+	branch = main

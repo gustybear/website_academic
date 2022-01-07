@@ -55,7 +55,7 @@ abstract: Non-contact vital signs monitoring using microwave Doppler radar has s
   systems. With the advancement of machine learning and artificial intelligence, radar-based
   continuous authentication can grow to serve a wide range of valuable functions in
   society.
-publication: '*Remote Sensing*'
+publication: '*MDPI Remote Sensing*'
 doi: 10.3390/rs12142279
 
 # Custom links (uncomment lines below)
