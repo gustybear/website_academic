@@ -18,3 +18,6 @@
 	path = content/project/research/vip_mmwave_comm_and_sensg_integtn
 	url = git@github.com:gustybear-research/vip_mmwave_comm_and_sensg_integtn.git
 	branch = main
+[submodule "content/authors"]
+	path = content/authors
+	url = git@github.com:gustybear-research/authors.git
