@@ -1,9 +1,7 @@
 ---
-title: Report Repository
-subtitle: Fall, 2020
+title: Reports
 type: book
-icon_pack: fas
-icon: chalkboard-teacher
+summary: Course reports
 ---
 
 {{< list_children >}}

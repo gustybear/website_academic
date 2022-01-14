@@ -1,9 +1,8 @@
 ---
-title: Assignment Repository
-subtitle: Fall, 2020
+title: Assignments
 type: book
 icon_pack: fas
-icon: chalkboard-teacher
+summary: Course assignments
 ---
 
 {{< list_children >}}

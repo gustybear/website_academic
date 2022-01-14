@@ -20,7 +20,7 @@ tags:
 - wireless sensing
 - telemedicine
 - offered course
-- current semester
+#- current semester
 
 categories: []
 
@@ -44,12 +44,12 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-#- name: CRN
-#  url: ./project/teaching/course_ee693e_2021_fall/#logistics
-#- name: Sample Report
-#  url: ./docs/reports/course_ee693e_2020_fall/week_02/01/
-#- name: Sample Report
-#  url: ./docs/reports/course_ee693e_2020_fall/week_02/02/
+- name: CRN
+  url: ./project/teaching/course_ee693e_2021_fall/#logistics
+- name: Sample Notes
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_05b.pdf
+- name: Sample Report
+  url: ./docs/reports/course_ee693e_2021_fall/week_06/01_yue/
 ---
 ***
 # Executive Summary
@@ -107,8 +107,8 @@ This course focuses on selected research topics in wireless communication and se
 | Week 12 ([Nov 08][recording 1108 url], [Nov 10][recording 1110 url])    | Student Presentations                                  | [pp 12.1][pp 12.1 url], [pp 12.2][pp 12.2 url] | [rpt 12][rpt 12 url] | 11:59 PM, Nov 21 |
 | Week 13 ([Nov 15][recording 1115 url], [Nov 17][recording 1117 url])    | Telemedicine and Cloud Computing                       | [nt 13a][nt 13a url], [nt 13b][nt 13b url]     | NA                   | NA               |
 | Week 14 ([Nov 22][recording 1122 url], [Nov 24][recording 1124 url])    | Student Presentations                                  | [pp 14.1][pp 14.1 url], [pp 14.2][pp 14.2 url] | --                   | 11:59 PM, Nov 05 |
-| Week 15 (Nov 29, Dec 01)                                                | Telemedicine and 3D-Printing                           | --                                             | NA                   | NA               |
-| Week 16 (Dec 06, Dec 08)                                                | Student Presentations                                  | [pp 16.1][pp 16.1 url], [pp 16.2][pp 16.2 url] | --                   | 11:59 PM, Dec 19 |
+| Week 15 ([Nov 29][recording 1129 url], [Dec 01][recording 1201 url])    | Telemedicine and 3D-Printing                           | [nt 15a][nt 15a url], [nt 15b][nt 15b url]     | NA                   | NA               |
+| Week 16 ([Dec 06][recording 1206 url], [Dec 08][recording 1208 url])    | Student Presentations                                  | [pp 16.1][pp 16.1 url], [pp 16.2][pp 16.2 url] | --                   | 11:59 PM, Dec 19 |
 | Week 17                                                                 | Conclusion                                             | --                                             | NA                   | NA               |
 
 
@@ -144,6 +144,10 @@ This course focuses on selected research topics in wireless communication and se
 [recording 1117 url]: https://youtu.be/pvMTg3qgAhs
 [recording 1122 url]: https://youtu.be/rKlSd3DZfkY
 [recording 1124 url]: https://youtu.be/A2pjPfPfrRE
+[recording 1129 url]: https://youtu.be/Ukca3huBMeE
+[recording 1206 url]: https://youtu.be/k97rLebjyJc
+[recording 1206 url]: https://youtu.be/KCHre1Z_bFc
+[recording 1208 url]: https://youtu.be/xWcZSZoGjlA
 
 [note urls]: # (note urls)
 [nt 01 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_01.pdf
@@ -157,6 +161,8 @@ This course focuses on selected research topics in wireless communication and se
 [nt 11b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_11b.pdf
 [nt 13a url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_13a.pdf
 [nt 13b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_13b.pdf
+[nt 15a url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_15a.pdf
+[nt 15b url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/ee693e_fall_2021_week_15b.pdf
 
 [paper urls]: # (paper urls)
 [pp 02.1 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee693e_2021_fall/week_02_1.zip

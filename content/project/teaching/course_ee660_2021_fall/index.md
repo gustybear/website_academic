@@ -17,7 +17,7 @@ tags:
 - digital design
 - fpga
 - offered course
-- current semester
+#- current semester
 
 categories: []
 
@@ -43,6 +43,8 @@ links:
 #  url: https://twitter.com/georgecushen
 - name: CRN
   url: ./project/teaching/course_ee660_2021_fall/#logistics
+- name: Sample Assignment
+  url: ./docs/assignments/course_ee660_2021_fall/week_13/assignment/
 ---
 
 ***
@@ -70,6 +72,7 @@ Fundamental understanding of computer architecture is key to hardware and proces
 
 ***
 ## Grading Policy
+-- **Breakdown**
 | ASSIGNMENTS | PROJECT | Discussion   | EXAM           |
 | ----------  | ------  | ------------ | -------------- |
 | 40%         | 40%     | 10%          | 10%            |
@@ -98,10 +101,10 @@ Fundamental understanding of computer architecture is key to hardware and proces
 | Week 10 ([Oct 25][recording 1025 url], [Oct 27][recording 1027 url]) | Memory Protection                                      | [lec 08][lec 08 url]                            | --                     | PH11:B41,B67,105-144                   |                      |                  |
 | Week 11 ([Nov 01][recording 1101 url], [Nov 03][recording 1103 url]) | Vector Processors and GPUs                             | [lec 09a][lec 09a url] [lec 09b][lec 09b url]   | --                     | PH11:344-412                           |                      |
 | Week 12 ([Nov 08][recording 1108 url], [Nov 10][recording 1110 url]) | Vector Processors and GPUs cont.                       | --                                              | --                     | --                                     |                      |                  |
-| Week 13 ([Nov 15][recording 1115 url], [Nov 17][recording 1117 url]) | Multithreading                                         | [lec 10][lec 10 url]                            | [assg 02][assg 02 url] | PH11:221-259                           |                      | 11:59 PM, Dec 12 |
-| Week 14 ([Nov 22][recording 1122 url])                           | Parallel Programming and Small Multiprocessors         | [lec 11][lec 11 url]                            | --                     | PH11:386-400, 343-378                  |                      |                  |
-| Week 15 (Nov 29, Dec 01)                                             | Interconnection Network                                | [lec 12][lec 12 url]                            | --                     | PH11:Appendix F                        |                      |                  |
-| Week 16 (Dec 06, Dec 08)                                             | Large Multiprocessors (Directory Protocols)            | [lec 13][lec 13 url]                            | --                     | PH11:378-386, 400-429                  |                      |                  |
+| Week 13 ([Nov 15][recording 1115 url], [Nov 17][recording 1117 url]) | Multithreading                                         | [lec 10][lec 10 url]                            | [assg 02][assg 02 url] | PH11:221-259                           | [rpt 02][rpt 02 url] | 11:59 PM, Dec 12 |
+| Week 14 ([Nov 22][recording 1122 url])                               | Parallel Programming and Small Multiprocessors         | [lec 11][lec 11 url]                            | --                     | PH11:386-400, 343-378                  |                      |                  |
+| Week 15 ([Nov 29][recording 1129 url])                               | Interconnection Network                                | [lec 12][lec 12 url]                            | --                     | PH11:Appendix F                        |                      |                  |
+| Week 16 ([Dec 06][recording 1206 url], [Dec 08][recording 1208 url]) | Large Multiprocessors (Directory Protocols)            | [lec 13][lec 13 url]                            | --                     | PH11:378-386, 400-429                  |                      |                  |
 | Week 17                                                              | Course Project (Final Presentations)                   | --                                              | --                     | --                                     |                      |                  |
 
 [recording urls]: # (recording urls)
@@ -129,6 +132,9 @@ Fundamental understanding of computer architecture is key to hardware and proces
 [recording 1115 url]: https://youtu.be/nRkJiopJ2IQ
 [recording 1117 url]: https://youtu.be/g2x0ySFTOS8
 [recording 1122 url]: https://youtu.be/Jqia6wvZEQ4
+[recording 1129 url]: https://youtu.be/LBo4-z3WWq8
+[recording 1206 url]: https://youtu.be/HxBA6r3MmPA
+[recording 1208 url]: https://youtu.be/xWcZSZoGjlA
 
 [lec urls]: # (lec urls)
 [lec 01 url]: https://s3-us-west-2.amazonaws.com/gustybear-websites/course_ee660_2021_fall/slides/ee660_2021_fall_materials_week_01_slides.pdf
@@ -156,4 +162,4 @@ Fundamental understanding of computer architecture is key to hardware and proces
 
 [rpt urls]: # (rpt urls)
 [rpt 01 url]: ../../../docs/assignments/course_ee660_2021_fall/week_03/report/
-[rpt 02 url]: ../../../docs/assignments/course_ee660_2021_fall/week_06/report/
+[rpt 02 url]: ../../../docs/assignments/course_ee660_2021_fall/week_13/report/

@@ -52,8 +52,8 @@ links:
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-- name: CRN
-  url: ./project/research/x96_multi_moda_pair_sienna/#logistics
+#- name: CRN
+#  url: ./project/research/x96_multi_moda_pair_sienna/#logistics
 - name: PUB
   url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 - name: Slides
@@ -180,9 +180,9 @@ gallery_item:
 ***
 # Logistics {#logistics}
 - **CRN**
-| EE196 | EE296 | EE396 | EE496 |
-| ---   | ---   | ---   | ---   |
-| 90737 | 90738 | 90739 | 90740 |
+| Semester    | EE196 | EE296 | EE396 | EE496 |
+| ---         | ---   | ---   | ---   | ---   |
+| Spring 2021 | 90737 | 90738 | 90739 | 90740 |
  ***
 
 # Introduction

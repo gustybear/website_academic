@@ -21,3 +21,8 @@
 [submodule "content/authors"]
 	path = content/authors
 	url = git@github.com:gustybear-research/authors.git
+  branch = main
+[submodule "content/docs/reports/research_vip_mm_comm_sens_monet_2022_spring"]
+	path = content/docs/reports/research_vip_mm_comm_sens_monet_2022_spring
+	url = git@github.com:gustybear-research/research_vip_mm_comm_sens_monet_2022_spring.git
+  branch = main

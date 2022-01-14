@@ -29,8 +29,8 @@ content:
   #   tag: seminars
   - name: All
     tag: active project
-  - name: Research
-    tag: active research project
+  - name: VIP
+    tag: active vip project
   - name: EEx96
     tag: active eex96 project
 
