@@ -8,7 +8,7 @@ summary: "EE660 is the graduate-level course to study models of computation, hig
 date: 2021-08-02T10:07:39-10:00
 lastmod: 2021-08-02T10:07:39-10:00
 featured: false
-draft: false
+draft: true
 
 authors:
 - Yao Zheng
@@ -16,7 +16,7 @@ authors:
 tags:
 - digital design
 - fpga
-- offered course
+#- offered course
 #- current semester
 
 categories: []

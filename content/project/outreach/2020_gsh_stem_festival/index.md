@@ -19,7 +19,7 @@ tags:
 - wireless sensing
 - radar
 - invasive species
-- recent outreach
+#- recent outreach
 - outreach
 
 categories: []
@@ -45,8 +45,8 @@ links:
   url: https://www.gshawaii.org/
 - name: Video
   url: https://www.youtube.com/watch?v=n4zo-pfkaHM
-- name: Endorsement
-  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/outreach_2020_gsh_stem_festival/Support+for+UH+Manoa+Team+in+Competition+for+National+AI+Research+Institutes+2020+12+02+SC.pdf
+#- name: Endorsement
+#  url: https://gustybear-websites.s3-us-west-2.amazonaws.com/outreach_2020_gsh_stem_festival/Support+for+UH+Manoa+Team+in+Competition+for+National+AI+Research+Institutes+2020+12+02+SC.pdf
 
 
 # Projects (optional).

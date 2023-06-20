@@ -10,11 +10,11 @@ summary: "EE260 is the introductory course on digital circuit synthesis, focusin
 date: 2022-01-08T10:51:00-10:00
 lastmod: 2022-01-08T10:51:00-10:00
 featured: false
-draft: false
+draft: true
 
 authors:
 - Yao Zheng
-- Jannatun Sameera
+- Jannatun Noor Sameera
 - Md Sakib Galib Sourav
 - Dylan Sodetani
 
@@ -31,7 +31,7 @@ tags:
 - van neumann architecture
 - princeton architecture
 - offered course
-- current semester
+#- current semester
 
 categories: []
 
@@ -82,23 +82,23 @@ This course explores the foundation of digital circuit design, starting from Boo
 | 80461 | 80462 |
 
 - **Personnel**
-|                                                      |                                             |
-| ----                                                 | ---                                         |
-| Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)   | Office Hours: see [here](../../../#contact) |
-| TA: [Md Sakib Galib Sourav](mailto:msgs@hawaii.edu)  | Session 01, Office Hours: T 11:45am-12:30pm             |
-| TA: [Jannatun Sameera](mailto:jsameera@hawaii.edu)   | Session 02, Office Hours: T 4:14pm-5:00pm               |
-| Grader: [Dylan Sodetani](mailto:dylans88@hawaii.edu) | --                                          |
+|                                                         |                                             |
+| ----                                                    | ---                                         |
+| Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)      | Office Hours: see [here](../../../#contact) |
+| TA: [Md Sakib Galib Sourav](mailto:msgs@hawaii.edu)     | Session 01, Office Hours: T 11:45am-12:30pm |
+| TA: [Jannatun Noor Sameera](mailto:jsameera@hawaii.edu) | Session 02, Office Hours: T 4:15pm-5:00pm   |
+| Grader: [Dylan Sodetani](mailto:dylans88@hawaii.edu)    | --                                          |
 
 - **Classroom**
-| Time               | Location                                                           | Textbook/HW                                                                                          | Onine Exams     | In-Person Exams     | HW/Exam Effort |
-| ----               | ---                                                                | ---                                                                                                  | ---              | ---                 | ---            |
-| MWF 9:30am-10:20am | [Zoom](https://hawaii.zoom.us/j/5764842348) -> Kuykendall Hall 305 | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2022) | Google Classroom | Kuykendall Hall 305 | Individual     |
+| Time               | Location                                                                                                | Textbook/HW                                                                                          | Onine Exams      | In-Person Exams     | HW/Exam Effort |
+| ----               | ---                                                                                                     | ---                                                                                                  | ---              | ---                 | ---            |
+| MWF 9:30am-10:20am | [Zoom](https://hawaii.zoom.us/j/5764842348?pwd=cGdVMzBnOHlZbDkrNmErb0QxdTllUT09) -> Kuykendall Hall 305 | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIEE260ZhengSpring2022) | Google Classroom | Kuykendall Hall 305 | Individual     |
 
 - **Laboratory**
-| Session                     | Time             | Location                                                                                     | Report                                                                                 | Report Effort |
-| ---                        | ----             | ---                                                                                          | ---                                                                                    | ---           |
-| 01       | T 9:00am-11:45am | Zoom -> Holmes Hall 451                                                                      | [Google Classroom](https://classroom.google.com/c/NDUyODk1Mzg3MDc1?cjc=lcc4x2a) | Group         |
-| 02            | T 1:30pm-4:15pm  | [Zoom](https://zoom.us/j/97952958777?pwd=MTJGN3pJaU8vNXkrYUJBTGpFb3JUQT09) -> Holmes Hall 451 | [Google Classroom](https://classroom.google.com/c/NDUyOTMyNTI5NzEz?cjc=jlop76l)        | Group         |
+| Session | Time             | Location                                                                                             | Report                                                                          | Report Effort |
+| ---     | ----             | ---                                                                                                  | ---                                                                             | ---           |
+| 01      | T 9:00am-11:45am | [Zoom](https://hawaii.zoom.us/j/96120437928?pwd=eXllYTdxdkNDTFRtYXNWSTlkNFphUT09) -> Holmes Hall 451 | [Google Classroom](https://classroom.google.com/c/NDUyODk1Mzg3MDc1?cjc=lcc4x2a) | Group         |
+| 02      | T 1:30pm-4:15pm  | [Zoom](https://zoom.us/j/97952958777?pwd=MTJGN3pJaU8vNXkrYUJBTGpFb3JUQT09) -> Holmes Hall 451        | [Google Classroom](https://classroom.google.com/c/NDUyOTMyNTI5NzEz?cjc=jlop76l) | Group         |
 
 ***
 # Grading
@@ -123,52 +123,52 @@ This course explores the foundation of digital circuit design, starting from Boo
 ***
 # Schedule
 ## Lecture
-| TIME                         | TOPICS                                                          | READING/HW/EXAM              | DEADLINE      |
-| ---                          | ---                                                             | ---                          | ---           |
-| Week 1 (1/10, 1/12, 1/14)    | [Course Logistic and Introduction][week 01 url]                 | [Read/HW 01][read 01 url]    | 1/18, 11:59PM |
-| Week 2 (1/19 1/21)           | Number Systems                                                  | Read/HW 02                   | 1/23, 11:59PM |
-| Week 3 (1/24, 1/26, 1/28)    | Combinational Logic: Switches, Transistors, Logic Gates         | Read/HW 03                   | 1/30, 11:59PM |
-| Week 4 (1/31, 2/2, 2/4)      | Combinational Logic: Boolean Algebra                            | Read/HW 04                   | 2/6, 11:59PM  |
-| Week 5 (2/7, 2/9, 2/11)      | Combinational Logic: Design Process, More Gates                 | Read/HW 05                   | 2/13, 11:59PM |
-| Week 6 (2/14)                | Practice Midterm I                                              | PMT 01,Sec 01; PMT 01,Sec 02 | --            |
-| Week 6 (2/16)                | Midterm I: 9:30AM - 10:45AM                                     | MT 01,Sec 01; MT 01,Sec 02   | --            |
-| Week 6/7 (2/18, 2/23, 2/25)  | Sequential Logic: Clock, Latches, and Flip-Flops                | Read/HW 07                   | 2/27, 11:59PM |
-| Week 8 (2/28, 3/2, 3/4)      | Sequential Logic: Finite State Machines                         | Read/HW 08                   | 3/6, 11:59PM  |
-| Week 9 (3/7, 3/9, 3/11)      | Sequential Logic: Registers, Counters, Shifters, and Arithmetic | Read/HW 09                   | 3/13, 11:59PM |
-| Spring Recess (3/14  - 3/18) | --                                                              | --                           | --            |
-| Week 10 (3/21)               | Practice Midterm II                                             | PMT 02,Sec 01; PMT 02,Sec 02 | --            |
-| Week 10 (3/23)               | Midterm II: 9:30AM - 10:45AM                                    | MT 02,Sec 01; MT 02,Sec 02   | --            |
-| Week 11 (3/28, 3/30, 4/1)    | Register-Transfer Level Design                                  | Read/HW 11                   | 4/3, 11:59PM  |
-| Week 12 (4/4, 4/6, 4/8)      | Register Memory Components and FIFO                             | Read/HW 12                   | 4/10, 11:59PM |
-| Week 13 (4/11, 4/13)         | Optimizations and Tradeoffs                                     | Read/HW 13                   | 4/17, 11:59PM |
-| Week 14 (4/18, 4/20, 4/22)   | Physical Implementation on ICs                                  | Read/HW 14                   | 4/24, 11:59PM |
-| Week 15 (4/25, 4/27, 4/29)   | Programmable Processors                                         | Read/HW 15                   | 5/1, 11:59PM  |
-| Week 16 (5/2, 5/4)           | Review, Practice Final                                          | --                           | --            |
-| Study Days (5/6)             | --                                                              | --                           | --            |
-| Week 17 (5/9)                | Final: 9:45AM - 11:45AM                                         | FE,Sec 01; FE,Sec 02         | 5/9, 11:45AM  |
+| TIME                         | TOPICS                                                                 | READING/HW/EXAM              | DEADLINE      |
+| ---                          | ---                                                                    | ---                          | ---           |
+| Week 1 (1/10, 1/12, 1/14)    | [Course Logistic and Introduction][week 01 url]                        | [Read/HW 01][read 01 url]    | 1/18, 11:59PM |
+| Week 2 (1/19 1/21)           | [Number Systems][week 02 url]                                          | [Read/HW 02][read 02 url]    | 1/23, 11:59PM |
+| Week 3 (1/24, 1/26, 1/28)    | [Combinational Logic: Switches, Transistors, Logic Gates][week 03 url] | [Read/HW 03][read 03 url]    | 1/30, 11:59PM |
+| Week 4 (1/31, 2/2, 2/4)      | [Combinational Logic: Boolean Algebra][week 04 url]                    | [Read/HW 04][read 04 url]    | 2/6, 11:59PM  |
+| Week 5 (2/7, 2/9, 2/11)      | [Combinational Logic: Design Process, More Gates][week 05 url]         | [Read/HW 05][read 05 url]    | 2/13, 11:59PM |
+| Week 6 (2/14)                | [Practice Midterm I][week 06 practice url]                             | [PMT 01,Sec 01][week 06 practice submit url S1]; [PMT 01,Sec 02][week 06 practice submit url S2] | --            |
+| Week 6 ([2/16][week 06 sol url]) | [Midterm I: 9:30AM - 10:45AM][week 06 game url]                        | [MT 01,Sec 01][week 06 game submit url S1]; [MT 01,Sec 02][week 06 game submit url S2]   | --            |
+| Week 6/7 (2/18, 2/23, 2/25)  | [Sequential Logic: Clock, Latches, and Flip-Flops][week 07 url]        | [Read/HW 07][read 07 url]    | 2/27, 11:59PM |
+| Week 8 (2/28, 3/2, 3/4)      | [Sequential Logic: Finite State Machines][week 08 url]                 | [Read/HW 08][read 08 url]    | 3/6, 11:59PM  |
+| Week 9 (3/7, 3/9, 3/11)      | [Sequential Logic: Registers, Counters, Shifters, and Arithmetic][week 09 url]  | [Read/HW 09][read 09 url]                   | 3/27, 11:59PM |
+| Spring Recess (3/14  - 3/18) | --                                                                     | --                           | --            |
+| Week 10 (3/21)               | [Practice Midterm II][week 10 practice url]                            | [PMT 02,Sec 01][week 10 practice submit url S1]; [PMT 02,Sec 02][week 10 practice submit url S2] | --            |
+| Week 10 (3/23)               | [Midterm II: 9:30AM - 10:45AM][week 10 game url]                       | [MT 02,Sec 01][week 10 game submit url S1]; [MT 02,Sec 02][week 10 game submit url S2]   | --            |
+| Week 11 (3/28, 3/30, 4/1)    | [Register-Transfer Level Design][week 11 url]                          | [Read/HW 11][read 11 url]    | 4/3, 11:59PM  |
+| Week 12 (4/4, 4/6, 4/8)      | [Register Memory Components and FIFO][week 12 url]                     | [Read/HW 12][read 12 url]    | 4/10, 11:59PM |
+| Week 13 (4/11, 4/13)         | [Optimizations and Tradeoffs][week 13 url]                             | [Read/HW 13][read 13 url]    | 4/17, 11:59PM |
+| Week 14 (4/18, 4/20, 4/22)   | [Physical Implementation on ICs][week 14 url]                          | [Read/HW 14][read 14 url]    | 4/24, 11:59PM |
+| Week 15 (4/25, 4/27, 4/29)   | [Programmable Processors][week 15 url]                                 | [Read/HW 15][read 15 url]    | 5/1, 11:59PM  |
+| Week 16 (5/2, 5/4)           | [Review][week 16 url], [Practice Final][week 16 practice url]          | All remaining Read/HW (50\%) | 5/8, 11:59PM  |
+| Study Days (5/6)             | --                                                                     | --                           | --            |
+| Week 17 (5/9)                | [Final: 9:45AM - 11:45AM][week 17 game url]                            | [FE,Sec 01][week 17 game submit url S1]; [FE,Sec 02][week 17 game submit url S2]         | 5/9, 11:45AM  |
 
 ## Laboratory
-| TIME                 | TOPICS                                     | REPORT                         | DEADLINE      |
-| ---                  | ---                                        | ---                            | ---           |
-| Week 1 (1/11)        | --                                         | --                             | ---           |
-| Week 2 (1/20)        | [Vivado Tutorial][lab 01 url]              | Rpt 01, Sec 01; Rpt 01, Sec 02 | 1/23, 11:59PM |
-| Week 3 (1/25)        | Modeling Concepts                          | Rpt 02, Sec 01; Rpt 02, Sec 02 | 1/30, 11:59PM |
-| Week 4 (2/1)         | Numbering Systems                          | Rpt 03, Sec 01; Rpt 03, Sec 02 | 2/6, 11:59PM  |
-| Week 5 (2/8)         | Multi-Output Circuits                      | Rpt 04, Sec 01; Rpt 04, Sec 02 | 2/13, 11:59PM |
-| Week 6 (2/15)        | --                                         | ---          ---               | ---           |
-| Week 7 (2/22)        | Tasks Functions, and Testbench             | Rpt 05, Sec 01; Rpt 05, Sec 02 | 2/27, 11:59PM |
-| Week 8 (3/1)         | Modeling Latches and Flip-Flops            | Rpt 06, Sec 01; Rpt 06, Sec 02 | 3/6, 11:59PM  |
-| Week 9 (3/8)         | Finite State Machines                      | Rpt 07, Sec 01; Rpt 07, Sec 02 | 3/13, 11:59PM |
-| Spring Recess (3/15) | --                                         | ---          ---               | ---           |
-| Week 10 (3/22)       | --                                         | ---          ---               | ---           |
-| Week 11 (3/29)       | Modeling Registers and Counters            | Rpt 08, Sec 01; Rpt 08, Sec 02 | 4/3, 11:59PM  |
-| Week 12 (4/5)        | Architectural Wizard and IP Catalog        | Rpt 09, Sec 01; Rpt 09, Sec 02 | 4/10, 11:59PM |
-| Week 13 (4/12)       | Behavioral Modeling and Timing Constraints | Rpt 10, Sec 01; Rpt 10, Sec 02 | 4/17, 11:59PM |
-| Week 14 (4/19)       | Sequential System Design using ASM Charts  | Rpt 11, Sec 01; Rpt 11, Sec 02 | 4/24, 11:59PM |
-| Week 15 (4/26)       | Catch-up Lab                               | ---          ---               | 5/1, 11:59PM  |
-| Week 16 (5/3)        | --                                         | ---          ---               | ---           |
-| Study Days (5/7)     | --                                         | ---          ---               | ---           |
-| Week 17 (5/10)       | --                                         | ---          ---               | ---           |
+| TIME                                 | TOPICS                                            | REPORT                                                                 | DEADLINE                      |
+| ---                                  | ---                                               | ---                                                                    | ---                           |
+| Week 1 (1/11)                        | --                                                | --                                                                     | ---                           |
+| Week 2 ([1/20][recording 0115 url])  | [Vivado Tutorial][lab 01 url]                     | [Rpt 01, Sec 01][labS1 01 sub url]; [Rpt 01, Sec 02][labS2 01 sub url] | ~~1/23~~ ~~1/25~~ 3/1, 8:00AM |
+| Week 3 ([1/25][recording 0125 url])  | [Modeling Concepts][lab 02 url]                   | [Rpt 02, Sec 01][labS1 02 sub url]; [Rpt 02, Sec 02][labS2 02 sub url] | ~~2/1~~ 3/1, 8:00AM           |
+| Week 4 ([2/1][recording 0201 url])   | [Numbering Systems][lab 03 url]                   | [Rpt 03, Sec 01][labS1 03 sub url]; [Rpt 03, Sec 02][labS2 03 sub url] | ~~2/8~~ 3/1, 8:00AM           |
+| Week 5 ([2/8][recording 0208 url])   | [Multi-Output Circuits][lab 04 url]               | [Rpt 04, Sec 01][labS1 04 sub url]; [Rpt 04, Sec 02][labS2 04 sub url] | ~~2/22~~ 3/1, 8:00AM          |
+| Week 6 (2/15)                        | --                                                | ---          ---                                                       | ---                           |
+| Week 7 ([2/22][recording 0222 url])  | [Tasks Functions, and Testbench][lab 05 url]      | [Rpt 05, Sec 01][labS1 05 sub url]; [Rpt 05, Sec 02][labS2 05 sub url] | 3/1, 8:00AM                   |
+| Week 8 ([3/1][recording 0301 url])   | [Modeling Latches and Flip-Flops][lab 06 url]     | [Rpt 06, Sec 01][labS1 06 sub url]; [Rpt 06, Sec 02][labS2 06 sub url] | 3/8, 8:00AM                   |
+| Week 9 ([3/8][recording 0308 url])   | [Finite State Machines][lab 07 url]               | [Rpt 07, Sec 01][labS1 07 sub url]; [Rpt 07, Sec 02][labS2 07 sub url] | 3/29, 8:00AM                  |
+| Spring Recess (3/15)                 | --                                                | ---          ---                                                       | ---                           |
+| Week 10 (3/22)                       | --                                                | ---          ---                                                       | ---                           |
+| Week 11 ([3/29][recording 0329 url]) | [Modeling Registers and Counters][lab 08 url]     | [Rpt 08, Sec 01][labS1 08 sub url]; [Rpt 08, Sec 02][labS2 08 sub url] | 4/5, 8:00AM                   |
+| Week 12 ([4/5][recording 0405 url])  | [Architectural Wizard and IP Catalog][lab 09 url] | [Rpt 09, Sec 01][labS1 09 sub url]; [Rpt 09, Sec 02][labS2 09 sub url] | 4/12( 5/3 for section 2), 8:00AM                  |
+| Week 13 ([4/12][recording 0412 url], [Set input delay](https://www.xilinx.com/video/hardware/setting-input-delay.html), [Set output delay](https://www.xilinx.com/video/hardware/setting-output-delay.html) | [Behavioral Modeling and Timing Constraints][lab 10 url]    | [Rpt 10, Sec 01][labS1 10 sub url]; [Rpt 10, Sec 02][labS2 10 sub url] | 4/19, 8:00AM                  |
+| Week 14 ([4/19][recording 0419 url]) | [Sequential System Design using ASM Charts][lab 11 url]         | Rpt 11, Sec 01; Rpt 11, Sec 02                                         | 4/26, 8:00AM                  |
+| Week 15 (4/26)                       | Catch-up Lab                                      | ---          ---                                                       | 5/3, 8:00AM                   |
+| Week 16 (5/3)                        | --                                                | ---          ---                                                       | ---                           |
+| Study Days (5/7)                     | --                                                | ---          ---                                                       | ---                           |
+| Week 17 (5/10)                       | --                                                | ---          ---                                                       | ---                           |
 
 ***
 # Resources
@@ -191,6 +191,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 ### Verilog
 - [Introduction to Verilog][introduction to verilog url]
 - [Introduction to Verilog Video][introduction to verilog video url]
+- [Verilog Short Reference](https://web.stanford.edu/class/ee183/handouts_win2003/VerilogQuickRef.pdf)
+- [Verilog Full Reference](https://sutherland-hdl.com/pdfs/verilog_2001_ref_guide.pdf)
 
 
 [week urls]: # (week urls)
@@ -200,31 +202,32 @@ This course explores the foundation of digital circuit design, starting from Boo
 [week 04 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_04_slides.pdf
 [week 05 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_05_slides.pdf
 [week 06 practice url]:../../../docs/exams/course_ee260_2022_spring/miterm_01_practice/
-[week 06 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc0NjIyMTg2MTQ2/details
-[week 06 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc0NjIyMTg2MTc5/details
+[week 06 practice submit url S1]:https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDY4ODg0Njc1NjU2/details
+[week 06 practice submit url S2]:https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDY5MTc5NjI0Mjk4/details
 [week 06 game url]:../../../docs/exams/course_ee260_2022_spring/miterm_01_game/
 [week 06 sol url]:../../../docs/exams/course_ee260_2022_spring/miterm_01_solution/
-[week 06 game submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc2Mjc3MTc2OTM2/details
-[week 06 game submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjc2Mjc3MTc2OTYy/details
+[week 06 game submit url S1]:https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDcwMDE3NzQ5NTQ3/details
+[week 06 game submit url S2]:https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDcwMDE4MjM2ODIx/details
 [week 07 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_07_slides.pdf
 [week 08 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_08_slides.pdf
 [week 09 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_09_slides.pdf
 [week 10 practice url]:../../../docs/exams/course_ee260_2022_spring/miterm_02_practice/
-[week 10 practice submit url S1]:https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzAxNTMxOTI1MTE0/details
-[week 10 practice submit url S2]:https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzAxNTMxOTI1MTQ5/details
+[week 10 practice submit url S1]:https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/MzUzNDE4MTU2MDk2/details
+[week 10 practice submit url S2]:https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/MzUzNDE4MTU2MjUw/details
 [week 10 game url]:../../../docs/exams/course_ee260_2022_spring/miterm_02_game/
 [week 10 sol url]:../../../docs/exams/course_ee260_2022_spring/miterm_02_solution/
-[week 10 game submit url S1]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzA2OTA4MjA2MjY0/details
-[week 10 game submit url S2]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzA2OTA4NjI0NDU3/details
+[week 10 game submit url S1]:https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/MzUzNDE4MTU2MTUz/details
+[week 10 game submit url S2]:https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/MzUzNDE4MTU2Mjc2/details
 [week 11 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_11_slides.pdf
 [week 12 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_12_slides.pdf
 [week 13 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_13_slides.pdf
 [week 14 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_14_slides.pdf
 [week 15 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_15_slides.pdf
+[week 16 url]: https://gustybear-websites.s3-us-west-2.amazonaws.com/course_ee260_2022_spring/slides/ee260_2022_spring_materials_week_16_slides.pdf
 [week 16 practice url]:../../../docs/exams/course_ee260_2022_spring/final_practice/
 [week 17 game url]:../../../docs/exams/course_ee260_2022_spring/final_game/
-[week 17 game submit url S1]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzM4ODY0NDI0MDc2/details
-[week 17 game submit url S2]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzQyODI1MzM5MzMx/details
+[week 17 game submit url S1]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NTEwNTEwNjIyMTA0/details
+[week 17 game submit url S2]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NTEwNTEwNjYyMzc3/details
 
 [recording urls]: # (recording urls)
 [recording 0113 url]: https://youtu.be/RtppPuw2Thw
@@ -302,30 +305,30 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 
 [labsS1 sub urls]: # (labs sub urls)
-[labS1 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjUxODAxMjY0OTY2/details
-[labS1 02 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjYwNDg4Mzk4MDg0/details
-[labS1 03 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjY1MzY4MzI0NDg0/details
-[labS1 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjcwMzc4NDI1ODY1/details
-[labS1 05 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/Mjc3NjU2MDM3OTY2/details
-[labS1 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkxNDIzNDYxMzY2/details
-[labS1 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MjkwOTk3NDQ5OTcz/details
-[labS1 08 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzExMTA1MDk4NzI2/details
-[labS1 09 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzEzMDY1MjY3MDE2/details
-[labS1 10 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzE1NDkxOTk4NDE4/details
+[labS1 01 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDUyODk1NDIwNjQy/details
+[labS1 02 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDYyNjIwOTA1ODkx/details
+[labS1 03 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDY0MzQyNDQ1MjMz/details
+[labS1 04 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDY2MjUzNjQxOTUz/details
+[labS1 05 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDY2MjUzNjQxOTUz/details
+[labS1 06 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDc0MDY1MzA2MzA2/details
+[labS1 07 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDgwMzIwMDYyNjgy/details
+[labS1 08 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDgwMzIwMDYyNjgy/details
+[labS1 09 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NDk4ODYzNDQ0NzA5/details
+[labS1 10 sub url]: https://classroom.google.com/c/NDUyODk1Mzg3MDc1/a/NTAwMjMzMjUzNDU0/details
 [labS1 11 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzE1NTAzODQ0MjE4/details
 
 
 [labsS2 sub urls]: # (labs sub urls)
-[labS2 01 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjUxODI5NjI2OTgx/details
-[labS2 02 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjYwNDg4Mzk4OTgy/details
-[labS2 03 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjY1Njc3Mjk4Mjkz/details
-[labS2 04 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjcwMzc4NDI2MDgy/details
-[labS2 05 sub url]: https://classroom.google.com/u/0/w/MjUwMzMyNjE4MjA5/tc/Mjc2OTc0MjM5OTgx
-[labS2 06 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MjkxNjQ4MzQ4ODM3/details
-[labS2 07 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/Mjk0Mjg5MTg0MzI5/details
-[labS2 08 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzExMTE0NTAyNzUy/details
-[labS2 09 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MjA5/a/MzEzMDY1MzE1OTUy/details
-[labS2 10 sub url]: https://classroom.google.com/u/0/w/MjUwMzMyNjE4MjA5/tc/MzE1NTAzODQ0MTE4
+[labS2 01 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDUyOTMyNTMwMTM0/details
+[labS2 02 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDYyNTMyNzU1NzEz/details
+[labS2 03 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDY1NTMxMjYwMDEy/details
+[labS2 04 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDY2MzY4ODIxMTk4/details
+[labS2 05 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDc0Mjc1MTk4NDQx/details
+[labS2 06 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDcxMDA0OTUxMDk4/details
+[labS2 07 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDc4OTUxNDc1NzEy/details
+[labS2 08 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDgzNzMzODc4ODUy/details
+[labS2 09 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NDk4OTA4MjM2ODc3/details
+[labS2 10 sub url]: https://classroom.google.com/c/NDUyOTMyNTI5NzEz/a/NTAwMjgwMTQ1MzE2/details
 [labS2 11 sub url]: https://classroom.google.com/c/MjUwMzMyNjE4MTk4/a/MzE1NTAzODQ0MjE4/details
 
 [resource urls]: # (resource urls)
@@ -339,7 +342,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [basys3 reference manual url]: https://www.xilinx.com/support/documentation/university/Vivado-Teaching/HDL-Design/2015x/Basys3/Supporting%20Material/Basys3_RM.pdf
 [basys3 schematic url]: https://www.xilinx.com/support/documentation/university/Vivado-Teaching/HDL-Design/2015x/Basys3/Supporting%20Material/basys_3_sch.pdf
 
-[introduction to verilog url]: http://vol.verilog.com/
+[introduction to verilog url]: https://athena.ecs.csus.edu/~arad/csc142/intro_verilog_hdl.pdf
 [introduction to verilog video url]: https://www.youtube.com/watch?v=q1QwC3YlHG0
 
 [logicworks url]: https://designworkssolutions.com/logicworks/
