@@ -5,7 +5,7 @@ title: "Outstanding Graduate Senior (OGS), Spring 2021"
 
 subtitle: "Willy Chang"
 
-summary: "Congratulation to **Willy Chang** (left) to be awarded the
+summary: "Congratulation to **Willy Chang** (right) to be awarded the
 outstanding graduate senior in the Department of Electrical Engineering, Fall
 2020."
 

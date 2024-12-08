@@ -65,5 +65,5 @@ doi: 10.3390/rs12142279
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/DMYQ96PG/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-islam-radar-based-non-contact-continuous-2020/Islam+et+al_2020_Radar-Based+Non-Contact+Continuous+Identity+Authentication.pdf
 ---

@@ -83,7 +83,7 @@ doi: 10.1145/3395351.3401705
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/SYTVZEL7/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-melcher-i-jam-channel-randomization-2020/Melcher+et+al.+-+2020+-+iJam+with+Channel+Randomization.pdf
 - name: Dataset
   url: https://github.com/gustybear-research/x96_physec_chan_ran
 - name: Video

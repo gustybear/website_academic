@@ -12,12 +12,11 @@ tags:
 - sensor
 - radar
 - grant
-- active grant
 
 authors:
 - Yao Zheng
 
-summary: "CNS-1948568, $174,911.00, PI"
+summary: "CNS-1948568, ＄174,911, PI"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
@@ -35,21 +34,21 @@ image:
 # links:
 # - name: Custom Link
 #   url: http://example.org
-links:
-- name: PUB
-  url: './publication/paryavi-machine-vision-tools-2021/'
-- name: Dataset
-  url: 'https://github.com/gustybear-research/x96_mmw_under_weather'
-- name: Dataset
-  url: 'https://github.com/gustybear-research/x96_distbed_wifi_sensing'
-- name: Dataset
-  url: 'https://github.com/gustybear-research/x96_mmw_sig_cov'
-- name: Outreach
-  url: '../../outreach/2020_gsh_stem_festival/'
-- name: Mentor
-  url: '../../mentor/2021_spring_seoty_willy_chang/'
-- name: Mentor
-  url: '../../mentor/2020_fall_ogs_alvin_yang/'
+#links:
+#- name: PUB
+#  url: './publication/paryavi-machine-vision-tools-2021/'
+#- name: Dataset
+#  url: 'https://github.com/gustybear-research/x96_mmw_under_weather'
+#- name: Dataset
+#  url: 'https://github.com/gustybear-research/x96_distbed_wifi_sensing'
+#- name: Dataset
+#  url: 'https://github.com/gustybear-research/x96_mmw_sig_cov'
+#- name: Outreach
+#  url: '../../outreach/2020_gsh_stem_festival/'
+#- name: Mentor
+#  url: '../../mentor/2021_spring_seoty_willy_chang/'
+#- name: Mentor
+#  url: '../../mentor/2020_fall_ogs_alvin_yang/'
 ---
 ***
 # Executive Summary

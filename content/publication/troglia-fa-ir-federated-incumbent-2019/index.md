@@ -74,5 +74,5 @@ doi: 10.1109/DySPAN.2019.8935736
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/QYHAR4NG/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-troglia-fa-ir-federated-incumbent-2019/Troglia+et+al.+-+2019+-+FaIR+Federated+Incumbent+Detection+in+CBRS+Band.pdf
 ---

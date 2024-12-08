@@ -53,5 +53,5 @@ doi: 10.1109/CNS.2019.8802632
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/4SSALYU7/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-hu-characterizing-locationbased-mobile-2019/Hu+et+al.+-+2019+-+Characterizing+Location-based+Mobile+Tracking+in+M.pdf
 ---

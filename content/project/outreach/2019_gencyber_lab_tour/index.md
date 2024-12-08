@@ -13,8 +13,8 @@ tags:
 - k-12
 - wireless physical layer security
 - channel randomization
-- recent outreach
 - outreach
+#- recent outreach
 
 categories: []
 date: 2019-06-03T11:28:43-10:00

@@ -69,5 +69,5 @@ doi: 10.1016/j.comnet.2015.02.026
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/HJGEB46E/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-wang-d-do-s-attack-protection-2015/Wang+et+al.+-+2015+-+DDoS+Attack+Protection+in+the+Era+of+Cloud+Computi.pdf
 ---

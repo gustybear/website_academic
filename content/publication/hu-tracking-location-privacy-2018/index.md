@@ -61,5 +61,5 @@ doi: 10.1109/INFCOMW.2018.8406986
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/3IY9Y7QM/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-hu-tracking-location-privacy-2018/Hu+et+al.+-+2018+-+Tracking+location+privacy+leakage+of+mobile+ad+net.pdf
 ---

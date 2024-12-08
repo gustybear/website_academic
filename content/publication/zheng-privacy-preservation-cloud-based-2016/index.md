@@ -88,6 +88,6 @@ publication: 'Virginia Polytechnic Institute and State University'
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/Q4FGVZEC/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-privacy-preservation-cloud-based-2016/Zheng+-+2016+-+Privacy+Preservation+for+Cloud-Based+Data+Sharing+.pdf
 
 ---

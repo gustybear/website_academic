@@ -5,15 +5,17 @@ name = "Uhm"
 light = true
 
 # Primary
-primary = "#217eab"
-primary_light = "#8dc8e8"
-primary_dark = "#036445"
+primary = "#346b5a"
+primary_light = "#679083"
+primary_dark = "#014631"
 
 # Menu
-menu_primary = "#014631"
-menu_text = "#d9d9d6"
-menu_text_active = "#fff"
-menu_title = "#fff"
+#menu_primary = "#014631"
+menu_primary = "#ffffff"
+#menu_text = "#d9d9d6"
+menu_text = "#014631"
+menu_text_active = "#014631"
+menu_title = "#014631"
 
 # Home sections
 home_section_odd = "rgb(255, 255, 255)"

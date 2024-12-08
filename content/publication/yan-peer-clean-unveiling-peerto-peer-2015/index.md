@@ -11,16 +11,10 @@ authors:
 - Wenjing Lou
 - Y. Thomas Hou
 tags:
-- botnet
-- p2p
-- peer-to-peer
-- traffic analysis
-- behavior anaysis
-- anomaly detection
-
+- conference
 categories: []
-date: '2015-04-01'
-lastmod: 2020-12-29T19:21:15-10:00
+date: '2015-01-01'
+lastmod: 2024-12-07T19:28:00-05:00
 featured: false
 draft: false
 
@@ -38,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-30T05:21:13.680493Z'
+publishDate: '2024-12-08T00:28:00.618940Z'
 publication_types:
 - '1'
 abstract: Advanced botnets adopt a peer-to-peer (P2P) infrastructure for more resilient
@@ -60,13 +54,5 @@ abstract: Advanced botnets adopt a peer-to-peer (P2P) infrastructure for more re
   that PeerClean is able to achieve high detection rates with few false positives.
 publication: '*2015 IEEE Conference on Computer Communications (INFOCOM)*'
 doi: 10.1109/INFOCOM.2015.7218396
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-links:
-- name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/FY6XGLIZ/file/view
+url_pdf: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-yan-peer-clean-unveiling-peertopeer-2015/Yan+et+al_2015_PeerClean.pdf
 ---

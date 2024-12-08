@@ -66,5 +66,5 @@ doi: 10.1109/ICNP.2014.99
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/26PTLTNN/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-wang-d-do-s-attack-protection-2014/Wang+et+al.+-+2014+-+DDoS+Attack+Protection+in+the+Era+of+Cloud+Computi.pdf
 ---

@@ -20,8 +20,8 @@ tags:
 - ijam
 - labview
 - sdr
-- active project
-- active eex96 project
+- project
+- eex96 project
 
 date: 2020-01-10T00:00:00-10:00
 

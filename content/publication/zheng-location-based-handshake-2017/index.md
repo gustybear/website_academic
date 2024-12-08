@@ -72,5 +72,5 @@ doi: 10.1109/TDSC.2015.2472529
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/ZD5TTQHE/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-location-based-handshake-2017/Zheng+et+al.+-+2017+-+Location+Based+Handshake+and+Private+Proximity+Tes.pdf
 ---

@@ -27,12 +27,12 @@ content:
   filter_button:
   # - name: Seminars
   #   tag: seminars
-  - name: All
-    tag: active project
+  - name: Recent
+    tag: 'recent project'
   - name: VIP
-    tag: active vip project
+    tag: 'active vip project'
   - name: EEx96
-    tag: active eex96 project
+    tag: 'active eex96 project'
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -43,7 +43,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 2
+  view: 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false

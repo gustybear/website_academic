@@ -68,5 +68,5 @@ doi: 10.1145/2939918.2939933
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/4FL95VAN/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-profiling-strength-physical-layer-2016/Zheng+et+al.+-+2016+-+Profiling+the+Strength+of+Physical-Layer+Security.pdf
 ---

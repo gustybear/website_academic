@@ -23,8 +23,10 @@ content:
     # - BAM
     # - Undergraduate 
     # - Visitors
-    - Class of 2020
+    - Class of 2023
+    - Class of 2022
     - Class of 2021
+    - Class of 2020
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

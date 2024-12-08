@@ -72,5 +72,5 @@ doi: 10.1007/978-3-642-33167-1_21
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/N6RFSI9Z/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-sharp-private-proximity-2012/Zheng+et+al.+-+2012+-+SHARP+Private+Proximity+Test+and+Secure+Handshake.pdf
 ---

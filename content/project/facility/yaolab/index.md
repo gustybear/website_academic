@@ -1,6 +1,6 @@
 ---
-title: "Wireless and Cybersecurity Laboratory (WCL)"
-date: "2018-05-03T18:13:12-10:00"
+title: "Yao's Laboratory "
+date: "2024-12-03T18:13:12-10:00"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -8,7 +8,7 @@ tags:
 - facility
 - wireless
 - security
-- sensor
+- sensing
 - communication
 - radar
 - mmwave
@@ -17,7 +17,7 @@ tags:
 authors:
 - Yao Zheng
 
-summary: "WCL is a 400 sq ft space located at the fourth floor of Holmes Hall, curating a selection of RF instruments for wireless research and development."
+summary: "Yao's laboratory is a 400 sq ft space located at the fourth floor of Holmes Hall, curating a selection of RF instruments for wireless research and development."
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.

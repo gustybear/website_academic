@@ -10,7 +10,7 @@ summary: "EE260 is the introductory course on digital circuit synthesis, focusin
 date: 2021-01-05T10:51:00-10:00
 lastmod: 2021-01-05T10:51:00-10:00
 featured: false
-draft: false
+draft: true
 
 authors:
 - Yao Zheng
@@ -28,7 +28,7 @@ tags:
 - high level finite state machine
 - van neumann architecture
 - princeton architecture
-- offered course
+#- offered course
 #- current semester
 
 categories: []

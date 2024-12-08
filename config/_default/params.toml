@@ -95,11 +95,11 @@ coordinates = {latitude = "21.297072", longitude = "-157.816415"}
 directions = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = "Mondays and Wednesdays 16:30PM - 18:00PM"
+office_hours = "Fridays 10:00AM - 12:00PM"
 # office_hours = "Mondays 14:00PM - 16:00PM"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com/yaozheng/office_hours"
+appointment_url = "https://calendly.com/yaozheng-hawaii/30min"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.

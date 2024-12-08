@@ -64,5 +64,5 @@ doi: 10.1109/JIOT.2017.2724642
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/II7UXL97/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-kawamoto-feedback-control-based-crowd-2017/Kawamoto+et+al.+-+2017+-+A+Feedback+Control-Based+Crowd+Dynamics+Management.pdf
 ---

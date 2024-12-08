@@ -53,5 +53,5 @@ doi: 10.1007/978-3-319-24177-7_4
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/N4NZGRED/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-privacy-preserving-link-prediction-2015/Zheng+et+al.+-+2015+-+Privacy-Preserving+Link+Prediction+in+Decentralize.pdf
 ---

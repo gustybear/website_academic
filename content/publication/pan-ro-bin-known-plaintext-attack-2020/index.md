@@ -70,5 +70,5 @@ doi: 10.1109/INFOCOM41043.2020.9155439
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/V5Q39YQA/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-pan-ro-bin-known-plaintext-attack-2020/Pan+et+al.+-+2020+-+ROBin+Known-Plaintext+Attack+Resistant+Orthogonal.pdf
 ---

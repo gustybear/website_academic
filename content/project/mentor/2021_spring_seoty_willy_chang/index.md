@@ -24,7 +24,7 @@ tags:
 - invasive species
 - radar
 - sensor
-- recent mentor
+#- recent mentor
 - undergraduate mentor
 - mentor
 
@@ -45,7 +45,7 @@ links:
 #  url: https://twitter.com/georgecushen
 - name: News
   url: https://gustybear-websites.s3-us-west-2.amazonaws.com/mentor_2021_spring_seoty_willy_chang/Wiliki_Feb2021_Proof.pdf
-- name: Endorsement
+- name: Reference Letter
   url: https://gustybear-websites.s3-us-west-2.amazonaws.com/mentor_2021_spring_seoty_willy_chang/chang_willy_seoty_reference.pdf
 
 # Projects (optional).

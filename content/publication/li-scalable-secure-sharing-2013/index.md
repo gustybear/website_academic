@@ -72,5 +72,5 @@ doi: 10.1109/TPDS.2012.97
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/GLACYML7/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-li-scalable-secure-sharing-2013/Li+et+al.+-+2013+-+Scalable+and+Secure+Sharing+of+Personal+Health+Rec.pdf
 ---

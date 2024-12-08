@@ -41,7 +41,7 @@ links:
 - name: News
   url: https://www.tmytek.com/newsevents-article/25
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/UYFS2TMR/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-lubecke-identification-covid-19-type-2021/Lubecke+et+al_2021_Identification+of+COVID-19+Type+Respiratory+Disorders+Using+Channel+State.pdf
 - name: Dataset
   url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
 ---

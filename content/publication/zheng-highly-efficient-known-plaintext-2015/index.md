@@ -63,5 +63,5 @@ doi: 10.1109/LWC.2014.2363176
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/KK36PFVK/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-highly-efficient-known-plaintext-2015/Zheng+et+al.+-+2015+-+Highly+Efficient+Known-Plaintext+Attacks+Against+O.pdf
 ---

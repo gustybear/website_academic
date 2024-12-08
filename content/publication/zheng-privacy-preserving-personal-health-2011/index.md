@@ -67,5 +67,5 @@ publication: 'Worcester Polytechnic Institute'
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/FC7KENDF/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-privacy-preserving-personal-health-2011/Zheng+-+2011+-+Privacy-Preserving+Personal+Health+Record+System+U.pdf
 ---

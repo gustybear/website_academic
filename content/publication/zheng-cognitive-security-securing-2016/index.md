@@ -72,5 +72,5 @@ doi: 10.1109/MNET.2016.7513866
 
 links:
 - name: PDF
-  url: https://api.zotero.org/users/3468578/publications/items/RMDTWK39/file/view
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-zheng-cognitive-security-securing-2016/Zheng+et+al.+-+2016+-+Cognitive+Security+Securing+Burgeoning+Landscape+.pdf
 ---
