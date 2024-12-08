@@ -21,6 +21,8 @@ tags:
 #- recent project
 - project
 - eex96 project
+#- active project
+#- active eex96 project
 
 date: 2021-05-16T00:00:00-10:00
 
